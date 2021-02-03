@@ -1,0 +1,20 @@
+docs_list_title: resources_sidebar
+docs:
+  
+- title: Events
+  url: events.html
+
+- title: Publications
+  url: publications.html
+
+- title: Examples
+  url: examples.html
+
+- title: Frameworks
+  url: frameworks.html
+
+- title: Tools
+  url: tools.html
+  
+- title: Training
+  url: training.html
