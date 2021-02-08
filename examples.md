@@ -22,9 +22,9 @@ If you would like to contribute to this page by adding a link to an example or d
 | [FPGA implementation of KMP algorithm](https://bitbucket.org/necst/xohw2020_maeve_public) | Sofia Breschi, Beatrice Branchini, Marco D. Santambrogio, Politecnico Di Milano | Alveo U200 |
 | [Approximate Page Rank](https://bitbucket.org/necst/xohw2020_approximate-pagerank_public/) | Alberto Parravicini, Francesco Sgherzi, Marco Santambrogio, Politecnico Di Milano |  Alveo U200  |
 | [ X-drop on FPGA](https://github.com/albertozeni/XDropXOHW-Public) | Alberto Zeni, Guido Walter Di Donato, Marco D. Santambrogio, Politecnico Di Milano | U280 |
-| [Portable Linear Algebra on FPGA using Data-Centric Parallel Programming](https://github.com/manuelburger/daceBLAS_demo) | Manuel Burger, Johannes de Fine Licht and Torsten Hoefler, ETH Zurich |  U250 |
-| [N-body simulation](https://github.com/spcl/nbody_hls) | Johannes de Fine Licht ETH Zurich |  |
-| [Flexible Communication Avoiding Matrix Multiplication on FPGA with HLS](https://github.com/spcl/gemm_hls) | Johannes de Fine Licht, Torsten Hoefler, ETH Zurich | Alveo U200 |
+| [Portable Linear Algebra on FPGA using Data-Centric Parallel Programming](https://github.com/manuelburger/daceBLAS_demo) | Manuel Burger, Johannes de Fine Licht and Torsten Hoefler, ETH Zurich | Alveo U250 |
+| [N-body simulation](https://github.com/spcl/nbody_hls) | Johannes de Fine Licht ETH Zurich | Alveo U250 |
+| [Flexible Communication Avoiding Matrix Multiplication on FPGA with HLS](https://github.com/spcl/gemm_hls) | Johannes de Fine Licht, Torsten Hoefler, ETH Zurich | Alveo U250 |
 | [FPGA-based Incremental Delaunay Triangulation Acceleration - parallelized Delaunay Triangulation builder](https://bitbucket.org/necst/xohw2020_fidelta_public) | Alberto Giusti,Saverio Ricci, Marco D. Santambrogio, Politecnico Di Milano | Alveo U200 |
 | [FPGA Accelerated Homomoprhic Computation on AWS](https://github.com/KULeuven-COSIC/HEAT) | Furkan Turan, KU Leuven | AWS |
 
