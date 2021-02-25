@@ -12,6 +12,7 @@ If you would like to contribute to this page by adding a link to an example or d
 
 | Project  | Authors   | Platform(s) |
 |----------|-----------|-------------|
+| [5-point motion estimation](https://bitbucket.org/necst/xohw18_5points_public/) | Marco Rabozzi, Emanuele Del Sozzo, Lorenzo Di Tucci, Marco Domenico Santambrogio, Politecnico Di Milano | AWS F1/Alveo U200 |
 | [Approximate Page Rank](https://bitbucket.org/necst/xohw2020_approximate-pagerank_public/) | Alberto Parravicini, Francesco Sgherzi, Marco Santambrogio, Politecnico Di Milano |  Alveo U200  |
 | [Coyote](https://github.com/fpgasystems/Coyote) | Dario Korolija *et al.*, ETH Zurich | Alveo U250/U280 |
 | [DNA sequence analysis](https://github.com/davidcastells/KmerFilterAWS) | Zaina Salym, Marc Codina, David Castells-Rufas, UAB  |AWS F1 |
@@ -29,7 +30,6 @@ If you would like to contribute to this page by adding a link to an example or d
 | [Single-FPGA and Multi-FPGA ResNet50/MobileNet Accelerators using FINN and InAccel Coral](https://github.com/inaccel/runtime/tree/Xilinx-MP/) | Tobias Alonso, Lucian Petrica, Mario Ruiz, Jakoba Petri-Koenig, Yaman Umuroglu, Ioannis Stamelos, Elias Koromilas, Michaela Blott, Kees Vissers | Alveo U250/U280 |
 | [X-drop on FPGA](https://github.com/albertozeni/XDropXOHW-Public) | Alberto Zeni, Guido Walter Di Donato, Marco D. Santambrogio, Politecnico Di Milano | U280 |
 | [Vitis Network Examples](https://github.com/Xilinx/xup_vitis_network_example) | Mario Ruiz, XUP | Alveo U50/U250/U280 |
-| [5-point motion estimation](https://bitbucket.org/necst/xohw18_5points_public/) | Marco Rabozzi, Emanuele Del Sozzo, Lorenzo Di Tucci, Marco Domenico Santambrogio, Politecnico Di Milano | AWS F1/Alveo U200 |
 
 ## PYNQ examples
 
