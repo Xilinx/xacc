@@ -6,5 +6,5 @@ recommended.
 
 ## Acknowledgment
 
-This work was supported in part by Xilinx under the Xilinx Adaptive Compute Cluster (XACC)
-program (https://www.xilinx.com/support/university/XUP-XACC.html).
+This work was supported in part by Xilinx under the [Xilinx Adaptive Compute Cluster (XACC)
+program](https://www.xilinx.com/support/university/XUP-XACC.html).
