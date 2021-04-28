@@ -24,6 +24,7 @@ If you would like to contribute to this page by adding a link to an example or d
 | [FPGA-based Incremental Delaunay Triangulation Acceleration - parallelized Delaunay Triangulation builder](https://bitbucket.org/necst/xohw2020_fidelta_public) | Alberto Giusti,Saverio Ricci, Marco D. Santambrogio, Politecnico Di Milano | Alveo U200 |
 | [FPGA implementation of KMP algorithm](https://bitbucket.org/necst/xohw2020_maeve_public) | Sofia Breschi, Beatrice Branchini, Marco D. Santambrogio, Politecnico Di Milano | Alveo U200 |
 | [HPCG Benchmark on FPGA](https://github.com/Xilinx/HPCG_FPGA) | Xilinx Research | Alveo U280 |
+| [Key-Value Store with user-defined processing (Multes)](https://github.com/zistvan/Multes_for_Vitis_with_100Gbps_TCP-IP) | Zsolt Istvan, ITU Copenhagen (with help from Zhenhao He, ETH Zurich) | Alveo U250/U280 |
 | [N-body simulation](https://bitbucket.org/necst/xohw17_bibbidin-bobbidyboo_public/) | Emanuele Del Sozzo, Marco Rabozzi, Marco Nanni, Prof. Marco Santambrogio, Politecnico Di Milano ||
 | [N-body simulation](https://github.com/spcl/nbody_hls) | Johannes de Fine Licht ETH Zurich | Alveo U250 |
 | [Portable Linear Algebra on FPGA using Data-Centric Parallel Programming](https://github.com/manuelburger/daceBLAS_demo) | Manuel Burger, Johannes de Fine Licht and Torsten Hoefler, ETH Zurich | Alveo U250 |
