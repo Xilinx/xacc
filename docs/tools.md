@@ -1,6 +1,6 @@
 # Tools
 
-This page covers software that may be used for developing acceleratiors for the XACCs. Some of these tools may be available on the XACCs. You can set these tools up locally on your own computer and carry out development work on your own computer. If you have any questions about software tools related to the XACC, or need any Xilinx academic licenses, please e-mail the Xilinx University Program <xup@xilinx.com>.
+This page covers software that may be used for developing accelerators for the XACCs. Some of these tools may be available on the XACCs. You can set these tools up locally on your own computer and carry out development work on your own computer. If you have any questions about software tools related to the XACC, or need any Xilinx academic licenses, please e-mail the [Xilinx University Program](https://www.xilinx.com/xup) <xup@xilinx.com>.
 
 ## Download Software
 

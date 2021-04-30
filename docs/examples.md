@@ -4,7 +4,7 @@ The following page is a list of example designs that may be used with the XACCs.
 
 ## Contribute
 
-If you would like to contribute to this page by adding a link to an example or demo, you can open a pull request via the GitHub link in the bottom left of this page, or you can e-mail the Xilinx University Program <xup@xilinx.com>. 
+If you would like to contribute to this page by adding a reference to your project, please follow the [contribution guidelines](contributing.md)
 
 ## Projects
 
