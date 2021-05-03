@@ -27,6 +27,7 @@ If you would like to contribute to this page by adding a reference to your proje
 | [Key-Value Store with user-defined processing (Multes)](https://github.com/zistvan/Multes_for_Vitis_with_100Gbps_TCP-IP) | Zsolt Istvan, ITU Copenhagen (with help from Zhenhao He, ETH Zurich) | Alveo U250/U280 |
 | [N-body simulation](https://bitbucket.org/necst/xohw17_bibbidin-bobbidyboo_public/) | Emanuele Del Sozzo, Marco Rabozzi, Marco Nanni, Prof. Marco Santambrogio, Politecnico Di Milano ||
 | [N-body simulation](https://github.com/spcl/nbody_hls) | Johannes de Fine Licht ETH Zurich | Alveo U250 |
+| [OctoRay: Framework for Scalable FPGA Cluster Acceleration of Python Big Data Applications](https://github.com/abs-tudelft/octoray) | Jakoba Petri-König, Shashank Aggarwal, Joost Hoozemans, Zaid Al-Ars, Delft University of Technology | Alveo U50/U250/U280 |
 | [Portable Linear Algebra on FPGA using Data-Centric Parallel Programming](https://github.com/manuelburger/daceBLAS_demo) | Manuel Burger, Johannes de Fine Licht and Torsten Hoefler, ETH Zurich | Alveo U250 |
 | [Single-FPGA and Multi-FPGA ResNet50/MobileNet Accelerators using FINN and InAccel Coral](https://github.com/inaccel/runtime/tree/Xilinx-MP/) | Tobias Alonso, Lucian Petrica, Mario Ruiz, Jakoba Petri-Koenig, Yaman Umuroglu, Ioannis Stamelos, Elias Koromilas, Michaela Blott, Kees Vissers | Alveo U250/U280 |
 | [X-drop on FPGA](https://github.com/albertozeni/XDropXOHW-Public) | Alberto Zeni, Guido Walter Di Donato, Marco D. Santambrogio, Politecnico Di Milano | U280 |
