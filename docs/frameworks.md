@@ -58,5 +58,8 @@ Fully integrated framework that allows to speedup your C/C++, Python, Java and S
 
 Universities can also access to InAccel technology [InAccel University](https://inaccel.com/university/)
 
+### OctoRay
+OctoRay is a Python frameworks which allows the user to easily scale up any FPGA application to multiple FPGAs using Dask. It supports at the moment all FPGA boards that are supported by PYNQ, so all PYNQ boards and Alveo cards. [OctoRay repository](https://github.com/abs-tudelft/octoray)
+
 ---------------------------------------
 <p align="center">Copyright&copy; 2021 Xilinx</p>
