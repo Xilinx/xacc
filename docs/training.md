@@ -14,6 +14,8 @@ This list cover examples and tutorials hosted on [Xilinx GitHub](https://github.
 1. [Vitis AWS F1 Developer Labs](https://github.com/Xilinx/Vitis-AWS-F1-Developer-Labs)
 1. [Vitis Tutorials](https://github.com/Xilinx/Vitis-Tutorials)
 1. [Vitis Accel Examples](https://github.com/Xilinx/Vitis_Accel_Examples)
+1. [Vitis HLS Tutorial](github.com/Xilinx/HLS-Tiny-Tutorials)
+1. [Vitis Accelerated Libraries](https://github.com/Xilinx/Vitis_Libraries)
 1. [Vitis AI Tutorials](https://github.com/Xilinx/Vitis-AI-Tutorials)
 
 ## Third Party 
