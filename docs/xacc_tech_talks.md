@@ -9,8 +9,7 @@ If you would like to present your work at an XACC Tech Talk, please contact [xup
 10 June 2021, 17:00-18:00 (CET/GMT+2)
 
 
- ![](./images/zoom_30.png)   Register for the [XACC Tech Talk 1 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_zXC9nYmvSL2EmU-L81_3jw)
-
+ ![](./images/youtube_social_circle_white.png)   View the recording [XACC Tech Talk 1 recording](https://www.youtube.com/watch?v=un7wck0IkGs)
 
 ### Coyote: Do OS abstractions make sense in FPGAs?
 
@@ -20,7 +19,7 @@ Hybrid computing systems, consisting of a CPU server coupled with a Field-Progra
 
 We ask a different question: to what extent do traditional OS abstractions make sense in the context of an FPGA as part of a hybrid system, particularly when taken as a complete package, as they would be in an OS? To answer this, we built and evaluated *Coyote*, an open source, portable, configurable “shell” for FPGAs which provides a full suite of OS abstractions, working with the host OS. Coyote supports secure spatial and temporal multiplexing of the FPGA between tenants, virtual memory, communication, and memory management inside a uniform execution environment. The overhead of Coyote is small and the performance benefit is significant, but more importantly it allows us to reflect on whether importing OS abstractions wholesale to FPGAs is the best way forward.
 
-Coyote: https://github.com/fpgasystems/Coyote
+Coyote: [https://github.com/fpgasystems/Coyote](https://github.com/fpgasystems/Coyote)
 
 ### Data-Centric FPGA Programming with Multi-Level Design
 
@@ -28,7 +27,7 @@ Johannes de Fine Licht, Doctoral Student, Scalable Parallel Computing Laboratory
 
 Although high-level synthesis (HLS) tools have significantly improved programmer productivity over hardware description languages, developing for FPGAs remains tedious and error prone. Programmers must learn and implement a large set of vendor-specific syntax, patterns, and tricks to optimize (or even successfully compile) their applications, while dealing with ever-changing toolflows from the FPGA vendors. We propose a new way to develop, optimize, and compile FPGA programs. The Data-Centric parallel programming (*DaCe*) framework allows applications to be defined by their dataflow and control flow through the Stateful DataFlow multiGraph (SDFG) representation, capturing the abstract program characteristics, and exposing a plethora of optimization opportunities. SDFGs are extended by multi-level library nodes, which incorporate both domain-specific and platform-specific optimizations into the design flow, enabling knowledge transfer across application domains and FPGA vendors. We show how the powerful code-generating backend of DaCe emits efficient HLS code that is structured and annotated to implement the desired architectures and achieve high performance in practice.
 
-DaCe: https://github.com/spcl/dace
+DaCe: [https://github.com/spcl/dace](https://github.com/spcl/dace)
 
 
 
