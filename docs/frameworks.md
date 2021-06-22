@@ -42,6 +42,13 @@ Reconfigurable Heterogeneous Architecture Framework aiming to provide operating 
 
 Data-Centric Parallel Programming compiles code in various programming languages and paradigms (Python/Numpy, MATLAB, TensorFlow) and maps it efficiently to CPUs, GPUs, and FPGAs with high utilization, on par with the state-of-the-art. Find out more in the [DaCe repository](https://github.com/spcl/dace)
 
+### Fletcher
+
+Allows easy kernel development and integration with various popular Big Data analytics frameworks based on Apache Arrow.
+Fletcher will generate all the interfaces and provide the kernel designer with simple and easy to understand interface coresponding to the data types of their application.
+This raises the abstraction to records and tables instead of buffers and bytes.
+[Fletcher](https://github.com/abs-tudelft) has platform support for [Alveo](https://github.com/abs-tudelft/fletcher-alveo)
+
 ### hlslib
 
 A collection of extensions for Vitis to improve developer quality of life, including CMake integration, better vectorization support, support for simulating dataflow kernels with feedback dependencies. [hlslib repository](https://github.com/definelicht/hlslib)
