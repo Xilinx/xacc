@@ -32,6 +32,7 @@ If you would like to contribute to this page by adding a reference to your proje
 | [Single-FPGA and Multi-FPGA ResNet50/MobileNet Accelerators using FINN and InAccel Coral](https://github.com/inaccel/runtime/tree/Xilinx-MP/) | Tobias Alonso, Lucian Petrica, Mario Ruiz, Jakoba Petri-Koenig, Yaman Umuroglu, Ioannis Stamelos, Elias Koromilas, Michaela Blott, Kees Vissers | Alveo U250/U280 |
 | [X-drop on FPGA](https://github.com/albertozeni/XDropXOHW-Public) | Alberto Zeni, Guido Walter Di Donato, Marco D. Santambrogio, Politecnico Di Milano | U280 |
 | [Vitis Network Examples](https://github.com/Xilinx/xup_vitis_network_example) | Mario Ruiz, XUP | Alveo U50/U250/U280 |
+| Fletcher on Alveo example: [Wikipedia search ](https://github.com/abs-tudelft/wiki-search-alveo) | Matthijs Brobbel, Jeroen van Straten, Joost Hoozemans, Delft University of Technology | Alveo U200/U250 |
 
 ## PYNQ examples
 
