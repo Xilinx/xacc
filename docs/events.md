@@ -4,6 +4,8 @@
 
 The XACC Tech Talks are a series of webinars covering a broad range of topics related to Xilinx Adaptive Compute. Each session will be 1 hour, with two 30-minute talks in each session. 
 
+### Upcoming Talks
+
 | Tech Talk 3: 8 July 2021 16:00-17:00 (CET)                   |
 | ------------------------------------------------------------ |
 | Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric; Dr. Haris Javaid, Xilinx |
@@ -11,9 +13,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
 
 [Details and registration](./xacc_tech_talks.html#xacc-tech-talk-3)
 
-
-
-# Past Events
+### Previous Talks (watch the recording)
 
 | XACC Tech Talk 1: 10 June 2021 | Recording                                           |
 | ------------------------------------------------------------ | --------------------------------------------------- |
@@ -29,7 +29,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
 
 [XACC Tech Talk 2 details (archived)](./xacc_tech_talks.html#xacc-tech-talk-2)
 
-
+## Past Events
 
 ## ETH Zurich XACC school
 
@@ -39,6 +39,6 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
 
 [XACC@NUS Workshop Series 2020](https://xaccnus.github.io/)
 
-
 ---------------------------------------
+
 <p align="center">Copyright&copy; 2021 Xilinx</p>
