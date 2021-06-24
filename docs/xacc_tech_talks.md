@@ -4,32 +4,6 @@ The talks will be hosted as Zoom webinars and are free to attend. The format for
 
 If you would like to present your work at an XACC Tech Talk, please contact [xup@xilinx.com](xup@xilinx.com) with an outline of your proposal. 
 
-## XACC Tech Talk 2
-
-24 June 2021, 17:00-18:00 (CET/GMT+2)
-
-[![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_Ahay1EpVRTenPFxskNxdFQ))   Register for the [XACC Tech Talk 2 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_Ahay1EpVRTenPFxskNxdFQ)
-
-### VNx and EasyNet
-
-Dr. Mario Ruiz, Xilinx University Program; Zhenhao He, Doctoral Student, Systems Group, ETH Zurich 
-
-This presentation will introduce *VNx* which adds 100Gbps UDP/IP support to Vitis designs. *EasyNet* extends VNx to support 100Gbps TCP/IP from HLS. 
-Both VNx and EasyNet are open-source and supported from Vitis and can be used to add high-speed networking interfaces to Alveo platforms. 
-
-Vnx: https://github.com/Xilinx/xup_vitis_network_example
-
-EasyNet: https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP
-
-
-### Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning
-
-Dr. Lucian Petrica, Xilinx Research Labs 
-
-Customized compute acceleration in the datacenter is key to the wider roll-out of applications based on deep neural network (DNN) inference.
-
-In this presentation we discuss how to maximize the performance and scalability of FPGA-based pipeline dataflow DNN inference accelerators (DFAs) automatically on computing infrastructures consisting of multi-die, network-connected FPGAs. We present *Elastic-DF*, a novel resource partitioning tool which integrates with the [DNN compiler FINN](https://github.com/Xilinx/finn) and utilizes 100Gbps Ethernet FPGA infrastructure, to achieve low-latency model-parallel inference without host involvement. Elastic-DF was applied to popular image classifiers ResNet50 and MobileNetV1 at XACC and provides significant throughput increase with no adverse impact on latency.
-
 
 
 ## XACC Tech Talk 3
@@ -79,6 +53,33 @@ Although high-level synthesis (HLS) tools have significantly improved programmer
 DaCe: [https://github.com/spcl/dace](https://github.com/spcl/dace)
 
 
+
+## XACC Tech Talk 2
+
+24 June 2021
+
+[![](./images/youtube_social_circle_white.png)](https://www.youtube.com/watch?v=P93WlrBVxoM)  View the recording [XACC Tech Talk 2 recording](https://www.youtube.com/watch?v=P93WlrBVxoM)
+
+
+### VNx and EasyNet
+
+Dr. Mario Ruiz, Xilinx University Program; Zhenhao He, Doctoral Student, Systems Group, ETH Zurich 
+
+This presentation will introduce *VNx* which adds 100Gbps UDP/IP support to Vitis designs. *EasyNet* extends VNx to support 100Gbps TCP/IP from HLS. 
+Both VNx and EasyNet are open-source and supported from Vitis and can be used to add high-speed networking interfaces to Alveo platforms. 
+
+Vnx: https://github.com/Xilinx/xup_vitis_network_example
+
+EasyNet: https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP
+
+
+### Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning
+
+Dr. Lucian Petrica, Xilinx Research Labs 
+
+Customized compute acceleration in the datacenter is key to the wider roll-out of applications based on deep neural network (DNN) inference.
+
+In this presentation we discuss how to maximize the performance and scalability of FPGA-based pipeline dataflow DNN inference accelerators (DFAs) automatically on computing infrastructures consisting of multi-die, network-connected FPGAs. We present *Elastic-DF*, a novel resource partitioning tool which integrates with the [DNN compiler FINN](https://github.com/Xilinx/finn) and utilizes 100Gbps Ethernet FPGA infrastructure, to achieve low-latency model-parallel inference without host involvement. Elastic-DF was applied to popular image classifiers ResNet50 and MobileNetV1 at XACC and provides significant throughput increase with no adverse impact on latency.
 
 
 ---------------------------------------
