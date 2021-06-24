@@ -8,7 +8,7 @@ If you would like to present your work at an XACC Tech Talk, please contact [xup
 
 24 June 2021, 17:00-18:00 (CET/GMT+2)
 
- ![](./images/zoom_30.png)   Register for the [XACC Tech Talk 2 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_Ahay1EpVRTenPFxskNxdFQ)
+[![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_Ahay1EpVRTenPFxskNxdFQ))   Register for the [XACC Tech Talk 2 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_Ahay1EpVRTenPFxskNxdFQ)
 
 ### VNx and EasyNet
 
@@ -31,6 +31,27 @@ Customized compute acceleration in the datacenter is key to the wider roll-out o
 In this presentation we discuss how to maximize the performance and scalability of FPGA-based pipeline dataflow DNN inference accelerators (DFAs) automatically on computing infrastructures consisting of multi-die, network-connected FPGAs. We present *Elastic-DF*, a novel resource partitioning tool which integrates with the [DNN compiler FINN](https://github.com/Xilinx/finn) and utilizes 100Gbps Ethernet FPGA infrastructure, to achieve low-latency model-parallel inference without host involvement. Elastic-DF was applied to popular image classifiers ResNet50 and MobileNetV1 at XACC and provides significant throughput increase with no adverse impact on latency.
 
 
+
+## XACC Tech Talk 3
+
+8 July 2021, 16:00-17:00 (CET/GMT+2)
+
+[![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_ap0kJssIST2v1p8l5VzKqw))   Register for the [XACC Tech Talk 3 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_ap0kJssIST2v1p8l5VzKqw)
+
+### **Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric**
+
+Dr. Haris Javaid, Senior Staff Researcher, Xilinx
+
+Blockchain Machine is a hardware accelerator for validation of blocks in Hyperledger Fabric, one of the most widely used permissioned blockchain platforms. It is targeted for a server with network-attached FPGA acceleration card and can be adapted to applications and their smart contracts (built on top of Fabric). The Blockchain Machine retrieves block/transaction data in hardware directly from the network interface, which is then processed through a configurable and efficient block-level and transaction-level pipeline. The results are then accessed by the host CPU where non-bottleneck operations are executed. From our implementation integrated with Fabric v1.4 LTS, we observed up to 17x speedup in block validation when compared to software-only implementation.
+
+### ThunderGP: HLS-based Graph Processing on FPGAs
+
+Xinyu Chen, Doctoral Student, National University of Singapore 
+
+*ThunderGP* is proposed to bridge the gap between high-level graph processing applications and underlying CPU-FPGA platforms. With ThunderGP, developers could enjoy the performance of FPGA-accelerated graph processing by writing only a few high-level functions with no knowledge of the hardware.
+
+
+
 # Past talks
 
 ## XACC Tech Talk 1: Coyote and DaCe
@@ -38,7 +59,7 @@ In this presentation we discuss how to maximize the performance and scalability 
 10 June 2021
 
 
- [![](./images/youtube_social_circle_white.png)](https://www.youtube.com/watch?v=un7wck0IkGs)  View the recording [XACC Tech Talk 1 recording](https://www.youtube.com/watch?v=un7wck0IkGs)
+[![](./images/youtube_social_circle_white.png)](https://www.youtube.com/watch?v=un7wck0IkGs)  View the recording [XACC Tech Talk 1 recording](https://www.youtube.com/watch?v=un7wck0IkGs)
 
 ### Coyote: Do OS abstractions make sense in FPGAs?
 
