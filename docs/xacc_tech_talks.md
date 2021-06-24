@@ -38,7 +38,7 @@ In this presentation we discuss how to maximize the performance and scalability 
 
 [![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_ap0kJssIST2v1p8l5VzKqw))   Register for the [XACC Tech Talk 3 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_ap0kJssIST2v1p8l5VzKqw)
 
-### **Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric**
+### Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric
 
 Dr. Haris Javaid, Senior Staff Researcher, Xilinx
 
@@ -57,7 +57,6 @@ Xinyu Chen, Doctoral Student, National University of Singapore
 ## XACC Tech Talk 1: Coyote and DaCe
 
 10 June 2021
-
 
 [![](./images/youtube_social_circle_white.png)](https://www.youtube.com/watch?v=un7wck0IkGs)  View the recording [XACC Tech Talk 1 recording](https://www.youtube.com/watch?v=un7wck0IkGs)
 
