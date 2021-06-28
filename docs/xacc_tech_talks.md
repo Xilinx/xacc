@@ -8,7 +8,7 @@ If you would like to present your work at an XACC Tech Talk, please contact [xup
 
 ## XACC Tech Talk 3
 
-8 July 2021, 16:00-17:00 (CET/GMT+2)
+8 July 2021, 15:00-16:00 (CET/GMT+2)
 
 [![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_ap0kJssIST2v1p8l5VzKqw))   Register for the [XACC Tech Talk 3 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_ap0kJssIST2v1p8l5VzKqw)
 
