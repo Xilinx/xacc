@@ -6,7 +6,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
 
 ### Upcoming Talks
 
-| Tech Talk 3: 8 July 2021 16:00-17:00 (CET)                   |
+| Tech Talk 3: 8 July 2021 15:00-16:00 (CET)                   |
 | ------------------------------------------------------------ |
 | Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric; Dr. Haris Javaid, Xilinx |
 | ThunderGP: HLS-based Graph Processing on FPGAs ; Xinyu Chen, National  University of Singapore |
