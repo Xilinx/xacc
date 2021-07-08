@@ -30,7 +30,7 @@ Xinyu Chen, Doctoral Student, National University of Singapore
 
 [![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_PQxFA2rFRRmuzXU7bJrA0Q))   Register for the [XACC Tech Talk 4 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_PQxFA2rFRRmuzXU7bJrA0Q)
 
-### Fletcher: A framework to integrate FPGA accelerators with Apache Arrow
+### Fletcher: A framework for high-performance big data analytics using FPGAs
 
 Joost Hoozemans, Postdoctoral researcher, TU Delft
 

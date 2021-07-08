@@ -13,10 +13,10 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
 
 [Details and registration](./xacc_tech_talks.html#xacc-tech-talk-3)
 
-| Tech Talk 4: 22 July 2021 17:00-18:00 (CET)                   |
+| Tech Talk 4: 22 July 2021 17:00-18:00 (CET)                  |
 | ------------------------------------------------------------ |
-| Fletcher: A framework to integrate FPGA accelerators with Apache Arrow;  Joost Hoozemans, TU Delft |
-|  ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs; Hongshi Tan, National  University of Singapore |
+| Fletcher: A framework for high-performance big data analytics using FPGAs;  Joost Hoozemans, TU Delft |
+| ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs; Hongshi Tan, National  University of Singapore |
 
 [Details and registration](./xacc_tech_talks.html#xacc-tech-talk-4)
 
