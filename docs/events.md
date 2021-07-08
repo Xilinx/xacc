@@ -13,6 +13,13 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
 
 [Details and registration](./xacc_tech_talks.html#xacc-tech-talk-3)
 
+| Tech Talk 4: 22 July 2021 17:00-18:00 (CET)                   |
+| ------------------------------------------------------------ |
+| Fletcher: A framework to integrate FPGA accelerators with Apache Arrow;  Joost Hoozemans, TU Delft |
+|  ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs; Hongshi Tan, National  University of Singapore |
+
+[Details and registration](./xacc_tech_talks.html#xacc-tech-talk-4)
+
 ### Previous Talks (watch the recording)
 
 | XACC Tech Talk 1: 10 June 2021 | Recording                                           |
@@ -20,7 +27,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
 | Coyote: Do OS abstractions make sense in FPGAs? Dario Korolija, ETH Zurich | [https://www.youtube.com/watch?v=un7wck0IkGs&t=88s](https://www.youtube.com/watch?v=un7wck0IkGs&t=88s)   |
 | Data-Centric FPGA Programming with Multi-Level Design; Johannes de Fine Licht, ETH Zurich | [https://www.youtube.com/watch?v=un7wck0IkGs&t=1743s](https://www.youtube.com/watch?v=un7wck0IkGs&t=1743s) |
 
-[XACC Tech Talk 1 details (archived)](./xacc_tech_talks.html)
+[XACC Tech Talk 1 details (archived)](./xacc_tech_talks.html#xacc-tech-talk-1)
 
 | XACC Tech Talk 2: 24 June 2021 | Recording                                           |
 | ------------------------------------------------------------ | --------------------------------------------------- |
