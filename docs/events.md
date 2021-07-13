@@ -31,6 +31,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
             <strong>ThundeRiNG:</strong> Generating Multiple Independent Random Number Sequences on FPGAs; Hongshi Tan, National  University of Singapore
         </td>
     </tr>
+</table>
 
 
 
