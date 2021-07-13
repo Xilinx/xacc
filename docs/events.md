@@ -23,7 +23,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
       <strong>Fletcher:</strong> A framework for high-performance big data analytics using FPGAs; Joost Hoozemans, TU Delft
     </td>
     <td style="text-align:center" ; rowspan="2" ; width="200">
-      <a href="(./xacc_tech_talks.html#xacc-tech-talk-4)">Details and Registration</a>
+      <a href="./xacc_tech_talks.html#xacc-tech-talk-4">Details and Registration</a>
     </td>
   </tr>
   <tr>
@@ -117,7 +117,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
       <strong>ETH Zurich XACC school: </strong>Xilinx University Program XACC School in January 2021
     </td>
     <td width="200">
-      <a href="(xup_ethxacc_school_2021.md)">More information</a>
+      <a href="xup_ethxacc_school_2021.md">More information</a>
     </td>
   </tr>
   <tr>
@@ -125,7 +125,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
       <strong>NUS: </strong>XACC @NUS workshop series 2020
     </td>
     <td>
-      <a href="(https://xaccnus.github.io/)">More information</a>
+      <a href="https://xaccnus.github.io/">More information</a>
     </td>
   </tr>
 </table>
