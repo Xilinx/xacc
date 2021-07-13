@@ -8,59 +8,240 @@ If you would like to contribute to this page by adding a reference to your publi
 
 ## 2021
 
-| Name | Author(s) | Institution |Link | Notes |
-|------|-----------|-------------|-----|-------|
-| Distributed Recommendation Inference on FPGA Clusters | Yu Zhu *et al.* | ETH Zurich | [Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/485145) | Implementation of an efficient distributed recommendation inference on an FPGA cluster that optimizes both the memory-bound embedding layer and the computation-bound fully-connected layers. The system achieves a maximum speed up of 28.95x, while guaranteeing very low latency.  |
-| EasyNet: 100 Gbps Network for HLS | Zhenhao He *et al.* | ETH Zurich | [Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/487920) [GitHub]( https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP)  | Integration of an open-source 100 Gbps TCP/IP stack into Vitis without degrading its performance. A set of MPI-like communication primitives are provided to abstract away low level details of the networking stack. |
-| MicroRec: Efficient Recommendation Inference by Hardware and Data Structure Solutions | Wenqi Jiang *et al.* | ETH Zurich | [Paper](https://www.research-collection.ethz.ch/handle/20.500.11850/470540)  |  High-performance inference engine for recommendation systems. MicroRec accelerates recommendation inference by (1) redesigning the data structures to reduce the number of lookups and (2) taking advantage of HBM in FPGA accelerators to tackle the latency by enabling parallel lookups. |
+<table width="100%">
+    <tr>
+        <th width="200">Name</th>
+        <th width="120">Author(s)</th>
+        <th width="120">Institution</th>
+        <th width="120">Link</th>
+        <th width="500">Notes</th>
+    </tr>
+    <tr>
+        <td>Distributed Recommendation Inference on FPGA Clusters</td>
+        <td>Yu Zhu <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/485145">Paper</a></td>
+        <td>Implementation of an efficient distributed recommendation inference on an FPGA cluster that optimizes both the memory-bound embedding layer and the computation-bound fully-connected layers. The system achieves a maximum speed up of 28.95x, while guaranteeing very low latency.</td>
+    </tr>
+    <tr>
+        <td>EasyNet: 100 Gbps Network for HLS</td>
+        <td>Zhenhao He <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP">Paper (Github)</a></td>
+        <td>Integration of an open-source 100 Gbps TCP/IP stack into Vitis without degrading its performance. A set of MPI-like communication primitives are provided to abstract away low level details of the networking stack.</td>
+    </tr>
+    <tr>
+        <td>MicroRec: Efficient Recommendation Inference by Hardware and Data Structure Solutions</td>
+        <td>Wenqi Jiang <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/470540">Paper</a></td>
+        <td>High-performance inference engine for recommendation systems. MicroRec accelerates recommendation inference by (1) redesigning the data structures to reduce the number of lookups and (2) taking advantage of HBM in FPGA accelerators to tackle the latency by enabling parallel lookups.</td>
+    </tr>
+</table>
 
 
 
 ## 2020
 
-| Name | Author(s) | Institution |Link | Notes |
-|------|-----------|-------------|-----|-------|
-| Do OS abstractions make sense on FPGAs? | Dario Korolija *et al.* | ETH Zurich | [Paper](https://www.usenix.org/conference/osdi20/presentation/roscoe) | To what extent do traditional OS abstractions make sense in the context of an FPGA as part of a hybrid system? This paper introduces Coyote which supports secure spatial and temporal multiplexing of the FPGA between tenants, virtual memory, communication, and memory management inside a uniform execution environment. |
-| EMOGI: efficient memory-access for out-of-memory graph-traversal in GPUs| Seung Won Min *et al*| University of Illinois at Urbana-Champaign |  [Paper](https://dl.acm.org/doi/10.14778/3425879.3425883) | Sparse-matrix computation |
-| Extending High-Level Synthesis for Task-Parallel Programs | Yuze Chi *et al.* | UCLA | [Paper](https://arxiv.org/abs/2009.11389)  |  Extend the HLS C++ language and present a fully automated framework with programmer-friendly interfaces, universal software simulation, and fast code generation to overcome these limitations. |
-| FReaC Cache: Folded-logic Reconfigurable Computing in the Last Level Cache| Ashutosh Dhar *et al*| University of Illinois at Urbana-Champaign |  [Paper](https://ieeexplore.ieee.org/abstract/document/9251953) | Energy efficient computation |
-| Making Search Engines Faster by Lowering the Cost of Querying Business Rules Through FPGAs | Fabio Maschi *et al.* | ETH Zurich |[Paper](https://doi.org/10.1145/3318464.3386133) | Explore how to use hardware acceleration to (i) improve the performance of the MCT module (lower latency, higher throughput); and (ii) reduce the amount of computing resources needed |
-| Portable Linear Algebra on FPGA using Data-Centric Parallel Programming | Manuel Burger *et al.* | ETH Zurich | [demo](https://github.com/manuelburger/daceBLAS_demo) | 2020 XOHW Winner PhD |
-| Specializing the network for scatter-gather workloads | Catalina Alvarez *et al.* | ETH Zurich | [Paper](https://dl.acm.org/doi/10.1145/3419111.3421301) | Explore hardware-offload of the scatter-gather primitive. This approach not only virtually eliminates CPU usage, but with suitable scheduling of responses, it also speeds up scatter by allowing parallel queries  |
-| Weighing up the new kid on the block: Impressions of using Vitis for HPC software development | Nick Brown | The University of Edinburgh |[Paper](https://arxiv.org/abs/2010.00289) | Vitis case study using Himeno benchmark as a vehicle for exploring the Vitis platform for building, executing and optimizing HPC codes |
+<table width="100%">
+    <tr>
+        <th width="200">Name</th>
+        <th width="120">Author(s)</th>
+        <th width="120">Institution</th>
+        <th width="120">Link</th>
+        <th width="480">Notes</th>
+    </tr>
+    <tr>
+        <td>Do OS abstractions make sense on FPGAs?</td>
+        <td>Dario Korolija <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://www.usenix.org/conference/osdi20/presentation/roscoe">Paper</a></td>
+        <td>To what extent do traditional OS abstractions make sense in the context of an FPGA as part of a hybrid system? This paper introduces Coyote which supports secure spatial and temporal multiplexing of the FPGA between tenants, virtual memory, communication, and memory management inside a uniform execution environment.</td>
+    </tr>
+    <tr>
+        <td>EMOGI: efficient memory-access for out-of-memory graph-traversal in GPUs</td>
+        <td>Seung Won Min <em>et al.</em></td>
+        <td>University of Illinois at Urbana-Champaign</td>
+        <td><a href="https://dl.acm.org/doi/10.14778/3425879.3425883">Paper </a></td>
+        <td>Sparse-matrix computation</td>
+    </tr>
+    <tr>
+        <td>Extending High-Level Synthesis for Task-Parallel Programs</td>
+        <td>Yuze Chi <em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://arxiv.org/abs/2009.11389">Paper</a></td>
+        <td>Extend the HLS C++ language and present a fully automated framework with programmer-friendly interfaces, universal software simulation, and fast code generation to overcome these limitations.</td>
+    </tr>
+    <tr>
+        <td>FReaC Cache: Folded-logic Reconfigurable Computing in the Last Level Cache</td>
+        <td>Ashutosh Dhar <em>et al.</em></td>
+        <td>University of Illinois at Urbana-Champaign</td>
+        <td><a href="https://ieeexplore.ieee.org/abstract/document/9251953">Paper</a></td>
+        <td>Energy efficient computation</td>
+    </tr>
+    <tr>
+        <td>Making Search Engines Faster by Lowering the Cost of Querying Business Rules Through FPGAs</td>
+        <td>Fabio Maschi <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://doi.org/10.1145/3318464.3386133">Paper</a></td>
+        <td>Explore how to use hardware acceleration to (i) improve the performance of the MCT module (lower latency, higher throughput); and (ii) reduce the amount of computing resources needed</td>
+    </tr>
+    <tr>
+        <td>Portable Linear Algebra on FPGA using Data-Centric Parallel Programming</td>
+        <td>Manuel Burger <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://github.com/manuelburger/daceBLAS_demo">Paper</a></td>
+        <td>2020 XOHW Winner PhD</td>
+    </tr>
+    <tr>
+        <td>Specializing the network for scatter-gather workloads</td>
+        <td>Catalina Alvarez <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3419111.3421301">Paper</a></td>
+        <td>Explore hardware-offload of the scatter-gather primitive. This approach not only virtually eliminates CPU usage, but with suitable scheduling of responses, it also speeds up scatter by allowing parallel queries</td>
+    </tr>
+    <tr>
+        <td>Weighing up the new kid on the block: Impressions of using Vitis for HPC software development</td>
+        <td>Nick Brown <em>et al.</em></td>
+        <td>The University of Edinburgh</td>
+        <td><a href="https://arxiv.org/abs/2010.00289">Paper</a></td>
+        <td>Vitis case study using Himeno benchmark as a vehicle for exploring the Vitis platform for building, executing and optimizing HPC codes</td>
+    </tr>
+</table>
+
 
 
 ## 2019
 
-| Name | Author(s) | Institution |Link | Notes |
-|------|-----------|-------------|-----|-------|
-| AcMC²: Accelerating Markov Chain Monte Carlo Algorithms for Probabilistic Models| Subho S. Banerjee *et al*| University of Illinois at Urbana-Champaign |  [Paper](https://dl.acm.org/doi/10.1145/3297858.3304019) | Compiler development transforming probabilistic models into optimized hardware accelerators |
-| Cloud-DNN: An Open Framework for Mapping DNN Models to Cloud FPGAs | Yao Chen *et al*| National University of Singapore |  [Paper](https://dl.acm.org/doi/10.1145/3289602.3293915) | Open-source automated tool chain called Cloud-DNN. Our tool chain takes trained CNN models specified in Caffe as input, performs a set of transformations, and maps the model to a cloud-based FPGA. Cloud-DNN can significantly improve the overall design productivity of CNNs on FPGAs while satisfying the emergent computational requirements. |
-| Flexible Communication Avoiding Matrix Multiplication on FPGA with HLS | Johannes de Fine Licht, et al. | ETH Zurich |  [Paper](https://arxiv.org/abs/1912.06526) | A flexible, fully HLS-based, high-performance matrix multiplication accelerator, capable of efficiently utilizing all available resources on the target device, including for multi-SLR FPGAs. |
-| High-Performance Distributed Memory Programming on Reconfigurable Hardware | Tiziano De Matteis, et al. | ETH Zurich |  [Paper](https://arxiv.org/abs/1909.03231) | SMI is an API that unifies the flexibility and single-program, multiple-data approach of MPI with the streaming programming model of spatial architectures. |
-| Inductive-bias-driven Reinforcement Learning for Efficient Schedules in Heterogeneous Clusters| Subho S. Banerjee *et al*| University of Illinois at Urbana-Champaign |  [Paper](https://arxiv.org/abs/1909.02119) | System schedulers |
-| **hlslib:** _Software Engineering for Hardware Design_ | Johannes de Fine Licht, et al. | ETH Zurich |  [Paper](https://arxiv.org/abs/1910.04436) | A collection of extensions for Vitis to improve developer quality of life, including CMake integration, better vectorization support, support for simulating dataflow kernels with feedback dependencies. |
-| Stateful Dataflow Multigraphs: A Data-Centric Model for Performance Portability on Heterogeneous Architectures | Tal Ben-Nun, et al. | ETH Zurich |  [Paper](https://arxiv.org/abs/1902.10345) | Enables high-level programming of FPGAs from Python using the dataflow-based SDFG representation, allowing productive optimization of programs via provided graph transformations without modifying the input program, and code generating highly efficient FPGA kernels. |
+<table>
+    <tr>
+        <th width="200">Name</th>
+        <th width="120">Author(s)</th>
+        <th width="120">Institution</th>
+        <th width="120">Link</th>
+        <th width="480">Notes</th>
+    </tr>
+    <tr>
+        <td>AcMC²: Accelerating Markov Chain Monte Carlo Algorithms for Probabilistic Models</td>
+        <td>Subho S. Banerjee <em>et al.</em></td>
+        <td>University of Illinois at Urbana-Champaign</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3297858.3304019">Paper</a></td>
+        <td>Compiler development transforming probabilistic models into optimized hardware accelerators</td>
+    </tr>
+    <tr>
+        <td>Cloud-DNN: An Open Framework for Mapping DNN Models to Cloud FPGAs</td>
+        <td>Yao Chen <em>et al.</em></td>
+        <td>National University of Singapore</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3289602.3293915">Paper </a></td>
+        <td>Open-source automated tool chain called Cloud-DNN. Our tool chain takes trained CNN models specified in Caffe as input, performs a set of transformations, and maps the model to a cloud-based FPGA. Cloud-DNN can significantly improve the overall design productivity of CNNs on FPGAs while satisfying the emergent computational requirements.</td>
+    </tr>
+    <tr>
+        <td>Flexible Communication Avoiding Matrix Multiplication on FPGA with HLS</td>
+        <td>Johannes de Fine Licht <em>et al.</em></td>
+        <td>ETH Zurich </td>
+        <td><a href="https://arxiv.org/abs/1912.06526">Paper</a></td>
+        <td>A flexible, fully HLS-based, high-performance matrix multiplication accelerator, capable of efficiently utilizing all available resources on the target device, including for multi-SLR FPGAs.</td>
+    </tr>
+    <tr>
+        <td>High-Performance Distributed Memory Programming on Reconfigurable Hardware</td>
+        <td>Tiziano De Matteis <em>et al.</em></td>
+        <td>ETH Zurich </td>
+        <td><a href="https://arxiv.org/abs/1909.03231">Paper</a></td>
+        <td>SMI is an API that unifies the flexibility and single-program, multiple-data approach of MPI with the streaming programming model of spatial architectures.</td>
+    </tr>
+    <tr>
+        <td>Inductive-bias-driven Reinforcement Learning for Efficient Schedules in Heterogeneous Clusters</td>
+        <td>Subho S. Banerjee <em>et al.</em></td>
+        <td>University of Illinois at Urbana-Champaign</td>
+        <td><a href="">Paper</a></td>
+        <td>System schedulers</td>
+    </tr>
+    <tr>
+        <td><strong>hlslib:</strong> Software Engineering for Hardware Design</td>
+        <td>Johannes de Fine Licht <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://arxiv.org/abs/1910.04436">Paper</a></td>
+        <td>A collection of extensions for Vitis to improve developer quality of life, including CMake integration, better vectorization support, support for simulating dataflow kernels with feedback dependencies.</td>
+    </tr>
+    <tr>
+        <td>Stateful Dataflow Multigraphs: A Data-Centric Model for Performance Portability on Heterogeneous Architectures</td>
+        <td>Tal Ben-Nun <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://arxiv.org/abs/1902.10345">Paper</a></td>
+        <td>Enables high-level programming of FPGAs from Python using the dataflow-based SDFG representation, allowing productive optimization of programs via provided graph transformations without modifying the input program, and code generating highly efficient FPGA kernels.</td>
+    </tr>
+</table>
+
+
+
 
 
 ## 2018
 
-| Name | Author(s) | Institution |Link | Notes |
-|------|-----------|-------------|-----|-------|
-| FINN-R: An End-to-End Deep-Learning Framework for Fast Exploration of Quantized Neural Networks |  Michaela Blott *et al.* |Xilinx Inc | [FINN-R paper](https://arxiv.org/abs/1809.04570) | Framework for Quantized Neural Networks on reconfigurable hardware |
-| Transformations of High-Level Synthesis Codes for High-Performance Computing | Johannes de Fine Licht, et al. | ETH Zurich |  [Paper](https://arxiv.org/abs/1805.08288) | A survey of important source-to-source optimization techniques for high-throughput HLS codes to target pipelining, parallelism, and memory bandwidth utilization. |
+<table width="100%">
+    <tr>
+        <th width="200">Name</th>
+        <th width="120">Author(s)</th>
+        <th width="120">Institution</th>
+        <th width="120">Link</th>
+        <th width="500">Notes</th>
+    </tr>
+    <tr>
+        <td>FINN-R: An End-to-End Deep-Learning Framework for Fast Exploration of Quantized Neural Networks</td>
+        <td>Michaela Blott <em>et al.</em></td>
+        <td>Xilinx Inc.</td>
+        <td><a href="https://arxiv.org/abs/1809.04570">FINN-R Paper</a></td>
+        <td>Framework for Quantized Neural Networks on reconfigurable hardware</td>
+    </tr>
+    <tr>
+        <td>Transformations of High-Level Synthesis Codes for High-Performance Computing</td>
+        <td>Johannes de Fine Licht <em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://arxiv.org/abs/1805.08288">Paper</a></td>
+        <td>A survey of important source-to-source optimization techniques for high-throughput HLS codes to target pipelining, parallelism, and memory bandwidth utilization.</td>
+    </tr>
+</table>
+
+
 
 ## 2017
 
-| Name | Author(s) | Institution |Link | Notes |
-|------|-----------|-------------|-----|-------|
-| Architectural optimizations for high performance and energy efficient Smith-Waterman implementation on FPGAs using OpenCL| Lorenzo Di Tucci *et al*| Xilinx Inc. and Politecnico di Milano|  [Paper](https://ieeexplore.ieee.org/document/7927082) | Smith-Waterman: A key bio-informatics algorithm |
+<table width="100%">
+    <tr>
+        <th width="200">Name</th>
+        <th width="120">Author(s)</th>
+        <th width="120">Institution</th>
+        <th width="120">Link</th>
+        <th width="500">Notes</th>
+    </tr>
+    <tr>
+        <td>Architectural optimizations for high performance and energy efficient Smith-Waterman implementation on FPGAs using OpenCL</td>
+        <td>Lorenzo Di Tucci <em>et al.</em></td>
+        <td>Xilinx Inc. and Politecnico di Milano</td>
+        <td><a href="https://arxiv.org/abs/1809.04570">Paper</a></td>
+        <td>Smith-Waterman: A key bio-informatics algorithm</td>
+    </tr>
+</table>
+
 
 ## 2016
 
-| Name | Author(s) | Institution |Link | Notes |
-|------|-----------|-------------|-----|-------|
-| FINN: A Framework for Fast, Scalable Binarized Neural Network Inference  | Yaman Umuroglu *et al.*  | Xilinx Inc.| [FINN Paper](https://arxiv.org/abs/1612.07119) | Framework for Binarized Neural networks on reconfigurable hardware |
+<table width="100%">
+    <tr>
+        <th width="200">Name</th>
+        <th width="120">Author(s)</th>
+        <th width="120">Institution</th>
+        <th width="120">Link</th>
+        <th width="470">Notes</th>
+    </tr>
+    <tr>
+        <td>FINN: A Framework for Fast, Scalable Binarized Neural Network Inference</td>
+        <td>Yaman Umuroglu <em>et al.</em></td>
+        <td>Xilinx Inc.</td>
+        <td><a href="https://arxiv.org/abs/1612.07119">FINN Paper</a></td>
+        <td>Framework for Binarized Neural networks on reconfigurable hardware</td>
+    </tr>
+</table>
 
 ---------------------------------------
 <p align="center">Copyright&copy; 2021 Xilinx</p>
