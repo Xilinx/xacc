@@ -56,7 +56,6 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
       <a href="https://youtu.be/un7wck0IkGs?t=88">Click to Watch</a>
     </td>
   </tr>
-  </tr>
   <tr>
     <td>
       <strong>Data Centric FPGA programming:</strong> Data Centric FPGA programming with Multi-Level design; (Johannes de Fine Licht, ETH Zurich)
@@ -79,31 +78,38 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
     <td>
       <a href="https://www.youtube.com/watch?v=P93WlrBVxoM&t=120s">Click to Watch</a>
     </td>
-   <tr></tr>
+  </tr>
+  <tr>
     <td>
       <strong>Elastic-DF:</strong> Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning, (Dr. Lucian Petrica, Xilinx)
     </td>
     <td>
       <a href="https://www.youtube.com/watch?v=P93WlrBVxoM&t=1851s">Click to Watch</a>
     </td>
-  </tr><tr>
+  </tr>
+  <tr>
     <th style="text-align: center" colspan="2">
       <font size="+2">
         <strong>XACC Tech Talk 3: 8 <sup>th</sup> July 2021 </strong>
       </font>
     </th>
-  </tr><tr>
+  </tr>
+  <tr>
     <td>
       <strong>Blockchain Machine:</strong> Accelerating Validation Bottlenecks in Hyperledger Fabric, (Dr. Haris Javaid, Xilinx)
     </td>
     <td>
       <a href=""></a>Coming soon!
     </td>
-  </tr></tr><tr><td>
+   </tr>
+   <tr>
+    <td>
       <strong>ThunderGP:</strong> HLS-based Graph Processing on FPGAs, (Xinyu Chen, National University of Singapore) 
-    </td><td>
+    </td>
+    <td>
       <a href=""></a>Coming Soon!
-    </td></tr>
+    </td>
+    </tr>
 </table>
 
 
