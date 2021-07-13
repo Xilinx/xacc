@@ -157,7 +157,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>System schedulers</td>
     </tr>
     <tr>
-        <td><strong>hlslib:</strong> Software Engineering for Hardware Design</th>
+        <td><strong>hlslib:</strong> Software Engineering for Hardware Design</td>
         <td>Johannes de Fine Licht <em>et al.</em></td>
         <td>ETH Zurich</td>
         <td><a href="https://arxiv.org/abs/1910.04436">Paper</a></td>
@@ -171,6 +171,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Enables high-level programming of FPGAs from Python using the dataflow-based SDFG representation, allowing productive optimization of programs via provided graph transformations without modifying the input program, and code generating highly efficient FPGA kernels.</td>
     </tr>
 </table>
+
 
 
 
@@ -221,6 +222,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Smith-Waterman: A key bio-informatics algorithm</td>
     </tr>
 </table>
+
 
 ## 2016
 
