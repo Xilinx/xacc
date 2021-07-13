@@ -1,6 +1,6 @@
 # Xilinx University Program XACC School 2021
 
-The Xilinx Adaptive Compute PhD school in association with ETH Zurich XACC, **Developing accelerators using FPGAs** was held virtually during the days 11-15 January 2021.
+The Xilinx Adaptive Compute PhD school in association with ETH Zurich XACC, **Developing accelerators using FPGAs** was held virtually during the days 11-15<sup>th</sup> January 2021.
 
 The school offered students an opportunity to learn about FPGA design and recent technology developments, and gain hands-on experience creating FPGA accelerators with Xilinx software.
 
