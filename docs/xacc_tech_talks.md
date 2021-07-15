@@ -91,7 +91,7 @@ In this presentation we discuss how to maximize the performance and scalability 
 
 8<sup>th</sup>  July, 2021
 
-[![](./images/youtube_social_circle_white.png)](https://www.youtube.com/watch?v=P93WlrBVxoM)  View the recording <u>Coming soon!</u>
+[![](./images/youtube_social_circle_white.png)](https://www.youtube.com/watch?v=P93WlrBVxoM)  View the recording <u>[XACC Tech Talk 3 recording](https://youtu.be/D8ZunBYc5xI)</u>
 
 ### Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric
 
