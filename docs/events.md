@@ -99,7 +99,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
       <strong>Blockchain Machine:</strong> Accelerating Validation Bottlenecks in Hyperledger Fabric, (Dr. Haris Javaid, Xilinx)
     </td>
     <td>
-      <a href="https://youtu.be/D8ZunBYc5xI?t=75">Click to Watch</a>
+      <a href=""></a>Coming soon!
     </td>
    </tr>
    <tr>
@@ -107,7 +107,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
       <strong>ThunderGP:</strong> HLS-based Graph Processing on FPGAs, (Xinyu Chen, National University of Singapore) 
     </td>
     <td>
-      <a href="https://youtu.be/D8ZunBYc5xI?t=1792">Click to Watch</a>
+      <a href=""></a>Coming Soon!
     </td>
     </tr>
 </table>
