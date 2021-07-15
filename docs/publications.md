@@ -27,7 +27,8 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>EasyNet: 100 Gbps Network for HLS</td>
         <td>Zhenhao He <em>et al.</em></td>
         <td>ETH Zurich</td>
-        <td><a href="https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP">Paper (Github)</a></td>
+        <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/487920">Paper</a>
+            <a href="https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP">Github</a></td>
         <td>Integration of an open-source 100 Gbps TCP/IP stack into Vitis without degrading its performance. A set of MPI-like communication primitives are provided to abstract away low level details of the networking stack.</td>
     </tr>
     <tr>
@@ -38,6 +39,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>High-performance inference engine for recommendation systems. MicroRec accelerates recommendation inference by (1) redesigning the data structures to reduce the number of lookups and (2) taking advantage of HBM in FPGA accelerators to tackle the latency by enabling parallel lookups.</td>
     </tr>
 </table>
+
 
 
 
@@ -153,7 +155,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Inductive-bias-driven Reinforcement Learning for Efficient Schedules in Heterogeneous Clusters</td>
         <td>Subho S. Banerjee <em>et al.</em></td>
         <td>University of Illinois at Urbana-Champaign</td>
-        <td><a href="">Paper</a></td>
+        <td><a href="https://arxiv.org/abs/1909.02119">Paper</a></td>
         <td>System schedulers</td>
     </tr>
     <tr>
@@ -171,6 +173,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Enables high-level programming of FPGAs from Python using the dataflow-based SDFG representation, allowing productive optimization of programs via provided graph transformations without modifying the input program, and code generating highly efficient FPGA kernels.</td>
     </tr>
 </table>
+
 
 
 
