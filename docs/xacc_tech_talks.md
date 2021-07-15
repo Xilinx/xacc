@@ -72,9 +72,11 @@ Dr. Mario Ruiz, Xilinx University Program; Zhenhao He, Doctoral Student, Systems
 This presentation will introduce *VNx* which adds 100Gbps UDP/IP support to Vitis designs. *EasyNet* extends VNx to support 100Gbps TCP/IP from HLS. 
 Both VNx and EasyNet are open-source and supported from Vitis and can be used to add high-speed networking interfaces to Alveo platforms. 
 
-Vnx: https://github.com/Xilinx/xup_vitis_network_example
 
-EasyNet: https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP
+
+Vnx: [https://github.com/Xilinx/xup_vitis_network_example](https://github.com/Xilinx/xup_vitis_network_example)
+
+EasyNet: [https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP](https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP)
 
 
 ### Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning
@@ -91,7 +93,7 @@ In this presentation we discuss how to maximize the performance and scalability 
 
 8<sup>th</sup>  July, 2021
 
-[![](./images/youtube_social_circle_white.png)](https://www.youtube.com/watch?v=P93WlrBVxoM)  View the recording <u>Coming soon!</u>
+[![](./images/youtube_social_circle_white.png)](https://www.youtube.com/watch?v=P93WlrBVxoM)  View the recording [XACC Tech Talk 3 recording](https://youtu.be/D8ZunBYc5xI)
 
 ### Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric
 
@@ -99,11 +101,15 @@ Dr. Haris Javaid, Senior Staff Researcher, Xilinx
 
 Blockchain Machine is a hardware accelerator for validation of blocks in Hyperledger Fabric, one of the most widely used permissioned blockchain platforms. It is targeted for a server with network-attached FPGA acceleration card and can be adapted to applications and their smart contracts (built on top of Fabric). The Blockchain Machine retrieves block/transaction data in hardware directly from the network interface, which is then processed through a configurable and efficient block-level and transaction-level pipeline. The results are then accessed by the host CPU where non-bottleneck operations are executed. From our implementation integrated with Fabric v1.4 LTS, we observed up to 17x speedup in block validation when compared to software-only implementation.
 
+Blockchain: [https://github.com/Xilinx/hyperledger-fabric](https://github.com/Xilinx/hyperledger-fabric)
+
 ### ThunderGP: HLS-based Graph Processing on FPGAs
 
 Xinyu Chen, Doctoral Student, National University of Singapore 
 
 *ThunderGP* is proposed to bridge the gap between high-level graph processing applications and underlying CPU-FPGA platforms. With ThunderGP, developers could enjoy the performance of FPGA-accelerated graph processing by writing only a few high-level functions with no knowledge of the hardware.
+
+ThunderGP: [https://github.com/Xtra-Computing/ThunderGP](https://github.com/Xtra-Computing/ThunderGP)
 
 
 ---------------------------------------
