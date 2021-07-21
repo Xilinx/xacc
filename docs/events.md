@@ -14,7 +14,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
   <tr>
     <th style="text-align:center" colspan="2">
       <font size="+2">
-        <strong>Tech Talk 4: 22 <sup>nd</sup> July 2021 17:00-18:00(CET) </strong>
+        <strong>Tech Talk 4: 22 <sup>nd</sup> July 2021 17:00-18:00(CET/GMT+2) </strong>
       </font>
     </th>
   </tr>
@@ -31,7 +31,28 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
       <strong>ThundeRiNG:</strong> Generating Multiple Independent Random Number Sequences on FPGAs; Hongshi Tan, National University of Singapore
     </td>
   </tr>
+  <tr>
+    <th style="text-align:center" colspan="2">
+      <font size="+2">
+        <strong>Tech Talk 5: 05 <sup>th</sup> August 2021 17:00-18:00(CET/GMT+2) </strong>
+      </font>
+    </th>
+  </tr>
+  <tr>
+    <td style>
+      <strong>ScaleHLS: </strong>Scalable High-Level Synthesis through MLIR (Hanchen Ye, UIUC)
+    </td>
+    <td style="text-align:center" rowspan="2" width="200">
+      <a href="./xacc_tech_talks.html#xacc-tech-talk-5">Details and Registration</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware</strong> (Alberto Zeni, Politecnico Di Milano)
+    </td>
+  </tr>
 </table>
+
 
 
 

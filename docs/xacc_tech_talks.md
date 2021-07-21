@@ -4,6 +4,8 @@ The talks will be hosted as Zoom webinars and are free to attend. The format for
 
 If you would like to present your work at an XACC Tech Talk, please contact [xup@xilinx.com](xup@xilinx.com) with an outline of your proposal. 
 
+# Upcoming Talks
+
 
 
 ## XACC Tech Talk 4
@@ -29,8 +31,30 @@ Compared to a state-of-the-art GPU library, ThundeRiNG demonstrates a 10x speedu
 
 
 
+## XACC Tech Talk 5
+
+05<sup>th</sup>  August 2021, 17:00-18:00 (CET/GMT+2)
+
+[![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_PQxFA2rFRRmuzXU7bJrA0Q))   Register for the [XACC Tech Talk 5 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_deL5oY1nQj2RI0SuCVU_Tw)
+
+### ScaleHLS: Scalable High-Level Synthesis through MLIR
+
+Hanchen Ye, UIUC
+
+High-level Synthesis (HLS) has been widely adopted as it significantly improves the hardware design productivity and enables efficient design space exploration (DSE). HLS tools can be used to deliver solutions for many different kinds of design problems, and different problems are often better solved with different levels of abstraction. While existing HLS tools are built using compiler infrastructures largely based on a single-level abstraction (e.g., LLVM), we propose ScaleHLS, a next-generation HLS compilation flow, on top of a multi-level compiler infrastructure called MLIR, for the first time. ScaleHLS is able to optimize HLS designs at multiple levels of abstraction and provides an HLS-dedicated transform and analysis library to solve the optimization problems at the suitable abstraction levels. On top of the library, we also build an automated DSE engine to explore the multi-dimensional design space highly efficiently. In addition, we develop an HLS C front-end and a C/C++ emission back-end to translate HLS designs into/from MLIR for enabling the end-to-end ScaleHLS flow. Experimental results show that, comparing to the baseline designs only optimized by Xilinx Vivado HLS, ScaleHLS improves the performances with amazing quality-of-results -- up to 768.1x better on computation kernel level programs and up to 3825.0x better on neural network models.
+
+### **Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware**
+
+Alberto Zeni, Politecnico Di Milano
+
+Abstract: The HPCG benchmark represents a modern complement to the HPL benchmark in the performance evaluation of HPC systems, as it has been recognized as a more representative benchmark to reflect real-world applications and, consequently, its popularity and acceptance continue to rise within the HPC community. This talk will present the first FPGA-based implementation of the HPCG benchmark, which takes full advantage of reconfigurable architectures. Our implementation shows performance up to 108.4 and 346.5 GFlops on 1 and 4 Xilinx Alveo U280 cards on the XACC cluster, demonstrating significant performance improvements against the CPU implementation and comparable performance with GPU implementations with better power efficiency. 
+
+
+
 
 # Past talks
+
+
 
 ## XACC Tech Talk 1
 
