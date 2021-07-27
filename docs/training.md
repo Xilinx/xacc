@@ -6,8 +6,6 @@ This page presents a list of resources to get you started with the different Xil
 
 Xilinx also provides commercial training courses on a wide range of topics. Find the latest courses on the [Xilinx training webpage](https://www.xilinx.com/training/customer-training.html)
 
-
-
 ## Hands-on examples
 
 This list cover examples and tutorials hosted on [Xilinx GitHub](https://github.com/Xilinx)
@@ -20,8 +18,6 @@ This list cover examples and tutorials hosted on [Xilinx GitHub](https://github.
 1. [Vitis Accelerated Libraries](https://github.com/Xilinx/Vitis_Libraries)
 1. [Vitis AI Tutorials](https://github.com/Xilinx/Vitis-AI-Tutorials)
 
-
-
 ## Third Party 
 
 ### Productive Parallel Programming for FPGA with HLS
@@ -29,8 +25,6 @@ This list cover examples and tutorials hosted on [Xilinx GitHub](https://github.
 Johannes de Fine Licht and Torsten Hoefler from SPCL at ETH Zurich offer this HPC-oriented tutorial that shows how high-level synthesis (HLS) can be harnessed to productively achieve scalable pipeline parallelism on FPGAs. Using familiar codes known from software, it is shown how FPGA resources are targeted from high-level C++ code, guiding the mapping from imperative code to hardware to enable massively parallel designs.
 
 You can find out more information in [this link](https://spcl.inf.ethz.ch/Teaching/hls-tutorial/) and [watch the presentation here](https://youtu.be/2UvUP2hxMyI).
-
-
 
 ## Books
 

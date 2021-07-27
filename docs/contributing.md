@@ -2,8 +2,6 @@
 
 We welcome contributions from the community to this GitHub repository. 
 
-
-
 ## What to contribute
 
 We welcome contributions related to XACC in the following areas:
@@ -12,8 +10,6 @@ We welcome contributions related to XACC in the following areas:
 * Examples
 * Demos
 * Training material
-
-
 
 ## How to contribute
 

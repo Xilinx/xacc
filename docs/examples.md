@@ -2,13 +2,9 @@
 
 The following page is a list of example designs that may be used with the XACCs. Each XACC may have different Alveo hardware, with different shells installed, so you will need to check the details of each project against the cluster hardware you want to run it on. 
 
-
-
 ## Contribute
 
 If you would like to contribute to this page by adding a reference to your project, please follow the [contribution guidelines](contributing.md)
-
-
 
 ## Projects
 
@@ -37,8 +33,6 @@ If you would like to contribute to this page by adding a reference to your proje
 | [X-drop on FPGA](https://github.com/albertozeni/XDropXOHW-Public) | Alberto Zeni, Guido Walter Di Donato, Marco D. Santambrogio, Politecnico Di Milano | U280 |
 | [Vitis Network Examples](https://github.com/Xilinx/xup_vitis_network_example) | Mario Ruiz, XUP | Alveo U50/U250/U280 |
 | Fletcher on Alveo example: [Wikipedia search ](https://github.com/abs-tudelft/wiki-search-alveo) | Matthijs Brobbel, Jeroen van Straten, Joost Hoozemans, Delft University of Technology | Alveo U200/U250 |
-
-
 
 ## PYNQ examples
 

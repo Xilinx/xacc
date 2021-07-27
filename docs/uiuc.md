@@ -6,8 +6,6 @@ The center mission is to investigate and propose system solutions for high-perfo
 
 The goal is to create new opportunities in data center and HPC domains, with a focus on increasing the flexibility of the memory hierarchy and exploiting parallelism at a large scale.
 
-
-
 ### The XACC Cluster
 
 The cluster is hosted within the Coordinated Science Lab at UIUC. The cluster is accessible to other researchers whose interest align with the cluster mission. Currently, there are two other institutions, [Boston University](https://www.bu.edu/eng/profile/martin-herbordt/) and [Northeastern University](https://coe.northeastern.edu/people/leeser-miriam/), are using the cluster.

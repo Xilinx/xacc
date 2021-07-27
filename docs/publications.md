@@ -2,13 +2,9 @@
 
 This page lists the research publications which have been carried out in the context of the XACC program, or papers that may be of interest to the XACC community. 
 
-
-
 ## Contribute
 
 If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md) 
-
-
 
 ## 2021
 
@@ -43,6 +39,8 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>High-performance inference engine for recommendation systems. MicroRec accelerates recommendation inference by (1) redesigning the data structures to reduce the number of lookups and (2) taking advantage of HBM in FPGA accelerators to tackle the latency by enabling parallel lookups.</td>
     </tr>
 </table>
+
+
 
 
 ## 2020
@@ -177,6 +175,10 @@ If you would like to contribute to this page by adding a reference to your publi
 </table>
 
 
+
+
+
+
 ## 2018
 
 <table width="100%">
@@ -246,4 +248,3 @@ If you would like to contribute to this page by adding a reference to your publi
 
 ---------------------------------------
 <p align="center">Copyright&copy; 2021 Xilinx</p>
-

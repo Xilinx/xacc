@@ -4,8 +4,6 @@ The cluster at ETH Zurich provides the infrastructure to research in systems, ar
 
 The head of the ETH Zurich XACC is [Prof. Gustavo Alonso](https://inf.ethz.ch/people/person-detail.alonso.html) from the [Systems Group](https://systems.ethz.ch/) in the  Department of Computer Science at ETH Zurich.  
 
-
-
 # Infrastructure
 
 The ETH Zurich cluster consists of five servers one for development and four for deployment. Deployment servers host a mix of Alveo U250 and Alveo U280 as shown in the image below
