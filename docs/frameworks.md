@@ -2,15 +2,21 @@
 
 This page cover other software and frameworks that may be useful to generate or to deploy your designs. If you would like to contribute your framework to this page, please follow the [contribution guidelines](contributing.md) 
 
+
+
 ## PYNQ
 
 PYNQ is an open-source project from Xilinx that makes it easier to use Xilinx platforms. Using the Python language and libraries, designers can exploit the benefits of programmable logic and to build more capable and exciting electronic systems. PYNQ can be used with Zynq, Zynq UltraScale+, Zynq RFSoC, **Alveo accelerator cards** and AWS-F1 to create high performance applications. PYNQ is available by default on the ETH XACC. Find out more in the [pynq.io](http://www.pynq.io/) page
+
+
 
 ## Machine Learning
 
 ### FINN
 
 Fast, Scalable Quantized Neural Network Inference on FPGAs. Explore deep neural network inference on FPGAs. It specifically targets quantized neural networks, with emphasis on generating dataflow-style architectures customized for each network. Find out more in the [finn repository](https://github.com/Xilinx/finn)
+
+
 
 
 ## Networking
@@ -22,6 +28,7 @@ This framework is ideal to scale out your application without CPU intervention, 
 ### VNx
 
 This framework is ideal to scale out your application without CPU intervention. Note that UDP is lightweight but no reliable. XUP provides example designs with UDP support at 100 Gbps in Vitis, this repository is also tightly coupled with the PYNQ project and provides support for distributed Alveo configuration on top of Dask. Find out more in the [VNx repository](https://github.com/Xilinx/xup_vitis_network_example)
+
 
 
 ## Programming Frameworks
@@ -56,6 +63,8 @@ A collection of extensions for Vitis to improve developer quality of life, inclu
 ### ThunderGP
 
 HLS-based Graph Processing Framework on FPGAs. [ThunderGP repository](https://github.com/Xtra-Computing/ThunderGP)
+
+
 
 ## Scheduling & Distributed
 

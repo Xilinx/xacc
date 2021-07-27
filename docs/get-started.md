@@ -15,6 +15,8 @@ Priority research areas for the XACCs include:
 * IOT
 * Computer architecture
 
+
+
 ## XACCs
 
 ![](images/centers_map.png)
@@ -22,6 +24,8 @@ Priority research areas for the XACCs include:
 There are four XACCs located at [ETH Zurich](ethz.md) in Switzerland, [University of California, Los Angeles (UCLA)](ucla.md), [University of Illinois at Urbana Champagne (UIUC)](uiuc.md) and at the [National University of Singapore (NUS)](nus.md).
 
 You can apply to the XACC program, and once approved, you can then get access to one or more XACCs. There are some local differences between the hardware configurations at each site. Check the page for the corresponding XACC for details. XACCs are experimental systems.  The system configurations may change over time, and configuration changes or special use cases can be requested by contacting the XACC. 
+
+
 
 ## Members site
 

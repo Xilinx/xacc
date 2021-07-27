@@ -6,11 +6,15 @@ Four XACCs have been established at some of world’s most prestigious universit
 
 See the [getting started](./get-started.html) page for more details on the program and how to apply. 
 
+
+
 ## Contribute to this site
 
 If you would like to contribute to this site by adding an XACC related publications, examples, demos, training materials or other resources, you can open a pull request via the GitHub link in the bottom left of this page, or you can contact the Xilinx University Program team who manage the XACC program (see e-mail link below).  
 
 For more information visit [contributing](contributing.md)
+
+
 
 ## Contact us
 

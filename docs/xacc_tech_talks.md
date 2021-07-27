@@ -4,7 +4,12 @@ The talks will be hosted as Zoom webinars and are free to attend. The format for
 
 If you would like to present your work at an XACC Tech Talk, please contact [xup@xilinx.com](xup@xilinx.com) with an outline of your proposal. 
 
+
+
+
+
 # Upcoming Talks
+
 
 
 ## XACC Tech Talk 5
@@ -24,6 +29,8 @@ High-level Synthesis (HLS) has been widely adopted as it significantly improves 
 Alberto Zeni, Politecnico Di Milano
 
 Abstract: The HPCG benchmark represents a modern complement to the HPL benchmark in the performance evaluation of HPC systems, as it has been recognized as a more representative benchmark to reflect real-world applications and, consequently, its popularity and acceptance continue to rise within the HPC community. This talk will present the first FPGA-based implementation of the HPCG benchmark, which takes full advantage of reconfigurable architectures. Our implementation shows performance up to 108.4 and 346.5 GFlops on 1 and 4 Xilinx Alveo U280 cards on the XACC cluster, demonstrating significant performance improvements against the CPU implementation and comparable performance with GPU implementations with better power efficiency. 
+
+
 
 
 
