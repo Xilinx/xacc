@@ -28,7 +28,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
   </tr>
   <tr>
     <td>
-      <strong>Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware</strong> (Alberto Zeni, Politecnico Di Milano)
+      Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware (Alberto Zeni, Politecnico Di Milano)
     </td>
   </tr>
 </table>
