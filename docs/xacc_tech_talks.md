@@ -7,30 +7,6 @@ If you would like to present your work at an XACC Tech Talk, please contact [xup
 # Upcoming Talks
 
 
-
-## XACC Tech Talk 4
-
-22<sup>nd</sup>  July 2021, 17:00-18:00 (CET/GMT+2)
-
-[![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_PQxFA2rFRRmuzXU7bJrA0Q))   Register for the [XACC Tech Talk 4 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_PQxFA2rFRRmuzXU7bJrA0Q)
-
-### Fletcher: A framework for high-performance big data analytics using FPGAs
-
-Joost Hoozemans, Postdoctoral researcher, TU Delft
-
-This talk will present a vision for transparent acceleration of analytics workloads on FPGAs.
-The *Fletcher* project allows integrating FPGAs into scalable software frameworks, to efficiently utilize them in a cloud hardware infrastructure. Fletcher supports Alveo FPGA cards in the XACC cluster, AWS F1 and Azure instances.
-We demonstrate the integration of FPGA implementations of various analytics operations into a number of popular analytics frameworks (Apache Spark, Dremio, Dask) and show significant speedup.
-
-### ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs
-
-Hongshi Tan, Master student, National  University of Singapore
-
-*ThundeRiNG* is a high-throughput system for generating multiple independent sequences of random numbers on FPGAs. The experimental results show that ThundeRiNG passes the strictest randomness tests, BigCrush, achieving a throughput of 20.95 Tb/s. 
-Compared to a state-of-the-art GPU library, ThundeRiNG demonstrates a 10x speedup in throughput and 9x performance and 26x power efficiency improvement on two applications (pi estimation and Monte Carlo option pricing).
-
-
-
 ## XACC Tech Talk 5
 
 05<sup>th</sup>  August 2021, 17:00-18:00 (CET/GMT+2)
@@ -117,7 +93,7 @@ In this presentation we discuss how to maximize the performance and scalability 
 
 8<sup>th</sup>  July, 2021
 
-[![](./images/youtube_social_circle_white.png)](https://www.youtube.com/watch?v=P93WlrBVxoM)  View the recording [XACC Tech Talk 3 recording](https://youtu.be/D8ZunBYc5xI)
+[![](./images/youtube_social_circle_white.png)](https://youtu.be/D8ZunBYc5xI)  View the recording [XACC Tech Talk 3 recording](https://youtu.be/D8ZunBYc5xI)
 
 ### Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric
 
@@ -134,6 +110,30 @@ Xinyu Chen, Doctoral Student, National University of Singapore
 *ThunderGP* is proposed to bridge the gap between high-level graph processing applications and underlying CPU-FPGA platforms. With ThunderGP, developers could enjoy the performance of FPGA-accelerated graph processing by writing only a few high-level functions with no knowledge of the hardware.
 
 ThunderGP: [https://github.com/Xtra-Computing/ThunderGP](https://github.com/Xtra-Computing/ThunderGP)
+
+
+
+## XACC Tech Talk 4
+
+22<sup>nd</sup>  July 2021
+
+[![](./images/youtube_social_circle_white.png)](https://youtu.be/q4BcSNVNR2A)  View the recording [XACC Tech Talk 4 recording](https://youtu.be/q4BcSNVNR2A)
+
+
+### Fletcher: A framework for high-performance big data analytics using FPGAs
+
+Joost Hoozemans, Postdoctoral researcher, TU Delft
+
+This talk will present a vision for transparent acceleration of analytics workloads on FPGAs.
+The *Fletcher* project allows integrating FPGAs into scalable software frameworks, to efficiently utilize them in a cloud hardware infrastructure. Fletcher supports Alveo FPGA cards in the XACC cluster, AWS F1 and Azure instances.
+We demonstrate the integration of FPGA implementations of various analytics operations into a number of popular analytics frameworks (Apache Spark, Dremio, Dask) and show significant speedup.
+
+### ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs
+
+Hongshi Tan, Master student, National  University of Singapore
+
+*ThundeRiNG* is a high-throughput system for generating multiple independent sequences of random numbers on FPGAs. The experimental results show that ThundeRiNG passes the strictest randomness tests, BigCrush, achieving a throughput of 20.95 Tb/s. 
+Compared to a state-of-the-art GPU library, ThundeRiNG demonstrates a 10x speedup in throughput and 9x performance and 26x power efficiency improvement on two applications (pi estimation and Monte Carlo option pricing).
 
 
 ---------------------------------------
