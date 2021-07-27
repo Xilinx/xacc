@@ -14,26 +14,6 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
   <tr>
     <th style="text-align:center" colspan="2">
       <font size="+2">
-        <strong>Tech Talk 4: 22 <sup>nd</sup> July 2021 17:00-18:00(CET/GMT+2) </strong>
-      </font>
-    </th>
-  </tr>
-  <tr>
-    <td style>
-      <strong>Fletcher:</strong> A framework for high-performance big data analytics using FPGAs; Joost Hoozemans, TU Delft
-    </td>
-    <td style="text-align:center" rowspan="2" width="200">
-      <a href="./xacc_tech_talks.html#xacc-tech-talk-4">Details and Registration</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>ThundeRiNG:</strong> Generating Multiple Independent Random Number Sequences on FPGAs; Hongshi Tan, National University of Singapore
-    </td>
-  </tr>
-  <tr>
-    <th style="text-align:center" colspan="2">
-      <font size="+2">
         <strong>Tech Talk 5: 05 <sup>th</sup> August 2021 17:00-18:00(CET/GMT+2) </strong>
       </font>
     </th>
@@ -131,6 +111,29 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
       <a href="https://youtu.be/D8ZunBYc5xI?t=1792">Click to Watch</a>
     </td>
     </tr>
+    <tr>
+    <th style="text-align:center" colspan="2">
+      <font size="+2">
+        <strong>Tech Talk 4: 22 <sup>nd</sup> July 2021 17:00-18:00(CET/GMT+2) </strong>
+      </font>
+    </th>
+  </tr>
+  <tr>
+    <td style>
+      <strong>Fletcher:</strong> A framework for high-performance big data analytics using FPGAs; Joost Hoozemans, TU Delft
+    </td>
+    <td>
+      <a href="https://youtu.be/q4BcSNVNR2A?t=88">Click to Watch</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>ThundeRiNG:</strong> Generating Multiple Independent Random Number Sequences on FPGAs; Hongshi Tan, National University of Singapore
+    </td>
+    <td>
+      <a href="https://youtu.be/q4BcSNVNR2A?t=1642">Click to Watch</a>
+    </td>
+  </tr>
 </table>
 
 
