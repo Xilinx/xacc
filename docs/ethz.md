@@ -12,7 +12,7 @@ The ETH Zurich cluster consists of five servers one for development and four for
 
 In terms of networking communication, each Alveo cards has two 100 Gbps interfaces, one is connected to a switch and the another connected to its neighbor this is depicted in the image below
 
-![](./images/ethz/xacc_ethz_network.png)
+<img src="/xacc/images/ethz/xacc_ethz_network.png" alt="ETH Zurich Network" class="responsive">
 
 > Note: hardware and network configuration can change at any time
 
