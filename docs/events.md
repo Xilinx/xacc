@@ -22,7 +22,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
     <td style>
       <strong>ScaleHLS: </strong>Scalable High-Level Synthesis through MLIR (Hanchen Ye, UIUC)
     </td>
-    <td style="text-align:center" rowspan="2" width="200">
+    <td style="text-align:center; vertical-align:middle" rowspan="2" width="200">
       <a href="./xacc_tech_talks.html#xacc-tech-talk-5">Details and Registration</a>
     </td>
   </tr>
@@ -32,7 +32,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
     </td>
   </tr>
       <tr>
-    <th style="text-align:center" colspan="2">
+    <th style="text-align:center; vertical-align:middle" colspan="2">
       <font size="+2">
         <strong>Tech Talk 6: 19 <sup>th</sup> August 2021 16:00-17:00(CET/GMT+2) </strong>
       </font>
@@ -57,9 +57,6 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
 
 
 
-
-
-
 ## Previous Talks (watch the recording)
 
 <table border="0" width="100%" style="border: 0px; background:transparent">
@@ -71,10 +68,10 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
     </tr>
     <tr style="border: 0px;">
         <td style="border: 0px; background:transparent" width="200">
-            <iframe style="text-align:center; border: 0px; background:transparent" width="500" height="250" src="https://www.youtube.com/embed/P93WlrBVxoM?start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <iframe style="text-align:center; border: 0px; background:transparent" width="500" height="250" src="https://www.youtube.com/embed/un7wck0IkGs?start=88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </td>
         <td style="border: 0px; background:transparent" width="200">
-            <iframe style="text-align:center; border: 0px; background:transparent" width="500" height="250" src="https://www.youtube.com/embed/P93WlrBVxoM?start=1851" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <iframe style="text-align:center; border: 0px; background:transparent" width="500" height="250" src="https://www.youtube.com/embed/un7wck0IkGs?start=1743" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </td>
     </tr>
     <tr style="border: 0px">        
@@ -92,10 +89,10 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
     </tr>
     <tr style="border: 0px">
         <td style="border: 0px; background:transparent" width="200">
-            <iframe style="text-align:center; border: 0px; background:transparent" width="500" height="250" src="https://www.youtube.com/embed/un7wck0IkGs?start=88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <iframe style="text-align:center; border: 0px; background:transparent" width="500" height="250" src="https://www.youtube.com/embed/P93WlrBVxoM?start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </td>
         <td style="border: 0px; background:transparent" width="200">
-            <iframe style="text-align:center; border: 0px; background:transparent" width="500" height="250" src="https://www.youtube.com/embed/un7wck0IkGs?start=1743" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <iframe style="text-align:center; border: 0px; background:transparent" width="500" height="250" src="https://www.youtube.com/embed/P93WlrBVxoM?start=1851" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </td>
     </tr>
     <tr style="border: 0px">
@@ -144,6 +141,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
         </td>
     </tr>
 </tbody></table>
+
 
 
 

@@ -84,26 +84,5 @@ The Vitis and PYNQ prerecorded presentation and slides can be found in the [XUP 
 </table>
 
 
-
-
-
-
-
-<table>
-	<tr>
-		<td style="text-align:center; background:transparent;"><strong>FPGAs on cloud and datacenters</strong>; Prof. Gustavo Alonso (ETH Zurich)<iframe width="470" height="276" src="https://www.youtube.com/embed/-3u8T9qbn6k" frameborder="0" allow="autoplay" allowfullscreen></iframe></td>
-		<td style="text-align:center; background:transparent;"></td>
-	</tr>
-	<tr>
-		<td style="text-align:center; background:transparent;"><strong>VNx</strong>: XUP Vitis UDP Network Example for Alveo; Dr. Mario Ruiz (XUP)<iframe width="470" height="276" src="https://www.youtube.com/embed/FsKi-7L7INA" frameborder="0" allow="autoplay" allowfullscreen></iframe></td>
-		<td style="text-align:center; background:transparent;"><strong>EasyNet</strong>: 100Gbps Network for HLS; Zhenhao He (ETH Zurich)<iframe width="470" height="276" src="https://www.youtube.com/embed/cAh5KgUDgeo" frameborder="0" allow="autoplay" allowfullscreen></iframe></td>
-	</tr>
-	<tr>
-		<td style="text-align:center; background:transparent;"><strong>FPGA Accelerated Computing</strong>, Kumar Deepak (Xilinx Data Center Group)<iframe width="470" height="276" src="https://www.youtube.com/embed/gBQ5hcbGsDA" frameborder="0" allow="autoplay" allowfullscreen></iframe></td>
-		<td style="text-align:center; background:transparent;"><strong>Data-Centric Parallel Programming</strong>; Johannes de Fine Licht (ETH Zurich) <iframe width="470" height="276" src="https://www.youtube.com/embed/t0T34AWDpgo" frameborder="0" allow="autoplay" allowfullscreen></td>
-	</tr>
-</table>
-
-
 ---------------------------------------
 <p align="center">Copyright&copy; 2021 Xilinx</p>
