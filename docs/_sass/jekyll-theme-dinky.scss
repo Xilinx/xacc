@@ -440,6 +440,9 @@ footer {
     padding-left: 25px;
 }
 
+
+/*Media print*/
+
 @media print,
 screen and (max-width: 960px) {
     div.wrapper {
@@ -517,5 +520,3 @@ screen and (max-width: 480px) {
         color: #444;
     }
 }
-
-*/
