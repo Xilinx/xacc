@@ -31,7 +31,28 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
       Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware (Alberto Zeni, Politecnico Di Milano)
     </td>
   </tr>
+      <tr>
+    <th style="text-align:center" colspan="2">
+      <font size="+2">
+        <strong>Tech Talk 6: 19 <sup>th</sup> August 2021 16:00-17:00(CET/GMT+2) </strong>
+      </font>
+    </th>
+  </tr>
+  <tr>
+    <td style>
+      <strong>TAPA:</strong> Efficient Support for Task-Parallel High-Level Synthesis (Yuze Chi, Computer Science Department, UCLA)
+    </td>
+    <td style="text-align:center" rowspan="2" width="200">
+      <a href="./xacc_tech_talks.html#xacc-tech-talk-6">Details and Registration</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Multes on Alveo:</strong> An FPGA-based Smart Key-Value Store Running on XACC (Zsolt István, Assoc. Prof, IT University of Copenhagen)
+    </td>
+  </tr>
 </table>
+
 
 
 
@@ -108,7 +129,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
     </tr>
     <tr style="border: 0px">
         <th width="200" style="text-align:center; border: 0px; background:transparent" colspan="2">
-            <font color="black" size="+2"><u>Tech Talk 4: 22 July 2021 17:00-18:00(CET/GMT+2)</u></font><u>
+            <font color="black" size="+2"><u>Tech Talk 4: 22 July 2021</u></font><u>
         </u></th>
     </tr>
     <tr style="border: 0px">
@@ -123,6 +144,7 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
         </td>
     </tr>
 </tbody></table>
+
 
 
 
