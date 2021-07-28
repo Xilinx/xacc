@@ -23,9 +23,29 @@ High-level Synthesis (HLS) has been widely adopted as it significantly improves 
 
 Alberto Zeni, Politecnico Di Milano
 
-Abstract: The HPCG benchmark represents a modern complement to the HPL benchmark in the performance evaluation of HPC systems, as it has been recognized as a more representative benchmark to reflect real-world applications and, consequently, its popularity and acceptance continue to rise within the HPC community. This talk will present the first FPGA-based implementation of the HPCG benchmark, which takes full advantage of reconfigurable architectures. Our implementation shows performance up to 108.4 and 346.5 GFlops on 1 and 4 Xilinx Alveo U280 cards on the XACC cluster, demonstrating significant performance improvements against the CPU implementation and comparable performance with GPU implementations with better power efficiency. 
+The HPCG benchmark represents a modern complement to the HPL benchmark in the performance evaluation of HPC systems, as it has been recognized as a more representative benchmark to reflect real-world applications and, consequently, its popularity and acceptance continue to rise within the HPC community. This talk will present the first FPGA-based implementation of the HPCG benchmark, which takes full advantage of reconfigurable architectures. Our implementation shows performance up to 108.4 and 346.5 GFlops on 1 and 4 Xilinx Alveo U280 cards on the XACC cluster, demonstrating significant performance improvements against the CPU implementation and comparable performance with GPU implementations with better power efficiency. 
 
 
+
+## XACC Tech Talk 6
+
+19<sup>th</sup>  August 2021, 16:00-17:00 (CET/GMT+2)
+
+[![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_PQxFA2rFRRmuzXU7bJrA0Q))   Register for the [XACC Tech Talk 6 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_7MYHptpNRAyeACj03fZzvA)
+
+### **TAPA: Efficient Support for Task-Parallel High-Level Synthesis**
+
+Yuze Chi, Computer Science Department, UCLA
+
+This talk will present TAPA, a fully automated framework for task-parallel HLS programs with programmer-friendly interfaces, unconstrained software simulation, and fast hierarchical code generation. 
+
+Experimental results based on a wide range of real-world task-parallel programs show that the lines of kernel and host code, the correctness verification cycle, and the iterative QoR tuning cycle are all greatly shortened, which considerably improves the programmability.
+
+### **Multes** **on Alveo: An FPGA-based Smart Key-Value Store Running on XACC**
+
+Zsolt István, Assoc. Prof, IT University of Copenhagen
+
+In this talk, we will present Multes, an FPGA-based Key-Value Store (KVS) with user-defined query offloading (the “smarts”) and explain how it has been ported to the Alveo cards in XACC using the Vitis Shell with 100Gbps networking. We will also present an example of offloading to the KVS, namely, a privacy-preserving perturbation for ML training.
 
 
 # Past talks
