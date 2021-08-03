@@ -432,6 +432,9 @@ a.buttons:hover {
                 right: 130px;
                 top: 84px;
             }
+            .buttons-github {
+                text-align: center;
+            }
         }
         
         @media print,
@@ -456,6 +459,9 @@ a.buttons:hover {
             header p.view {
                 position: static;
             }
+            .buttons-github {
+                text-align: center;
+            }
         }
         
         @media print,
@@ -469,6 +475,9 @@ a.buttons:hover {
             footer a {
                 display: block;
             }
+            .buttons-github {
+                text-align: center;
+            }
         }
         
         @media print {
@@ -476,6 +485,9 @@ a.buttons:hover {
                 padding: 0.4in;
                 font-size: 12pt;
                 color: #444;
+            }
+            .buttons-github {
+                text-align: center;
             }
         }
         /* Mobile View Fix */
@@ -532,7 +544,6 @@ a.buttons:hover {
             nav ul li a {
                 color: white;
                 text-decoration: none;
-                line-height: 70px;
                 font-size: 18px;
                 padding: 8px 15px;
             }
@@ -638,7 +649,7 @@ a.buttons:hover {
                 color: white;
                 position: absolute;
                 right: 40px;
-                line-height: 50px;
+                line-height: 25px;
                 font-size: 25px;
                 cursor: pointer;
             }
@@ -653,10 +664,11 @@ a.buttons:hover {
                 display: block;
             }
             .show {
-                color: #e00000;
-                font-size: 30px;
+                color: #ff0000;
+                font-size: 25px;
                 text-decoration: underline;
                 text-decoration: solid;
+                padding-left: 15px;
             }
         }
         
@@ -701,7 +713,7 @@ a.buttons:hover {
                 color: white;
                 position: absolute;
                 right: 40px;
-                line-height: 50px;
+                line-height: 25px;
                 font-size: 25px;
                 cursor: pointer;
             }
@@ -716,9 +728,10 @@ a.buttons:hover {
                 display: block;
             }
             .show {
-                color: #e00000;
-                font-size: 30px;
+                color: #ff0000;
+                font-size: 25px;
                 text-decoration: underline;
                 text-decoration: solid;
+                padding-left: 15px;
             }
         }
