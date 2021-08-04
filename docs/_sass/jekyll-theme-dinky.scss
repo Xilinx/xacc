@@ -150,15 +150,7 @@
                 background: linear-gradient(to top, #C3001D 0%, #950119 100%);
                 text-decoration: underline;
             }
-            .show {
-                color: #fff;
-                font-family: Arvo, sans-serif;
-                font-size: 18px;
-                font-weight: 300;
-                line-height: 1.3em;
-                border-bottom: none;
-                margin-top: 0;
-            }
+            .show,
             .otherheading,
             .icon,
             input {
@@ -289,6 +281,24 @@
             padding: 5px;
             margin: 10px 0 10px 0;
             border: 1px solid #ccc;
+        }
+        /*youtube*/
+        
+        .you-container {
+            position: relative;
+            padding-bottom: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .you-container iframe,
+        .you-container object,
+        .you-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
         
         p img,
@@ -589,12 +599,6 @@ a.buttons:hover {
                 top: -70px;
                 left: 150px;
             }
-            .show {
-                color: #e00000;
-                font-size: 30px;
-                text-decoration: underline;
-                text-decoration: solid;
-            }
             span .fa-plus {
                 margin-left: 40px;
                 font-size: 15px;
@@ -602,6 +606,7 @@ a.buttons:hover {
             .icon {
                 padding-top: 15px;
             }
+            .show,
             .icon,
             input {
                 display: none;
@@ -656,19 +661,13 @@ a.buttons:hover {
             nav ul li a:hover {
                 box-shadow: none;
             }
+            .show,
             .show+a,
             ul {
                 display: none;
             }
             [id^=btn]:checked+ul {
                 display: block;
-            }
-            .show {
-                color: #ff0000;
-                font-size: 25px;
-                text-decoration: underline;
-                text-decoration: solid;
-                padding-left: 15px;
             }
         }
         
@@ -720,18 +719,12 @@ a.buttons:hover {
             nav ul li a:hover {
                 box-shadow: none;
             }
+            .show,
             .show+a,
             ul {
                 display: none;
             }
             [id^=btn]:checked+ul {
                 display: block;
-            }
-            .show {
-                color: #ff0000;
-                font-size: 25px;
-                text-decoration: underline;
-                text-decoration: solid;
-                padding-left: 15px;
             }
         }

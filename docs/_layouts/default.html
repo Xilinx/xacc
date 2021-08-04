@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <script src="https://kit.fontawesome.com/dc3ec3213a.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -24,12 +24,13 @@
         </label>
         <input type="checkbox" id="btn">
         <ul>
+
             <li><label for="btn-4" class="show">XACC </label></li>
             <li class="listedpages"><a style="color:white;" href="index.html">XACC Home</a></li>
             <li class="listedpages"><a style="color:white;" href="get-started.html">Get Started</a> </li>
             <li class="listedpages"><a style="color:white;" href="acknowledgment.html">Acknowledgments</a> </li>
-            <li><label for="btn-1" class="show">Centers </label></li>
 
+            <li><label for="btn-1" class="show">Centers </label></li>
             {% for item in site.data.centers_sidebar.docs %}
             <li class="listedpages"><a style="color:white;" href="{{ item.url }} ">{{ item.title }}</a></li>
             {% endfor %}
@@ -50,7 +51,7 @@
 
             <footer style="z-index: -1;">
                 <p style="font-size: 15px; line-height: 1.4em; padding: 0px 0px 0px 0px;">
-                    <a style="text-align:center" class=" buttons github " href="{{ site.github.repository_url }}/blob/master/docs/contributing.md "><b>Contribute</b></a>
+                    <a style="text-align:center" class=" buttons-github " href="{{ site.github.repository_url }}/blob/master/docs/contributing.md "><b>Contribute</b></a>
                 </p>
             </footer>
 
