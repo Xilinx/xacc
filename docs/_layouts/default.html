@@ -1,67 +1,78 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<html lang="{{ site.lang | default: " en-US " }}">
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-
-{% seo %}
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico"> {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script src="https://kit.fontawesome.com/dc3ec3213a.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <!-- Include XUP Logo on top of the sidebar-->
-        <a href="https://www.xilinx.com/"> <img alt="" src="assets/images/xilinx-header-logo.svg" style="border: none; display: block" width="140"> </a>
+</head>
 
+<body>
+    <nav>
+        <div class="logo">
+            <img alt="" src="assets/images/xilinx-header-logo.svg" style="border: none; display: block" width="140">
+        </div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
         <ul>
-            <li><a href="index.html">XACC</a></li>
-            <li><a href="get-started.html">Get Started</a> </li>
-            <li><a href="acknowledgment.html">Acknowledgment</a> </li>
-        </ul>
+            <li><label for="btn-4" class="show">XACC </label></li>
+            <li class="listedpages"><a style="color:white;" href="index.html">XACC Home</a></li>
+            <li class="listedpages"><a style="color:white;" href="get-started.html">Get Started</a> </li>
+            <li class="listedpages"><a style="color:white;" href="acknowledgment.html">Acknowledgments</a> </li>
+            <li><label for="btn-1" class="show">Centers </label></li>
 
-        <span style="color:white; font-size: 18px;">Centers</span>  
-        <ul>
             {% for item in site.data.centers_sidebar.docs %}
-              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            <li class="listedpages"><a style="color:white;" href="{{ item.url }} ">{{ item.title }}</a></li>
             {% endfor %}
-        </ul>
 
-        <span style="color:white; font-size: 18px;">Resources</span>  
-        <ul>
+            <li><label for="btn-2" class="show">Resources </label></li>
             {% for item in site.data.resources_sidebar.docs %}
-              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            <li class="listedpages"><a style="color:white;" href="{{ item.url }}">{{ item.title }}</a></li>
             {% endfor %}
         </ul>
+    </nav>
 
-      </header>
-      <section>
-        {{ content }}
-      </section>
+    <div class="wrapper">
+        <div class="wrapper">
+            <section>
+                {{ content }}
+            </section>
 
 
-      <footer style="z-index: -1;">
-          <p style="font-size: 15px; line-height: 1.4em; padding: 0px 0px 0px 12px;">
-          <a class="buttons github" href="{{ site.github.repository_url }}/blob/master/docs/contributing.md"><b>Contribute</b></a>
-          </p>
-      </footer>    
-      
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
-  </body>
+            <footer style="z-index: -1;">
+                <p style="font-size: 15px; line-height: 1.4em; padding: 0px 0px 0px 0px;">
+                    <a style="text-align:center" class=" buttons github " href="{{ site.github.repository_url }}/blob/master/docs/contributing.md "><b>Contribute</b></a>
+                </p>
+            </footer>
+
+        </div>
+        <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+        {% if site.google_analytics %}
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', '{{ site.google_analytics }}', 'auto');
+            ga('send', 'pageview');
+        </script>
+        {% endif %}
+</body>
+
 </html>

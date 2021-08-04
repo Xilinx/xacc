@@ -17,7 +17,7 @@ Priority research areas for the XACCs include:
 
 ## XACCs
 
-![](images/centers_map.png)
+<img src="/xacc/images/centers_map.png" alt="" class="responsive">
 
 There are four XACCs located at [ETH Zurich](ethz.md) in Switzerland, [University of California, Los Angeles (UCLA)](ucla.md), [University of Illinois at Urbana Champagne (UIUC)](uiuc.md) and at the [National University of Singapore (NUS)](nus.md).
 

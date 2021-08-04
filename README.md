@@ -1,4 +1,5 @@
-# Xilinx Adaptive Compute Clusters ![](./docs/images/xacc_banner.png)
+# Xilinx Adaptive Compute Clusters 
+<img src="/docs/images/xacc_banner.png" alt="XACC Banner" class="responsive">
 
 View this repository on GitHub pages: [xilinx.github.io/xacc](https://xilinx.github.io/xacc/)
 
