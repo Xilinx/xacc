@@ -465,6 +465,9 @@
             footer {
                 display: none;
             }
+            .buttons-github {
+                display: none;
+            }
         }
         
         @media print,
@@ -548,6 +551,9 @@
             footer {
                 display: none;
             }
+            .buttons-github {
+                display: none;
+            }
         }
         
         @media print {
@@ -574,6 +580,9 @@
                 padding-top: 50px;
             }
             footer {
+                display: none;
+            }
+            .buttons-github {
                 display: none;
             }
         }
@@ -709,6 +718,9 @@
             footer {
                 display: none;
             }
+            .buttons-github {
+                display: none;
+            }
         }
         
         @media all and (max-width: 968px) {
@@ -791,6 +803,9 @@
             footer {
                 display: none;
             }
+            .buttons-github {
+                display: none;
+            }
         }
         
         @media all and (max-width: 968px) {
@@ -871,6 +886,9 @@
                 padding-top: 50px;
             }
             footer {
+                display: none;
+            }
+            .buttons-github {
                 display: none;
             }
         }
