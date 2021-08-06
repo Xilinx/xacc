@@ -518,7 +518,8 @@ screen and (max-width: 720px) {
         text-align: center;
     }
     footer {
-        margin: 0 0 0 30px display: none;
+        margin: 0 0 0 30px;
+        display: none;
     }
     header ul,
     header p.view {
@@ -556,7 +557,8 @@ screen and (max-width: 480px) {
         display: none
     }
     footer {
-        margin: 0 0 0 20px display: none;
+        margin: 0 0 0 20px;
+        display: none;
     }
     .nav {
         width: 480px;
