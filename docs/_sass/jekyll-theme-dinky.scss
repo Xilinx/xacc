@@ -490,6 +490,7 @@ screen and (max-width: 968px) {
     .sometext,
     .buttons-github {
         display: none;
+    }
 }
 
 @media print,
@@ -518,7 +519,7 @@ screen and (max-width: 720px) {
     }
     footer {
         margin: 0 0 0 30px;
-        display: none
+        display: none;
     }
     header ul,
     header p.view {
@@ -594,6 +595,7 @@ screen and (max-width: 480px) {
     .sometext,
     .buttons-github {
         display: none;
+    }
 }
 
 @media print {
