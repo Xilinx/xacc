@@ -11,7 +11,7 @@ If you would like to contribute to this page by adding a reference to your proje
 **_Note:_** Note that these designs are untested, and may need some updates to get them to work with specific tool versions/shell versions or different Alveo boards to the versions they were originally developed with. 
 
 <section>
-<table class="responsive">
+<table class="responsive" width="100%">
   <thead class="responsive">
     <tr class="responsive">
       <th class="responsive" width="333px">Project</th>
