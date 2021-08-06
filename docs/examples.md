@@ -14,9 +14,9 @@ If you would like to contribute to this page by adding a reference to your proje
 <table class="responsive" width="100%">
   <thead class="responsive">
     <tr class="responsive">
-      <th class="responsive" width="333px">Project</th>
-      <th class="responsive" width="333px">Authors</th>
-      <th class="responsive" width="333px">Platform(s)</th>
+      <th class="responsive" width="33%">Project</th>
+      <th class="responsive" width="33%">Authors</th>
+      <th class="responsive" width="33%">Platform(s)</th>
     </tr>
   </thead>
   <tbody class="responsive">
