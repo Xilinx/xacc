@@ -462,8 +462,8 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
+            footer {
+                display: none;
             }
         }
         
@@ -512,8 +512,8 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
+            footer {
+                display: none;
             }
         }
         
@@ -522,14 +522,8 @@
             header ul li.download {
                 display: none
             }
-            footer {
-                margin: 0 0 0 20px
-            }
             .nav {
                 width: 480px;
-            }
-            footer a {
-                display: block
             }
             .buttons-github {
                 text-align: center
@@ -551,8 +545,8 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 100px
+            footer {
+                display: none;
             }
         }
         
@@ -579,8 +573,8 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 150px
+            footer {
+                display: none;
             }
         }
         
@@ -712,8 +706,8 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
+            footer {
+                display: none;
             }
         }
         
@@ -794,8 +788,8 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
+            footer {
+                display: none;
             }
         }
         
@@ -862,9 +856,6 @@
                 text-decoration: solid;
                 padding-left: 15px
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
-            }
             .you-container1 {
                 position: relative;
                 padding-bottom: 0px;
@@ -878,6 +869,9 @@
                 height: 250px;
                 overflow: hidden;
                 padding-top: 50px;
+            }
+            footer {
+                display: none;
             }
         }
         
