@@ -100,6 +100,13 @@
             -webkit-font-smoothing: antialiased
         }
         
+        .section1 {
+            width: 1000px;
+            float: right;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+        
         @media print,
         screen and (min-width: 969px) {
             nav {
@@ -177,6 +184,12 @@
             .icon,
             input {
                 display: none
+            }
+            .section1 {
+                width: 1000px;
+                float: right;
+                padding-bottom: 50px;
+                text-align: center;
             }
         }
         
@@ -398,6 +411,12 @@
             padding: 2px 2px 2px 55px
         }
         
+        section {
+            width: 1000px;
+            float: right;
+            padding-bottom: 50px
+        }
+        
         footer {
             width: 165px;
             float: left;
@@ -434,6 +453,12 @@
                 padding: 20px 50px 20px 50px;
                 margin: 0 0 20px
             }
+            .section1 {
+                width: 1000px;
+                float: right;
+                padding-bottom: 50px;
+                text-align: center;
+            }
             header a small {
                 display: inline
             }
@@ -462,9 +487,6 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
-            }
         }
         
         @media print,
@@ -484,6 +506,12 @@
             section {
                 padding: 10px 20px 10px 20px;
                 margin: 0 0 30px
+            }
+            .section1 {
+                width: 1000px;
+                float: right;
+                padding-bottom: 50px;
+                text-align: center;
             }
             footer {
                 margin: 0 0 0 30px
@@ -511,9 +539,6 @@
                 height: 250px;
                 overflow: hidden;
                 padding-top: 50px;
-            }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
             }
         }
         
@@ -551,8 +576,11 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 100px
+            .section1 {
+                width: 1000px;
+                float: right;
+                padding-bottom: 50px;
+                text-align: center;
             }
         }
         
@@ -579,8 +607,16 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
+<<<<<<< HEAD
             a.github {
                 background: url(../images/mask-small.png) no-repeat 150px
+=======
+            .section1 {
+                width: 1000px;
+                float: right;
+                padding-bottom: 50px;
+                text-align: center;
+>>>>>>> parent of 4394277 (Update jekyll-theme-dinky.scss)
             }
         }
         
@@ -712,8 +748,11 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
+            .section1 {
+                width: 1000px;
+                float: right;
+                padding-bottom: 50px;
+                text-align: center;
             }
         }
         
@@ -794,8 +833,11 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
+            .section1 {
+                width: 1000px;
+                float: right;
+                padding-bottom: 50px;
+                text-align: center;
             }
         }
         
@@ -862,9 +904,6 @@
                 text-decoration: solid;
                 padding-left: 15px
             }
-            a.github {
-                background: url(../images/mask-small.png) no-repeat 1px
-            }
             .you-container1 {
                 position: relative;
                 padding-bottom: 0px;
@@ -878,6 +917,12 @@
                 height: 250px;
                 overflow: hidden;
                 padding-top: 50px;
+            }
+            .section1 {
+                width: 1000px;
+                float: right;
+                padding-bottom: 50px;
+                text-align: center;
             }
         }
         
