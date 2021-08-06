@@ -6,31 +6,12 @@
 
 The XACC Tech Talks are a series of webinars covering a broad range of topics related to Xilinx Adaptive Compute. Each session will be 1 hour, with two 30-minute talks in each session. 
 
+To check out our previous tech-talk recordings go to the <a href="./xacc_tech_talks.html#past-talks">XACC Tech Talk Page - Past Tech Talks</a>
+
 
 
 ## Upcoming Talks
-
 <table class="responsive">
-  <tr>
-    <th style="text-align:center" colspan="2">
-      <font size="+2">
-        <strong>Tech Talk 5: 05 <sup>th</sup> August 2021 17:00-18:00(CET/GMT+2) </strong>
-      </font>
-    </th>
-  </tr>
-  <tr>
-    <td style="" width="800">
-      <strong>ScaleHLS: </strong>Scalable High-Level Synthesis through MLIR (Hanchen Ye, UIUC)
-    </td>
-    <td style="text-align:center; vertical-align:middle" rowspan="2" width="200">
-      <a href="./xacc_tech_talks.html#xacc-tech-talk-5">Details and Registration</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware (Alberto Zeni, Politecnico Di Milano)
-    </td>
-  </tr>
   <tr>
     <th style="text-align:center; vertical-align:middle" colspan="2">
       <font size="+2">
@@ -54,114 +35,6 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
 </table>
 
 
-
-
-
-## Previous Talks (watch the recording)
-
-<table class="responsive" border="0" width="100%" style="border: 0px; background:transparent">
-  <tbody>
-    <tr style="border: 0px;">
-      <th style="text-align:center; border: 0px; background:transparent" colspan="2">
-            <font color="black" size="+2"><u>XACC Tech Talk 1: 10 June 2021</u></font>
-      </th> 
-    </tr>
-    <tr style="border: 0px;">
-      <td width="500" style="border: 0px; background:transparent">
-        <iframe class="responsive" style="text-align:center; border: 0px; background:transparent" width="500" height="auto" src="https://www.youtube.com/embed/un7wck0IkGs?start=88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-        </iframe>
-      </td>
-      <td width="500" style="border: 0px; background:transparent">
-        <iframe class="responsive" style="text-align:center; border: 0px; background:transparent" width="500" height="auto" src="https://www.youtube.com/embed/un7wck0IkGs?start=1743" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-        </iframe>
-      </td>
-    </tr>
-    <tr style="border: 0px">        
-      <td width="500" style="text-align:center; border: 0px; background:transparent">
-        <strong>VNx and EasyNet:</strong> (Dr. Mario Ruiz, Xilinx; Zhenhao He, ETH Zurich)
-      </td>
-      <td width="500" style="text-align:center; border: 0px; background:transparent">
-        <strong>Elastic-DF:</strong> Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning, (Dr. Lucian Petrica, Xilinx)
-      </td>        
-    </tr>
-    <tr style="border: 0px">
-        <th style="text-align:center; border: 0px; background:transparent" colspan="2">
-        <font color="black" size="+2"><u>XACC Tech Talk 2: 24 June 2021</u>
-        </font>
-      </th>
-    </tr>
-    <tr style="border: 0px">
-      <td width="500" style="border: 0px; background:transparent">
-        <iframe class="responsive" style="text-align:center; border: 0px; background:transparent" width="500" height="auto" src="https://www.youtube.com/embed/P93WlrBVxoM?start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-        </iframe>
-      </td>
-      <td width="500" style="border: 0px; background:transparent">
-        <iframe class="responsive" style="text-align:center; border: 0px; background:transparent" width="500" height="auto" src="https://www.youtube.com/embed/P93WlrBVxoM?start=1851" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-        </iframe>
-      </td>
-    </tr>
-    <tr style="border: 0px">
-      <td width="500" style="text-align:center; border: 0px; background:transparent">
-        <strong>Coyote:</strong> Do OS abstractions make sense in FPGAs? (Dario Korolija ETH)
-      </td>
-      <td width="500" style="text-align:center; border: 0px; background:transparent">
-        <strong>Data Centric FPGA programming:</strong> Data Centric FPGA programming with Multi-Level design; (Johannes de Fine Licht, ETH Zurich)
-      </td>
-    </tr>
-    <tr style="border: 0px">
-      <th style="text-align:center; border: 0px; background:transparent" colspan="2">
-        <font color="black" size="+2"><u>XACC Tech Talk 3: 8 July 2021</u></font>
-        </th>
-    </tr>
-    <tr style="border: 0px">
-      <td width="500" style="border: 0px; background:transparent">
-        <iframe class="responsive" style="text-align:center; border: 0px; background:transparent" width="500" height="auto" src="https://www.youtube.com/embed/D8ZunBYc5xI?start=75" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-        </iframe>
-      </td>
-      <td width="500" style="border: 0px; background:transparent">
-        <iframe class="responsive" style="text-align:center; border: 0px; background:transparent" width="500" height="auto" src="https://www.youtube.com/embed/D8ZunBYc5xI?start=1792" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-        </iframe>
-      </td>
-    </tr>
-    <tr style="border: 0px">
-      <td width="500" style="text-align:center; border: 0px; background:transparent">
-        <strong>Blockchain Machine: </strong>Accelerating Validation Bottlenecks in Hyperledger Fabric; Dr. Haris Javaid, Xilinx
-      </td>
-      <td width="500" style="text-align:center; border: 0px; background:transparent">
-        <strong>ThunderGP: </strong>HLS-based Graph Processing on FPGAs ; Xinyu Chen, National  University of Singapore
-      </td>
-    </tr>
-    <tr style="border: 0px">
-      <th style="text-align:center; border: 0px; background:transparent" colspan="2">
-        <font color="black" size="+2"><u>Tech Talk 4: 22 July 2021</u>
-        </font>
-      </th>
-    </tr>
-    <tr style="border: 0px">
-      <td width="500" style="border: 0px; background:transparent">
-        <iframe class="responsive" width="500" height="auto" src="https://www.youtube.com/embed/q4BcSNVNR2A?start=84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-        </iframe>
-      </td>
-      <td width="500" style="border: 0px; background:transparent">
-        <iframe class="responsive" width="500" height="auto" src="https://www.youtube.com/embed/q4BcSNVNR2A?start=1642" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-        </iframe>
-      </td>
-    </tr>
-    <tr style="border: 0px">
-      <td width="500" style="text-align:center; border: 0px; background:transparent">
-        <strong>ThundeRiNG: </strong> Generating Multiple Independent Random Number Sequences on FPGAs; Hongshi Tan, National  University of Singapore
-      </td>
-      <td width="500" style="text-align:center; border: 0px; background:transparent">
-        <strong>Fletcher:</strong> A framework for high-performance big data analytics using FPGAs;  Joost Hoozemans, TU Delft
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-
 ## Past Events
 
 <table class="responsive">
@@ -182,8 +55,6 @@ The XACC Tech Talks are a series of webinars covering a broad range of topics re
     </td>
   </tr>
 </table>
-
-
 
 
 
