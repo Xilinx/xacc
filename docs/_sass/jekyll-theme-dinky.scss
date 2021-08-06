@@ -443,9 +443,8 @@ screen and (max-width: 968px) {
         width: auto
     }
     footer {
-        border-top: 1px solid #ccc;
+        display: none;
         margin: 0 84px 0 50px;
-        padding: 0
     }
     header {
         padding-right: 320px
@@ -488,6 +487,10 @@ screen and (max-width: 968px) {
         overflow: hidden;
         padding-top: 50px;
     }
+    .sometext,
+    .buttons-github {
+        display: none;
+    }
 }
 
 @media print,
@@ -515,7 +518,8 @@ screen and (max-width: 720px) {
         text-align: center;
     }
     footer {
-        margin: 0 0 0 30px
+        margin: 0 0 0 30px;
+        display: none;
     }
     header ul,
     header p.view {
@@ -541,6 +545,10 @@ screen and (max-width: 720px) {
         overflow: hidden;
         padding-top: 50px;
     }
+    .sometext,
+    .buttons-github {
+        display: none;
+    }
 }
 
 @media print,
@@ -549,7 +557,8 @@ screen and (max-width: 480px) {
         display: none
     }
     footer {
-        margin: 0 0 0 20px
+        margin: 0 0 0 20px;
+        display: none;
     }
     .nav {
         width: 480px;
@@ -582,6 +591,10 @@ screen and (max-width: 480px) {
         float: right;
         padding-bottom: 50px;
         text-align: center;
+    }
+    .sometext,
+    .buttons-github {
+        display: none;
     }
 }
 
