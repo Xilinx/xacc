@@ -1,4 +1,4 @@
-        @import "rouge-github";
+            @import "rouge-github";
         @import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic');
         /* MeyerWeb Reset */
         
@@ -184,12 +184,6 @@
             .icon,
             input {
                 display: none
-            }
-            .section1 {
-                width: 1000px;
-                float: right;
-                padding-bottom: 50px;
-                text-align: center;
             }
         }
         
@@ -507,12 +501,6 @@
                 padding: 10px 20px 10px 20px;
                 margin: 0 0 30px
             }
-            .section1 {
-                width: 1000px;
-                float: right;
-                padding-bottom: 50px;
-                text-align: center;
-            }
             footer {
                 margin: 0 0 0 30px
             }
@@ -576,12 +564,6 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-            .section1 {
-                width: 1000px;
-                float: right;
-                padding-bottom: 50px;
-                text-align: center;
-            }
         }
         
         @media print {
@@ -607,328 +589,302 @@
                 overflow: hidden;
                 padding-top: 50px;
             }
-<<<<<<< HEAD
             a.github {
                 background: url(../images/mask-small.png) no-repeat 150px
-=======
-            .section1 {
-                width: 1000px;
-                float: right;
-                padding-bottom: 50px;
-                text-align: center;
->>>>>>> parent of 4394277 (Update jekyll-theme-dinky.scss)
             }
-        }
-        
-        .responsive {
-            max-width: 100%;
-            height: auto
-        }
-        
-        @media print,
-        screen and (max-width: 968px) {
-            .nav * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                font-family: 'Roboto';
-                z-index: 999999
+            .responsive {
+                max-width: 100%;
+                height: auto
             }
-            nav {
-                background: #171717;
-                width: 100%
+            @media print,
+            screen and (max-width: 968px) {
+                .nav * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: 'Roboto';
+                    z-index: 999999
+                }
+                nav {
+                    background: #171717;
+                    width: 100%
+                }
+                nav:after {
+                    content: '';
+                    clear: both;
+                    display: table
+                }
+                nav .logo {
+                    float: left;
+                    color: white;
+                    font-size: 27px;
+                    font-weight: 600;
+                    line-height: 70px;
+                    padding-left: 60px;
+                    padding-top: 20px;
+                    padding-bottom: 10px
+                }
+                nav ul {
+                    padding: 1;
+                    float: right;
+                    list-style: none;
+                    margin-right: 5px;
+                    position: relative;
+                    z-index: 999999
+                }
+                nav ul li {
+                    float: left;
+                    background: inline-block;
+                    background: #171717;
+                    padding-top: 10px;
+                    margin: 0 5px;
+                    z-index: 999999
+                }
+                nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 18px;
+                    padding: 8px 15px
+                }
+                nav ul li a:hover {
+                    color: #e00000;
+                    border-radius: 5px;
+                    box-shadow: 0 0 5px #e00000, 0 0 5px #820000
+                }
+                nav ul ul li a:hover {
+                    color: #e00000;
+                    box-shadow: none
+                }
+                nav ul ul {
+                    position: absolute;
+                    top: 80px;
+                    border-top: 3px solid #e00000;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: top .3s;
+                    z-index: 999999
+                }
+                nav ul ul ul {
+                    border-top: none
+                }
+                nav ul li:hover>ul {
+                    top: 70px;
+                    opacity: 1;
+                    visibility: visible
+                }
+                nav ul ul li {
+                    position: relative;
+                    margin: 0px;
+                    width: 150px;
+                    float: none;
+                    display: list-item;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+                }
+                nav ul ul li a {
+                    line-height: 50px
+                }
+                nav ul ul ul li {
+                    position: relative;
+                    top: -70px;
+                    left: 150px
+                }
+                .show {
+                    color: #e00000;
+                    font-size: 30px;
+                    text-decoration: underline;
+                    text-decoration: solid
+                }
+                span .fa-plus {
+                    margin-left: 40px;
+                    font-size: 15px
+                }
+                .icon {
+                    padding-top: 15px
+                }
+                .icon,
+                input {
+                    display: none
+                }
+                .you-container1 {
+                    position: relative;
+                    padding-bottom: 0px;
+                    height: 250px;
+                    overflow: hidden;
+                    padding-top: 0px;
+                }
+                .you-container2 {
+                    position: relative;
+                    padding-bottom: 0px;
+                    height: 250px;
+                    overflow: hidden;
+                    padding-top: 50px;
+                }
+                .section1 {
+                    width: 1000px;
+                    float: right;
+                    padding-bottom: 50px;
+                    text-align: center;
+                }
             }
-            nav:after {
-                content: '';
-                clear: both;
-                display: table
+            @media all and (max-width: 968px) {
+                nav ul {
+                    margin-right: 5px;
+                    float: left
+                }
+                nav .logo {
+                    padding-left: 30px;
+                    width: 80%;
+                    padding-top: 10px
+                }
+                nav ul li,
+                nav ul ul li {
+                    display: block;
+                    width: 100%
+                }
+                nav ul ul {
+                    top: 70px;
+                    position: static;
+                    border-top: none;
+                    float: none;
+                    display: none;
+                    opacity: 1;
+                    visibility: visible
+                }
+                nav ul ul ul li {
+                    position: static
+                }
+                nav ul ul li {
+                    border-bottom: 0px
+                }
+                nav ul ul a {
+                    padding-left: 80px
+                }
+                nav ul ul ul a {
+                    padding-left: 160px
+                }
+                .icon {
+                    display: block;
+                    color: white;
+                    position: absolute;
+                    right: 40px;
+                    padding-top: 25px;
+                    line-height: 25px;
+                    font-size: 25px;
+                    cursor: pointer
+                }
+                nav ul li a:hover {
+                    box-shadow: none
+                }
+                .show+a,
+                ul {
+                    display: none
+                }
+                [id^=btn]:checked+ul {
+                    display: block
+                }
+                .show {
+                    color: #ff0000;
+                    font-size: 25px;
+                    text-decoration: underline;
+                    text-decoration: solid;
+                    padding-left: 15px
+                }
+                .you-container1 {
+                    position: relative;
+                    padding-bottom: 0px;
+                    height: 250px;
+                    overflow: hidden;
+                    padding-top: 0px;
+                }
+                .you-container2 {
+                    position: relative;
+                    padding-bottom: 0px;
+                    height: 250px;
+                    overflow: hidden;
+                    padding-top: 50px;
+                }
             }
-            nav .logo {
-                float: left;
-                color: white;
-                font-size: 27px;
-                font-weight: 600;
-                line-height: 70px;
-                padding-left: 60px;
-                padding-top: 20px;
-                padding-bottom: 10px
+            @media all and (max-width: 968px) {
+                nav ul {
+                    margin-right: 5px;
+                    float: left
+                }
+                nav .logo {
+                    padding-left: 30px;
+                    width: 80%;
+                    padding-top: 10px
+                }
+                nav ul li,
+                nav ul ul li {
+                    display: block;
+                    width: 100%;
+                }
+                nav ul ul {
+                    top: 70px;
+                    position: static;
+                    border-top: none;
+                    float: none;
+                    display: none;
+                    opacity: 1;
+                    visibility: visible
+                }
+                nav ul ul ul li {
+                    position: static
+                }
+                nav ul ul li {
+                    border-bottom: 0px
+                }
+                nav ul ul a {
+                    padding-left: 80px
+                }
+                nav ul ul ul a {
+                    padding-left: 160px
+                }
+                .icon {
+                    display: block;
+                    color: white;
+                    position: absolute;
+                    right: 40px;
+                    padding-top: 25px;
+                    line-height: 25px;
+                    font-size: 25px;
+                    cursor: pointer
+                }
+                nav ul li a:hover {
+                    box-shadow: none
+                }
+                .show+a,
+                ul {
+                    display: none
+                }
+                [id^=btn]:checked+ul {
+                    display: block
+                }
+                .show {
+                    color: #ff0000;
+                    font-size: 25px;
+                    text-decoration: underline;
+                    text-decoration: solid;
+                    padding-left: 15px
+                }
+                .you-container1 {
+                    position: relative;
+                    padding-bottom: 0px;
+                    height: 250px;
+                    overflow: hidden;
+                    padding-top: 0px
+                }
+                .you-container2 {
+                    position: relative;
+                    padding-bottom: 0px;
+                    height: 250px;
+                    overflow: hidden;
+                    padding-top: 50px;
+                }
             }
-            nav ul {
-                padding: 1;
-                float: right;
-                list-style: none;
-                margin-right: 5px;
-                position: relative;
-                z-index: 999999
-            }
-            nav ul li {
-                float: left;
-                background: inline-block;
-                background: #171717;
-                padding-top: 10px;
-                margin: 0 5px;
-                z-index: 999999
-            }
-            nav ul li a {
-                color: white;
-                text-decoration: none;
-                font-size: 18px;
-                padding: 8px 15px
-            }
-            nav ul li a:hover {
-                color: #e00000;
-                border-radius: 5px;
-                box-shadow: 0 0 5px #e00000, 0 0 5px #820000
-            }
-            nav ul ul li a:hover {
-                color: #e00000;
-                box-shadow: none
-            }
-            nav ul ul {
-                position: absolute;
-                top: 80px;
-                border-top: 3px solid #e00000;
-                opacity: 0;
-                visibility: hidden;
-                transition: top .3s;
-                z-index: 999999
-            }
-            nav ul ul ul {
-                border-top: none
-            }
-            nav ul li:hover>ul {
-                top: 70px;
-                opacity: 1;
-                visibility: visible
-            }
-            nav ul ul li {
-                position: relative;
+            table img {
                 margin: 0px;
-                width: 150px;
-                float: none;
-                display: list-item;
-                border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+                border: 0px;
+                vertical-align: text-bottom;
+                padding: 0px
             }
-            nav ul ul li a {
-                line-height: 50px
-            }
-            nav ul ul ul li {
-                position: relative;
-                top: -70px;
-                left: 150px
-            }
-            .show {
-                color: #e00000;
-                font-size: 30px;
-                text-decoration: underline;
-                text-decoration: solid
-            }
-            span .fa-plus {
-                margin-left: 40px;
-                font-size: 15px
-            }
-            .icon {
-                padding-top: 15px
-            }
-            .icon,
-            input {
-                display: none
-            }
-            .you-container1 {
-                position: relative;
-                padding-bottom: 0px;
-                height: 250px;
-                overflow: hidden;
-                padding-top: 0px;
-            }
-            .you-container2 {
-                position: relative;
-                padding-bottom: 0px;
-                height: 250px;
-                overflow: hidden;
-                padding-top: 50px;
-            }
-            .section1 {
-                width: 1000px;
-                float: right;
-                padding-bottom: 50px;
-                text-align: center;
-            }
-        }
-        
-        @media all and (max-width: 968px) {
-            nav ul {
-                margin-right: 5px;
-                float: left
-            }
-            nav .logo {
-                padding-left: 30px;
-                width: 80%;
-                padding-top: 10px
-            }
-            nav ul li,
-            nav ul ul li {
-                display: block;
-                width: 100%
-            }
-            nav ul ul {
-                top: 70px;
-                position: static;
-                border-top: none;
-                float: none;
-                display: none;
-                opacity: 1;
-                visibility: visible
-            }
-            nav ul ul ul li {
-                position: static
-            }
-            nav ul ul li {
-                border-bottom: 0px
-            }
-            nav ul ul a {
-                padding-left: 80px
-            }
-            nav ul ul ul a {
-                padding-left: 160px
-            }
-            .icon {
-                display: block;
-                color: white;
-                position: absolute;
-                right: 40px;
-                padding-top: 25px;
-                line-height: 25px;
-                font-size: 25px;
-                cursor: pointer
-            }
-            nav ul li a:hover {
-                box-shadow: none
-            }
-            .show+a,
-            ul {
-                display: none
-            }
-            [id^=btn]:checked+ul {
-                display: block
-            }
-            .show {
-                color: #ff0000;
-                font-size: 25px;
-                text-decoration: underline;
-                text-decoration: solid;
-                padding-left: 15px
-            }
-            .you-container1 {
-                position: relative;
-                padding-bottom: 0px;
-                height: 250px;
-                overflow: hidden;
-                padding-top: 0px;
-            }
-            .you-container2 {
-                position: relative;
-                padding-bottom: 0px;
-                height: 250px;
-                overflow: hidden;
-                padding-top: 50px;
-            }
-            .section1 {
-                width: 1000px;
-                float: right;
-                padding-bottom: 50px;
-                text-align: center;
-            }
-        }
-        
-        @media all and (max-width: 968px) {
-            nav ul {
-                margin-right: 5px;
-                float: left
-            }
-            nav .logo {
-                padding-left: 30px;
-                width: 80%;
-                padding-top: 10px
-            }
-            nav ul li,
-            nav ul ul li {
-                display: block;
-                width: 100%;
-            }
-            nav ul ul {
-                top: 70px;
-                position: static;
-                border-top: none;
-                float: none;
-                display: none;
-                opacity: 1;
-                visibility: visible
-            }
-            nav ul ul ul li {
-                position: static
-            }
-            nav ul ul li {
-                border-bottom: 0px
-            }
-            nav ul ul a {
-                padding-left: 80px
-            }
-            nav ul ul ul a {
-                padding-left: 160px
-            }
-            .icon {
-                display: block;
-                color: white;
-                position: absolute;
-                right: 40px;
-                padding-top: 25px;
-                line-height: 25px;
-                font-size: 25px;
-                cursor: pointer
-            }
-            nav ul li a:hover {
-                box-shadow: none
-            }
-            .show+a,
-            ul {
-                display: none
-            }
-            [id^=btn]:checked+ul {
-                display: block
-            }
-            .show {
-                color: #ff0000;
-                font-size: 25px;
-                text-decoration: underline;
-                text-decoration: solid;
-                padding-left: 15px
-            }
-            .you-container1 {
-                position: relative;
-                padding-bottom: 0px;
-                height: 250px;
-                overflow: hidden;
-                padding-top: 0px
-            }
-            .you-container2 {
-                position: relative;
-                padding-bottom: 0px;
-                height: 250px;
-                overflow: hidden;
-                padding-top: 50px;
-            }
-            .section1 {
-                width: 1000px;
-                float: right;
-                padding-bottom: 50px;
-                text-align: center;
-            }
-        }
-        
-        table img {
-            margin: 0px;
-            border: 0px;
-            vertical-align: text-bottom;
-            padding: 0px
-        }
