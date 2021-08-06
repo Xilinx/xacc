@@ -42,8 +42,8 @@ If you would like to contribute to this page by adding a reference to your proje
     </tr>
     <tr class="responsive">
       <td class="responsive"><a href="https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP">EasyNet</a></td>
-      <td>Zhenhao He <em>et al.</em>, ETH Zurich</td>
-      <td>Alveo U280</td>
+      <td class="responsive">Zhenhao He <em>et al.</em>, ETH Zurich</td>
+      <td class="responsive">Alveo U280</td>
     </tr>
     <tr class="responsive">
       <td class="responsive"><a href="https://github.com/fpgasystems/erbium">ERBium</a></td>
@@ -53,7 +53,7 @@ If you would like to contribute to this page by adding a reference to your proje
     <tr class="responsive">
       <td class="responsive"><a href="https://github.com/Xilinx/finn-examples">FINN Dataflow DNN Accelerator Compiler</a></td>
       <td class="responsive">Xilinx Research</td>
-      <td> class="responsive"Alveo U250/U280</td>
+      <td class="responsive">Alveo U250/U280</td>
     </tr>
     <tr class="responsive">
       <td class="responsive"><a href="https://github.com/spcl/gemm_hls">Flexible Communication Avoiding Matrix Multiplication on FPGA with HLS</a></td>
