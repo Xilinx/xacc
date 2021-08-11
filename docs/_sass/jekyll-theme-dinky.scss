@@ -91,6 +91,10 @@ video {
     vertical-align: baseline
 }
 
+.logo {
+    font-size: 28px
+}
+
 body {
     padding: 0px 0 20px 0px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -108,8 +112,16 @@ body {
     text-align: center;
 }
 
+.wrapper ul {
+    padding-left: 40px;
+}
+
+p-list {
+    display: block;
+}
+
 @media print,
-screen and (min-width: 969px) {
+screen and (min-width: 1201px) {
     nav {
         background-color: #171717;
         color: #FDFDFB;
@@ -336,7 +348,9 @@ p img,
     padding: 0;
     vertical-align: middle;
     text-align: center;
-    border: none
+    border: none;
+    max-width: 100%;
+    height: auto
 }
 
 code,
@@ -427,7 +441,7 @@ footer {
 }
 
 @media print,
-screen and (max-width: 968px) {
+screen and (max-width: 1200px) {
     div.wrapper {
         width: auto;
         margin: 0
@@ -458,6 +472,9 @@ screen and (max-width: 968px) {
         float: right;
         padding-bottom: 50px;
         text-align: center;
+    }
+    .faqs {
+        display: block;
     }
     header a small {
         display: inline
@@ -517,6 +534,9 @@ screen and (max-width: 720px) {
         padding-bottom: 50px;
         text-align: center;
     }
+    .faqs {
+        display: block;
+    }
     footer {
         margin: 0 0 0 30px;
         display: none;
@@ -571,6 +591,9 @@ screen and (max-width: 480px) {
     }
     .menu-text {
         color: red;
+    }
+    .faqs {
+        display: block;
     }
     .you-container1 {
         position: relative;
@@ -627,6 +650,9 @@ screen and (max-width: 480px) {
         padding-bottom: 50px;
         text-align: center;
     }
+    .faqs {
+        display: block;
+    }
 }
 
 .responsive {
@@ -635,7 +661,7 @@ screen and (max-width: 480px) {
 }
 
 @media print,
-screen and (max-width: 968px) {
+screen and (max-width: 1200px) {
     .nav * {
         margin: 0;
         padding: 0;
@@ -655,7 +681,7 @@ screen and (max-width: 968px) {
     nav .logo {
         float: left;
         color: white;
-        font-size: 27px;
+        font-size: 28px;
         font-weight: 600;
         line-height: 70px;
         padding-left: 60px;
@@ -765,7 +791,7 @@ screen and (max-width: 968px) {
     }
 }
 
-@media all and (max-width: 968px) {
+@media all and (max-width: 1200px) {
     nav ul {
         margin-right: 5px;
         float: left
@@ -806,7 +832,7 @@ screen and (max-width: 968px) {
         color: white;
         position: absolute;
         right: 40px;
-        padding-top: 25px;
+        padding-top: 35px;
         line-height: 25px;
         font-size: 25px;
         cursor: pointer
@@ -815,7 +841,7 @@ screen and (max-width: 968px) {
         box-shadow: none
     }
     .show+a,
-    ul {
+    .navbar-ul {
         display: none
     }
     [id^=btn]:checked+ul {
@@ -850,7 +876,7 @@ screen and (max-width: 968px) {
     }
 }
 
-@media all and (max-width: 968px) {
+@media all and (max-width: 1200px) {
     nav ul {
         margin-right: 5px;
         float: left
@@ -891,7 +917,7 @@ screen and (max-width: 968px) {
         color: white;
         position: absolute;
         right: 40px;
-        padding-top: 25px;
+        padding-top: 35px;
         line-height: 25px;
         font-size: 25px;
         cursor: pointer
@@ -900,7 +926,7 @@ screen and (max-width: 968px) {
         box-shadow: none
     }
     .show+a,
-    ul {
+    .navbar-ul {
         display: none
     }
     [id^=btn]:checked+ul {
