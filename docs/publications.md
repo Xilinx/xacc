@@ -32,6 +32,14 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Integration of an open-source 100 Gbps TCP/IP stack into Vitis without degrading its performance. A set of MPI-like communication primitives are provided to abstract away low level details of the networking stack.</td>
     </tr>
     <tr>
+        <td>FleetRec: Large-Scale Recommendation Inference on Hybrid GPU-FPGA Clusters</td>
+        <td>Wenqi Jiang<em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/485153">Paper</a>
+            <a href="https://github.com/fpgasystems/GPU-FPGA-Recommendation-System">Github</a></td>
+        <td>A high-performance and scalable recommendation inference system within tight latency constraints. FleetRec takes adventage of both GPUs and FPGAs by disaggregating computation and memory to different types of accelerators and bridging their connections by high-speed network, FleetRec gains the best of both worlds, and can naturally scale out by adding nodes to the cluster</td>
+    </tr>
+    <tr>
         <td>MicroRec: Efficient Recommendation Inference by Hardware and Data Structure Solutions</td>
         <td>Wenqi Jiang <em>et al.</em></td>
         <td>ETH Zurich</td>
