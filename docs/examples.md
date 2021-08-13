@@ -55,6 +55,11 @@ If you would like to contribute to this page by adding a reference to your proje
       <td>Alveo U250 / U280</td>
     </tr>
     <tr>
+      <td>Fletcher on Alveo example: <a href="https://github.com/abs-tudelft/wiki-search-alveo">Wikipedia search </a></td>
+      <td>Matthijs Brobbel, Jeroen van Straten, Joost Hoozemans, Delft University of Technology</td>
+      <td>Alveo U200 / U250</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/spcl/gemm_hls">Flexible Communication Avoiding Matrix Multiplication on FPGA with HLS</a></td>
       <td>Johannes de Fine Licht, Torsten Hoefler, ETH Zurich</td>
       <td>Alveo U250</td>
@@ -118,11 +123,6 @@ If you would like to contribute to this page by adding a reference to your proje
       <td><a href="https://github.com/Xilinx/xup_vitis_network_example">Vitis Network Examples</a></td>
       <td>Mario Ruiz, XUP</td>
       <td>Alveo U50 / U250 / U280</td>
-    </tr>
-    <tr>
-      <td>Fletcher on Alveo example: <a href="https://github.com/abs-tudelft/wiki-search-alveo">Wikipedia search </a></td>
-      <td>Matthijs Brobbel, Jeroen van Straten, Joost Hoozemans, Delft University of Technology</td>
-      <td>Alveo U200 / U250</td>
     </tr>
   </tbody>
 </table>
