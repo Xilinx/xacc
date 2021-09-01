@@ -37,7 +37,7 @@ Experimental results based on a wide range of real-world task-parallel programs 
 
 05<sup>th</sup>  August 2021
 
-### **Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware**
+#### **Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware**
 
 <section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/9pq2GxBC32Q?start=66" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 	</iframe></section>
