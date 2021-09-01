@@ -4,14 +4,14 @@ The talks will be hosted as Zoom webinars and are free to attend. The format for
 
 If you would like to present your work at an XACC Tech Talk, please contact [xup@xilinx.com](xup@xilinx.com) with an outline of your proposal. 
 
-# Upcoming Talks
+# Past talks
 
 ## XACC Tech Talk 6
 
-19<sup>th</sup>  August 2021, 16:00-17:00 (CET/GMT+2)
+19<sup>th</sup>  August 2021
 
-[![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_PQxFA2rFRRmuzXU7bJrA0Q))   Register for the [XACC Tech Talk 6 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_7MYHptpNRAyeACj03fZzvA)
-
+<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/lkxw6OUMtNU" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+	</iframe></section>
 ### **TAPA: Efficient Support for Task-Parallel High-Level Synthesis**
 
 Yuze Chi, Computer Science Department, UCLA
@@ -27,7 +27,6 @@ Zsolt István, Assoc. Prof, IT University of Copenhagen
 In this talk, we will present Multes, an FPGA-based Key-Value Store (KVS) with user-defined query offloading (the “smarts”) and explain how it has been ported to the Alveo cards in XACC using the Vitis Shell with 100Gbps networking. We will also present an example of offloading to the KVS, namely, a privacy-preserving perturbation for ML training.
 
 
-# Past talks
 
 ## XACC Tech Talk 5
 
@@ -50,6 +49,8 @@ High-level Synthesis (HLS) has been widely adopted as it significantly improves 
 Alberto Zeni, Politecnico Di Milano
 
 The HPCG benchmark represents a modern complement to the HPL benchmark in the performance evaluation of HPC systems, as it has been recognized as a more representative benchmark to reflect real-world applications and, consequently, its popularity and acceptance continue to rise within the HPC community. This talk will present the first FPGA-based implementation of the HPCG benchmark, which takes full advantage of reconfigurable architectures. Our implementation shows performance up to 108.4 and 346.5 GFlops on 1 and 4 Xilinx Alveo U280 cards on the XACC cluster, demonstrating significant performance improvements against the CPU implementation and comparable performance with GPU implementations with better power efficiency. 
+
+
 
 
 ## XACC Tech Talk 4
@@ -79,6 +80,8 @@ Hongshi Tan, Master student, National  University of Singapore
 
 *ThundeRiNG* is a high-throughput system for generating multiple independent sequences of random numbers on FPGAs. The experimental results show that ThundeRiNG passes the strictest randomness tests, BigCrush, achieving a throughput of 20.95 Tb/s. 
 Compared to a state-of-the-art GPU library, ThundeRiNG demonstrates a 10x speedup in throughput and 9x performance and 26x power efficiency improvement on two applications (pi estimation and Monte Carlo option pricing).
+
+
 
 
 ## XACC Tech Talk 3
@@ -111,6 +114,8 @@ Xinyu Chen, Doctoral Student, National University of Singapore
 ThunderGP: [https://github.com/Xtra-Computing/ThunderGP](https://github.com/Xtra-Computing/ThunderGP)
 
 
+
+
 ## XACC Tech Talk 2
 
 24<sup>th</sup> June 2021
@@ -140,6 +145,8 @@ Dr. Lucian Petrica, Xilinx Research Labs
 Customized compute acceleration in the datacenter is key to the wider roll-out of applications based on deep neural network (DNN) inference.
 
 In this presentation we discuss how to maximize the performance and scalability of FPGA-based pipeline dataflow DNN inference accelerators (DFAs) automatically on computing infrastructures consisting of multi-die, network-connected FPGAs. We present *Elastic-DF*, a novel resource partitioning tool which integrates with the [DNN compiler FINN](https://github.com/Xilinx/finn) and utilizes 100Gbps Ethernet FPGA infrastructure, to achieve low-latency model-parallel inference without host involvement. Elastic-DF was applied to popular image classifiers ResNet50 and MobileNetV1 at XACC and provides significant throughput increase with no adverse impact on latency.
+
+
 
 
 ## XACC Tech Talk 1
