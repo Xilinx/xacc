@@ -10,8 +10,9 @@ If you would like to present your work at an XACC Tech Talk, please contact [xup
 
 19<sup>th</sup>  August 2021
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/lkxw6OUMtNU" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/lkxw6OUMtNU?start=1667" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 	</iframe></section>
+
 ### **TAPA: Efficient Support for Task-Parallel High-Level Synthesis**
 
 Yuze Chi, Computer Science Department, UCLA
@@ -19,6 +20,9 @@ Yuze Chi, Computer Science Department, UCLA
 This talk will present TAPA, a fully automated framework for task-parallel HLS programs with programmer-friendly interfaces, unconstrained software simulation, and fast hierarchical code generation. 
 
 Experimental results based on a wide range of real-world task-parallel programs show that the lines of kernel and host code, the correctness verification cycle, and the iterative QoR tuning cycle are all greatly shortened, which considerably improves the programmability.
+
+<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/lkxw6OUMtNU?" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+	</iframe></section>
 
 ### **Multes** **on Alveo: An FPGA-based Smart Key-Value Store Running on XACC**
 
