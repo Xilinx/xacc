@@ -10,7 +10,7 @@ If you would like to present your work at an XACC Tech Talk, please contact [xup
 
 19<sup>th</sup>  August 2021
 
-### **Multes** **on Alveo: An FPGA-based Smart Key-Value Store Running on XACC**
+### **Multes on Alveo: An FPGA-based Smart Key-Value Store Running on XACC**
 
 <section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/lkxw6OUMtNU?" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 	</iframe></section>
@@ -37,7 +37,7 @@ Experimental results based on a wide range of real-world task-parallel programs 
 
 05<sup>th</sup>  August 2021
 
-#### **Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware**
+### **Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware**
 
 <section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/9pq2GxBC32Q?start=66" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 	</iframe></section>
@@ -47,7 +47,7 @@ The HPCG benchmark represents a modern complement to the HPL benchmark in the pe
 
 
 
-### ScaleHLS: Scalable High-Level Synthesis through MLIR
+### **ScaleHLS: Scalable High-Level Synthesis through MLIR**
 
 <section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/9pq2GxBC32Q?start=2117" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
@@ -62,7 +62,7 @@ High-level Synthesis (HLS) has been widely adopted as it significantly improves 
 
 22<sup>nd</sup>  July 2021
 
-### ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs
+### **ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs**
 
 <section style="text-align:center"><iframe class="you-container1" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/q4BcSNVNR2A?start=84" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
@@ -73,7 +73,7 @@ Compared to a state-of-the-art GPU library, ThundeRiNG demonstrates a 10x speedu
 
 
 
-### Fletcher: A framework for high-performance big data analytics using FPGAs
+### **Fletcher: A framework for high-performance big data analytics using FPGAs**
 
 
 <section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/q4BcSNVNR2A?start=1642" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
@@ -93,7 +93,7 @@ We demonstrate the integration of FPGA implementations of various analytics oper
 
 8<sup>th</sup>  July, 2021
 
-### Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric
+### **Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric**
 
 <section style="text-align:center"><iframe class="you-container1" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/D8ZunBYc5xI?start=75" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
@@ -105,7 +105,7 @@ Blockchain: [https://github.com/Xilinx/hyperledger-fabric](https://github.com/Xi
 
 
 
-### ThunderGP: HLS-based Graph Processing on FPGAs
+### **ThunderGP: HLS-based Graph Processing on FPGAs**
 
 
 <section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/D8ZunBYc5xI?start=1792" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
@@ -123,7 +123,7 @@ ThunderGP: [https://github.com/Xtra-Computing/ThunderGP](https://github.com/Xtra
 
 24<sup>th</sup> June 2021
 
-### VNx and EasyNet
+### **VNx and EasyNet**
 
 <section style="text-align:center"><iframe class="you-container1" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/P93WlrBVxoM?start=120" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
@@ -138,7 +138,7 @@ EasyNet: [https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP](https://gith
 
 
 
-### Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning
+### **Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning**
 
 
 <section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/P93WlrBVxoM?start=1851" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
@@ -156,7 +156,7 @@ In this presentation we discuss how to maximize the performance and scalability 
 
 10<sup>th</sup> June 2021
 
-### Coyote: Do OS abstractions make sense in FPGAs?
+### **Coyote: Do OS abstractions make sense in FPGAs?**
 
 <section style="text-align:center"><iframe class="you-container1" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/un7wck0IkGs?start=88" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
@@ -170,7 +170,7 @@ Coyote: [https://github.com/fpgasystems/Coyote](https://github.com/fpgasystems/C
 
 
 
-### Data-Centric FPGA Programming with Multi-Level Design
+### **Data-Centric FPGA Programming with Multi-Level Design**
 
 
 <section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/un7wck0IkGs?start=1743" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
