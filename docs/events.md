@@ -10,31 +10,6 @@ To check out our previous tech-talk recordings go to the <a href="./xacc_tech_ta
 
 
 
-## Upcoming Talks
-<table class="responsive">
-  <tr>
-    <th style="text-align:center; vertical-align:middle" colspan="2">
-      <font size="+2">
-        <strong>Tech Talk 6: 19 <sup>th</sup> August 2021 16:00-17:00(CET/GMT+2) </strong>
-      </font>
-    </th>
-  </tr>
-  <tr>
-    <td style>
-      <strong>TAPA:</strong> Efficient Support for Task-Parallel High-Level Synthesis (Yuze Chi, Computer Science Department, UCLA)
-    </td>
-    <td style="text-align:center; vertical-align:middle" rowspan="2" width="200">
-      <a href="./xacc_tech_talks.html#xacc-tech-talk-6">Details and Registration</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Multes on Alveo:</strong> An FPGA-based Smart Key-Value Store Running on XACC (Zsolt István, Assoc. Prof, IT University of Copenhagen)
-    </td>
-  </tr>
-</table>
-
-
 ## Past Events
 
 <table class="responsive">
