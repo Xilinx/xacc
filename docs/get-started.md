@@ -25,7 +25,7 @@ You can apply to the XACC program, and once approved, you can then get access to
 
 ## Members site
 
-The XACC program currently has over 60 members from more than 20 institutions around the world.
+The XACC program currently has over 150 members from more than 50 institutions around the world.
 
 Approved members will get access to the [XACC members site](https://www.xilinx.com/member/xup_research_clusters.html) which contains instructions for getting started and reserving machines in the different XACCs.
 

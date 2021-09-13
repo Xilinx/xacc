@@ -46,6 +46,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/470540">Paper</a></td>
         <td>High-performance inference engine for recommendation systems. MicroRec accelerates recommendation inference by (1) redesigning the data structures to reduce the number of lookups and (2) taking advantage of HBM in FPGA accelerators to tackle the latency by enabling parallel lookups.</td>
     </tr>
+    <tr>
+        <td>Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware</td>
+        <td>Alberto Zeni<em>et al.</em></td>
+        <td>Xilinx Inc.</td>
+        <td><a href="https://link.springer.com/chapter/10.1007/978-3-030-85665-6_38">Paper</a></td>
+        <td>The HPCG benchmark represents a modern complement to the HPL benchmark in the performance evaluation of HPC systems. This paper presents the details of the first FPGA-based implementation of HPCG that takes advantage customized compute architectures. The results show that the high-performance multi-FPGA implementation, using 1 and 4 Xilinx Alveo U280 achieves up to 108.3 GFlops and 346.5 GFlops respectively. Comparable performance with respect to modern GPUs are also demonstrated.</td>
+    </tr>
 </table>
 
 
