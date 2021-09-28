@@ -33,7 +33,7 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
     <tr>
         <td>FleetRec: Large-Scale Recommendation Inference on Hybrid GPU-FPGA Clusters</td>
-        <td>Wenqi Jiang<em>et al.</em></td>
+        <td>Wenqi Jiang <em>et al.</em></td>
         <td>ETH Zurich</td>
         <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/485153">Paper</a>
             <a href="https://github.com/fpgasystems/GPU-FPGA-Recommendation-System">Github</a></td>
@@ -48,7 +48,7 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
     <tr>
         <td>Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware</td>
-        <td>Alberto Zeni<em>et al.</em></td>
+        <td>Alberto Zeni <em>et al.</em></td>
         <td>Xilinx Inc.</td>
         <td><a href="https://link.springer.com/chapter/10.1007/978-3-030-85665-6_38">Paper</a></td>
         <td>The HPCG benchmark represents a modern complement to the HPL benchmark in the performance evaluation of HPC systems. This paper presents the details of the first FPGA-based implementation of HPCG that takes advantage customized compute architectures. The results show that the high-performance multi-FPGA implementation, using 1 and 4 Xilinx Alveo U280 achieves up to 108.3 GFlops and 346.5 GFlops respectively. Comparable performance with respect to modern GPUs are also demonstrated.</td>
