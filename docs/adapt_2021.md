@@ -4,3 +4,5 @@ In this track, each of the centers' principal investigators will provide an over
 - Part 1: a) Brief overview of XACC program b) Prof. Gustavo Alonso, head of the Institute for Computing Platforms, Systems Group, Department of Computer Science, ETH Zurich. c) Prof. Jason Cong, Volgenau Chair for Engineering Excellence and Director for the Center for Customizable Domain-Specific Computing, Computer Science Department, UCLA.  
 - Part 2: a) Associate Professor Bingsheng He, Vice Dean, Research, Department of Computer Science, NUS School of Computing.  b) Prof. Deming Chen, Abel Bliss Professor of Engineering, Chief Scientist, C3SR Center, ECE Department, UIUC.  
 - Part 3: Live discussion with technical leads from each of the XACCs.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ousTRtD4m2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
