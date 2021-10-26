@@ -14,6 +14,14 @@ To check out our previous tech-talk recordings go to the <a href="./xacc_tech_ta
 
 <table class="responsive">
   <tr>
+    <td>
+      <strong> Xilinx Adaptive Compute Clusters (XACC) </strong> Academia-Industry Research Ecosystem in September 7th 2021
+    </td>
+    <td>
+      <a href="adapt_2021.html">More Information</a>
+    </td>
+  </tr>
+  <tr>
     <td width="800">
       <strong>ETH Zurich XACC school: </strong>Xilinx University Program XACC School in January 2021
     </td>
