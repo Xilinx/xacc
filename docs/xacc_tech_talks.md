@@ -4,6 +4,25 @@ The talks will be hosted as Zoom webinars and are free to attend. The format for
 
 If you would like to present your work at an XACC Tech Talk, please contact [xup@xilinx.com](xup@xilinx.com) with an outline of your proposal. 
 
+# Upcoming talks
+
+## XACC Tech Talk 7 - 16 December 2021
+
+<img src="images/zoom_30.png">  Register Now:<a href="https://xilinx.zoom.us/webinar/register/WN_LXkZkTiIRwWDsn1np1bUXQ"> Click here!</a>
+
+### **Lucent: A language for developing application specific dataflow machines on FPGAs**
+Dr Nick Brown, EPCC, University of Edinburgh
+
+Writing fast, high performance FPGA codes is difficult, even with HLS. However potentially we can learn from work done in the 1970s/1980s which studied programming general purpose dataflow machines, as the reconfigurability of FPGAs enable us to present the abstraction of dataflow machines which are specific to an application. In this talk I will describe Lucent, a modern version of the Lucid dataflow language, which targets Xilinx Alveo hardware and aims to empower the development of fast by construction dataflow codes on FPGAs.
+
+### **Easy deployment, scaling and resource management of Alveo FPGA​**
+Dr Chris Kachis, InAccel
+
+In this talk we will present an easy way to deploy, scale and manage FPGA application on Alveo clusters such as XACC. InAccel will present the Coral resource manager that abstract away the FPGA resources for easy utilization and instant scaling of FPGA designs. It will also show how we managed to support multi-FPGA accelerators (such as FINN) using a custom InAccel runtime for synchronization between accelerators. Finally, we will show how Coral resource manager can be used for easier deployment of the Vitis AI and Vitis libraries. 
+
+
+
+
 # Past talks
 
 ## XACC Tech Talk 6
