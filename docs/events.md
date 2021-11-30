@@ -14,10 +14,12 @@ To check out our previous tech-talk recordings go to the <a href="./xacc_tech_ta
 <table class="responsive">
   <tr>
     <td>
-      <strong> XACC Tech Talk </strong> 16 December 2021
+      <strong> XACC Tech Talk: 16 December 2021 16:00-17:00(CET/GMT+1) </strong> 
+      <br>Lucent: A language for developing application specific dataflow machines on FPGAs. 
+      <br>Easy deployment, scaling and resource management of Alveo FPGA.
     </td>
     <td>
-      <a href="./xacc_tech_talks.html##XACC-Tech-Talk-7">More Information</a>
+      <a href="./xacc_tech_talks.html##XACC-Tech-Talk-7">Details and Registration</a>
     </td>
   </tr>
 </table>
