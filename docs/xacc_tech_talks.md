@@ -6,9 +6,10 @@ If you would like to present your work at an XACC Tech Talk, please contact [xup
 
 # Upcoming talks
 
-## XACC Tech Talk 7 - 16 December 2021
+## XACC Tech Talk 7
+16:00-17:00 (CET/GMT+1) 16 December 2021
 
-<img src="images/zoom_30.png">  Register Now:<a href="https://xilinx.zoom.us/webinar/register/WN_LXkZkTiIRwWDsn1np1bUXQ"> Click here!</a>
+[![](./images/zoom_30.png)]((https://xilinx.zoom.us/webinar/register/WN_LXkZkTiIRwWDsn1np1bUXQ))   Register for the [XACC Tech Talk 7 Zoom webinar](https://xilinx.zoom.us/webinar/register/WN_LXkZkTiIRwWDsn1np1bUXQ)
 
 ### **Lucent: A language for developing application specific dataflow machines on FPGAs**
 Dr Nick Brown, EPCC, University of Edinburgh
