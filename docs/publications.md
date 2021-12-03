@@ -56,8 +56,9 @@ If you would like to contribute to this page by adding a reference to your publi
     <tr>
         <td>SKT: A One-Pass Multi-Sketch Data Analytics Accelerator</td>
         <td>Monica Chiosa <em>et al.</em></td>
-        <td>ETH Zurich</td>
-        <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/505690">Paper</a></td>
+        <td>ETH Zurich/Accemic Technologies</td>
+        <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/505690">Paper</a>
+            <a href="https://github.com/fpgasystems/SKT">Github</a></td>
         <td>SKT is an FPGA-based accelerator that can compute several sketches along with basic statistics (av- erage, max, min, etc.) in a single pass over the data streams. SKT has been designed to characterize a data set by calculating its cardinality, its second frequency moment, and its frequency distribution. The design processes data streams coming either from PCIe or TCP/IP, and it is built to fit emerging cloud service architectures </td>
     </tr>
 </table>
