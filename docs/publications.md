@@ -17,6 +17,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
+        <td>ACCL: FPGA-Accelerated Collectives over 100 Gbps TCP-IP</td>
+        <td>Zhenhao He <em>et al.</em></td>
+        <td>Xilinx Research Labs</td>
+        <td><a href="https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/510849/H2RC21_Xilinx_submitted_version.pdf">Paper</a> <a href="https://github.com/Xilinx/ACCL">Github</a></td>
+        <td>ACCL is a Vitis kernel and associated Pynq and XRT drivers which together provide MPI-like collectives for Xilinx FPGAs. ACCL is designed to enable compute kernels resident in FPGA fabric to communicate directly under host supervision but without requiring data movement between the FPGA and host. Instead, ACCL uses Vitis-compatible TCP and UDP stacks to connect FPGAs directly over Ethernet at up to 100 Gbps on Alveo cards.</td>
+    </tr>
+    <tr>
         <td>Distributed Recommendation Inference on FPGA Clusters</td>
         <td>Yu Zhu <em>et al.</em></td>
         <td>ETH Zurich</td>
