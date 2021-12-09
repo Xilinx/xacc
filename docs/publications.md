@@ -39,6 +39,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Integration of an open-source 100 Gbps TCP/IP stack into Vitis without degrading its performance. A set of MPI-like communication primitives are provided to abstract away low level details of the networking stack.</td>
     </tr>
     <tr>
+        <td>Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning</td>
+        <td> Tobias Alonso<em>et al.</em></td>
+        <td>Xilinx Research Labs</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3470567"></td>
+        <td>Elastic-DF allocates FPGA resources to DNN layers and layers to individual FPGA dies to maximize the total performance of the multi-FPGA system. In the resulting Elastic-DF mapping, the accelerator may be instantiated multiple times, and each instance may be segmented across multiple FPGAs transparently, whereby the segments communicate peer-to-peer through 100 Gbps Ethernet FPGA infrastructure, without host involvement.</td>
+    </tr>
+    <tr>
         <td>FleetRec: Large-Scale Recommendation Inference on Hybrid GPU-FPGA Clusters</td>
         <td>Wenqi Jiang <em>et al.</em></td>
         <td>ETH Zurich</td>
