@@ -40,9 +40,9 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
     <tr>
         <td>Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning</td>
-        <td> Tobias Alonso<em>et al.</em></td>
+        <td> Tobias Alonso <em>et al.</em></td>
         <td>Xilinx Research Labs</td>
-        <td><a href="https://dl.acm.org/doi/10.1145/3470567"></td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3470567">Paper</a></td>
         <td>Elastic-DF allocates FPGA resources to DNN layers and layers to individual FPGA dies to maximize the total performance of the multi-FPGA system. In the resulting Elastic-DF mapping, the accelerator may be instantiated multiple times, and each instance may be segmented across multiple FPGAs transparently, whereby the segments communicate peer-to-peer through 100 Gbps Ethernet FPGA infrastructure, without host involvement.</td>
     </tr>
     <tr>
