@@ -6,24 +6,7 @@
 
 The XACC Tech Talks are a series of webinars covering a broad range of topics related to Xilinx Adaptive Compute. Each session will be 1 hour, with two 30-minute talks in each session. 
 
-To check out our previous tech-talk recordings go to the <a href="./xacc_tech_talks.html#past-talks">XACC Tech Talk Page - Past Tech Talks</a>
-
-
-## Upcoming Events
-
-<table class="responsive">
-  <tr>
-    <td>
-      <strong> XACC Tech Talk: 16 December 2021 16:00-17:00(CET/GMT+1) </strong> 
-      <br>Lucent: A language for developing application specific dataflow machines on FPGAs. 
-      <br>Easy deployment, scaling and resource management of Alveo FPGA.
-    </td>
-    <td>
-      <a href="./xacc_tech_talks.html##XACC-Tech-Talk-7">Details and Registration</a>
-    </td>
-  </tr>
-</table>
-
+To watch previous tech-talks go to the <a href="./xacc_tech_talks.html#past-talks">XACC Tech Talk Page</a>
 
 
 ## Past Events
