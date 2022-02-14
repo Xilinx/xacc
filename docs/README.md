@@ -1,5 +1,5 @@
 # Xilinx Adaptive Compute Clusters 
-<img src="images/xacc_banner.png" alt="XACCHeadBanner" class="responsive">
+<img src="images/xacc_bannerTL.png" alt="XACCHeadBanner" class="responsive">
 
 The Xilinx Adaptive Compute Clusters (XACC) program is a special initiative to support novel research in adaptive compute acceleration for high performance computing (HPC). The scope of the program is broad and encompasses systems, architecture, tools and applications.
 
