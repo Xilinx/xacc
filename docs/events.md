@@ -6,22 +6,7 @@
 
 The XACC Tech Talks are a series of webinars covering a broad range of topics related to Xilinx Adaptive Compute. Each session will be 1 hour, with two 30-minute talks in each session. 
 
-To check out our previous tech-talk recordings go to the <a href="./xacc_tech_talks.html#past-talks">XACC Tech Talk Page - Past Tech Talks</a>
-
-
-## Upcoming Events
-
-<table class="responsive">
-  <tr>
-    <td>
-      <strong> XACC Tech Talk </strong> 16 December 2021
-    </td>
-    <td>
-      <a href="./xacc_tech_talks.html##XACC-Tech-Talk-7">More Information</a>
-    </td>
-  </tr>
-</table>
-
+To watch previous tech-talks go to the <a href="./xacc_tech_talks.html#past-talks">XACC Tech Talk Page</a>
 
 
 ## Past Events
