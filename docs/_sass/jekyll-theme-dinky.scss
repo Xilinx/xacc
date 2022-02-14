@@ -336,9 +336,10 @@ img {
     position: relative;
     margin: 0 auto;
     max-width: 1000px;
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 10px 0 10px 0;
-    border: 1px solid #ccc
+    border: 0px solid #ccc
 }
 
 p img,
@@ -684,9 +685,9 @@ screen and (max-width: 1200px) {
         font-size: 28px;
         font-weight: 600;
         line-height: 70px;
-        padding-left: 60px;
+        padding-left: 150px;
         padding-top: 20px;
-        padding-bottom: 10px
+        padding-bottom: 10px;
     }
     nav ul {
         padding: 1;
