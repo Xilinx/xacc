@@ -17,6 +17,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
+        <td>ACCL: FPGA-Accelerated Collectives over 100 Gbps TCP-IP</td>
+        <td>Zhenhao He <em>et al.</em></td>
+        <td>Xilinx Research Labs</td>
+        <td><a href="https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/510849/H2RC21_Xilinx_submitted_version.pdf">Paper</a> <a href="https://github.com/Xilinx/ACCL">Github</a></td>
+        <td>ACCL is a Vitis kernel and associated Pynq and XRT drivers which together provide MPI-like collectives for Xilinx FPGAs. ACCL is designed to enable compute kernels resident in FPGA fabric to communicate directly under host supervision but without requiring data movement between the FPGA and host. Instead, ACCL uses Vitis-compatible TCP and UDP stacks to connect FPGAs directly over Ethernet at up to 100 Gbps on Alveo cards.</td>
+    </tr>
+    <tr>
         <td>Distributed Recommendation Inference on FPGA Clusters</td>
         <td>Yu Zhu <em>et al.</em></td>
         <td>ETH Zurich</td>
@@ -30,6 +37,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/487920">Paper</a>
             <a href="https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP">Github</a></td>
         <td>Integration of an open-source 100 Gbps TCP/IP stack into Vitis without degrading its performance. A set of MPI-like communication primitives are provided to abstract away low level details of the networking stack.</td>
+    </tr>
+    <tr>
+        <td>Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning</td>
+        <td> Tobias Alonso <em>et al.</em></td>
+        <td>Xilinx Research Labs</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3470567">Paper</a></td>
+        <td>Elastic-DF allocates FPGA resources to DNN layers and layers to individual FPGA dies to maximize the total performance of the multi-FPGA system. In the resulting Elastic-DF mapping, the accelerator may be instantiated multiple times, and each instance may be segmented across multiple FPGAs transparently, whereby the segments communicate peer-to-peer through 100 Gbps Ethernet FPGA infrastructure, without host involvement.</td>
     </tr>
     <tr>
         <td>FleetRec: Large-Scale Recommendation Inference on Hybrid GPU-FPGA Clusters</td>
@@ -52,6 +66,14 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Xilinx Inc.</td>
         <td><a href="https://link.springer.com/chapter/10.1007/978-3-030-85665-6_38">Paper</a></td>
         <td>The HPCG benchmark represents a modern complement to the HPL benchmark in the performance evaluation of HPC systems. This paper presents the details of the first FPGA-based implementation of HPCG that takes advantage customized compute architectures. The results show that the high-performance multi-FPGA implementation, using 1 and 4 Xilinx Alveo U280 achieves up to 108.3 GFlops and 346.5 GFlops respectively. Comparable performance with respect to modern GPUs are also demonstrated.</td>
+    </tr>
+    <tr>
+        <td>SKT: A One-Pass Multi-Sketch Data Analytics Accelerator</td>
+        <td>Monica Chiosa <em>et al.</em></td>
+        <td>ETH Zurich/Accemic Technologies</td>
+        <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/505690">Paper</a>
+            <a href="https://github.com/fpgasystems/SKT">Github</a></td>
+        <td>SKT is an FPGA-based accelerator that can compute several sketches along with basic statistics (av- erage, max, min, etc.) in a single pass over the data streams. SKT has been designed to characterize a data set by calculating its cardinality, its second frequency moment, and its frequency distribution. The design processes data streams coming either from PCIe or TCP/IP, and it is built to fit emerging cloud service architectures </td>
     </tr>
 </table>
 
