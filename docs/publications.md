@@ -53,7 +53,6 @@ If you would like to contribute to this page by adding a reference to your publi
             <a href="https://github.com/fpgasystems/GPU-FPGA-Recommendation-System">Github</a></td>
         <td>A high-performance and scalable recommendation inference system within tight latency constraints. FleetRec takes adventage of both GPUs and FPGAs by disaggregating computation and memory to different types of accelerators and bridging their connections by high-speed network, FleetRec gains the best of both worlds, and can naturally scale out by adding nodes to the cluster</td>
     </tr>
-
     <tr>
         <td>Flower: A Comprehensive Dataflow Compiler for High-Level Synthesis</td>
         <td>Puya Amiri <em>et al.</em></td>
@@ -62,8 +61,6 @@ If you would like to contribute to this page by adding a reference to your publi
             <a href="https://github.com/AnyDSL/flower">Github</a></td>
         <td>FLOWER is a comprehensive compiler infrastructure that provides automatic canonical transformations for high-level synthesis from a domain-specific library. This allows programmers to focus on algorithm implementations rather than low-level optimizations for dataflow architectures. FLOWER allows to synthesize efficient implementations for high-performance streaming applications targeting System-on-Chip and FPGA accelerator cards, in the context of image processing and computer vision. </td>
     </tr>
-
-
     <tr>
         <td>MicroRec: Efficient Recommendation Inference by Hardware and Data Structure Solutions</td>
         <td>Wenqi Jiang <em>et al.</em></td>
