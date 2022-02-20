@@ -59,7 +59,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>DFKI</td>
         <td><a href="https://arxiv.org/abs/2112.07789">Paper</a>
             <a href="https://github.com/AnyDSL/flower">Github</a></td>
-        <td>A compiler infrastructure that provides automatic canonical transformations for high-level synthesis from a domain-specific library. This allows programmers to focus on algorithm implementations rather than low-level optimizations for dataflow architectures. FLOWER generates efficient implementations for high-performance streaming applications, in the context of image processing and computer vision.The implementation covers both host and device codes</td>
+        <td>A compiler that provides automatic transformations for high-level synthesis from a domain-specific library. This allows programmers to focus on algorithm implementations rather than low-level optimizations for dataflow architectures. FLOWER generates efficient implementations for high-performance streaming applications, in the context of image processing and computer vision. The implementation covers the generation of both device and corresponding host codes.</td>
     </tr>
     <tr>
         <td>MicroRec: Efficient Recommendation Inference by Hardware and Data Structure Solutions</td>
