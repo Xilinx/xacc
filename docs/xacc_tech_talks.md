@@ -5,6 +5,28 @@ The talks will be hosted as Zoom webinars and are free to attend. The format for
 If you would like to present your work at an XACC Tech Talk, please contact [xup@xilinx.com](xup@xilinx.com) with an outline of your proposal. 
 
 
+# Upcoming Talks
+
+## XACC Tech Talk 8
+
+17:00 - 18:00(CEST/GMT+2) 30<sup>th</sup> March 2022
+
+<img src="images/zoom_30.png"> Register Now:<a href="https://xilinx.zoom.us/webinar/register/WN_Q3CgNlmeSh2LVkNHK0JtGw"> Click Here! </a>
+
+### ACCL: an open-source FPGA accelerated communication library for scale-out applications 
+Dr Lucian Petrica, AMD AECG Research Labs.
+
+This talk will present ACCL, an open-source FPGA-accelerated communication collectives library designed to enable scale-out of applications running primarily on AMD FPGAs. Compared to previous collective communication solutions for FPGA, ACCL is flexible and extensible, easily portable, and fast. We evaluate ACCL on 8 Alveo nodes at XACC ETHZ and demonstrate that ACCL outperforms OpenMPI over 100 Gbps TCP-IP for large messages.
+
+### Efficient Recommendation Inference on FPGAs
+Wengi Jiang, ETH Zurich.
+
+Deep neural networks are widely used in personalized recommendation systems. Recommendation inference is largely bound by memory due to random memory accesses needed to lookup the embedding tables. 
+This talk will introduce MicroRec, a high-performance FPGA inference engine for recommendation systems that tackles the memory bottleneck. This is extended to implement two high-performance recommendation inference clusters; one using FPGAs and the other using combined FPGAs and GPUs. 
+Experiments on three production models show that our cluster-based solutions outperform the CPU baseline by more than one order of magnitude while achieving significantly lower latency.
+
+
+
 # Past talks
 
 ## XACC Tech Talk 7
