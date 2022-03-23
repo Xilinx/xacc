@@ -13,7 +13,7 @@ To watch previous tech-talks go to the <a href="./xacc_tech_talks.html#past-talk
   <tr>
     <th style="text-align:center; vertical-align:middle" colspan="2">
       <font size="+2">
-        <strong>Tech Talk 8: 30<sup>th</sup> March 2022 16:00-17:00(CET/GMT+2) </strong>
+        <strong>Tech Talk 8: 30<sup>th</sup> March 2022 16:00-17:00(CEST/GMT+2) </strong>
       </font>
     </th>
   </tr>
