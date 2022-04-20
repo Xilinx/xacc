@@ -6,6 +6,34 @@ This page lists the research publications which have been carried out in the con
 
 If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md) 
 
+## 2022
+
+<table width="100%">
+    <tr>
+        <th width="200">Name</th>
+        <th width="120">Author(s)</th>
+        <th width="120">Institution</th>
+        <th width="120">Link</th>
+        <th width="500">Notes</th>
+    </tr>
+    <tr>
+        <td>ThunderGP: Resource-Efficient Graph ProcessingFramework on FPGAs with HLS</td>
+        <td>Xinyu Chen<em>et al.</em></td>
+        <td>National University of Singapore</td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3517141">Paper</a> <a href="https://github.com/Xtra-Computing/ThunderGP">Github</a></td>
+        <td>ThunderGP, an HLS-based graph processing framework on FPGAs, with which developers could enjoy FPGA-accelerated graph processing with no prior knowledge of hardware design. ThunderGP adopts the gather-apply-scatter (GAS) model as the abstraction of various graph algorithms and realizes the model by a build-in highly parallel and memory-efficient accelerator template. ThunderGP on DRAM-based hardware platforms provides 1.9 × ∼ 5.2 × improvement on bandwidth efficiency over the state-of-the-art, while ThunderGP on HBM-based hardware platforms delivers up to 5.2 × speedup over the state-of-the-art RTL-based approach.</td>
+    </tr>
+    <tr>
+        <td>ReGraph: Scaling Graph Processing on HBM-enabled FPGAs with Heterogeneous Pipelines</td>
+        <td>Xinyu Chen<em>et al.</em></td>
+        <td>National University of Singapore</td>
+        <td><a href="hhttps://arxiv.org/abs/2203.02676">Paper</a></td>
+        <td>Proposes a resource-efficient heterogeneous pipeline architecture. This heterogeneous architecture comprises of two types of pipelines: Little pipelines to process dense partitions with good locality and Big pipelines to process sparse partitions with the extremely poor locality. Unlike traditional monolithic pipeline designs, the heterogeneous pipelines are tailored for more specific memory access patterns, and hence are more lightweight, allowing the architecture to scale up to more effectively with limited resources. In addition, an automatic method generates the most efficient pipeline combination and balances workloads. Furthermore, ReGraph is an automated open-source framework. ReGraph outperforms state-of-the-art FPGA accelerators by up to 5.9 times in terms of performance and 12 times in terms of resource efficiency.</td>
+    </tr>
+</table>
+
+
+
 ## 2021
 
 <table width="100%">
