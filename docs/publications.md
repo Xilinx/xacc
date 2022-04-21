@@ -35,95 +35,28 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Linghao Song <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://dl.acm.org/doi/abs/10.1145/3490422.3502357">Paper</a></td>
-        <td>Sparse-Matrix Dense-Matrix multiplication (SpMM) is the key operator for a wide range of applications including scientific computing,
-graph processing, and deep learning. Architecting accelerators for
-SpMM is faced with three challenges – (1) the random memory
-accessing and unbalanced load in processing because of random
-distribution of elements in sparse matrices, (2) inefficient data handling of the large matrices which can not be fit on-chip, and (3) a
-non-general-purpose accelerator design where one accelerator can
-only process a fixed-size problem.
-In this paper, we present Sextans, an accelerator for generalpurpose SpMM processing. Sextans accelerator features (1) fast
-random access using on-chip memory, (2) streaming access to offchip large matrices, (3) PE-aware non-zero scheduling for balanced
-workload with an II=1 pipeline, and (4) hardware flexibility to enable prototyping the hardware once to support SpMMs of different
-size as a general-purpose accelerator. We leverage high bandwidth
-memory (HBM) for the efficient accessing of both sparse and dense
-matrices. In the evaluation, we present an FPGA prototype Sextans
-which is executable on a Xilinx U280 HBM FPGA board and a projected prototype Sextans-P with higher bandwidth competitive to
-V100 and more frequency optimization. We conduct a comprehensive evaluation on 1,400 SpMMs on a wide range of sparse matrices
-including 50 matrices from SNAP and 150 from SuiteSparse. We
-compare Sextans with NVIDIA K80 and V100 GPUs. Sextans
-achieves a 2.50x geomean speedup over K80 GPU and Sextans-P
-achieves a 1.14x geomean speedup over V100 GPU (4.94x over K80). <br><b>Note</b>: Notes quoted from paper</td>
+        <td>Sparse-Matrix Dense-Matrix multiplication (SpMM) is the key operator for a wide range of applications including scientific computing, graph processing, and deep learning. Architecting accelerators for SpMM is faced with three challenges – (1) the random memory accessing and unbalanced load in processing because of random distribution of elements in sparse matrices, (2) inefficient data handling of the large matrices which can not be fit on-chip, and (3) a non-general-purpose accelerator design where one accelerator can only process a fixed-size problem. In this paper, we present Sextans, an accelerator for general purpose SpMM processing. Sextans accelerator features (1) fast random access using on-chip memory, (2) streaming access to offchip large matrices, (3) PE-aware non-zero scheduling for balanced workload with an II=1 pipeline, and (4) hardware flexibility to enable prototyping the hardware once to support SpMMs of different size as a general-purpose accelerator. We leverage high bandwidth memory (HBM) for the efficient accessing of both sparse and dense matrices. In the evaluation, we present an FPGA prototype Sextans which is executable on a Xilinx U280 HBM FPGA board and a projected prototype Sextans-P with higher bandwidth competitive to V100 and more frequency optimization. We conduct a comprehensive evaluation on 1,400 SpMMs on a wide range of sparse matrices including 50 matrices from SNAP and 150 from SuiteSparse. We compare Sextans with NVIDIA K80 and V100 GPUs. Sextans achieves a 2.50x geomean speedup over K80 GPU and Sextans-P achieves a 1.14x geomean speedup over V100 GPU (4.94x over K80). <br><b>Note</b>: Notes quoted from paper. </td>
     </tr>
     <tr>
         <td>RapidStream: Parallel Physical Implementation of FPGA HLS Designs</td>
         <td>Licheng Guo <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://doi.org/10.1145/3490422.3502361">Paper</a></td>
-        <td>FPGAs require a much longer compilation cycle than conventional
-computing platforms like CPUs. In this paper, we shorten the overall
-compilation time by co-optimizing the HLS compilation (C-to-RTL)
-and the back-end physical implementation (RTL-to-bitstream). We
-propose a split compilation approach based on the pipelining flexibility at the HLS level, which allows us to partition designs for
-parallel placement and routing then stitch the separate partitions
-together. We outline a number of technical challenges and address
-them by breaking the conventional boundaries between different
-stages of the traditional FPGA tool flow and reorganizing them to
-achieve a fast end-to-end compilation.
-Our research produces RapidStream, a parallelized and physicalintegrated compilation framework that takes in an HLS dataflow
-program in C/C++ and generates a fully placed and routed implementation. When tested on the Xilinx U250 FPGA with a set of
-realistic HLS designs, RapidStream achieves a 5-7× reduction in
-compile time and up to 1.3× increase in frequency when compared
-to a commercial-off-the-shelf toolchain. In addition, we provide
-preliminary results using a customized open-source router to reduce the compile time up to an order of magnitude in the cases
-with lower performance requirements. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>FPGAs require a much longer compilation cycle than conventional computing platforms like CPUs. In this paper, we shorten the overall compilation time by co-optimizing the HLS compilation (C-to-RTL) and the back-end physical implementation (RTL-to-bitstream). We propose a split compilation approach based on the pipelining flexibility at the HLS level, which allows us to partition designs for parallel placement and routing then stitch the separate partitions together. We outline a number of technical challenges and address them by breaking the conventional boundaries between different stages of the traditional FPGA tool flow and reorganizing them to achieve a fast end-to-end compilation. Our research produces RapidStream, a parallelized and physicalintegrated compilation framework that takes in an HLS dataflow program in C/C++ and generates a fully placed and routed implementation. When tested on the Xilinx U250 FPGA with a set of realistic HLS designs, RapidStream achieves a 5-7× reduction in compile time and up to 1.3× increase in frequency when compared to a commercial-off-the-shelf toolchain. In addition, we provide preliminary results using a customized open-source router to reduce the compile time up to an order of magnitude in the cases with lower performance requirements. <br><b>Note</b>: Notes quoted from paper</td>
     </tr>
     <tr>
         <td>Accelerating SSSP for Power-Law Graphs</td>
         <td>Yuze Chi <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://doi.org/10.1145/3490422.3502358">Paper</a></td>
-        <td>The single-source shortest path (SSSP) problem is one of the most
-important and well-studied graph problems widely used in many
-application domains, such as road navigation, neural image reconstruction, and social network analysis. Although we have known
-various SSSP algorithms for decades, implementing one for largescale power-law graphs efficiently is still highly challenging today,
-because ① a work-efficient SSSP algorithm requires priority-order
-traversal of graph data, ② the priority queue needs to be scalable
-both in throughput and capacity, and ③ priority-order traversal
-requires extensive random memory accesses on graph data.
-In this paper, we present SPLAG to accelerate SSSP for powerlaw graphs on FPGAs. SPLAG uses a coarse-grained priority queue
-(CGPQ) to enable high-throughput priority-order graph traversal
-with a large frontier. To mitigate the high-volume random accesses,
-SPLAG employs a customized vertex cache (CVC) to reduce off-chip
-memory access and improve the throughput to read and update
-vertex data. Experimental results on various synthetic and realworld datasets show up to a 4.9× speedup over state-of-the-art
-SSSP accelerators, a 2.6× speedup over 32-thread CPU running at
-4.4 GHz, and a 0.9× speedup over an A100 GPU that has 4.1× power
-budget and 3.4× HBM bandwidth. Such a high performance would
-place SPLAG in the 14th position of the Graph 500 benchmark for
-data intensive applications (the highest using a single FPGA) with
-only a 45 W power budget. SPLAG is written in high-level synthesis
-C++ and is fully parameterized, which means it can be easily ported
-to various different FPGAs with different configurations. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>The single-source shortest path (SSSP) problem is one of the most important and well-studied graph problems widely used in many application domains, such as road navigation, neural image reconstruction, and social network analysis. Although we have known various SSSP algorithms for decades, implementing one for large scale power-law graphs efficiently is still highly challenging today, because ① a work-efficient SSSP algorithm requires priority-order traversal of graph data, ② the priority queue needs to be scalable both in throughput and capacity, and ③ priority-order traversal requires extensive random memory accesses on graph data. In this paper, we present SPLAG to accelerate SSSP for powerlaw graphs on FPGAs. SPLAG uses a coarse-grained priority queue (CGPQ) to enable high-throughput priority-order graph traversal with a large frontier. To mitigate the high-volume random accesses, SPLAG employs a customized vertex cache (CVC) to reduce off-chip memory access and improve the throughput to read and update vertex data. Experimental results on various synthetic and real world datasets show up to a 4.9× speedup over state-of-the-art SSSP accelerators, a 2.6× speedup over 32-thread CPU running at 4.4 GHz, and a 0.9× speedup over an A100 GPU that has 4.1× power budget and 3.4× HBM bandwidth. Such a high performance would place SPLAG in the 14th position of the Graph 500 benchmark for data intensive applications (the highest using a single FPGA) with only a 45 W power budget. SPLAG is written in high-level synthesis C++ and is fully parameterized, which means it can be easily ported to various different FPGAs with different configurations. <br><b>Note</b>: Notes quoted from paper</td>
     </tr>
     <tr>
         <td>Pyxis: An Open-Source Performance Dataset of Sparse Accelerators</td>
         <td>Linghao Song <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://arxiv.org/abs/2110.04280">Paper</a></td>
-        <td>Customized accelerators provide gains of performance
-and efficiency in specific domains of applications. Sparse
-data structures and/or representations exist in a wide range
-of applications. However, it is challenging to design accelerators for sparse applications because no architecture or
-performance-level analytic models are able to fully capture
-the spectrum of the sparse data. Accelerator researchers rely
-on real execution to get precise feedback for their designs.
-In this work, we present PYXIS, a performance dataset for
-customized accelerators on sparse data. PYXIS collects accelerator designs and real execution performance statistics.
-Currently, there are 73.8 K instances in PYXIS. PYXIS is
-open-source, and we are constantly growing PYXIS with new
-accelerator designs and performance statistics. PYXIS can be
-a benefit to researchers in the fields of accelerator, architecture, performance, algorithm and many related topics. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>Customized accelerators provide gains of performance and efficiency in specific domains of applications. Sparse data structures and/or representations exist in a wide range of applications. However, it is challenging to design accelerators for sparse applications because no architecture or performance-level analytic models are able to fully capture the spectrum of the sparse data. Accelerator researchers rely on real execution to get precise feedback for their designs. In this work, we present PYXIS, a performance dataset for customized accelerators on sparse data. PYXIS collects accelerator designs and real execution performance statistics. Currently, there are 73.8 K instances in PYXIS. PYXIS is open-source, and we are constantly growing PYXIS with new accelerator designs and performance statistics. PYXIS can be a benefit to researchers in the fields of accelerator, architecture, performance, algorithm and many related topics. <br><b>Note</b>: Notes quoted from paper</td>
     </tr>
 </table>
 
@@ -203,98 +136,29 @@ a benefit to researchers in the fields of accelerator, architecture, performance
         <td>Licheng Guo <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://dl.acm.org/doi/10.1145/3431920.3439289">Paper</a></td>
-        <td>Despite an increasing adoption of high-level synthesis (HLS) for its
-design productivity advantages, there remains a significant gap in
-the achievable frequency between an HLS design and a handcrafted
-RTL one. A key factor that limits the timing quality of the HLS
-outputs is the difficulty in accurately estimating the interconnect
-delay at the HLS level. This problem becomes even worse when
-large HLS designs are implemented on the latest multi-die FPGAs.
-To tackle this challenge, we propose AutoBridge, an automated
-framework that couples a coarse-grained floorplanning step with
-pipelining during HLS compilation. First, our approach provides
-HLS with a view on the global physical layout of the design, allowing HLS to more easily identify and pipeline the long wires,
-especially those crossing the die boundaries. Second, by exploiting the flexibility of HLS pipelining, the floorplanner is able to
-distribute the design logic across multiple dies on the FPGA device without degrading clock frequency. This prevents the placer
-from aggressively packing the logic on a single die which often
-results in local routing congestion that eventually degrades timing. Since pipelining may introduce additional latency, we further
-present analysis and algorithms to ensure the added latency will
-not compromise the overall throughput.
-AutoBridge can be integrated into the existing CAD toolflow for
-Xilinx FPGAs. In our experiments with a total of 43 design configurations, we improve the average frequency from 147 MHz to 297
-MHz (a 102% improvement) with no loss of throughput and a negligible change in resource utilization. Notably, in 16 experiments we
-make the originally unroutable designs achieve 274 MHz on average. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>Despite an increasing adoption of high-level synthesis (HLS) for its design productivity advantages, there remains a significant gap in the achievable frequency between an HLS design and a handcrafted RTL one. A key factor that limits the timing quality of the HLS outputs is the difficulty in accurately estimating the interconnect delay at the HLS level. This problem becomes even worse when large HLS designs are implemented on the latest multi-die FPGAs. To tackle this challenge, we propose AutoBridge, an automated framework that couples a coarse-grained floorplanning step with pipelining during HLS compilation. First, our approach provides HLS with a view on the global physical layout of the design, allowing HLS to more easily identify and pipeline the long wires, especially those crossing the die boundaries. Second, by exploiting the flexibility of HLS pipelining, the floorplanner is able to distribute the design logic across multiple dies on the FPGA device without degrading clock frequency. This prevents the placer from aggressively packing the logic on a single die which often results in local routing congestion that eventually degrades timing. Since pipelining may introduce additional latency, we further present analysis and algorithms to ensure the added latency will not compromise the overall throughput. AutoBridge can be integrated into the existing CAD toolflow for Xilinx FPGAs. In our experiments with a total of 43 design configurations, we improve the average frequency from 147 MHz to 297 MHz (a 102% improvement) with no loss of throughput and a negligible change in resource utilization. Notably, in 16 experiments we make the originally unroutable designs achieve 274 MHz on average. <br><b>Note</b>: Notes quoted from paper</td>
     </tr>
     <tr>
         <td>HBM Connect: High-Performance HLS Interconnect for FPGA HBM</td>
         <td>Young-kyu Choi <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://dl.acm.org/doi/10.1145/3431920.3439301">Paper</a></td>
-        <td>With the recent release of High Bandwidth Memory (HBM) based
-FPGA boards, developers can now exploit unprecedented external
-memory bandwidth. This allows more memory-bounded applications to benefit from FPGA acceleration. However, fully utilizing
-the available bandwidth may not be an easy task. If an application
-requires multiple processing elements to access multiple HBM channels, we observed a significant drop in the effective bandwidth. The
-existing high-level synthesis (HLS) programming environment had
-limitation in producing an efficient communication architecture.
-In order to solve this problem, we propose HBM Connect, a highperformance customized interconnect for FPGA HBM board. Novel
-HLS-based optimization techniques are introduced to increase the
-throughput of AXI bus masters and switching elements. We also
-present a high-performance customized crossbar that may replace
-the built-in crossbar. The effectiveness of HBM Connect is demonstrated using Xilinx’s Alveo U280 HBM board. Based on bucket
-sort and merge sort case studies, we explore several design spaces
-and find the design point with the best resource-performance tradeoff. The result shows that HBM Connect improves the resourceperformance metrics by 6.5X–211X. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>With the recent release of High Bandwidth Memory (HBM) based FPGA boards, developers can now exploit unprecedented external memory bandwidth. This allows more memory-bounded applications to benefit from FPGA acceleration. However, fully utilizing the available bandwidth may not be an easy task. If an application requires multiple processing elements to access multiple HBM channels, we observed a significant drop in the effective bandwidth. The existing high-level synthesis (HLS) programming environment had limitation in producing an efficient communication architecture. In order to solve this problem, we propose HBM Connect, a high-performance customized interconnect for FPGA HBM board. Novel HLS-based optimization techniques are introduced to increase the throughput of AXI bus masters and switching elements. We also present a high-performance customized crossbar that may replace the built-in crossbar. The effectiveness of HBM Connect is demonstrated using Xilinx’s Alveo U280 HBM board. Based on bucket sort and merge sort case studies, we explore several design spaces  and find the design point with the best resource-performance tradeoff. The result shows that HBM Connect improves the resource performance metrics by 6.5X–211X. <br><b>Note</b>: Notes quoted from paper</td>
     </tr>
     <tr>
         <td>AutoSA: A Polyhedral Compiler for High-Performance Systolic Arrays on FPGA</td>
         <td>Jie Wang <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://dl.acm.org/doi/10.1145/3431920.3439292">Paper</a></td>
-        <td>While systolic array architectures have the potential to deliver
-tremendous performance, it is notoriously challenging to customize
-an efficient systolic array processor for a target application. Designing systolic arrays requires knowledge for both high-level characteristics of the application and low-level hardware details, thus
-making it a demanding and inefficient process. To relieve users from
-the manual iterative trial-and-error process, we present AutoSA, an
-end-to-end compilation framework for generating systolic arrays
-on FPGA. AutoSA is based on the polyhedral framework, and further incorporates a set of optimizations on different dimensions to
-boost performance. An efficient and comprehensive design space
-exploration is performed to search for high-performance designs.
-We have demonstrated AutoSA on a wide range of applications, on
-which AutoSA achieves high performance within a short amount
-of time. As an example, for matrix multiplication, AutoSA achieves
-934 GFLOPs, 3.41 TOPs, and 6.95 TOPs in floating point, 16-bit and
-8-bit integer data types on Xilinx Alveo U250. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>While systolic array architectures have the potential to deliver tremendous performance, it is notoriously challenging to customize an efficient systolic array processor for a target application. Designing systolic arrays requires knowledge for both high-level characteristics of the application and low-level hardware details, thus making it a demanding and inefficient process. To relieve users from the manual iterative trial-and-error process, we present AutoSA, an end-to-end compilation framework for generating systolic arrays on FPGA. AutoSA is based on the polyhedral framework, and further incorporates a set of optimizations on different dimensions to boost performance. An efficient and comprehensive design space exploration is performed to search for high-performance designs. We have demonstrated AutoSA on a wide range of applications, on which AutoSA achieves high performance within a short amount
+of time. As an example, for matrix multiplication, AutoSA achieves 934 GFLOPs, 3.41 TOPs, and 6.95 TOPs in floating point, 16-bit and 8-bit integer data types on Xilinx Alveo U250. <br><b>Note</b>: Notes quoted from paper</td>
     </tr>
     <tr>
         <td>Extending High-Level Synthesis for Task-Parallel Programs</td>
         <td>Yuze Chi <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9444053">Paper</a></td>
-        <td>C/C++/OpenCL-based high-level synthesis (HLS)
-becomes more and more popular for field-programmable gate
-array (FPGA) accelerators in many application domains in recent
-years, thanks to its competitive quality of results (QoR) and
-short development cycles compared with the traditional registertransfer level design approach. Yet, limited by the sequential
-C semantics, it remains challenging to adopt the same highly
-productive high-level programming approach in many other
-application domains, where coarse-grained tasks run in parallel
-and communicate with each other at a fine-grained level. While
-current HLS tools do support task-parallel programs, the productivity is greatly limited ① in the code development cycle due to
-the poor programmability, ② in the correctness verification cycle
-due to restricted software simulation, and ③ in the QoR tuning
-cycle due to slow code generation. Such limited productivity
-often defeats the purpose of HLS and hinder programmers from
-adopting HLS for task-parallel FPGA accelerators.
-In this paper, we extend the HLS C++ language and present a
-fully automated framework with programmer-friendly interfaces,
-unconstrained software simulation, and fast hierarchical code
-generation to overcome these limitations and demonstrate how
-task-parallel programs can be productively supported in HLS.
-Experimental results based on a wide range of real-world taskparallel programs show that, on average, the lines of kernel and
-host code are reduced by 22% and 51%, respectively, which
-considerably improves the programmability. The correctness
-verification and the iterative QoR tuning cycles are both greatly
-shortened by 3.2× and 6.8×, respectively. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>C/C++/OpenCL-based high-level synthesis (HLS) becomes more and more popular for field-programmable gate array (FPGA) accelerators in many application domains in recent years, thanks to its competitive quality of results (QoR) and short development cycles compared with the traditional register transfer level design approach. Yet, limited by the sequential C semantics, it remains challenging to adopt the same highly productive high-level programming approach in many other application domains, where coarse-grained tasks run in parallel and communicate with each other at a fine-grained level. While current HLS tools do support task-parallel programs, the productivity is greatly limited ① in the code development cycle due to the poor programmability, ② in the correctness verification cycle due to restricted software simulation, and ③ in the QoR tuning cycle due to slow code generation. Such limited productivity often defeats the purpose of HLS and hinder programmers from adopting HLS for task-parallel FPGA accelerators. In this paper, we extend the HLS C++ language and present a fully automated framework with programmer-friendly interfaces, unconstrained software simulation, and fast hierarchical code generation to overcome these limitations and demonstrate how task-parallel programs can be productively supported in HLS. Experimental results based on a wide range of real-world taskparallel programs show that, on average, the lines of kernel and host code are reduced by 22% and 51%, respectively, which considerably improves the programmability. The correctness verification and the iterative QoR tuning cycles are both greatly shortened by 3.2× and 6.8×, respectively. <br><b>Note</b>: Notes quoted from paper</td>
     </tr>
 </table>
 
