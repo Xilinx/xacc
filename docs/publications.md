@@ -55,7 +55,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>ThunderGP: Resource-Efficient Graph ProcessingFramework on FPGAs with HLS</td>
         <td>Xinyu Chen<em>et al.</em></td>
         <td>National University of Singapore</td>
-        <td><a href="https://dl.acm.org/doi/abs/10.1145/3517141">Paper</a> <a href="https://github.com/Xtra-Computing/ThunderGP">Github</a></td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3517141">Paper</a> <a href="https://github.com/Xtra-Computing/ThunderGP">GitHub</a></td>
         <td>ThunderGP, an HLS-based graph processing framework on FPGAs, with which developers could enjoy FPGA-accelerated graph processing with no prior knowledge of hardware design. ThunderGP adopts the gather-apply-scatter (GAS) model as the abstraction of various graph algorithms and realizes the model by a build-in highly parallel and memory-efficient accelerator template. ThunderGP on DRAM-based hardware platforms provides 1.9 × ∼ 5.2 × improvement on bandwidth efficiency over the state-of-the-art, while ThunderGP on HBM-based hardware platforms delivers up to 5.2 × speedup over the state-of-the-art RTL-based approach.</td>
     </tr>
 </table>
@@ -76,7 +76,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>ACCL: FPGA-Accelerated Collectives over 100 Gbps TCP-IP</td>
         <td>Zhenhao He <em>et al.</em></td>
         <td>Xilinx Research Labs</td>
-        <td><a href="https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/510849/H2RC21_Xilinx_submitted_version.pdf">Paper</a> <a href="https://github.com/Xilinx/ACCL">Github</a></td>
+        <td><a href="https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/510849/H2RC21_Xilinx_submitted_version.pdf">Paper</a> <a href="https://github.com/Xilinx/ACCL">GitHub</a></td>
         <td>ACCL is a Vitis kernel and associated Pynq and XRT drivers which together provide MPI-like collectives for Xilinx FPGAs. ACCL is designed to enable compute kernels resident in FPGA fabric to communicate directly under host supervision but without requiring data movement between the FPGA and host. Instead, ACCL uses Vitis-compatible TCP and UDP stacks to connect FPGAs directly over Ethernet at up to 100 Gbps on Alveo cards.</td>
     </tr>
     <tr>
@@ -105,7 +105,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Zhenhao He <em>et al.</em></td>
         <td>ETH Zurich</td>
         <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/487920">Paper</a>
-            <a href="https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP">Github</a></td>
+            <a href="https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP">GitHub</a></td>
         <td>Integration of an open-source 100 Gbps TCP/IP stack into Vitis without degrading its performance. A set of MPI-like communication primitives are provided to abstract away low level details of the networking stack.</td>
     </tr>
     <tr>
@@ -120,15 +120,15 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Yuze Chi <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9444053">Paper</a></td>
-        <td>C/C++/OpenCL-based high-level synthesis (HLS) becomes more and more popular for field-programmable gate array (FPGA) accelerators in many application domains in recent years, thanks to its competitive quality of results (QoR) and short development cycles compared with the traditional register transfer level design approach. Yet, limited by the sequential C semantics, it remains challenging to adopt the same highly productive high-level programming approach in many other application domains, where coarse-grained tasks run in parallel and communicate with each other at a fine-grained level. While current HLS tools do support task-parallel programs, the productivity is greatly limited ① in the code development cycle due to the poor programmability, ② in the correctness verification cycle due to restricted software simulation, and ③ in the QoR tuning cycle due to slow code generation. Such limited productivity often defeats the purpose of HLS and hinder programmers from adopting HLS for task-parallel FPGA accelerators. In this paper, we extend the HLS C++ language and present a fully automated framework with programmer-friendly interfaces, unconstrained software simulation, and fast hierarchical code generation to overcome these limitations and demonstrate how task-parallel programs can be productively supported in HLS. Experimental results based on a wide range of real-world taskparallel programs show that, on average, the lines of kernel and host code are reduced by 22% and 51%, respectively, which considerably improves the programmability. The correctness verification and the iterative QoR tuning cycles are both greatly shortened by 3.2× and 6.8×, respectively. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>C/C++/OpenCL-based high-level synthesis (HLS) becomes more and more popular for field-programmable gate array (FPGA) accelerators in many application domains in recent years, thanks to its competitive quality of results (QoR) and short development cycles compared with the traditional register transfer level design approach. Yet, limited by the sequential C semantics, it remains challenging to adopt the same highly productive high-level programming approach in many other application domains, where coarse-grained tasks run in parallel and communicate with each other at a fine-grained level. While current HLS tools do support task-parallel programs, the productivity is greatly limited ① in the code development cycle due to the poor programmability, ② in the correctness verification cycle due to restricted software simulation, and ③ in the QoR tuning cycle due to slow code generation. Such limited productivity often defeats the purpose of HLS and hinder programmers from adopting HLS for task-parallel FPGA accelerators. In this paper, we extend the HLS C++ language and present a fully automated framework with programmer-friendly interfaces, unconstrained software simulation, and fast hierarchical code generation to overcome these limitations and demonstrate how task-parallel programs can be productively supported in HLS. Experimental results based on a wide range of real-world task parallel programs show that, on average, the lines of kernel and host code are reduced by 22% and 51%, respectively, which considerably improves the programmability. The correctness verification and the iterative QoR tuning cycles are both greatly shortened by 3.2× and 6.8×, respectively. <br><b>Note</b>: Notes quoted from paper</td>
     </tr>
     <tr>
         <td>FleetRec: Large-Scale Recommendation Inference on Hybrid GPU-FPGA Clusters</td>
         <td>Wenqi Jiang <em>et al.</em></td>
         <td>ETH Zurich</td>
         <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/485153">Paper</a>
-            <a href="https://github.com/fpgasystems/GPU-FPGA-Recommendation-System">Github</a></td>
-        <td>A high-performance and scalable recommendation inference system within tight latency constraints. FleetRec takes adventage of both GPUs and FPGAs by disaggregating computation and memory to different types of accelerators and bridging their connections by high-speed network, FleetRec gains the best of both worlds, and can naturally scale out by adding nodes to the cluster</td>
+            <a href="https://github.com/fpgasystems/GPU-FPGA-Recommendation-System">GitHub</a></td>
+        <td>A high-performance and scalable recommendation inference system within tight latency constraints. FleetRec takes advantage of both GPUs and FPGAs by disaggregating computation and memory to different types of accelerators and bridging their connections by high-speed network, FleetRec gains the best of both worlds, and can naturally scale out by adding nodes to the cluster</td>
     </tr>
     <tr>
         <td>Graviton: A Reconfigurable Memory-Compute Fabric for Data Intensive Applications</td>
@@ -177,8 +177,8 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Monica Chiosa <em>et al.</em></td>
         <td>ETH Zurich/Accemic Technologies</td>
         <td><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/505690">Paper</a>
-            <a href="https://github.com/fpgasystems/SKT">Github</a></td>
-        <td>SKT is an FPGA-based accelerator that can compute several sketches along with basic statistics (av- erage, max, min, etc.) in a single pass over the data streams. SKT has been designed to characterize a data set by calculating its cardinality, its second frequency moment, and its frequency distribution. The design processes data streams coming either from PCIe or TCP/IP, and it is built to fit emerging cloud service architectures </td>
+            <a href="https://github.com/fpgasystems/SKT">GitHub</a></td>
+        <td>SKT is an FPGA-based accelerator that can compute several sketches along with basic statistics (average, max, min, etc.) in a single pass over the data streams. SKT has been designed to characterize a data set by calculating its cardinality, its second frequency moment, and its frequency distribution. The design processes data streams coming either from PCIe or TCP/IP, and it is built to fit emerging cloud service architectures </td>
     </tr>
     <tr>
         <td>TwinDNN: A Tale of Two Deep Neural Networks</td>
@@ -241,7 +241,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Portable Linear Algebra on FPGA using Data-Centric Parallel Programming</td>
         <td>Manuel Burger <em>et al.</em></td>
         <td>ETH Zurich</td>
-        <td><a href="https://github.com/manuelburger/daceBLAS_demo">Paper</a></td>
+        <td><a href="https://github.com/manuelburger/daceBLAS_demo">GitHub</a></td>
         <td>2020 XOHW Winner PhD</td>
     </tr>
     <tr>
