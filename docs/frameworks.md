@@ -28,11 +28,39 @@ This framework is ideal to scale out your application without CPU intervention. 
 
 ### AutoBridge 
 
-Floorplanning tool for Vivado HLS dataflow designs. [AutoBridge repository](https://github.com/Licheng-Guo/AutoBridge)
+Floorplanning and pipelining tool for Vivado HLS dataflow designs. [AutoBridge repository](https://github.com/Licheng-Guo/AutoBridge)
 
 ### AutoSA
 
 Polyhedral-Based Systolic Array Auto-Compilation. [AutoSA repository](https://github.com/UCLA-VAST/AutoSA)
+
+### TAPA
+
+A floorplan-integrated extension to high-level synthesis (HLS) C++ for task-parallel programs. [TAPA repository](https://github.com/UCLA-VAST/tapa)
+ 
+### RapidStream
+
+Parallel Physical Implementation of FPGA HLS Designs. [RapidStream repository](https://github.com/UCLA-VAST/RapidStream)
+ 
+### Vivado-hls-broadcast-optimization
+
+Analysis and Optimization of the Implicit Broadcasts in FPGA HLS to Improve Maximum Frequency. [Vivado-hls-broadcast-optimization repository](https://github.com/UCLA-VAST/vivado-hls-broadcast-optimization)
+ 
+### Soda Compiler
+
+Stencil with Optimized Dataflow Architecture Compiler. [Soda Compiler repository](https://github.com/UCLA-VAST/soda-compiler)
+ 
+### SPLAG
+
+Accelerating SSSP for power-law graphs using an FPGA. [SPLAG respository](https://github.com/UCLA-VAST/splag)
+ 
+### AutoDSE
+Enabling Software Programmers to Design Efficient FPGA Accelerators. [AutoDSE repository](https://github.com/UCLA-VAST/AutoDSE)
+
+ 
+### spMM
+An FPGA accelerator for general-purpose Sparse-Matrix Dense-Matrix Multiplication (SpMM). [SpMM repository](https://github.com/UCLA-VAST/Sextans)
+
 
 ### Coyote
 
