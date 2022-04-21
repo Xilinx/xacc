@@ -194,6 +194,41 @@ If you would like to contribute to this page by adding a reference to your publi
         <td><a href="https://experts.illinois.edu/en/publications/winocnn-kernel-sharing-winograd-systolic-array-for-efficient-conv">Paper</a></td>
         <td>The combination of Winograd's algorithm and systolic array architecture has demonstrated the capability of improving DSP efficiency in accelerating convolutional neural networks (CNNs) on FPGA platforms. However, handling arbitrary convolution kernel sizes in FPGA-based Winograd processing elements and supporting efficient data access remain under explored. In this work, we are the first to propose an optimized Winograd processing element (WinoPE), which can naturally support multiple convolution kernel sizes with the same amount of computing resources and maintains high runtime DSP efficiency. Using the proposed WinoPE, we construct a highly efficient systolic array accelerator, termed WinoCNN. We also propose a dedicated memory subsystem to optimize the data access. Based on the accelerator architecture, we build accurate resource and performance modeling to explore optimal accelerator configurations under different resource constraints. We implement our proposed accelerator on multiple FPGAs, which outperforms the state-of-the-art designs in terms of both throughput and DSP efficiency</td>
     </tr>
+    <tr>
+        <td>Skew-oblivious Data Routing for Data Intensive Applications on FPGAs with HLS</td>
+        <td>Xinyu Chen <em>et al.</em></td>
+        <td>UIUC</td>
+        <td><a href="https://experts.illinois.edu/en/publications/skew-oblivious-data-routing-for-data-intensive-applications-on-fp">Paper</a></td>
+        <td>FPGAs have become emerging computing infrastructures for accelerating applications in datacenters. Meanwhile, high-level synthesis (HLS) tools have been proposed to ease the programming of FPGAs. Even with HLS, irregular data-intensive applications require explicit optimizations, among which multiple processing elements (PEs) with each owning a private BRAM-based buffer are usually adopted to process multiple data per cycle. Data routing, which dynamically dispatches multiple data to designated PEs, avoids data replication in buffers compared to statically assigning data to PEs, hence saving BRAM usage. However, the workload imbalance among PEs vastly diminishes performance when processing skew datasets</td>
+    </tr>
+    <tr>
+        <td>Large Graph Convolutional Network Training with GPU-Oriented Data Communication Architecture</td>
+        <td>Seung Won Min <em>et al.</em></td>
+        <td>UIUC</td>
+        <td><a href="https://dl.acm.org/doi/10.14778/3476249.3476264">Paper</a></td>
+        <td>Graph Convolutional Networks (GCNs) are increasingly adopted in large-scale graph-based recommender systems. Training GCN requires the minibatch generator traversing graphs and sampling the sparsely located neighboring nodes to obtain their features. Since real-world graphs often exceed the capacity of GPU memory, current GCN training systems keep the feature table in host memory and rely on the CPU to collect sparse features before sending them to the GPUs. This approach, however, puts tremendous pressure on host memory bandwidth and the CPU. This is because the CPU needs to (1) read sparse features from memory, (2) write features into memory as a dense format, and (3) transfer the features from memory to the GPUs</td>
+    </tr>
+    <tr>
+        <td>WinoCNN: Kernel Sharing Winograd Systolic Array for Efficient Convolutional Neural Network Acceleration on FPGAs</td>
+        <td>Xinheng Liu <em>et al.</em></td>
+        <td>UIUC</td>
+        <td><a href="https://experts.illinois.edu/en/publications/winocnn-kernel-sharing-winograd-systolic-array-for-efficient-conv">Paper</a></td>
+        <td>The combination of Winograd's algorithm and systolic array architecture has demonstrated the capability of improving DSP efficiency in accelerating convolutional neural networks (CNNs) on FPGA platforms. However, handling arbitrary convolution kernel sizes in FPGA-based Winograd processing elements and supporting efficient data access remain underexplored. In this work, we are the first to propose an optimized Winograd processing element (WinoPE), which can naturally support multiple convolution kernel sizes with the same amount of computing resources and maintains high runtime DSP efficiency. Using the proposed WinoPE, we construct a highly efficient systolic array accelerator, termed WinoCNN. We also propose a dedicated memory subsystem to optimize the data access. Based on the accelerator architecture, we build accurate resource and performance modeling to explore optimal accelerator configurations under different resource constraints. We implement our proposed accelerator on multiple FPGAs, which outperforms the state-of-the-art designs in terms of both throughput and DSP efficiency</td>
+    </tr>
+    <tr>
+        <td>TwinDNN: A Tale of Two Deep Neural Networks</td>
+        <td>Hyunmin Jeong <em>et al.</em></td>
+        <td>UIUC</td>
+        <td><a href="https://experts.illinois.edu/en/publications/twindnn-a-tale-of-two-deep-neural-networks">Paper</a></td>
+        <td>Machine learning is one of the most popular fields in the current era. It is used in various areas, such as speech recognition, face recognition, medical diagnosis, etc. However, the problem is that the neural networks for machine learning applications are becoming too large and slow as they get more complicated and powerful. This problem gets especially serious when neural networks are used for edge devices with a small chip. As a result, researchers have proposed two major solutions to solve this problem</td>
+    </tr>
+    <tr>
+        <td>Graviton: A Reconfigurable Memory-Compute Fabric for Data Intensive Applications</td>
+        <td>Ashutosh Dhar <em>et al.</em></td>
+        <td>UIUC</td>
+        <td><a href="https://link.springer.com/chapter/10.1007/978-3-030-79025-7_18">Book Chapter</a></td>
+        <td>The rigid organization and distribution of computational and memory resources often limits how well accelerators can cope with changing algorithms and increasing dataset sizes and limits how efficiently they use their computational and memory resources. In this work, we leverage a novel computing paradigm and propose a new memory-based reconfigurable fabric, Graviton. We demonstrate the ability to dynamically trade memory for compute and vice versa, and can tune the architecture of the underlying hardware to suit the memory and compute requirements of the application. On a die-to-die basis, Graviton provides up to 47X more on-chip memory capacity over an Alveo U250 SLR, with just an additional 1.7% area on a die-to-die basis than modern FPGAs, and is 28.7X faster, on average, on a range of compute and data intensive tasks</td>
+    </tr>
 </table>
 
 

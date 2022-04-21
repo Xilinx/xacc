@@ -85,6 +85,14 @@ A collection of extensions for Vitis to improve developer quality of life, inclu
 
 HLS-based Graph Processing Framework on FPGAs. [ThunderGP repository](https://github.com/Xtra-Computing/ThunderGP)
 
+### ScaleHLS
+
+ScaleHLS is a next-generation HLS compilation flow, on top of a multi-level compiler infrastructure called MLIR. [ScaleHLS repository](https://github.com/hanchenye/scalehls)
+
+### PyLog
+
+An Algorithm-Centric FPGA Programming and Synthesis Flow. [PyLog repository](https://github.com/hst10/pylog)
+
 ## Scheduling & Distributed
 
 ### InAccel
