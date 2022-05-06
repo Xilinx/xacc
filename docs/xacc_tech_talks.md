@@ -1,8 +1,8 @@
-# XACC Tech Talk series
+# HACC Tech Talk series
 
 The talks will be hosted as Zoom webinars and are free to attend. The format for each session will be two 30-minute talks on topics related to Adaptive Compute. 
 
-If you would like to present your work at an XACC Tech Talk, please contact [xup@xilinx.com](xup@xilinx.com) with an outline of your proposal. 
+If you would like to present your work at an HACC Tech Talk, please contact [xup@xilinx.com](xup@xilinx.com) with an outline of your proposal. 
 
 # Past talks
 
@@ -231,4 +231,4 @@ DaCe: [https://github.com/spcl/dace](https://github.com/spcl/dace)
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>

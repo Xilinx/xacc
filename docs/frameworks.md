@@ -4,7 +4,7 @@ This page cover other software and frameworks that may be useful to generate or 
 
 ## PYNQ
 
-PYNQ is an open-source project from Xilinx that makes it easier to use Xilinx platforms. Using the Python language and libraries, designers can exploit the benefits of programmable logic and to build more capable and exciting electronic systems. PYNQ can be used with Zynq, Zynq UltraScale+, Zynq RFSoC, **Alveo accelerator cards** and AWS-F1 to create high performance applications. PYNQ is available by default on the ETH XACC. Find out more in the [pynq.io](http://www.pynq.io/) page
+PYNQ is an open-source project from Xilinx that makes it easier to use Xilinx platforms. Using the Python language and libraries, designers can exploit the benefits of programmable logic and to build more capable and exciting electronic systems. PYNQ can be used with Zynq, Zynq UltraScale+, Zynq RFSoC, **Alveo accelerator cards** and AWS-F1 to create high performance applications. PYNQ is available by default on the ETH HACC. Find out more in the [pynq.io](http://www.pynq.io/) page
 
 ## Machine Learning
 
@@ -97,7 +97,7 @@ An Algorithm-Centric FPGA Programming and Synthesis Flow. [PyLog repository](htt
 
 ### InAccel
 
-Fully integrated framework that allows to speedup your C/C++, Python, Java and Scala applications with zero code changes. InAccel Coral is a framework that allows the distributed acceleration of large data sets across clusters of FPGA resources using simple programming models. The InAccel framework is available by default on the ETH XACC. Find out more [InAccel](https://inaccel.com/coral-fpga-resource-manager/).
+Fully integrated framework that allows to speedup your C/C++, Python, Java and Scala applications with zero code changes. InAccel Coral is a framework that allows the distributed acceleration of large data sets across clusters of FPGA resources using simple programming models. The InAccel framework is available by default on the ETH HACC. Find out more [InAccel](https://inaccel.com/coral-fpga-resource-manager/).
 
 Universities can also access to InAccel technology [InAccel University](https://inaccel.com/university/)
 
@@ -105,4 +105,4 @@ Universities can also access to InAccel technology [InAccel University](https://
 OctoRay is a Python framework which allows the user to easily scale up any FPGA application to multiple FPGAs using Dask. It supports at the moment all FPGA boards that are supported by PYNQ, so all PYNQ boards and Alveo cards. [OctoRay repository](https://github.com/abs-tudelft/octoray)
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>

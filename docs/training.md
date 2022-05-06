@@ -28,7 +28,7 @@ You can find out more information in [this link](https://spcl.inf.ethz.ch/Teachi
 
 ## Books
 
-This following books may also be relevant in the context of XACC and compute acceleration in general
+This following books may also be relevant in the context of HACC and compute acceleration in general
 
 1. [Parallel Programming for FPGAs Book](https://arxiv.org/pdf/1805.03648.pdf) by Ryan Kastner, Janarbek Matai, and Stephen Neuendorffer. Covers HLS and parallel hardware concepts.  
    [Source code on GitHub](https://github.com/KastnerRG/pp4fpgas) [Projects and Labs](https://pp4fpgas.readthedocs.io/en/latest/)
@@ -36,4 +36,4 @@ This following books may also be relevant in the context of XACC and compute acc
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>

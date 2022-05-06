@@ -1,10 +1,10 @@
-# Contributing to XACC Resources Page
+# Contributing to HACC Resources Page
 
 We welcome contributions from the community to this GitHub repository. 
 
 ## What to contribute
 
-We welcome contributions related to XACC in the following areas:
+We welcome contributions related to HACC in the following areas:
 
 * Publications
 * Examples
@@ -23,7 +23,7 @@ We welcome contributions related to XACC in the following areas:
 
 * You can [open an issue](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/creating-an-issue) with your contributions, we will review it and update the pages
 
-* Finally, you can email us with your contribution <xup@xilinx.com> use XACC Contributing as subject.
+* Finally, you can email us with your contribution <xup@xilinx.com> use HACC Contributing as subject.
 
 ---------------------------------------
 <p align="center">Copyright&copy; 2021 Xilinx</p>

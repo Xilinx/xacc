@@ -1,6 +1,6 @@
 # Publications
 
-This page lists the research publications which have been carried out in the context of the XACC program, or papers that may be of interest to the XACC community. 
+This page lists the research publications which have been carried out in the context of the HACC program, or papers that may be of interest to the HACC community. 
 
 ## Contribute
 
@@ -396,4 +396,4 @@ If you would like to contribute to this page by adding a reference to your publi
 </table>
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
