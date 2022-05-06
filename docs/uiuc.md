@@ -6,7 +6,7 @@ The center mission is to investigate and propose system solutions for high-perfo
 
 The goal is to create new opportunities in data center and HPC domains, with a focus on increasing the flexibility of the memory hierarchy and exploiting parallelism at a large scale.
 
-### The XACC Cluster
+### The HACC Cluster
 
 The cluster is hosted within the Coordinated Science Lab at UIUC. The cluster is accessible to other researchers whose interest align with the cluster mission. Currently, there are two other institutions, [Boston University](https://www.bu.edu/eng/profile/martin-herbordt/) and [Northeastern University](https://coe.northeastern.edu/people/leeser-miriam/), are using the cluster.
 
@@ -20,7 +20,7 @@ It is comprised of 6 compute nodes + 4 Support nodes.
 
 <img src="/xacc/images/uiuc/xacc_uiuc.png" alt="UIUC" class="responsive">
 
-For more information on the hardware configuration, see the [UIUC XACC](https://xilinx-center.csl.illinois.edu/xacc-cluster/) webpage. 
+For more information on the hardware configuration, see the [UIUC HACC](https://xilinx-center.csl.illinois.edu/xacc-cluster/) webpage. 
 
 ---------------------------------------
 <p align="center">Copyright&copy; 2021 Xilinx</p>

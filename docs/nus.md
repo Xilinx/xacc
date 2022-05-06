@@ -1,6 +1,6 @@
 # National University of Singapore
 
-The cluster at NUS will boost new systems and applications research and development with heterogeneous computing platforms. It will also become a hub for attracting researchers and students from Asia to promote international collaborations as well as for establishing a global test-bed with the other XACC centers in Asia, Europe and the United States.
+The cluster at NUS will boost new systems and applications research and development with heterogeneous computing platforms. It will also become a hub for attracting researchers and students from Asia to promote international collaborations as well as for establishing a global test-bed with the other HACC centers in Asia, Europe and the United States.
 The research is led by Associate Professor [He Bingsheng](https://www.comp.nus.edu.sg/cs/bio/hebs/), Associate Professor [Wong Weng-Fai](https://www.comp.nus.edu.sg/cs/bio/wongwf/) and Professor [Tulika Mitra](https://www.comp.nus.edu.sg/cs/bio/tulika/) from the Department of Computer Science at the NUS School of Computing. Associate Professor He serves as Chair of the Joint Academic Committee of Computer Engineering Program and Vice Dean (by research) at the school.
 
 ------------

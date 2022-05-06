@@ -61,7 +61,7 @@ HLS-based Graph Processing Framework on FPGAs. [ThunderGP repository](https://gi
 
 ### InAccel
 
-Fully integrated framework that allows to speedup your C/C++, Python, Java and Scala applications with zero code changes. InAccel Coral is a framework that allows the distributed acceleration of large data sets across clusters of FPGA resources using simple programming models. The InAccel framework is available by default on the ETH XACC. Find out more [InAccel](https://inaccel.com/coral-fpga-resource-manager/).
+Fully integrated framework that allows to speedup your C/C++, Python, Java and Scala applications with zero code changes. InAccel Coral is a framework that allows the distributed acceleration of large data sets across clusters of FPGA resources using simple programming models. The InAccel framework is available by default on the ETH HACC. Find out more [InAccel](https://inaccel.com/coral-fpga-resource-manager/).
 
 Universities can also access to InAccel technology [InAccel University](https://inaccel.com/university/)
 
