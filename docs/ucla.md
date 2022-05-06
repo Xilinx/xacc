@@ -1,11 +1,11 @@
 # University of California, Los Angeles
-The Xilinx Adaptive Compute Cluster at the [University of California, Los Angeles](https://www.ucla.edu/) (UCLA), is directed by [Prof. Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong), Director for the Center for Customizable Domain-Specific Computing and Director for VLSI Architecture, Synthesis, and Technology (VAST) Laboratory at UCLA Samueli School of Engineering.   
+The Heterogeneous Accelerated Compute Cluster at the [University of California, Los Angeles](https://www.ucla.edu/) (UCLA), is directed by [Prof. Jason Cong](https://vast.cs.ucla.edu/people/faculty/jason-cong), Director for the Center for Customizable Domain-Specific Computing and Director for VLSI Architecture, Synthesis, and Technology (VAST) Laboratory at UCLA Samueli School of Engineering.   
    
 The cluster at UCLA will focus on energy-efficient computing, customized computing for big-data applications and highly scalable algorithms.   
    
 [UCLA VAST lab](https://github.com/UCLA-VAST) is actively working on 4 open-sourced research projects, and has published 5 research articles. Please find the details below. 
    
-## The XACC Cluster
+## The HACC Cluster
 The cluster is running in full capacity. All host servers run Ubuntu 18.04.   
 Users can choose to run Ubuntu 16.04/18.04/20.04 in their containers.   
    

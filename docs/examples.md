@@ -1,6 +1,6 @@
 # Examples
 
-The following page is a list of example designs that may be used with the XACCs. Each XACC may have different Alveo hardware, with different shells installed, so you will need to check the details of each project against the cluster hardware you want to run it on. 
+The following page is a list of example designs that may be used with the HACCs. Each HACC may have different Alveo hardware, with different shells installed, so you will need to check the details of each project against the cluster hardware you want to run it on. 
 
 ## Contribute
 
