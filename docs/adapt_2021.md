@@ -7,3 +7,6 @@ In this track, each of the centers' principal investigators will provide an over
 
 <section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/ousTRtD4m2Q" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 	</iframe></section>
+
+---------------------------------------
+<p align="center">Copyright&copy; 2022 AMD</p>

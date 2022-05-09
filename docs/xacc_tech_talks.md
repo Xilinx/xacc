@@ -231,4 +231,4 @@ DaCe: [https://github.com/spcl/dace](https://github.com/spcl/dace)
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD</p>

@@ -18,4 +18,4 @@ For more information visit [contributing](contributing.md)
 If you have any questions about the HACC program, please e-mail the Xilinx University Program <xup@xilinx.com>
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD</p>

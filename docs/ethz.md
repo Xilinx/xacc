@@ -21,4 +21,4 @@ Once you are approved for the HACC program, details on how to access the ETH Zur
 For more information on the hardware configuration and software, see the [ETH Zurich HACC](https://systems.ethz.ch/research/data-processing-on-modern-hardware/alveo-fpga-cluster.html) webpage. 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD</p>

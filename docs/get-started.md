@@ -31,4 +31,4 @@ Approved members will get access to the [HACC members site](https://www.xilinx.c
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD</p>

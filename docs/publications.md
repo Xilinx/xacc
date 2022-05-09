@@ -284,4 +284,4 @@ If you would like to contribute to this page by adding a reference to your publi
 </table>
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD</p>

@@ -15,4 +15,4 @@ Details are shown in below.
 For more details, see the HACC@NUS [website](http://xacchead.d2.comp.nus.edu.sg/)
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD</p>
