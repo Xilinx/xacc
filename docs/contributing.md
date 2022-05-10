@@ -1,4 +1,4 @@
-# Contributing to XACC Resources Page
+# Contributing to HACC Resources Page
 
 We welcome contributions from the community to this GitHub repository. 
 
