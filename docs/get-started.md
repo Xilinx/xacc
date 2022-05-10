@@ -17,7 +17,7 @@ Priority research areas for the HACCs include:
 
 ## HACCs
 
-<img src="/xacc/images/hacc_sites-world_map.png" alt="" class="responsive">
+<img src="/xacc/images/hacc_sites_world_map.png" alt="" class="responsive">
 
 There are five HACCs located at [ETH Zurich](ethz.md) in Switzerland, [University of California, Los Angeles (UCLA)](ucla.md), [University of Illinois at Urbana Champagne (UIUC)](uiuc.md), [Paderborn University](paderborn.md) and the [National University of Singapore (NUS)](nus.md). 
 
@@ -25,7 +25,7 @@ You can apply to the HACC program, and once approved, you can then get access to
 
 ## Members site
 
-The HACC program currently has over 150 members from more than 50 institutions around the world.
+The HACC program currently has over 250 members from more than 120 institutions around the world.
 
 Approved members will get access to the [HACC members site](https://www.xilinx.com/member/xup_research_clusters.html) which contains instructions for getting started and reserving machines in the different HACCs.
 
