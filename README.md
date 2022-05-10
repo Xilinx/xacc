@@ -1,5 +1,5 @@
 # Heterogeneous Accelerated Compute Clusters 
-<img src="/docs/images/xacc_bannerTL.png" alt="HACC Banner" class="responsive">
+<img src="/docs/images/Xilinx-AMD-HACC_Banner.png" alt="HACC Banner" class="responsive">
 
 View this repository on GitHub pages: [xilinx.github.io/xacc](https://xilinx.github.io/xacc/)
 
