@@ -26,4 +26,4 @@ It is recommended to use the XRT version corresponding to a Vitis version, and t
 1. [PYNQ support forum](https://discuss.pynq.io)
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 AMD</p>
+<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>

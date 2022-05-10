@@ -134,4 +134,4 @@ PYNQ Alveo examples can be found on the [PYNQ community](http://www.pynq.io/comm
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 AMD</p>
+<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>

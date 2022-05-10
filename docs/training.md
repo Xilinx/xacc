@@ -36,4 +36,4 @@ This following books may also be relevant in the context of HACC and compute acc
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 AMD</p>
+<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>

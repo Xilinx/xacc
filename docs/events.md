@@ -42,4 +42,4 @@ To watch previous tech-talks go to the <a href="./xacc_tech_talks.html#past-talk
 
 ---------------------------------------
 
-<p align="center">Copyright&copy; 2022 AMD</p>
+<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
