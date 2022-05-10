@@ -1,13 +1,13 @@
-# XACC Funding Acknowledgment
+# HACC Acknowledgment
 
-Xilinx encourages XACC users to acknowledge Xilinx's support of your research in your
+AMD encourages HACC users to acknowledge AMD's support of your research in your
 presentations, papers, posters, and press releases. A brief statement such as the one below is
 recommended.
 
 ## Acknowledgment
 
-This work was supported in part by Xilinx under the [Xilinx Adaptive Compute Cluster (XACC)
-program](https://www.xilinx.com/support/university/XUP-XACC.html).
+This work was supported in part by AMD under the [Heterogeneous Accelerated Compute Clusters (HACC) program](https://www.xilinx.com/support/university/XUP-XACC.html) (formerly known as the XACC program - Xilinx Adaptive Compute Cluster)
+program).
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD</p>

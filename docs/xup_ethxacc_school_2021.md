@@ -1,7 +1,7 @@
 
-# Xilinx University Program XACC School 2021
+# Xilinx University Program HACC School 2021
 
-The Xilinx Adaptive Compute PhD school in association with ETH Zurich XACC, **Developing accelerators using FPGAs** was held virtually during the days 11-15<sup>th</sup> January 2021.
+The Xilinx Adaptive Compute PhD school in association with ETH Zurich HACC, **Developing accelerators using FPGAs** was held virtually during the days 11-15<sup>th</sup> January 2021.
 
 The school offered students an opportunity to learn about FPGA design and recent technology developments, and gain hands-on experience creating FPGA accelerators with Xilinx software.
 
@@ -9,7 +9,7 @@ An introduction to FPGA and Zynq technology was covered including the PYNQ frame
 
 Participants devised and built their own custom accelerators targeting Alveo and AWS F1 instances. Students followed the guidance of the instructors to build custom designs from available open source libraries or to create their own custom accelerator design.
 
-The school also included invited presentations from speakers at ETH Zurich and Xilinx on relevant topics, including an overview of the XACC program and the XACC at ETH Zurich.
+The school also included invited presentations from speakers at ETH Zurich and Xilinx on relevant topics, including an overview of the HACC program and the HACC at ETH Zurich.
 
 ## Presentations, invited and technical talks
 
@@ -82,4 +82,4 @@ The Vitis and PYNQ prerecorded presentation and slides can be found in the [XUP 
 
 ---------------------------------------
 
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD</p>
