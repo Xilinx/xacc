@@ -19,6 +19,7 @@ Noctua 2 is an Atos BullSequana XH2000 heterogeneous computing platform with
 
 The compute nodes in these partitions are connected by a 100Gbps InfiniBand network. Additionally, all FPGA cards will be connected to a Calient S320 full-crossbar, optical layer-1 circuit switch that provides a configurable optical network dedicated to direct FPGA-to-FPGA communication.
 
+![Xilinx Alveo Nodes in the Noctua 2 HPC System](images/paderborn/xacc_paderborn.png)
 
 
 ---------------------------------------
