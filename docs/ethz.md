@@ -18,7 +18,7 @@ In terms of networking communication, each Alveo cards has two 100 Gbps interfac
 
 Once you are approved for the HACC program, details on how to access the ETH Zurich HACC and the other HACCs can be found on the [HACC members site](https://www.xilinx.com/member/xup_research_clusters.html).
 
-For more information on the hardware configuration and software, see the [ETH Zurich HACC](https://systems.ethz.ch/research/data-processing-on-modern-hardware/alveo-fpga-cluster.html) webpage. 
+For more information on the hardware configuration and software, see the [ETH Zurich HACC](https://systems.ethz.ch/research/data-processing-on-modern-hardware/hacc.html) webpage. 
 
 ---------------------------------------
 <p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
