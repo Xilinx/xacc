@@ -1,10 +1,10 @@
 # Publications
 
-This page lists the research publications which have been carried out in the context of the HACC program, or papers that may be of interest to the HACC community. 
+This page lists the research publications which have been carried out in the context of the HACC program, or papers that may be of interest to the HACC community.
 
 ## Contribute
 
-If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md) 
+If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md)
 
 ## 2022
 
@@ -22,6 +22,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>UCLA</td>
         <td><a href="https://doi.org/10.1145/3490422.3502358">Paper</a></td>
         <td>The single-source shortest path (SSSP) problem is one of the most important and well-studied graph problems widely used in many application domains, such as road navigation, neural image reconstruction, and social network analysis. Although we have known various SSSP algorithms for decades, implementing one for large scale power-law graphs efficiently is still highly challenging today, because ① a work-efficient SSSP algorithm requires priority-order traversal of graph data, ② the priority queue needs to be scalable both in throughput and capacity, and ③ priority-order traversal requires extensive random memory accesses on graph data. In this paper, we present SPLAG to accelerate SSSP for powerlaw graphs on FPGAs. SPLAG uses a coarse-grained priority queue (CGPQ) to enable high-throughput priority-order graph traversal with a large frontier. To mitigate the high-volume random accesses, SPLAG employs a customized vertex cache (CVC) to reduce off-chip memory access and improve the throughput to read and update vertex data. Experimental results on various synthetic and real world datasets show up to a 4.9× speedup over state-of-the-art SSSP accelerators, a 2.6× speedup over 32-thread CPU running at 4.4 GHz, and a 0.9× speedup over an A100 GPU that has 4.1× power budget and 3.4× HBM bandwidth. Such a high performance would place SPLAG in the 14th position of the Graph 500 benchmark for data intensive applications (the highest using a single FPGA) with only a 45 W power budget. SPLAG is written in high-level synthesis C++ and is fully parameterized, which means it can be easily ported to various different FPGAs with different configurations. <br><b>Note</b>: Notes quoted from paper</td>
+    </tr>
+    <tr>
+        <td>FPGA Acceleration of Pre-Alignment Filters for Short Read Mapping With HLS</td>
+        <td>David Castells-Rufas <em>et al.</em></td>
+        <td>David Castells-Rufas</td>
+        <td><a href="https://ieeexplore.ieee.org/abstract/document/9718100">Paper</a> <a href="https://github.com/davidcastells/OpenCLPrealignmentFilters">GitHub</a></td>
+        <td>Pre-alignment filters are useful for reducing the computational requirements of genomic sequence mappers. Most of them are based on estimating or computing the edit distance between sequences and their candidate locations in a reference genome using a subset of the dynamic programming table used to compute Levenshtein distance. Some of their FPGA implementations of use classic HDL toolchains, thus limiting their portability. Currently, most FPGA accelerators offered by heterogeneous cloud providers support C/C++ HLS. This work implements and optimizes several state-of-the-art pre-alignment filters using C/C++ based-HLS to expand their portability to a wide range of systems supporting the OpenCL runtime. A complete analysis of the performance and accuracy is performed. The maximum throughput obtained by an exact filter is 95.1 MPairs/s including memory transfers using 100 bp sequences, which is the highest ever reported for a comparable system and more than two times faster than previous HDL-based results. The best energy efficiency obtained from the accelerator (not considering host CPU) is 2.1 MPairs/J, more than one order of magnitude higher than other accelerator-based comparable approaches from the state of the art.</td>
     </tr>
     <tr>
         <td>Pyxis: An Open-Source Performance Dataset of Sparse Accelerators</td>
@@ -59,8 +66,6 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>ThunderGP, an HLS-based graph processing framework on FPGAs, with which developers could enjoy FPGA-accelerated graph processing with no prior knowledge of hardware design. ThunderGP adopts the gather-apply-scatter (GAS) model as the abstraction of various graph algorithms and realizes the model by a build-in highly parallel and memory-efficient accelerator template. ThunderGP on DRAM-based hardware platforms provides 1.9 × ∼ 5.2 × improvement on bandwidth efficiency over the state-of-the-art, while ThunderGP on HBM-based hardware platforms delivers up to 5.2 × speedup over the state-of-the-art RTL-based approach.</td>
     </tr>
 </table>
-
-
 
 ## 2021
 
@@ -196,9 +201,6 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
 </table>
 
-
-
-
 ## 2020
 
 <table width="100%">
@@ -259,8 +261,6 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Vitis case study using Himeno benchmark as a vehicle for exploring the Vitis platform for building, executing and optimizing HPC codes</td>
     </tr>
 </table>
-
-
 
 ## 2019
 
@@ -323,11 +323,6 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
 </table>
 
-
-
-
-
-
 ## 2018
 
 <table width="100%">
@@ -354,8 +349,6 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
 </table>
 
-
-
 ## 2017
 
 <table width="100%">
@@ -374,7 +367,6 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Smith-Waterman: A key bio-informatics algorithm</td>
     </tr>
 </table>
-
 
 ## 2016
 
