@@ -22,7 +22,7 @@ To watch previous tech-talks go to the <a href="./xacc_tech_talks.html#past-talk
   </tr>
   <tr>
     <td width="800">
-      <strong>ETH Zurich XACC school: </strong>Xilinx University Program HACC School in January 2021
+      <strong>ETH Zurich XACC school: </strong>Xilinx University Program XACC School in January 2021
     </td>
     <td width="200">
       <a href="xup_ethxacc_school_2021.html">More information</a>
