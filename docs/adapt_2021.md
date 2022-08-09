@@ -5,7 +5,7 @@ In this track, each of the centers' principal investigators will provide an over
 - Part 2: a) Associate Professor Bingsheng He, Vice Dean, Research, Department of Computer Science, NUS School of Computing.  b) Prof. Deming Chen, Abel Bliss Professor of Engineering, Chief Scientist, C3SR Center, ECE Department, UIUC.  
 - Part 3: Live discussion with technical leads from each of the XACCs.
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/ousTRtD4m2Q" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/ousTRtD4m2Q" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 	</iframe></section>
 
 ---------------------------------------
