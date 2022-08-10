@@ -8,7 +8,7 @@ The head of the ETH Zurich HACC is [Prof. Gustavo Alonso](https://inf.ethz.ch/pe
 
 The ETH Zurich cluster consists of fifteen servers one for development and fourteen for deployment. Four deployment servers host a mix of [Alveo U250](https://www.xilinx.com/products/boards-and-kits/alveo/u250.html) and [Alveo U280](https://www.xilinx.com/products/boards-and-kits/alveo/u280.html), whereas, the other ten servers host [Alveo U55C](https://www.xilinx.com/products/boards-and-kits/alveo/u55c.html) as shown in the image below
 
-<img src="/xacc/images/ethz/xacc_ethz.png" alt="ETH Zurich Network" class="responsive">
+<img src="images/ethz/xacc_ethz.png" alt="ETH Zurich Network" class="responsive">
 
 In terms of networking communication, each Alveo cards has two 100 Gbps interfaces, both of them are connected to a switch
 
