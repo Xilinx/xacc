@@ -9,7 +9,7 @@ Details are shown in below.
 
 **Cluster configuration**
 
-<img src="/xacc/images/nus/xacc_nus.PNG" alt="NUS" class="responsive">
+<img src="images/nus/xacc_nus.PNG" alt="NUS" class="responsive">
 
 
 For more details, see the HACC@NUS [website](http://xacchead.d2.comp.nus.edu.sg/)

@@ -18,7 +18,7 @@ It is comprised of 6 compute nodes + 4 Support nodes.
 - 1 x Big Data node – FPGA + high end GPU node for big data analytics research
 - 4 x Login nodes 
 
-<img src="/xacc/images/uiuc/xacc_uiuc.png" alt="UIUC" class="responsive">
+<img src="images/uiuc/xacc_uiuc.png" alt="UIUC" class="responsive">
 
 For more information on the hardware configuration, see the [UIUC HACC](https://xilinx-center.csl.illinois.edu/xacc-cluster/) webpage. 
 

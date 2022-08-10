@@ -17,7 +17,7 @@ Priority research areas for the HACCs include:
 
 ## HACCs
 
-<img src="/xacc/images/hacc_sites_world_map.png" alt="" class="responsive">
+<img src="images/hacc_sites_world_map.png" alt="" class="responsive">
 
 There are five HACCs located at [ETH Zurich](ethz.md) in Switzerland, [University of California, Los Angeles (UCLA)](ucla.md), [University of Illinois at Urbana Champagne (UIUC)](uiuc.md), [Paderborn University](paderborn.md) and the [National University of Singapore (NUS)](nus.md). 
 

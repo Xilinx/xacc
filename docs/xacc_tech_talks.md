@@ -12,7 +12,7 @@ If you would like to present your work at an HACC Tech Talk, please contact [xup
 
 ### **ACCL: an open-source FPGA accelerated communication library for scale-out applications**
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://youtube.com/embed/jqrziE9cZg4" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://youtube.com/embed/jqrziE9cZg4" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe></section>
 
 Dr Lucian Petrica, AMD AECG Research Labs.
@@ -21,7 +21,7 @@ This talk will present ACCL, an open-source FPGA-accelerated communication colle
 
 ### **Efficient Recommendation Inference on FPGAs**
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/SJ0ze3p0GzU" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/SJ0ze3p0GzU" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe></section>
 
 Wengi Jiang, ETH Zurich.
@@ -36,7 +36,7 @@ Experiments on three production models show that our cluster-based solutions out
 
 ### **Easy deployment, scaling and resource management of Alveo FPGA​**
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/NGhgmryVTm0" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/NGhgmryVTm0" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe></section>
 
 Dr Chris Kachis, InAccel
@@ -45,7 +45,7 @@ In this talk we will present an easy way to deploy, scale and manage FPGA applic
 
 ### **Lucent: A language for developing application specific dataflow machines on FPGAs**
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/z9LsKxfP_-w" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/z9LsKxfP_-w" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe></section>
 
 Dr Nick Brown, EPCC, University of Edinburgh
@@ -58,7 +58,7 @@ Writing fast, high performance FPGA codes is difficult, even with HLS. However p
 
 ### **Multes on Alveo: An FPGA-based Smart Key-Value Store Running on XACC**
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/lkxw6OUMtNU?" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/lkxw6OUMtNU?" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 	</iframe></section>
 
 Zsolt István, Assoc. Prof, IT University of Copenhagen
@@ -69,7 +69,7 @@ In this talk, we will present Multes, an FPGA-based Key-Value Store (KVS) with u
 
 ### **TAPA: Efficient Support for Task-Parallel High-Level Synthesis**
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/lkxw6OUMtNU?start=1667" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/lkxw6OUMtNU?start=1667" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 	</iframe></section>
 Yuze Chi, Computer Science Department, UCLA
 
@@ -85,7 +85,7 @@ Experimental results based on a wide range of real-world task-parallel programs 
 
 ### **Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware**
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/9pq2GxBC32Q?start=66" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/9pq2GxBC32Q?start=66" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 	</iframe></section>
 Alberto Zeni, Politecnico Di Milano
 
@@ -95,7 +95,7 @@ The HPCG benchmark represents a modern complement to the HPL benchmark in the pe
 
 ### **ScaleHLS: Scalable High-Level Synthesis through MLIR**
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/9pq2GxBC32Q?start=2117" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/9pq2GxBC32Q?start=2117" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
 Hanchen Ye, UIUC
 
@@ -110,7 +110,7 @@ High-level Synthesis (HLS) has been widely adopted as it significantly improves 
 
 ### **ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs**
 
-<section style="text-align:center"><iframe class="you-container1" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/q4BcSNVNR2A?start=84" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/q4BcSNVNR2A?start=84" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
 Hongshi Tan, Master student, National  University of Singapore
 
@@ -122,7 +122,7 @@ Compared to a state-of-the-art GPU library, ThundeRiNG demonstrates a 10x speedu
 ### **Fletcher: A framework for high-performance big data analytics using FPGAs**
 
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/q4BcSNVNR2A?start=1642" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/q4BcSNVNR2A?start=1642" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
 Joost Hoozemans, Postdoctoral researcher, TU Delft
 
@@ -141,7 +141,7 @@ We demonstrate the integration of FPGA implementations of various analytics oper
 
 ### **Blockchain Machine: Accelerating Validation Bottlenecks in Hyperledger Fabric**
 
-<section style="text-align:center"><iframe class="you-container1" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/D8ZunBYc5xI?start=75" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/D8ZunBYc5xI?start=75" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
 Dr. Haris Javaid, Senior Staff Researcher, Xilinx
 
@@ -154,7 +154,7 @@ Blockchain: [https://github.com/Xilinx/hyperledger-fabric](https://github.com/Xi
 ### **ThunderGP: HLS-based Graph Processing on FPGAs**
 
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/D8ZunBYc5xI?start=1792" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/D8ZunBYc5xI?start=1792" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
 Xinyu Chen, Doctoral Student, National University of Singapore 
 
@@ -171,7 +171,7 @@ ThunderGP: [https://github.com/Xtra-Computing/ThunderGP](https://github.com/Xtra
 
 ### **VNx and EasyNet**
 
-<section style="text-align:center"><iframe class="you-container1" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/P93WlrBVxoM?start=120" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/P93WlrBVxoM?start=120" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
 Dr. Mario Ruiz, Xilinx University Program; Zhenhao He, Doctoral Student, Systems Group, ETH Zurich 
 
@@ -187,7 +187,7 @@ EasyNet: [https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP](https://gith
 ### **Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning**
 
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/P93WlrBVxoM?start=1851" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/P93WlrBVxoM?start=1851" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
 Dr. Lucian Petrica, Xilinx Research Labs 
 
@@ -204,7 +204,7 @@ In this presentation we discuss how to maximize the performance and scalability 
 
 ### **Coyote: Do OS abstractions make sense in FPGAs?**
 
-<section style="text-align:center"><iframe class="you-container1" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/un7wck0IkGs?start=88" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/un7wck0IkGs?start=88" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
 Dario Korolija, Doctoral Student, Systems Group, ETH Zurich
 
@@ -219,7 +219,7 @@ Coyote: [https://github.com/fpgasystems/Coyote](https://github.com/fpgasystems/C
 ### **Data-Centric FPGA Programming with Multi-Level Design**
 
 
-<section style="text-align:center"><iframe class="you-container2" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/un7wck0IkGs?start=1743" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/un7wck0IkGs?start=1743" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
         </iframe></section>
 Johannes de Fine Licht, Doctoral Student, Scalable Parallel Computing Laboratory, ETH Zurich
 
