@@ -1,0 +1,24 @@
+docs_list_title: gallery
+docs:
+
+- caption: Accelerating computational mechanics by undertaking incompressible flow matrix assembly on FPGAs
+  src: ./images/gallery/HACC-1.png
+
+- caption: FPGA acceleration of pre-alignment filters for short-read mapping with HLS
+  src: ./images/gallery/HACC-2.png
+
+- caption: Low-power option greeks - Market risk analysis using FPGAs
+  src: ./images/gallery/HACC-3.png
+
+- caption: RDMA over ethernet for applications in  radio-astronomy
+  src: ./images/gallery/HACC-4.png
+
+- caption: Sparse ML on FPGAs for recommender systems
+  src: ./images/gallery/HACC-5.png
+
+- caption: Tydi-lang - A language for typed streaming hardware
+  src: ./images/gallery/HACC-6.png
+
+- caption: FPGA acceleration of pre-alignment filters for short-read mapping with HLS
+  src: ./images/gallery/HACC-7.png
+

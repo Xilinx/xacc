@@ -82,4 +82,4 @@ The Vitis and PYNQ prerecorded presentation and slides can be found in the [XUP 
 
 ---------------------------------------
 
-<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
