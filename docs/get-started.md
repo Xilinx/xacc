@@ -1,6 +1,6 @@
 # Get Started
 
-Researchers from academic and industry are invited to apply to the HACC program by contacting the XUP team, [xup@xilinx.com](xup@xilinx.com).
+Researchers from academic and industry are invited to apply to the HACC program by contacting the XUP team, [xup@xilinx.com](mailto:xup@xilinx.com).
 
 The first step is to [register for the Heterogeneous Accelerated Compute Cluster program](https://www.xilinx.com/member/xup_research_clusters.html)
 
