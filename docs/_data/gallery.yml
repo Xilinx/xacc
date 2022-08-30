@@ -22,6 +22,6 @@ docs:
 - caption: FPGA acceleration of pre-alignment filters for short-read mapping with HLS
   src: ./images/gallery/HACC-7.png
 
-- caption: eASYnET: 100 Gbps Network for HLS
+- caption: EasyNet - 100 Gbps Network for HLS
   src: ./images/gallery/HACC-8.png
 
