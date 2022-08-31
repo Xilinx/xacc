@@ -25,3 +25,6 @@ docs:
 - caption: EasyNet - 100 Gbps Network for HLS
   src: ./images/gallery/HACC-8.png
 
+- caption: Coyote - OS for FPGA  
+  src: ./images/Coyote_poster_fpl_2022.bmp
+
