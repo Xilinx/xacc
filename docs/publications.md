@@ -388,4 +388,4 @@ If you would like to contribute to this page by adding a reference to your publi
 </table>
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>

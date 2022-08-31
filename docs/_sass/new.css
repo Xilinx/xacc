@@ -1,0 +1,96 @@
+body {
+ margin-left: 165px;
+}
+
+#portfolio {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2px;    
+}
+button{
+    cursor: pointer;
+}
+.project{
+    position: relative;
+    background: #f2dad7;
+    overflow: hidden;
+}
+.project img{
+    position: absolute;
+    opacity: 0.9;
+}
+.project:hover .grid-overlay{
+    transform: translateY(0%);
+}
+.grid-overlay{
+    background: rgba(78, 84, 229, 0.91);
+    height: 100%;
+    grid-column: -1;
+    grid-row: -1;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    transform: translateY(101%);
+    transition: all 0.3s ease-in-out;
+}
+.grid-overlay button{
+    background: none;
+    outline: none;
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.grid-overlay button:hover{
+    transition: all 0.3s ease-in-out;
+    background: white;
+    color: #d1a39e;
+    transform: scale(1.05);
+}
+.overlay {
+    position: fixed;
+    background: rgba(71, 69, 69, 0.7);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    z-index: 3;
+}
+.overlay.open {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.overlay-inner {
+    background: white;
+    width: 700px;
+    padding: 20px;
+    position: relative;
+    opacity: 1;
+}
+.close{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    background: none;
+    outline: 0;
+    color: #474545;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.close:hover{
+    color: #d1a39e;
+}
+.project-image{
+    margin-left: -50%;
+}

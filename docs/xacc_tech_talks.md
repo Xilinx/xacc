@@ -231,4 +231,4 @@ DaCe: [https://github.com/spcl/dace](https://github.com/spcl/dace)
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>

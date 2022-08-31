@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang | default: " en-US " }}">
+<html lang="{{ site.lang | default: en-US}}">
 
 <head>
     <meta charset="utf-8">
@@ -7,6 +7,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico"> {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/gal.js' | relative_url }}"></script>
     <script src="https://kit.fontawesome.com/dc3ec3213a.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes">
     <!--[if lt IE 9]>
@@ -17,24 +18,25 @@
 <body>
     <nav>
         <div class="logo">
-            <a href="https://www.xilinx.com/support/university.html"><center><img alt="" src="assets/images/TLogoW.png" style="display: block" width="120px" border="0"></center></a>
+            <a href="https://www.xilinx.com/support/university.html"><img class="logoimg" alt="AMD|Xilinx" src="assets/images/TLogoW.png"></a>
         </div>
         <label for="btn" class="icon">
             <span class="fa fa-bars"></span>
         </label>
         <input type="checkbox" id="btn">
         <ul class="navbar-ul">
-            <li><label for="btn-4" class="show">HACC </label></li>
+            <li><label class="show">HACC </label></li>
             <li class="listedpages"><a style="color:white;" href="index.html">HACC Home</a></li>
             <li class="listedpages"><a style="color:white;" href="get-started.html">Get Started</a> </li>
             <li class="listedpages"><a style="color:white;" href="acknowledgment.html">Acknowledgment</a> </li>
-            <li><label for="btn-1" class="show">Centers </label></li>
+            <li class="listedpages"><a style="color:white;" href="FPL-workshop-gallery.html">FPL Workshop Gallery</a></li>
+            <li><label class="show">Centers </label></li>
 
             {% for item in site.data.centers_sidebar.docs %}
             <li class="listedpages"><a style="color:white;" href="{{ item.url }} ">{{ item.title }}</a></li>
             {% endfor %}
 
-            <li><label for="btn-2" class="show">Resources </label></li>
+            <li><label class="show">Resources </label></li>
             {% for item in site.data.resources_sidebar.docs %}
             <li class="listedpages"><a style="color:white;" href="{{ item.url }}">{{ item.title }}</a></li>
             {% endfor %}
@@ -57,6 +59,7 @@
             </footer>
 
         </div>
+    </div>
         <!--[if !IE]><script>fixScale(document);</script><![endif]-->
         {% if site.google_analytics %}
         <script>

@@ -23,4 +23,4 @@ The compute nodes in these partitions are connected by a 100Gbps InfiniBand netw
 
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>

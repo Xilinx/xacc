@@ -9,4 +9,4 @@ In this track, each of the centers' principal investigators will provide an over
 	</iframe></section>
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>

@@ -19,4 +19,4 @@ Once you are approved for the HACC program, details on how to access the ETH Zur
 For more information on the hardware configuration and software, see the [ETH Zurich HACC](https://systems.ethz.ch/research/data-processing-on-modern-hardware/hacc.html) webpage.
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>

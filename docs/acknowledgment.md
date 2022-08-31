@@ -9,4 +9,4 @@ recommended.
 This work was supported in part by AMD under the [Heterogeneous Accelerated Compute Clusters (HACC) program](https://www.xilinx.com/support/university/XUP-XACC.html) (formerly known as the XACC program - Xilinx Adaptive Compute Cluster program).
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
