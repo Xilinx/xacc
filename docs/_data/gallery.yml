@@ -4,7 +4,7 @@ docs:
 - caption: Accelerating computational mechanics by undertaking incompressible flow matrix assembly on FPGAs
   src: ./images/gallery/HACC-1.png
 
-- caption: FPGA acceleration of pre-alignment filters for short-read mapping with HLS
+- caption: Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware
   src: ./images/gallery/HACC-2.png
 
 - caption: Low-power option greeks - Market risk analysis using FPGAs
@@ -26,5 +26,5 @@ docs:
   src: ./images/gallery/HACC-8.png
 
 - caption: Coyote - OS for FPGA  
-  src: ./images/Coyote_poster_fpl_2022.bmp
+  src: ./images/gallery/Coyote_poster_fpl_2022.bmp
 
