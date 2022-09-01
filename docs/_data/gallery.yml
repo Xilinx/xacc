@@ -4,11 +4,20 @@ docs:
 - caption: Accelerating computational mechanics by undertaking incompressible flow matrix assembly on FPGAs
   src: ./images/gallery/HACC-1.png
 
+- caption: Coyote - OS for FPGA  
+  src: ./images/gallery/Coyote_poster_fpl_2022.bmp
+
+- caption: EasyNet - 100 Gbps Network for HLS
+  src: ./images/gallery/HACC-8.png
+
 - caption: FPGA acceleration of pre-alignment filters for short-read mapping with HLS
-  src: ./images/gallery/HACC-2.png
+  src: ./images/gallery/HACC-7.png
 
 - caption: Low-power option greeks - Market risk analysis using FPGAs
   src: ./images/gallery/HACC-3.png
+
+- caption: Optimized Implementation of the HPCG Benchmark on Reconfigurable Hardware
+  src: ./images/gallery/HACC-2.png
 
 - caption: RDMA over ethernet for applications in  radio-astronomy
   src: ./images/gallery/HACC-4.png
@@ -19,12 +28,5 @@ docs:
 - caption: Tydi-lang - A language for typed streaming hardware
   src: ./images/gallery/HACC-6.png
 
-- caption: FPGA acceleration of pre-alignment filters for short-read mapping with HLS
-  src: ./images/gallery/HACC-7.png
 
-- caption: EasyNet - 100 Gbps Network for HLS
-  src: ./images/gallery/HACC-8.png
-
-- caption: Coyote - OS for FPGA  
-  src: ./images/Coyote_poster_fpl_2022.bmp
 
