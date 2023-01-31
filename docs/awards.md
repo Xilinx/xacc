@@ -8,19 +8,19 @@
     <thead>
         <tr style="border: 0px;">
             <td width="160" style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./docs/images/awards/ETHZ_award_2023.png"><img src="./docs/images/awards/ETHZ_award_2023.png" height="100" width="155"></a>
+                <a href="./images/awards/ETHZ_award_2023.png"><img src="./images/awards/ETHZ_award_2023.png" height="100" width="155"></a>
             </td>
             <td width="160" style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./docs/images/awards/NUS_award_2023.png"><img src="./docs/images/awards/NUS_award_2023.png" height="100" width="155"></a>
+                <a href="./images/awards/NUS_award_2023.png"><img src="./images/awards/NUS_award_2023.png" height="100" width="155"></a>
             </td>
             <td width="160" style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./docs/images/awards/Paderborn_award_2023.png"><img src="./docs/images/awards/Paderborn_award_2023.png" height="100" width="155"></a>
+                <a href="./images/awards/Paderborn_award_2023.png"><img src="./images/awards/Paderborn_award_2023.png" height="100" width="155"></a>
             </td>
             <td width="160" style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./docs/images/awards/UCLA_award_2023.png"><img src="./docs/images/awards/UCLA_award_2023.png" height="100" width="155"></a>
+                <a href="./images/awards/UCLA_award_2023.png"><img src="./images/awards/UCLA_award_2023.png" height="100" width="155"></a>
             </td>
             <td width="160" style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./docs/images/awards/UIUC_award_2023.png"><img src="./docs/images/awards/UIUC_award_2023.png" height="100" width="155"></a>
+                <a href="./images/awards/UIUC_award_2023.png"><img src="./images/awards/UIUC_award_2023.png" height="100" width="155"></a>
             </td>
         </tr>        
         <tr style="border: 0px;">
