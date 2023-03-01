@@ -13,7 +13,7 @@ Users can choose to run Ubuntu 16.04/18.04/20.04 in their containers.
  
 ## Research Descriptions
 #### 1. AutoSA   
-We developed an open-source systolic array compiler, AutoSA, targeting Xilinx FPGAs. This compiler offers FPGA programmers an easy solution to generate high-performance systolic arrays on Xilinx FPGAs. We are using the Alveo U250 board to verify our designs. Also, we are collaborating with Cornell to integrate AutoSA into HeteroCL.  
+We developed an open-source systolic array compiler, AutoSA, targeting AMD FPGAs. This compiler offers FPGA programmers an easy solution to generate high-performance systolic arrays on AMD FPGAs. We are using the Alveo U250 board to verify our designs. Also, we are collaborating with Cornell to integrate AutoSA into HeteroCL.  
    
 > *Open-sourced Github page:* [AutoSA](https://github.com/UCLA-VAST/AutoSA)    
 
@@ -33,7 +33,7 @@ A key factor that limits the timing quality of the HLS outputs is the difficulty
     
 To tackle this challenge, we propose AutoBridge, an automated framework that couples a coarse-grained floorplanning step with pipelining during HLS compilation. First, our approach provides HLS with a view on the global physical layout of the design, allowing HLS to more easily identify and pipeline the long wires, especially those crossing the die boundaries. Second, by exploiting the flexibility of HLS pipelining, the  floorplanner is able to distribute the design logic across multiple dies on the FPGA device without degrading clock frequency. This keeps the placer from aggressively packing the logic on a single die which often results in local routing congestion that eventually degrades timing. Since pipelining may introduce additional latency, we further present analysis and algorithms to ensure the added latency will not compromise the overall throughput.
     
-AutoBridge can be integrated into the existing CAD toolflow for Xilinx FPGAs targeting the Alveo U250 and the U280 board. In our experiments with a total of 43 design configurations, we improve the average frequency from 147 MHz to 297 MHz (a 102\% improvement) with no loss of throughput and a negligible change in resource utilization. Notably, in 16 experiments we make the originally unroutable designs achieve 274 MHz on average. 
+AutoBridge can be integrated into the existing CAD toolflow for AMD FPGAs targeting the Alveo U250 and the U280 board. In our experiments with a total of 43 design configurations, we improve the average frequency from 147 MHz to 297 MHz (a 102\% improvement) with no loss of throughput and a negligible change in resource utilization. Notably, in 16 experiments we make the originally unroutable designs achieve 274 MHz on average. 
    
 This work is in collaboration with Prof. Zhiru Zhang from Cornell University.    
    

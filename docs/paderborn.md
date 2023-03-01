@@ -15,11 +15,11 @@ Noctua 2 is an Atos BullSequana XH2000 heterogeneous computing platform with
 
 * a CPU partition with 1,056 dual-socket servers populated with AMD Milan 7763 CPUs, for a total of 135,168 CPU cores,
 * a GPU partition with 32 nodes and a total of 128 Nvidia A100 GPUs, and
-* an FPGA partition with 36 nodes, 48 Xilinx Alveo U280 accelerator cards, each equipped with 8 Gbytes of HBM2 and 32 Gbytes of DDR4 memory, and 32 BittWare 520N FPGA accelerator cards.
+* an FPGA partition with 36 nodes, 48 AMD Alveo U280 accelerator cards, each equipped with 8 Gbytes of HBM2 and 32 Gbytes of DDR4 memory, and 32 BittWare 520N FPGA accelerator cards.
 
 The compute nodes in these partitions are connected by a 100Gbps InfiniBand network. Additionally, all FPGA cards will be connected to a Calient S320 full-crossbar, optical layer-1 circuit switch that provides a configurable optical network dedicated to direct FPGA-to-FPGA communication.
 
-![Xilinx Alveo Nodes in the Noctua 2 HPC System](images/paderborn/xacc_paderborn.png)
+![AMD Alveo Nodes in the Noctua 2 HPC System](images/paderborn/xacc_paderborn.png)
 
 
 ---------------------------------------
