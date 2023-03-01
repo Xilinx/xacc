@@ -26,4 +26,4 @@ We welcome contributions related to HACC in the following areas:
 * Finally, you can email us with your contribution <xup@xilinx.com> use HACC Contributing as subject.
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2021 Xilinx</p>
+<p align="center">Copyright&copy; 2022 AMD</p>

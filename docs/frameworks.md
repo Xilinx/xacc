@@ -4,7 +4,7 @@ This page cover other software and frameworks that may be useful to generate or 
 
 ## PYNQ
 
-PYNQ is an open-source project from Xilinx that makes it easier to use Xilinx platforms. Using the Python language and libraries, designers can exploit the benefits of programmable logic and to build more capable and exciting electronic systems. PYNQ can be used with Zynq, Zynq UltraScale+, Zynq RFSoC, **Alveo accelerator cards** and AWS-F1 to create high performance applications. PYNQ is available by default on the ETH HACC. Find out more in the [pynq.io](http://www.pynq.io/) page
+PYNQ is an open-source project from AMD that makes it easier to use Adaptive Computing platforms. Using the Python language and libraries, designers can exploit the benefits of programmable logic and to build more capable and exciting electronic systems. PYNQ can be used with Zynq, Zynq UltraScale+, Zynq RFSoC, **Alveo accelerator cards** and AWS-F1 to create high performance applications. PYNQ is available by default on the ETH HACC. Find out more in the [pynq.io](http://www.pynq.io/) page
 
 ## Machine Learning
 
