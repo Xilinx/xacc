@@ -1,7 +1,8 @@
-# Heterogeneous Accelerated Compute Clusters 
-<img src="/docs/images/Xilinx-AMD-HACC_Banner.png" alt="HACC Banner" class="responsive">
+# Heterogeneous Accelerated Compute Clusters
 
-View this repository on GitHub pages: [xilinx.github.io/xacc](https://xilinx.github.io/xacc/)
+<img src="docs/images/AMD-HACC_Banner.png" alt="Hetrogeneous Accelerated Compute Cluster banner image showing university partner logos: ETH Zurich, National Univesity Singapore, Paderborn University, UCLA, UIUC" class="responsive">
+
+View this repository on GitHub pages: [amd-haccs.io](https://www.amd-haccs.io/)
 
 ## Contribute to this site
 
@@ -9,7 +10,8 @@ To contribute visit [contributing](docs/contributing.md)
 
 ## Contact us
 
-If you have any questions about the HACC program, please e-mail the Xilinx University Program <xup@xilinx.com>
+If you have any questions about the HACC program, please e-mail the AMD University Program <xup@amd.com>
 
 ---------------------------------------
+
 <p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
