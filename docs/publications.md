@@ -157,6 +157,14 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Graph Convolutional Networks (GCNs) are increasingly adopted in large-scale graph-based recommender systems. Training GCN requires the minibatch generator traversing graphs and sampling the sparsely located neighboring nodes to obtain their features. Since real-world graphs often exceed the capacity of GPU memory, current GCN training systems keep the feature table in host memory and rely on the CPU to collect sparse features before sending them to the GPUs. This approach, however, puts tremendous pressure on host memory bandwidth and the CPU. This is because the CPU needs to (1) read sparse features from memory, (2) write features into memory as a dense format, and (3) transfer the features from memory to the GPUs</td>
     </tr>
     <tr>
+        <td>FLOWER: A Comprehensive Dataflow Compiler for High-Level Synthesis</td>
+        <td>Puya Amiri <em>et al.</em></td>
+        <td>DFKI</td>
+        <td><a href="https://arxiv.org/abs/2112.07789">Paper</a>
+            <a href="https://github.com/AnyDSL/flower">Github</a></td>
+        <td>A compiler that provides automatic transformations for high-level synthesis from a domain-specific library. This allows programmers to focus on algorithm implementations rather than low-level optimizations for dataflow architectures. FLOWER generates efficient implementations for high-performance streaming applications, in the context of image processing and computer vision. The implementation covers the generation of both device and corresponding host codes.</td>
+    </tr>
+    <tr>
         <td>MicroRec: Efficient Recommendation Inference by Hardware and Data Structure Solutions</td>
         <td>Wenqi Jiang <em>et al.</em></td>
         <td>ETH Zurich</td>
