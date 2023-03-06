@@ -6,6 +6,27 @@ This page lists the research publications which have been carried out in the con
 
 If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md)
 
+
+## 2023
+
+<table width="100%">
+    <tr>
+        <th width="200">Name</th>
+        <th width="120">Author(s)</th>
+        <th width="120">Institution</th>
+        <th width="120">Link</th>
+        <th width="500">Notes</th>
+    </tr>
+    <tr>
+        <td>Multi-FPGA Designs and Scaling of HPC Challenge Benchmarks via MPI and Circuit-Switched Inter-FPGA Networks</td>
+        <td>Marius Meyer <em>et al.</em></td>
+        <td>Paderborn University</td>
+        <td><a href="https://doi.org/10.1145/3576200">Paper</a> <a href="https://github.com/pc2/HPCC_FPGA">GitHub</a></td>
+        <td>Extension of the HPCC benchmark suite for FPGAs with multi-FPGA benchmarks and support of inter-FPGA communication.</td>
+    </tr>
+</table>
+
+
 ## 2022
 
 <table width="100%">
@@ -232,6 +253,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>University of Illinois at Urbana-Champaign</td>
         <td><a href="https://dl.acm.org/doi/10.14778/3425879.3425883">Paper </a></td>
         <td>Sparse-matrix computation</td>
+    </tr>
+    <tr>
+        <td>Evaluating FPGA Accelerator Performance with a Parameterized OpenCL Adaptation of Selected Benchmarks of the HPCChallenge Benchmark Suite</td>
+        <td>Marius Meyer <em>et al.</em></td>
+        <td>Paderborn University</td>
+        <td><a href="https://dl.acm.org/doi/10.1109/H2RC51942.2020.00007">Paper</a> <a href="https://github.com/pc2/HPCC_FPGA">GitHub</a></td>
+        <td>OpenCL-based open-source implementation of the HPCC benchmark suite for FPGAs.</td>
     </tr>
     <tr>
         <td>FReaC Cache: Folded-logic Reconfigurable Computing in the Last Level Cache</td>
