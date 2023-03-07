@@ -66,6 +66,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Pre-alignment filters are useful for reducing the computational requirements of genomic sequence mappers. Most of them are based on estimating or computing the edit distance between sequences and their candidate locations in a reference genome using a subset of the dynamic programming table used to compute Levenshtein distance. Some of their FPGA implementations of use classic HDL toolchains, thus limiting their portability. Currently, most FPGA accelerators offered by heterogeneous cloud providers support C/C++ HLS. This work implements and optimizes several state-of-the-art pre-alignment filters using C/C++ based-HLS to expand their portability to a wide range of systems supporting the OpenCL runtime. A complete analysis of the performance and accuracy is performed. The maximum throughput obtained by an exact filter is 95.1 MPairs/s including memory transfers using 100 bp sequences, which is the highest ever reported for a comparable system and more than two times faster than previous HDL-based results. The best energy efficiency obtained from the accelerator (not considering host CPU) is 2.1 MPairs/J, more than one order of magnitude higher than other accelerator-based comparable approaches from the state of the art.</td>
     </tr>
     <tr>
+        <td>In-depth FPGA accelerator performance evaluation with single node benchmarks from the HPC challenge benchmark suite for Intel and Xilinx FPGAs using OpenCL</td>
+        <td>Marius Meyer <em>et al.</em></td>
+        <td>Paderborn University</td>
+        <td><a href="https://doi.org/10.1016/j.jpdc.2021.10.007">Paper</a>  <a href="https://github.com/pc2/HPCC_FPGA">GitHub</a></td>
+        <td>In-depth evaluation of the HPCC benchmark suite for FPGAs. We look into the power consumption and efficiency of the benchmarks. Also, we evaluate the impact of different floating-point precisions on the performance and resource utilization and give an example how the benchmarks can be used to evaluate the behavior of the underlying runtime environments.</td>
+    </tr>
+    <tr>
         <td>Pyxis: An Open-Source Performance Dataset of Sparse Accelerators</td>
         <td>Linghao Song <em>et al.</em></td>
         <td>UCLA</td>
