@@ -52,6 +52,20 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
+        <td>FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption</td>
+        <td>Van Beirendonck <em>et al.</em></td>
+        <td>COSIC KU LEUVEN</td>
+        <td><a href="https://eprint.iacr.org/2022/1635">Paper</a></td>
+        <td>Fully Homomorphic Encryption is a technique that allows computation on encrypted data. It has the potential to drastically change privacy considerations in the cloud, but high computational and memory overheads are preventing its broad adoption. TFHE is a promising Torus-based FHE scheme that heavily relies on bootstrapping, the noise-removal tool that must be invoked after every encrypted gate computation.
+
+We present FPT, a Fixed-Point FPGA accelerator for TFHE bootstrapping. FPT is the first hardware accelerator to heavily exploit the inherent noise present in FHE calculations. Instead of double or single-precision floating-point arithmetic, it implements TFHE bootstrapping entirely with approximate fixed-point arithmetic. Using an in-depth analysis of noise propagation in bootstrapping FFT computations, FPT is able to use noise-trimmed fixed-point representations that are up to 50% smaller than prior implementations using floating-point or integer FFTs. 
+
+FPT's microarchitecture is built as a streaming processor inspired by traditional streaming DSPs: it instantiates high-throughput computational stages that are directly cascaded, with simplified control logic and routing networks. We explore different throughput-balanced compositions of streaming kernels with a user-configurable streaming width in order to construct a full bootstrapping pipeline. FPT's streaming approach allows 100% utilization of arithmetic units and requires only small bootstrapping key caches, enabling an entirely compute-bound bootstrapping throughput of 1 BS / 35
+us. This is in stark contrast to the established classical CPU approach to FHE bootstrapping acceleration, which tends to be heavily memory and bandwidth-constrained.
+
+FPT is fully implemented and evaluated as a bootstrapping FPGA kernel for an Alveo U280 datacenter accelerator card. FPT achieves almost three orders of magnitude higher bootstrapping throughput than existing CPU-based implementations, and 2.5x higher throughput compared to recent ASIC emulation experiments.</td>
+    </tr>
+    <tr>
         <td>Accelerating SSSP for Power-Law Graphs</td>
         <td>Yuze Chi <em>et al.</em></td>
         <td>UCLA</td>
