@@ -17,6 +17,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="120">Link</th>
         <th width="500">Notes</th>
     </tr>
+        <tr>
+        <td>Distributed large-scale graph processing on FPGAs</td>
+        <td>Sahebi <em>et al.</em></td>
+        <td>University of Siena, University of Florence, Imperial College London</td>
+        <td><a href="https://doi.org/10.1186/s40537-023-00756-x">Paper</a> <a href="https://github.com/AminSahebi/distributed-graph-fpga">GitHub</a></td>
+        <td>This work proposes an FPGA processing engine that overlaps, hides and customises all data transfers so that the FPGA accelerator is fully utilised. This engine is integrated into a framework for using FPGA clusters and is able to use an offline partitioning method to facilitate the distribution of large-scale graphs. The proposed framework uses Hadoop at a higher level to map a graph to the underlying hardware platform. The higher layer of computation is responsible for gathering the blocks of data that have been pre-processed and stored on the host’s file system and distribute to a lower layer of computation made of FPGAs. We show how graph partitioning combined with an FPGA architecture will lead to high performance, even when the graph has Millions of vertices and Billions of edges. In the case of the PageRank algorithm, widely used for ranking the importance of nodes in a graph, compared to state-of-the-art CPU and GPU solutions, our implementation is the fastest, achieving a speedup of 13 compared to 8 and 3 respectively. Moreover, in the case of the large-scale graphs, the GPU solution fails due to memory limitations while the CPU solution achieves a speedup of 12 compared to the 26x achieved by our FPGA solution. Other state-of-the-art FPGA solutions are 28 times slower than our proposed solution. When the size of a graph limits the performance of a single FPGA device, our performance model shows that using multi-FPGAs in a distributed system can further improve the performance by about 12x. This highlights our implementation efficiency for large datasets not fitting in the on-chip memory of a hardware device.</td>
+    </tr>
     <tr>
         <td>CHARM: Composing Heterogeneous AcceleRators for Matrix Multiply on Versal ACAP Architecture</td>
         <td>Jinming Zhuang <em>et al.</em></td>
