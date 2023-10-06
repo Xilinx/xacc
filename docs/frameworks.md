@@ -77,6 +77,9 @@ Fletcher will generate all the interfaces and provide the kernel designer with s
 This raises the abstraction to records and tables instead of buffers and bytes.
 [Fletcher](https://github.com/abs-tudelft) has platform support for [Alveo](https://github.com/abs-tudelft/fletcher-alveo)
 
+### Fortran-HLS
+A tool that enables Fortran in the AMD Xilinx Vitis ecosystem by adapting the LLVM IR to be compliant with the requirements of the Vitis backend. It adds support to the HLS constructs in Fortran. Legacy Fortran codes can now be run on FPGA and optimised directly in the native language without the costly manual conversion to C++. [Fortran-HLS repository](https://gitlab.com/cerl/fortran-hls)
+
 ### hlslib
 
 A collection of extensions for Vitis to improve developer quality of life, including CMake integration, better vectorization support, support for simulating dataflow kernels with feedback dependencies. [hlslib repository](https://github.com/definelicht/hlslib)
