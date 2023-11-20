@@ -4,7 +4,7 @@ This page presents a list of resources to get you started with the different AMD
 
 - [AMD University Program Vitis Tutorial](https://xilinx.github.io/xup_compute_acceleration/) it is a really good place to start. It includes both video presentations and hands-on experience with Vitis.
 
-AMD provides commercial training courses on a wide range of topics. Find the latest courses on the [Xilinx training webpage](https://www.xilinx.com/training/customer-training.html)
+AMD provides commercial training courses on a wide range of topics. Find the latest courses on the [Xilinx training webpage](https://www.amd.com/en/training/customer/adaptive-computing/customer-training.html)
 
 ## Hands-on examples
 
