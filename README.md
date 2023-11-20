@@ -14,4 +14,4 @@ If you have any questions about the HACC program, please e-mail the AMD Universi
 
 ---------------------------------------
 
-<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022-2023 Advanced Micro Devices</p>

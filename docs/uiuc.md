@@ -23,4 +23,4 @@ It is comprised of 6 compute nodes + 4 Support nodes.
 For more information on the hardware configuration, see the [UIUC HACC](https://xilinx-center.csl.illinois.edu/xacc-cluster/) webpage. 
 
 ---------------------------------------
-<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022-2023 Advanced Micro Devices</p>
