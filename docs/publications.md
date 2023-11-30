@@ -17,6 +17,15 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
+        <td>AMNES: Accelerating the computation of data correlation using FPGAs</td>
+        <td>Monica Chiosa <em>et al.</em></td>
+        <td>ETH Zurich and AMD</td>
+        <td><a href="https://dl.acm.org/doi/10.14778/3625054.3625056">Paper</a></td>
+        <td>
+            A widely used approach to characterize input data in both databases and ML is computing the correlation between attributes. The operation is supported by all major database engines and ML platforms. However, it is an expensive operation as the number of attributes involved grows. To address the issue, in this paper we introduce AMNES, a stream analytics system offloading the correlation operator into an FPGA-based network interface card. AMNES processes data at network line rate and the design can be used in combination with smart storage or SmartNICs to implement near data or in-network data processing. AMNES design goes beyond matrix multiplication and offers a customized solution for correlation computation bypassing the CPU. Our experiments show that AMNES can sustain streams arriving at 100 Gbps over an RDMA network, while requiring only ten milliseconds to compute the correlation coefficients among 64 streams, an order of magnitude better than competing CPU or GPU designs.
+        </td>
+    </tr>
+    <tr>
         <td>CHARM: Composing Heterogeneous AcceleRators for Matrix Multiply on Versal ACAP Architecture</td>
         <td>Jinming Zhuang <em>et al.</em></td>
         <td>University of Pittsburgh, UCLA, UIUC, AMD</td>
