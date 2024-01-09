@@ -17,6 +17,15 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
+        <td>Callipepla: Stream Centric Instruction Set and Mixed Precision for Accelerating Conjugate Gradient Solver</td>
+        <td>Linghao Song <em>et al.</em></td>
+        <td>UCLA and Ansys</td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3543622.3573182">Paper</a> <a href="https://github.com/UCLA-VAST/Callipepla">GitHub</a></td>
+        <td>
+            The continued growth in the processing power of FPGAs coupled with high bandwidth memories (HBM), makes systems like the Xilinx U280 credible platforms for linear solvers which often dominate the run time of scientific and engineering applications. In this paper, we present Callipepla, an accelerator for a preconditioned conjugate gradient linear solver (CG). FPGA acceleration of CG faces three challenges: (1) how to support an arbitrary problem and terminate acceleration processing on the fly, (2) how to coordinate long-vector data flow among processing modules, and (3) how to save off-chip memory bandwidth and maintain double (FP64) precision accuracy. To tackle the three challenges, we present (1) a stream-centric instruction set for efficient streaming processing and control, (2) vector streaming reuse (VSR) and decentralized vector flow scheduling to coordinate vector data flow among modules and further reduce off-chip memory access latency with a double memory channel design, and (3) a mixed precision scheme to save bandwidth yet still achieve effective double precision quality solutions. To the best of our knowledge, this is the first work to introduce the concept of VSR for data reusing between on-chip modules to reduce unnecessary off-chip accesses and enable modules working in parallel for FPGA accelerators. We prototype the accelerator on a Xilinx U280 HBM FPGA. Our evaluation shows that compared to the Xilinx HPC product, the XcgSolver, Callipepla achieves a speedup of 3.94x, 3.36x higher throughput, and 2.94x better energy efficiency. Compared to an NVIDIA A100 GPU which has 4x the memory bandwidth of Callipepla, we still achieve 77% of its throughput with 3.34x higher energy efficiency. The code is available at https://github.com/UCLA-VAST/Callipepla.
+        </td>
+    </tr>
+    <tr>
         <td>AMNES: Accelerating the computation of data correlation using FPGAs</td>
         <td>Monica Chiosa <em>et al.</em></td>
         <td>ETH Zurich and AMD</td>
