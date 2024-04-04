@@ -115,9 +115,14 @@ If you would like to contribute to this page by adding a reference to your proje
       <td>Alveo U250 / U280</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/OCT-FPGA/udp-network-demo">UDP Encryption and Decryption Example</a></td>
+      <td>Suranga Handagala, Northeastern University</td>
+      <td>Alveo U280</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/Xilinx/xup_vitis_network_example">Vitis Network Examples</a></td>
-      <td>Mario Ruiz, XUP</td>
-      <td>Alveo U50 / U250 / U280</td>
+      <td>Mario Ruiz, AUP</td>
+      <td>Alveo U50 / U55C / U250 / U280</td>
     </tr>
     <tr>
       <td><a href="https://github.com/albertozeni/XDropXOHW-Public">X-drop on FPGA</a></td>
@@ -131,7 +136,5 @@ If you would like to contribute to this page by adding a reference to your proje
 
 PYNQ Alveo examples can be found on the [PYNQ community](http://www.pynq.io/community.html).
 
-
-
 ---------------------------------------
-<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022-2024 Advanced Micro Devices</p>
