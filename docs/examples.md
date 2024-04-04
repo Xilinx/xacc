@@ -115,14 +115,14 @@ If you would like to contribute to this page by adding a reference to your proje
       <td>Alveo U250 / U280</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/albertozeni/XDropXOHW-Public">X-drop on FPGA</a></td>
-      <td>Alberto Zeni, Guido Walter Di Donato, Marco D. Santambrogio, Politecnico Di Milano</td>
-      <td>U280</td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/Xilinx/xup_vitis_network_example">Vitis Network Examples</a></td>
       <td>Mario Ruiz, XUP</td>
       <td>Alveo U50 / U250 / U280</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/albertozeni/XDropXOHW-Public">X-drop on FPGA</a></td>
+      <td>Alberto Zeni, Guido Walter Di Donato, Marco D. Santambrogio, Politecnico Di Milano</td>
+      <td>U280</td>
     </tr>
   </tbody>
 </table>
