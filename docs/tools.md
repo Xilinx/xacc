@@ -1,6 +1,6 @@
 # Tools
 
-This page covers software that may be used for developing accelerators for the HACCs. Some of these tools may be available on the HACCs. You can set these tools up locally on your own computer and carry out development work on your own computer. If you have any questions about software tools related to the HACC, or need any academic licenses, please e-mail the AMD University Program <xup@amd.com>.
+This page covers software that may be used for developing accelerators for the HACCs. Some of these tools may be available on the HACCs. You can set these tools up locally on your own computer and carry out development work on your own computer. If you have any questions about software tools related to the HACC, or need any academic licenses, please e-mail the AMD University Program <aup@amd.com>.
 
 ## Download Software
 

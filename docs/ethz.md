@@ -16,7 +16,7 @@ In terms of networking communication, each Alveo cards has two 100 Gbps interfac
 
 > Note: hardware and network configuration can change at any time
 
-Once you are approved for the HACC program, details on how to access the ETH Zurich HACC and the other HACCs can be found on the [HACC members site](https://account.amd.com/en/member/xup_research_clusters.html).
+Once you are approved for the HACC program, details on how to access the ETH Zurich HACC and the other HACCs can be found on the [HACC members site](https://account.amd.com/en/member/aup_research_clusters.html).
 
 For more information on the hardware configuration and software, see the [ETH Zurich HACC](https://github.com/fpgasystems/hacc/blob/main/docs/infrastructure.md#infrastructure) webpage.
 
