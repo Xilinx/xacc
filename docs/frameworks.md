@@ -12,16 +12,23 @@ PYNQ is an open-source project from AMD that makes it easier to use Adaptive Com
 
 Fast, Scalable Quantized Neural Network Inference on FPGAs. Explore deep neural network inference on FPGAs. It specifically targets quantized neural networks, with emphasis on generating dataflow-style architectures customized for each network. Find out more in the [finn repository](https://github.com/Xilinx/finn)
 
-
 ## Networking
+
+### ACCL
+
+ACCL: Alveo Collective Communication Library. ACCL is a Vitis kernel and associated XRT drivers which together provide MPI-like collectives for Xilinx FPGAs. ACCL is designed to enable compute kernels resident in FPGA fabric to communicate directly under host supervision but without requiring data movement between the FPGA and host. Find out more in the [ACCL repository](https://github.com/Xilinx/ACCL)
 
 ### EasyNet
 
 This framework is ideal to scale out your application without CPU intervention, full TCP/IP support in the Alveo card. ETH Zurich provides example designs with TCP/IP support at 100 Gbps in Vitis. Find out more in the [Vitis 100Gbps TCP/IP repository](https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP)
 
+### OpenNIC
+
+The OpenNIC project provides an FPGA-based NIC platform for the open source community. It consists of multiple components: a NIC shell, a Linux kernel driver, and a DPDK driver. The NIC shell contains the RTL sources and design files for targetting several of the AMD-Xilinx Alveo boards featuring UltraScale+ FPGAs. Find out more in the [OpenNIC repository](https://github.com/Xilinx/open-nic)
+
 ### VNx
 
-This framework is ideal to scale out your application without CPU intervention. Note that UDP is lightweight but no reliable. XUP provides example designs with UDP support at 100 Gbps in Vitis, this repository is also tightly coupled with the PYNQ project and provides support for distributed Alveo configuration on top of Dask. Find out more in the [VNx repository](https://github.com/Xilinx/xup_vitis_network_example)
+This framework is ideal to scale out your application without CPU intervention. Note that UDP is lightweight but no reliable. AUP provides example designs with UDP support at 100 Gbps in Vitis, this repository is also tightly coupled with the PYNQ project and provides support for distributed Alveo configuration on top of Dask. Find out more in the [VNx repository](https://github.com/Xilinx/xup_vitis_network_example)
 
 
 ## Programming Frameworks
@@ -55,12 +62,12 @@ Stencil with Optimized Dataflow Architecture Compiler. [Soda Compiler repository
 Accelerating SSSP for power-law graphs using an FPGA. [SPLAG respository](https://github.com/UCLA-VAST/splag)
  
 ### AutoDSE
+
 Enabling Software Programmers to Design Efficient FPGA Accelerators. [AutoDSE repository](https://github.com/UCLA-VAST/AutoDSE)
 
- 
 ### spMM
-An FPGA accelerator for general-purpose Sparse-Matrix Dense-Matrix Multiplication (SpMM). [SpMM repository](https://github.com/UCLA-VAST/Sextans)
 
+An FPGA accelerator for general-purpose Sparse-Matrix Dense-Matrix Multiplication (SpMM). [SpMM repository](https://github.com/UCLA-VAST/Sextans)
 
 ### Coyote
 
@@ -73,11 +80,12 @@ Data-Centric Parallel Programming compiles code in various programming languages
 ### Fletcher
 
 Allows easy kernel development and integration with various popular Big Data analytics frameworks based on Apache Arrow.
-Fletcher will generate all the interfaces and provide the kernel designer with simple and easy to understand interface coresponding to the data types of their application.
+Fletcher will generate all the interfaces and provide the kernel designer with simple and easy to understand interface corresponding to the data types of their application.
 This raises the abstraction to records and tables instead of buffers and bytes.
 [Fletcher](https://github.com/abs-tudelft) has platform support for [Alveo](https://github.com/abs-tudelft/fletcher-alveo)
 
 ### Fortran-HLS
+
 A tool that enables Fortran in the AMD Vitis ecosystem by adapting the LLVM IR to be compliant with the requirements of the Vitis backend. It adds support to the HLS constructs in Fortran. Legacy Fortran codes can now be run on FPGA and optimised directly in the native language without the costly manual conversion to C++. [Fortran-HLS repository](https://gitlab.com/cerl/fortran-hls)
 
 ### hlslib
@@ -105,7 +113,8 @@ Fully integrated framework that allows to speedup your C/C++, Python, Java and S
 Universities can also access to InAccel technology [InAccel University](https://inaccel.com/university/)
 
 ### OctoRay
+
 OctoRay is a Python framework which allows the user to easily scale up any FPGA application to multiple FPGAs using Dask. It supports at the moment all FPGA boards that are supported by PYNQ, so all PYNQ boards and Alveo cards. [OctoRay repository](https://github.com/abs-tudelft/octoray)
 
 ---------------------------------------
-<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022-2024 Advanced Micro Devices</p>

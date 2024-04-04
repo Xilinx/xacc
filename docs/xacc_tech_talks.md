@@ -2,7 +2,7 @@
 
 The talks will be hosted as Zoom webinars and are free to attend. The format for each session will be two 30-minute talks on topics related to Adaptive Compute.
 
-If you would like to present your work at an HACC Tech Talk, please contact [xup@amd.com](mailto:xup@amd.com) with an outline of your proposal.
+If you would like to present your work at an HACC Tech Talk, please contact [aup@amd.com](mailto:aup@amd.com) with an outline of your proposal.
 
 ## Past talks
 

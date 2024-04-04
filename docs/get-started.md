@@ -1,8 +1,8 @@
 # Get Started
 
-Researchers from academic and industry are invited to apply to the HACC program by contacting the XUP team, [xup@amd.com](mailto:xup@amd.com).
+Researchers from academic and industry are invited to apply to the HACC program by contacting the AUP team, [aup@amd.com](mailto:aup@amd.com).
 
-The first step is to [register for the Heterogeneous Accelerated Compute Cluster program](https://account.amd.com/en/member/xup_research_clusters.html)
+The first step is to [register for the Heterogeneous Accelerated Compute Cluster program](https://account.amd.com/en/member/aup_research_clusters.html)
 
 Priority research areas for the HACCs include:
 
@@ -27,7 +27,7 @@ You can apply to the HACC program, and once approved, you can then get access to
 
 The HACC program currently has over 250 members from more than 120 institutions around the world.
 
-Approved members will get access to the [HACC members site](https://account.amd.com/en/member/xup_research_clusters.html) which contains instructions for getting started and reserving machines in the different HACCs.
+Approved members will get access to the [HACC members site](https://account.amd.com/en/member/aup_research_clusters.html) which contains instructions for getting started and reserving machines in the different HACCs.
 
 ---------------------------------------
 <p class="copyright">Copyright&copy; 2022-2023 Advanced Micro Devices</p>

@@ -10,7 +10,7 @@ To contribute visit [contributing](docs/contributing.md)
 
 ## Contact us
 
-If you have any questions about the HACC program, please e-mail the AMD University Program <xup@amd.com>
+If you have any questions about the HACC program, please e-mail the AMD University Program <aup@amd.com>
 
 ---------------------------------------
 

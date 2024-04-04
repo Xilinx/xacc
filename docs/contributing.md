@@ -27,7 +27,7 @@ We welcome contributions related to HACC in the following areas:
 
 * You can [open an issue](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/creating-an-issue) with your contributions, we will review it and update the pages
 
-* Finally, you can email us with your contribution <xup@amd.com> use HACC Contributing as subject.
+* Finally, you can email us with your contribution <aup@amd.com> use HACC Contributing as subject.
 
 ---------------------------------------
-<p align="center">Copyright&copy; 2022-2023 Advanced Micro Devices</p>
+<p align="center">Copyright&copy; 2022-2024 Advanced Micro Devices</p>
