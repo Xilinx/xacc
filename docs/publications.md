@@ -7,6 +7,7 @@ This page lists the research publications which have been carried out in the con
 If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md)
 
 ## 2024
+
 <table width="100%">
     <tr>
         <th width="200">Name</th>
@@ -89,6 +90,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>
             As the increasing complexity of Neural Network(NN) models leads to high demands for computation, AMD introduces a heterogeneous programmable system-on-chip (SoC), i.e., Versal ACAP architectures featured with programmable logic(PL), CPUs, and dedicated AI engines (AIE) ASICs which has a theoretical throughput up to 6.4 TFLOPs for FP32, 25.6 TOPs for INT16 and 102.4 TOPs for INT8. However, the higher level of complexity makes it non-trivial to achieve the theoretical performance even for well-studied applications like matrix-matrix multiply. In this paper, we provide AutoMM, an automatic white-box framework that can systematically generate the design for MM accelerators on Versal which achieves 3.7 TFLOPs, 7.5 TOPs, and 28.2 TOPs for FP32, INT16, and INT8 data type respectively. Our designs are tested on board and achieve gains of 7.20x (FP32), 3.26x (INT16), 6.23x (INT8) energy efficiency than AMD U250, 2.32x (FP32) than Nvidia Jetson TX2, 1.06x (FP32), 1.70x (INT8) than Nvidia A100.
         </td>
+    </tr>
     <tr>
         <td>Multi-FPGA Designs and Scaling of HPC Challenge Benchmarks via MPI and Circuit-Switched Inter-FPGA Networks</td>
         <td>Marius Meyer <em>et al.</em></td>
