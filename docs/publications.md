@@ -38,6 +38,15 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
+        <td>ACTS: A Near-Memory FPGA Graph Processing Framework</td>
+        <td>Wole Jaiyeoba<em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3543622.3573180">Paper</a></td>
+        <td>
+            Despite the high off-chip bandwidth and on-chip parallelism offered by today's near-memory accelerators, software-based (CPU and GPU) graph processing frameworks still suffer performance degradation from under-utilization of available memory bandwidth because graph traversal often exhibits poor locality. Emerging FPGAbased graph accelerators tackle this challenge by designing specialized graph processing pipelines and application-specific memory subsystems to maximize bandwidth utilization and efficiently utilize high-speed on-chip memory. To use the limited on-chip (BRAM) memory effectively while handling larger graph sizes, several FPGAbased solutions resort to some form of graph slicing or partitioning during preprocessing to stage vertex property data into the BRAM. While this has demonstrated performance superiority for small graphs, this approach breaks down with larger graph sizes. For example, GraphLily [19], a recent high-performance FPGA-based graph accelerator, experiences up to 11X performance degradation between graphs having 3M vertices and 28M vertices. This makes prior FPGA approaches impractical for large graphs. We propose ACTS, an HBM-enabled FPGA graph accelerator, to address this problem. Rather than partitioning the graph offline to improve spatial locality, we partition vertex-update messages (based on destination vertex IDs) generated online after active edges have been processed. This optimizes read bandwidth even as the graph size scales. We compare ACTS against Gunrock, a state-of-the-art graph processing accelerator for the GPU, and GraphLily, a recent FPGA-based graph accelerator also utilizing HBM memory. Our results show a geometric mean speedup of 1.5X, with a maximum speedup of 4.6X over Gunrock, and a geometric speedup of 3.6X, with a maximum speedup of 16.5X, over GraphLily. Our results also showed a geometric mean power reduction of 50% and a mean reduction of energy-delay product of 88% over Gunrock.
+        </td>
+    </tr>
+    <tr>
         <td>AMNES: Accelerating the computation of data correlation using FPGAs</td>
         <td>Monica Chiosa <em>et al.</em></td>
         <td>ETH Zurich and AMD</td>
@@ -48,7 +57,7 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
     <tr>
         <td>Callipepla: Stream Centric Instruction Set and Mixed Precision for Accelerating Conjugate Gradient Solver</td>
-        <td>Linghao Song <em>et al.</em></td>
+        <td>Linghao Song<em>et al.</em></td>
         <td>UCLA and Ansys</td>
         <td><a href="https://dl.acm.org/doi/abs/10.1145/3543622.3573182">Paper</a> <a href="https://github.com/UCLA-VAST/Callipepla">GitHub</a></td>
         <td>
@@ -140,6 +149,15 @@ If you would like to contribute to this page by adding a reference to your publi
         </td>
     </tr>
     <tr>
+        <td>AutoDSE: Enabling Software Programmers to Design Efficient FPGA Accelerators</td>
+        <td>Atefeh Sohrabizadeh <em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3494534">Paper</a></td>
+        <td>
+            Adopting FPGA as an accelerator in datacenters is becoming mainstream for customized computing, but the fact that FPGAs are hard to program creates a steep learning curve for software programmers. Even with the help of high-level synthesis (HLS), accelerator designers still have to manually perform code reconstruction and cumbersome parameter tuning to achieve optimal performance. While many learning models have been leveraged by existing work to automate the design of efficient accelerators, the unpredictability of modern HLS tools becomes a major obstacle for them to maintain high accuracy. To address this problem, we propose an automated DSE framework—AutoDSE—that leverages a bottleneck-guided coordinate optimizer to systematically find a better design point. AutoDSE detects the bottleneck of the design in each step and focuses on high-impact parameters to overcome it. The experimental results show that AutoDSE is able to identify the design point that achieves, on the geometric mean, 19.9× speedup over one CPU core for MachSuite and Rodinia benchmarks. Compared to the manually optimized HLS vision kernels in Xilinx Vitis libraries, AutoDSE can reduce their optimization pragmas by 26.38× while achieving similar performance. With less than one optimization pragma per design on average, we are making progress towards democratizing customizable computing by enabling software programmers to design efficient FPGA accelerators.
+        </td>
+    </tr>
+    <tr>
         <td>Automated Accelerator Optimization Aided by Graph Neural Networks</td>
         <td>Atefeh Sohrabizadeh <em>et al.</em></td>
         <td>UCLA</td>
@@ -165,7 +183,7 @@ If you would like to contribute to this page by adding a reference to your publi
     <tr>
         <td>FlexCNN: An End-to-End Framework for Composing CNN Accelerators on FPGA</td>
         <td>Suhail Basalama<em>et al.</em></td>
-        <td><a href="https://dl.acm.org/doi/abs/10.1145/3570928">Paper</a> <a href="https://gitlab.com/cerl/fortran-hls">GitLab</a></td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3570928">Paper</a></td>
         <td>UCLA</td>
         <td>
             With reduced data reuse and parallelism, recent convolutional neural networks (CNNs) create new challenges for FPGA acceleration. Systolic arrays (SAs) are efficient, scalable architectures for convolutional layers, but without proper optimizations, their efficiency drops dramatically for reasons: (1) the different dimensions within same-type layers, (2) the different convolution layers especially transposed and dilated convolutions, and (3) CNN’s complex dataflow graph. Furthermore, significant overheads arise when integrating FPGAs into machine learning frameworks. Therefore, we present a flexible, composable architecture called FlexCNN, which delivers high computation efficiency by employing dynamic tiling, layer fusion, and data layout optimizations. Additionally, we implement a novel versatile SA to process normal, transposed, and dilated convolutions efficiently. FlexCNN also uses a fully pipelined software-hardware integration that alleviates the software overheads. Moreover, with an automated compilation flow, FlexCNN takes a CNN in the ONNX representation, performs a design space exploration, and generates an FPGA accelerator. The framework is tested using three complex CNNs: OpenPose, U-Net, and E-Net. The architecture optimizations achieve 2.3× performance improvement. Compared to a standard SA, the versatile SA achieves close-to-ideal speedups, with up to 5.98× and 13.42× for transposed and dilated convolutions, with a 6% average area overhead. The pipelined integration leads to a 5× speedup for OpenPose.
@@ -199,6 +217,15 @@ If you would like to contribute to this page by adding a reference to your publi
         </td>
     </tr>
     <tr>
+        <td>FPGA Implementation of N-BEATS for Time Series Forecasting using Block Minifloat Arithmetic</td>
+        <td>Wenjie Zhou<em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://ieeexplore.ieee.org/document/10090282">Paper</a></td>
+        <td>
+            The block minifloat (BM) number format uses an 8-bit floating point format with additional shared exponent bias to enable low-precision representation with large dynamic range. While it has been shown that the BM format can support low-precision training of convolutional neural networks such as ResNet on ImageNet at precisions down to 6 bits, its applicability to inference-only applications has not been studied. We present a BM implementation of N-BEATS, a deep neural architecture for univariate time series forecasting. N-BEATS utilises residual and fully connected (FC) blocks to achieve high accuracy. It was found that 8-bit BM had similar area and speed as 8-bit integer arithmetic with NBEATS accuracy similar to 16-bit floating point.
+        </td>
+    </tr>
+    <tr>
         <td>FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption</td>
         <td>Van Beirendonck <em>et al.</em></td>
         <td>COSIC KU LEUVEN</td>
@@ -216,7 +243,7 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
     <tr>
         <td>OverGen: Improving FPGA Usability through Domain-specific Overlay Generation</td>
-        <td> Sihao Liu<em>et al.</em></td>
+        <td>Sihao Liu<em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://ieeexplore.ieee.org/abstract/document/9923882">Paper</a></td>
         <td>
@@ -228,14 +255,18 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Linghao Song <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://arxiv.org/abs/2110.04280">Paper</a></td>
-        <td>Customized accelerators provide gains of performance and efficiency in specific domains of applications. Sparse data structures and/or representations exist in a wide range of applications. However, it is challenging to design accelerators for sparse applications because no architecture or performance-level analytic models are able to fully capture the spectrum of the sparse data. Accelerator researchers rely on real execution to get precise feedback for their designs. In this work, we present PYXIS, a performance dataset for customized accelerators on sparse data. PYXIS collects accelerator designs and real execution performance statistics. Currently, there are 73.8 K instances in PYXIS. PYXIS is open-source, and we are constantly growing PYXIS with new accelerator designs and performance statistics. PYXIS can be a benefit to researchers in the fields of accelerator, architecture, performance, algorithm and many related topics. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>
+            Customized accelerators provide gains of performance and efficiency in specific domains of applications. Sparse data structures and/or representations exist in a wide range of applications. However, it is challenging to design accelerators for sparse applications because no architecture or performance-level analytic models are able to fully capture the spectrum of the sparse data. Accelerator researchers rely on real execution to get precise feedback for their designs. In this work, we present PYXIS, a performance dataset for customized accelerators on sparse data. PYXIS collects accelerator designs and real execution performance statistics. Currently, there are 73.8 K instances in PYXIS. PYXIS is open-source, and we are constantly growing PYXIS with new accelerator designs and performance statistics. PYXIS can be a benefit to researchers in the fields of accelerator, architecture, performance, algorithm and many related topics. <br><b>Note</b>: Notes quoted from paper
+        </td>
     </tr>
     <tr>
         <td>RapidStream: Parallel Physical Implementation of FPGA HLS Designs <img src="./images/best_paper_award.png" alt="Best Paper" height="160"></td>
         <td>Licheng Guo <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://doi.org/10.1145/3490422.3502361">Paper</a></td>
-        <td>FPGAs require a much longer compilation cycle than conventional computing platforms like CPUs. In this paper, we shorten the overall compilation time by co-optimizing the HLS compilation (C-to-RTL) and the back-end physical implementation (RTL-to-bitstream). We propose a split compilation approach based on the pipelining flexibility at the HLS level, which allows us to partition designs for parallel placement and routing then stitch the separate partitions together. We outline a number of technical challenges and address them by breaking the conventional boundaries between different stages of the traditional FPGA tool flow and reorganizing them to achieve a fast end-to-end compilation. Our research produces RapidStream, a parallelized and physicalintegrated compilation framework that takes in an HLS dataflow program in C/C++ and generates a fully placed and routed implementation. When tested on the Xilinx U250 FPGA with a set of realistic HLS designs, RapidStream achieves a 5-7× reduction in compile time and up to 1.3× increase in frequency when compared to a commercial-off-the-shelf toolchain. In addition, we provide preliminary results using a customized open-source router to reduce the compile time up to an order of magnitude in the cases with lower performance requirements. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>
+            FPGAs require a much longer compilation cycle than conventional computing platforms like CPUs. In this paper, we shorten the overall compilation time by co-optimizing the HLS compilation (C-to-RTL) and the back-end physical implementation (RTL-to-bitstream). We propose a split compilation approach based on the pipelining flexibility at the HLS level, which allows us to partition designs for parallel placement and routing then stitch the separate partitions together. We outline a number of technical challenges and address them by breaking the conventional boundaries between different stages of the traditional FPGA tool flow and reorganizing them to achieve a fast end-to-end compilation. Our research produces RapidStream, a parallelized and physicalintegrated compilation framework that takes in an HLS dataflow program in C/C++ and generates a fully placed and routed implementation. When tested on the Xilinx U250 FPGA with a set of realistic HLS designs, RapidStream achieves a 5-7× reduction in compile time and up to 1.3× increase in frequency when compared to a commercial-off-the-shelf toolchain. In addition, we provide preliminary results using a customized open-source router to reduce the compile time up to an order of magnitude in the cases with lower performance requirements. <br><b>Note</b>: Notes quoted from paper
+        </td>
     </tr>
     <tr>
         <td>ReGraph: Scaling Graph Processing on HBM-enabled FPGAs with Heterogeneous Pipelines</td>
@@ -245,11 +276,22 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Proposes a resource-efficient heterogeneous pipeline architecture. This heterogeneous architecture comprises of two types of pipelines: Little pipelines to process dense partitions with good locality and Big pipelines to process sparse partitions with the extremely poor locality. Unlike traditional monolithic pipeline designs, the heterogeneous pipelines are tailored for more specific memory access patterns, and hence are more lightweight, allowing the architecture to scale up to more effectively with limited resources. In addition, an automatic method generates the most efficient pipeline combination and balances workloads. Furthermore, ReGraph is an automated open-source framework. ReGraph outperforms state-of-the-art FPGA accelerators by up to 5.9 times in terms of performance and 12 times in terms of resource efficiency.</td>
     </tr>
     <tr>
+        <td>Serpens: A High Bandwidth Memory Based Accelerator for General-Purpose Sparse Matrix-Vector Multiplication</td>
+        <td>Linghao Song <em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://doi.org/10.1145/3489517.3530420">Paper</a> <a href="https://github.com/UCLA-VAST/Serpens">GitHub</a></td>
+        <td>
+            Sparse matrix-vector multiplication (SpMV) multiplies a sparse matrix with a dense vector. SpMV plays a crucial role in many applications, from graph analytics to deep learning. The random memory accesses of the sparse matrix make accelerator design challenging. However, high bandwidth memory (HBM) based FPGAs are a good fit for designing accelerators for SpMV. In this paper, we present Serpens, an HBM based accelerator for general-purpose SpMV, which features memory-centric processing engines and index coalescing to support the efficient processing of arbitrary SpMVs. From the evaluation of twelve large-size matrices, Serpens is 1.91x and 1.76x better in terms of geomean throughput than the latest accelerators GraphLiLy and Sextans, respectively. We also evaluate 2,519 SuiteSparse matrices, and Serpens achieves 2.10x higher throughput than a K80 GPU. For the energy/bandwidth efficiency, Serpens is 1.71x/1.99x, 1.90x/2.69x, and 6.25x/4.06x better compared with GraphLily, Sextans, and K80, respectively. After scaling up to 24 HBM channels, Serpens achieves up to 60.55 GFLOP/s (30,204 MTEPS) and up to 3.79x over GraphLily.
+        </td>
+    </tr>
+    <tr>
         <td>Sextans: A Streaming Accelerator for General-Purpose Sparse-Matrix Dense-Matrix Multiplication</td>
         <td>Linghao Song <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://dl.acm.org/doi/abs/10.1145/3490422.3502357">Paper</a></td>
-        <td>Sparse-Matrix Dense-Matrix multiplication (SpMM) is the key operator for a wide range of applications including scientific computing, graph processing, and deep learning. Architecting accelerators for SpMM is faced with three challenges – (1) the random memory accessing and unbalanced load in processing because of random distribution of elements in sparse matrices, (2) inefficient data handling of the large matrices which can not be fit on-chip, and (3) a non-general-purpose accelerator design where one accelerator can only process a fixed-size problem. In this paper, we present Sextans, an accelerator for general purpose SpMM processing. Sextans accelerator features (1) fast random access using on-chip memory, (2) streaming access to offchip large matrices, (3) PE-aware non-zero scheduling for balanced workload with an II=1 pipeline, and (4) hardware flexibility to enable prototyping the hardware once to support SpMMs of different size as a general-purpose accelerator. We leverage high bandwidth memory (HBM) for the efficient accessing of both sparse and dense matrices. In the evaluation, we present an FPGA prototype Sextans which is executable on a Xilinx U280 HBM FPGA board and a projected prototype Sextans-P with higher bandwidth competitive to V100 and more frequency optimization. We conduct a comprehensive evaluation on 1,400 SpMMs on a wide range of sparse matrices including 50 matrices from SNAP and 150 from SuiteSparse. We compare Sextans with NVIDIA K80 and V100 GPUs. Sextans achieves a 2.50x geomean speedup over K80 GPU and Sextans-P achieves a 1.14x geomean speedup over V100 GPU (4.94x over K80). <br><b>Note</b>: Notes quoted from paper. </td>
+        <td>
+            Sparse-Matrix Dense-Matrix multiplication (SpMM) is the key operator for a wide range of applications including scientific computing, graph processing, and deep learning. Architecting accelerators for SpMM is faced with three challenges – (1) the random memory accessing and unbalanced load in processing because of random distribution of elements in sparse matrices, (2) inefficient data handling of the large matrices which can not be fit on-chip, and (3) a non-general-purpose accelerator design where one accelerator can only process a fixed-size problem. In this paper, we present Sextans, an accelerator for general purpose SpMM processing. Sextans accelerator features (1) fast random access using on-chip memory, (2) streaming access to offchip large matrices, (3) PE-aware non-zero scheduling for balanced workload with an II=1 pipeline, and (4) hardware flexibility to enable prototyping the hardware once to support SpMMs of different size as a general-purpose accelerator. We leverage high bandwidth memory (HBM) for the efficient accessing of both sparse and dense matrices. In the evaluation, we present an FPGA prototype Sextans which is executable on a Xilinx U280 HBM FPGA board and a projected prototype Sextans-P with higher bandwidth competitive to V100 and more frequency optimization. We conduct a comprehensive evaluation on 1,400 SpMMs on a wide range of sparse matrices including 50 matrices from SNAP and 150 from SuiteSparse. We compare Sextans with NVIDIA K80 and V100 GPUs. Sextans achieves a 2.50x geomean speedup over K80 GPU and Sextans-P achieves a 1.14x geomean speedup over V100 GPU (4.94x over K80). <br><b>Note</b>: Notes quoted from paper.
+        </td>
     </tr>
     <tr>
         <td>Shuhai: A Tool for Benchmarking High Bandwidth Memory on FPGAs</td>
@@ -257,6 +299,15 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Zhejiang University</td>
         <td><a href="https://doi.org/10.1109/TC.2021.3075765">Paper</a></td>
         <td>FPGAs are starting to be enhanced with High Bandwidth Memory (HBM) as a way to reduce the memory bandwidth bottleneck encountered in some applications and to give the FPGA more capacity to deal with application state. However, the performance characteristics of HBM are still not well specified, especially in the context of FPGAs. In this paper, we bridge the gap between nominal specifications and actual performance by benchmarking HBM on a state-of-the-art FPGA, i.e., a Xilinx Alveo U280 featuring a two-stack HBM subsystem. To this end, we propose Shuhai, a benchmarking tool that allows us to demystify all the underlying details of HBM on an FPGA. FPGA-based benchmarking should also provide a more accurate picture of HBM than doing so on CPUs/GPUs, since CPUs/GPUs are noisier systems due to their complex control logic and cache hierarchy. Since the memory itself is complex, leveraging custom hardware logic to benchmark inside an FPGA provides more details as well as accurate and deterministic measurements. We observe that 1) HBM is able to provide up to 425 GB/s memory bandwidth, and 2) how HBM is used has a significant impact on performance, which in turn demonstrates the importance of unveiling the performance characteristics of HBM so as to select the best approach. As a yardstick, we also apply Shuhai to DDR4 to show the differences between HBM and DDR4. Shuhai can be easily generalized to other FPGA boards or other generations of memory, e.g., HBM3, and DDR3. We will make Shuhai open-source, benefiting the community.</td>
+    </tr>
+    <tr>
+        <td>StreamGCN: Accelerating Graph Convolutional Networks with Streaming Processing</td>
+        <td>Atefeh Sohrabizadeh<em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://ieeexplore.ieee.org/document/9772832">Paper</a></td>
+        <td>
+            While there have been many studies on hardware acceleration for deep learning on images, there has been a rather limited focus on accelerating deep learning applications involving graphs. The unique characteristics of graphs, such as the irregular memory access and dynamic parallelism, impose several challenges when the algorithm is mapped to a CPU or GPU. To address these challenges while exploiting all the available sparsity, we propose a flexible architecture called StreamGCN for accelerating Graph Convolutional Networks (GCN), the core computation unit in deep learning algorithms on graphs. The architecture is specialized for streaming processing of many small graphs for graph search and similarity computation. The experimental results demonstrate that StreamGCN can deliver a high speedup compared to a multi-core CPU and a GPU implementation, showing the efficiency of our design.
+        </td>
     </tr>
     <tr>
         <td>ThunderGP: Resource-Efficient Graph ProcessingFramework on FPGAs with HLS</td>
