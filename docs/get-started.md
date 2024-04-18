@@ -1,8 +1,6 @@
 # Get Started
 
-Researchers from academic and industry are invited to apply to the HACC program by contacting the AUP team, [aup@amd.com](mailto:aup@amd.com).
-
-The first step is to [register for the Heterogeneous Accelerated Compute Cluster program](https://account.amd.com/en/member/aup_research_clusters.html)
+Researchers from academic and industry are invited to apply to the HACC program by [registering for the Heterogeneous Accelerated Compute Cluster program](https://account.amd.com/en/member/aup_research_clusters.html)
 
 Priority research areas for the HACCs include:
 
