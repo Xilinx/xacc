@@ -164,7 +164,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>FPGA Acceleration of Pre-Alignment Filters for Short Read Mapping With HLS</td>
         <td>David Castells-Rufas <em>et al.</em></td>
         <td>David Castells-Rufas</td>
-        <td><a href="https://ieeexplore.ieee.org/abstract/document/9718100">Paper</a> <a href="https://github.com/davidcastells/OpenCLPrealignmentFilters">GitHub</a></td>
+        <td><a href="https://ieeexplore.ieee.org/abstract/document/9718100">Paper</a></td>
         <td>Pre-alignment filters are useful for reducing the computational requirements of genomic sequence mappers. Most of them are based on estimating or computing the edit distance between sequences and their candidate locations in a reference genome using a subset of the dynamic programming table used to compute Levenshtein distance. Some of their FPGA implementations of use classic HDL toolchains, thus limiting their portability. Currently, most FPGA accelerators offered by heterogeneous cloud providers support C/C++ HLS. This work implements and optimizes several state-of-the-art pre-alignment filters using C/C++ based-HLS to expand their portability to a wide range of systems supporting the OpenCL runtime. A complete analysis of the performance and accuracy is performed. The maximum throughput obtained by an exact filter is 95.1 MPairs/s including memory transfers using 100 bp sequences, which is the highest ever reported for a comparable system and more than two times faster than previous HDL-based results. The best energy efficiency obtained from the accelerator (not considering host CPU) is 2.1 MPairs/J, more than one order of magnitude higher than other accelerator-based comparable approaches from the state of the art.</td>
     </tr>
     <tr>
@@ -225,6 +225,15 @@ If you would like to contribute to this page by adding a reference to your publi
         <td><a href="https://dl.acm.org/doi/abs/10.1145/3517141">Paper</a> <a href="https://github.com/Xtra-Computing/ThunderGP">GitHub</a></td>
         <td>ThunderGP, an HLS-based graph processing framework on FPGAs, with which developers could enjoy FPGA-accelerated graph processing with no prior knowledge of hardware design. ThunderGP adopts the gather-apply-scatter (GAS) model as the abstraction of various graph algorithms and realizes the model by a build-in highly parallel and memory-efficient accelerator template. ThunderGP on DRAM-based hardware platforms provides 1.9 × ∼ 5.2 × improvement on bandwidth efficiency over the state-of-the-art, while ThunderGP on HBM-based hardware platforms delivers up to 5.2 × speedup over the state-of-the-art RTL-based approach.</td>
     </tr>
+    <tr>
+        <td>TopSort: A High-Performance Two-Phase Sorting Accelerator Optimized on HBM-Based FPGAs</td>
+        <td>Weikang Qiao<em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://ieeexplore.ieee.org/document/9992222">Paper</a></td>
+        <td>
+            The emergence of high-bandwidth memory (HBM) brings new opportunities to boost the performance of sorting acceleration on FPGAs, which was conventionally bounded by the available off-chip memory bandwidth. However, it is nontrivial for designers to fully utilize this immense bandwidth. First, the existing sorter designs cannot be directly scaled at the increasing rate of available off-chip bandwidth, as the required on-chip resource usage grows at a much faster rate and would bound the sorting performance in turn. Second, designers need an in-depth understanding of HBM's characteristics to effectively utilize the HBM bandwidth. To tackle these challenges, we present TopSort, a novel two-phase sorting solution optimized for HBM-based FPGAs. In the first phase, 16 merge trees work in parallel to fully utilize 32 HBM channels’ bandwidth. In the second phase, TopSort reuses the logic from phase one to form a wider merge tree to merge the partially sorted results from phase one. TopSort also adopts HBM-specific optimizations to reduce resource overhead and improve bandwidth utilization. TopSort can sort up to 4 GB data using all 32 HBM channels, with an overall sorting performance of 15.6 GB/s. TopSort is 6.7× and 2.7× faster than state-of-the-art CPU and FPGA sorters.
+        </td>
+    </tr>    
 </table>
 
 ## 2021
