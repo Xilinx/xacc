@@ -24,7 +24,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>
             With the increase in the computation intensity of the chip, the mismatch between computation layer shapes and the available computation resource significantly limits the utilization of the chip. Driven by this observation, prior works discuss spatial accelerators or dataflow architecture to maximize the throughput. However, using spatial accelerators could potentially increase the execution latency. In this work, we first systematically investigate two execution models: (1) sequentially (temporally) launch one monolithic accelerator, and (2) spatially launch multiple accelerators. From the observations, we find that there is a latency throughput tradeoff between these two execution models, and combining these two strategies together can give us a more efficient latency throughput Pareto front. To achieve this, we propose spatial sequential architecture (SSR) and SSR design automation framework to explore both strategies together when deploying deep learning inference. We use the 7nm AMD Versal ACAP VCK190 board to implement SSR accelerators for four end-to-end transformer-based deep learning models. SSR achieves average throughput gains of 2.53x, 35.71x, and 14.20x under different batch sizes compared to the 8nm Nvidia GPU A10G, 16nm AMD FPGAs ZCU102, and U250. The average energy efficiency gains are 8.51x, 6.75x, and 21.22x, respectively. Compared with the sequential-only solution and spatial-only solution on VCK190, our spatial-sequential-hybrid solutions achieve higher throughput under the same latency requirement and lower latency under the same throughput requirement. We also use SSR analytical models to demonstrate how to use SSR to optimize solutions on other computing platforms, e.g., 14nm Intel Stratix 10 NX.
         </td>
-    </tr>   
+    </tr>
 </table>
 
 ## 2023
@@ -54,7 +54,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>
             The continued growth in the processing power of FPGAs coupled with high bandwidth memories (HBM), makes systems like the Xilinx U280 credible platforms for linear solvers which often dominate the run time of scientific and engineering applications. In this paper, we present Callipepla, an accelerator for a preconditioned conjugate gradient linear solver (CG). FPGA acceleration of CG faces three challenges: (1) how to support an arbitrary problem and terminate acceleration processing on the fly, (2) how to coordinate long-vector data flow among processing modules, and (3) how to save off-chip memory bandwidth and maintain double (FP64) precision accuracy. To tackle the three challenges, we present (1) a stream-centric instruction set for efficient streaming processing and control, (2) vector streaming reuse (VSR) and decentralized vector flow scheduling to coordinate vector data flow among modules and further reduce off-chip memory access latency with a double memory channel design, and (3) a mixed precision scheme to save bandwidth yet still achieve effective double precision quality solutions. To the best of our knowledge, this is the first work to introduce the concept of VSR for data reusing between on-chip modules to reduce unnecessary off-chip accesses and enable modules working in parallel for FPGA accelerators. We prototype the accelerator on a Xilinx U280 HBM FPGA. Our evaluation shows that compared to the Xilinx HPC product, the XcgSolver, Callipepla achieves a speedup of 3.94x, 3.36x higher throughput, and 2.94x better energy efficiency. Compared to an NVIDIA A100 GPU which has 4x the memory bandwidth of Callipepla, we still achieve 77% of its throughput with 3.34x higher energy efficiency. The code is available at https://github.com/UCLA-VAST/Callipepla.
         </td>
-    </tr>    
+    </tr>
     <tr>
         <td>CHARM: Composing Heterogeneous AcceleRators for Matrix Multiply on Versal ACAP Architecture</td>
         <td>Jinming Zhuang <em>et al.</em></td>
@@ -66,7 +66,7 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
     <tr>
         <td>Democratizing Domain-Specific Computing</td>
-        <td> <em>et al.</em></td>
+        <td>Yuze Chi<em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://doi.org/10.1145/3524108">Paper</a></td>
         <td>
@@ -131,20 +131,6 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
-        <td>FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption</td>
-        <td>Van Beirendonck <em>et al.</em></td>
-        <td>COSIC KU LEUVEN</td>
-        <td><a href="https://eprint.iacr.org/2022/1635">Paper</a></td>
-        <td>Fully Homomorphic Encryption is a technique that allows computation on encrypted data. It has the potential to drastically change privacy considerations in the cloud, but high computational and memory overheads are preventing its broad adoption. TFHE is a promising Torus-based FHE scheme that heavily relies on bootstrapping, the noise-removal tool that must be invoked after every encrypted gate computation.
-
-We present FPT, a Fixed-Point FPGA accelerator for TFHE bootstrapping. FPT is the first hardware accelerator to heavily exploit the inherent noise present in FHE calculations. Instead of double or single-precision floating-point arithmetic, it implements TFHE bootstrapping entirely with approximate fixed-point arithmetic. Using an in-depth analysis of noise propagation in bootstrapping FFT computations, FPT is able to use noise-trimmed fixed-point representations that are up to 50% smaller than prior implementations using floating-point or integer FFTs. 
-
-FPT's microarchitecture is built as a streaming processor inspired by traditional streaming DSPs: it instantiates high-throughput computational stages that are directly cascaded, with simplified control logic and routing networks. We explore different throughput-balanced compositions of streaming kernels with a user-configurable streaming width in order to construct a full bootstrapping pipeline. FPT's streaming approach allows 100% utilization of arithmetic units and requires only small bootstrapping key caches, enabling an entirely compute-bound bootstrapping throughput of 1 BS / 35
-us. This is in stark contrast to the established classical CPU approach to FHE bootstrapping acceleration, which tends to be heavily memory and bandwidth-constrained.
-
-FPT is fully implemented and evaluated as a bootstrapping FPGA kernel for an Alveo U280 datacenter accelerator card. FPT achieves almost three orders of magnitude higher bootstrapping throughput than existing CPU-based implementations, and 2.5x higher throughput compared to recent ASIC emulation experiments.</td>
-    </tr>
-    <tr>
         <td>Accelerating SSSP for Power-Law Graphs</td>
         <td>Yuze Chi <em>et al.</em></td>
         <td>UCLA</td>
@@ -166,11 +152,29 @@ FPT is fully implemented and evaluated as a bootstrapping FPGA kernel for an Alv
         <td>Cloud deployments disaggregate storage from compute, providing more flexibility to both the storage and compute layers. In this paper, we explore disaggregation by taking it one step further and applying it to memory (DRAM). Disaggregated memory uses network attached DRAM as a way to decouple memory from CPU. In the context of databases, such a design offers significant advantages in terms of making a larger memory capacity available as a central pool to a collection of smaller processing nodes. To explore these possibilities, we have implemented Farview, a disaggregated memory solution for databases, operating as a remote buffer cache with operator offloading capabilities. Farview is implemented as an FPGA-based smart NIC making DRAM available as a disaggregated, network attached memory pool capable of performing data processing at line rate over data streams to/from disaggregated memory. Farview supports query offloading using operators such as selection, projection, aggregation, regular expression matching and encryption. In this paper we focus on analytical queries and demonstrate the viability of the idea through an extensive experimental evaluation of Farview under different workloads. Farview is competitive with a local buffer cache solution for all the workloads and outperforms it in a number of cases, proving that a smart disaggregated memory can be a viable alternative for databases deployed in cloud environments.</td>
     </tr>
     <tr>
+        <td>FlexCNN: An End-to-End Framework for Composing CNN Accelerators on FPGA</td>
+        <td>Suhail Basalama<em>et al.</em></td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3570928">Paper</a> <a href="https://gitlab.com/cerl/fortran-hls">GitLab</a></td>
+        <td>UCLA</td>
+        <td>
+            With reduced data reuse and parallelism, recent convolutional neural networks (CNNs) create new challenges for FPGA acceleration. Systolic arrays (SAs) are efficient, scalable architectures for convolutional layers, but without proper optimizations, their efficiency drops dramatically for reasons: (1) the different dimensions within same-type layers, (2) the different convolution layers especially transposed and dilated convolutions, and (3) CNN’s complex dataflow graph. Furthermore, significant overheads arise when integrating FPGAs into machine learning frameworks. Therefore, we present a flexible, composable architecture called FlexCNN, which delivers high computation efficiency by employing dynamic tiling, layer fusion, and data layout optimizations. Additionally, we implement a novel versatile SA to process normal, transposed, and dilated convolutions efficiently. FlexCNN also uses a fully pipelined software-hardware integration that alleviates the software overheads. Moreover, with an automated compilation flow, FlexCNN takes a CNN in the ONNX1 representation, performs a design space exploration, and generates an FPGA accelerator. The framework is tested using three complex CNNs: OpenPose, U-Net, and E-Net. The architecture optimizations achieve 2.3× performance improvement. Compared to a standard SA, the versatile SA achieves close-to-ideal speedups, with up to 5.98× and 13.42× for transposed and dilated convolutions, with a 6% average area overhead. The pipelined integration leads to a 5× speedup for OpenPose.
+        </td>
+    </tr>
+    <tr>
         <td>FPGA Acceleration of Pre-Alignment Filters for Short Read Mapping With HLS</td>
         <td>David Castells-Rufas <em>et al.</em></td>
         <td>David Castells-Rufas</td>
         <td><a href="https://ieeexplore.ieee.org/abstract/document/9718100">Paper</a> <a href="https://github.com/davidcastells/OpenCLPrealignmentFilters">GitHub</a></td>
         <td>Pre-alignment filters are useful for reducing the computational requirements of genomic sequence mappers. Most of them are based on estimating or computing the edit distance between sequences and their candidate locations in a reference genome using a subset of the dynamic programming table used to compute Levenshtein distance. Some of their FPGA implementations of use classic HDL toolchains, thus limiting their portability. Currently, most FPGA accelerators offered by heterogeneous cloud providers support C/C++ HLS. This work implements and optimizes several state-of-the-art pre-alignment filters using C/C++ based-HLS to expand their portability to a wide range of systems supporting the OpenCL runtime. A complete analysis of the performance and accuracy is performed. The maximum throughput obtained by an exact filter is 95.1 MPairs/s including memory transfers using 100 bp sequences, which is the highest ever reported for a comparable system and more than two times faster than previous HDL-based results. The best energy efficiency obtained from the accelerator (not considering host CPU) is 2.1 MPairs/J, more than one order of magnitude higher than other accelerator-based comparable approaches from the state of the art.</td>
+    </tr>
+    <tr>
+        <td>FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption</td>
+        <td>Van Beirendonck <em>et al.</em></td>
+        <td>COSIC KU LEUVEN</td>
+        <td><a href="https://eprint.iacr.org/2022/1635">Paper</a></td>
+        <td>
+            Fully Homomorphic Encryption is a technique that allows computation on encrypted data. It has the potential to drastically change privacy considerations in the cloud, but high computational and memory overheads are preventing its broad adoption. TFHE is a promising Torus-based FHE scheme that heavily relies on bootstrapping, the noise-removal tool that must be invoked after every encrypted gate computation. We present FPT, a Fixed-Point FPGA accelerator for TFHE bootstrapping. FPT is the first hardware accelerator to heavily exploit the inherent noise present in FHE calculations. Instead of double or single-precision floating-point arithmetic, it implements TFHE bootstrapping entirely with approximate fixed-point arithmetic. Using an in-depth analysis of noise propagation in bootstrapping FFT computations, FPT is able to use noise-trimmed fixed-point representations that are up to 50% smaller than prior implementations using floating-point or integer FFTs. FPT's microarchitecture is built as a streaming processor inspired by traditional streaming DSPs: it instantiates high-throughput computational stages that are directly cascaded, with simplified control logic and routing networks. We explore different throughput-balanced compositions of streaming kernels with a user-configurable streaming width in order to construct a full bootstrapping pipeline. FPT's streaming approach allows 100% utilization of arithmetic units and requires only small bootstrapping key caches, enabling an entirely compute-bound bootstrapping throughput of 1 BS / 35 us. This is in stark contrast to the established classical CPU approach to FHE bootstrapping acceleration, which tends to be heavily memory and bandwidth-constrained. FPT is fully implemented and evaluated as a bootstrapping FPGA kernel for an Alveo U280 datacenter accelerator card. FPT achieves almost three orders of magnitude higher bootstrapping throughput than existing CPU-based implementations, and 2.5x higher throughput compared to recent ASIC emulation experiments.
+        </td>
     </tr>
     <tr>
         <td>In-depth FPGA accelerator performance evaluation with single node benchmarks from the HPC challenge benchmark suite for Intel and Xilinx FPGAs using OpenCL</td>
