@@ -38,15 +38,6 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
-        <td>Callipepla: Stream Centric Instruction Set and Mixed Precision for Accelerating Conjugate Gradient Solver</td>
-        <td>Linghao Song <em>et al.</em></td>
-        <td>UCLA and Ansys</td>
-        <td><a href="https://dl.acm.org/doi/abs/10.1145/3543622.3573182">Paper</a> <a href="https://github.com/UCLA-VAST/Callipepla">GitHub</a></td>
-        <td>
-            The continued growth in the processing power of FPGAs coupled with high bandwidth memories (HBM), makes systems like the Xilinx U280 credible platforms for linear solvers which often dominate the run time of scientific and engineering applications. In this paper, we present Callipepla, an accelerator for a preconditioned conjugate gradient linear solver (CG). FPGA acceleration of CG faces three challenges: (1) how to support an arbitrary problem and terminate acceleration processing on the fly, (2) how to coordinate long-vector data flow among processing modules, and (3) how to save off-chip memory bandwidth and maintain double (FP64) precision accuracy. To tackle the three challenges, we present (1) a stream-centric instruction set for efficient streaming processing and control, (2) vector streaming reuse (VSR) and decentralized vector flow scheduling to coordinate vector data flow among modules and further reduce off-chip memory access latency with a double memory channel design, and (3) a mixed precision scheme to save bandwidth yet still achieve effective double precision quality solutions. To the best of our knowledge, this is the first work to introduce the concept of VSR for data reusing between on-chip modules to reduce unnecessary off-chip accesses and enable modules working in parallel for FPGA accelerators. We prototype the accelerator on a Xilinx U280 HBM FPGA. Our evaluation shows that compared to the Xilinx HPC product, the XcgSolver, Callipepla achieves a speedup of 3.94x, 3.36x higher throughput, and 2.94x better energy efficiency. Compared to an NVIDIA A100 GPU which has 4x the memory bandwidth of Callipepla, we still achieve 77% of its throughput with 3.34x higher energy efficiency. The code is available at https://github.com/UCLA-VAST/Callipepla.
-        </td>
-    </tr>
-    <tr>
         <td>AMNES: Accelerating the computation of data correlation using FPGAs</td>
         <td>Monica Chiosa <em>et al.</em></td>
         <td>ETH Zurich and AMD</td>
@@ -56,12 +47,30 @@ If you would like to contribute to this page by adding a reference to your publi
         </td>
     </tr>
     <tr>
+        <td>Callipepla: Stream Centric Instruction Set and Mixed Precision for Accelerating Conjugate Gradient Solver</td>
+        <td>Linghao Song <em>et al.</em></td>
+        <td>UCLA and Ansys</td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3543622.3573182">Paper</a> <a href="https://github.com/UCLA-VAST/Callipepla">GitHub</a></td>
+        <td>
+            The continued growth in the processing power of FPGAs coupled with high bandwidth memories (HBM), makes systems like the Xilinx U280 credible platforms for linear solvers which often dominate the run time of scientific and engineering applications. In this paper, we present Callipepla, an accelerator for a preconditioned conjugate gradient linear solver (CG). FPGA acceleration of CG faces three challenges: (1) how to support an arbitrary problem and terminate acceleration processing on the fly, (2) how to coordinate long-vector data flow among processing modules, and (3) how to save off-chip memory bandwidth and maintain double (FP64) precision accuracy. To tackle the three challenges, we present (1) a stream-centric instruction set for efficient streaming processing and control, (2) vector streaming reuse (VSR) and decentralized vector flow scheduling to coordinate vector data flow among modules and further reduce off-chip memory access latency with a double memory channel design, and (3) a mixed precision scheme to save bandwidth yet still achieve effective double precision quality solutions. To the best of our knowledge, this is the first work to introduce the concept of VSR for data reusing between on-chip modules to reduce unnecessary off-chip accesses and enable modules working in parallel for FPGA accelerators. We prototype the accelerator on a Xilinx U280 HBM FPGA. Our evaluation shows that compared to the Xilinx HPC product, the XcgSolver, Callipepla achieves a speedup of 3.94x, 3.36x higher throughput, and 2.94x better energy efficiency. Compared to an NVIDIA A100 GPU which has 4x the memory bandwidth of Callipepla, we still achieve 77% of its throughput with 3.34x higher energy efficiency. The code is available at https://github.com/UCLA-VAST/Callipepla.
+        </td>
+    </tr>    
+    <tr>
         <td>CHARM: Composing Heterogeneous AcceleRators for Matrix Multiply on Versal ACAP Architecture</td>
         <td>Jinming Zhuang <em>et al.</em></td>
         <td>University of Pittsburgh, UCLA, UIUC, AMD</td>
         <td><a href="https://dl.acm.org/doi/10.1145/3543622.3573210">Paper</a> <a href="https://github.com/arc-research-lab/CHARM">GitHub</a></td>
         <td>
             Dense matrix multiply (MM) serves as one of the most heavily used kernels in deep learning applications. To cope with the high computation demands of these applications, heterogeneous architectures featuring both FPGA and dedicated ASIC accelerators have emerged as promising platforms. For example, the AMD/Xilinx Versal ACAP architecture combines general-purpose CPU cores and programmable logic (PL) with AI Engine processors (AIE) optimized for AI/ML. An array of 400 AI Engine processors executing at 1 GHz can theoretically provide up to 6.4 TFLOPs performance for 32-bit floating-point (fp32) data. However, machine learning models often contain both large and small MM operations. While large MM operations can be parallelized efficiently across many cores, small MM operations typically cannot. In our investigation, we observe that executing some small MM layers from the BERT natural language processing model on a large, monolithic MM accelerator in Versal ACAP achieved less than 5% of the theoretical peak performance. Therefore, one key question arises: How can we design accelerators to fully use the abundant computation resources under limited communication bandwidth for end-to-end applications with multiple MM layers of diverse sizes? We identify the biggest system throughput bottleneck resulting from the mismatch of massive computation resources of one monolithic accelerator and the various MM layers of small sizes in the application. To resolve this problem, we propose the CHARM framework to compose multiple diverse MM accelerator architectures working concurrently towards different layers within one application. CHARM includes analytical models which guide design space exploration to determine accelerator partitions and layer scheduling. To facilitate the system designs, CHARM automatically generates code, enabling thorough onboard design verification. We deploy the CHARM framework for four different deep learning applications, including BERT, ViT, NCF, MLP, on the AMD/Xilinx Versal ACAP VCK190 evaluation board. Our experiments show that we achieve 1.46 TFLOPs, 1.61 TFLOPs, 1.74 TFLOPs, and 2.94 TFLOPs inference throughput for BERT, ViT, NCF, MLP, respectively, which obtain 5.40x, 32.51x, 1.00x and 1.00x throughput gains compared to one monolithic accelerator.
+        </td>
+    </tr>
+    <tr>
+        <td>Democratizing Domain-Specific Computing</td>
+        <td> <em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://doi.org/10.1145/3524108">Paper</a></td>
+        <td>
+            Creating a programming environment and compilation flow that empowers programmers to create their own DSAs efficiently and affordably on FPGAs.
         </td>
     </tr>
     <tr>
