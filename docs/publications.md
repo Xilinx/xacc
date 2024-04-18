@@ -135,7 +135,18 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Yuze Chi <em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://doi.org/10.1145/3490422.3502358">Paper</a></td>
-        <td>The single-source shortest path (SSSP) problem is one of the most important and well-studied graph problems widely used in many application domains, such as road navigation, neural image reconstruction, and social network analysis. Although we have known various SSSP algorithms for decades, implementing one for large scale power-law graphs efficiently is still highly challenging today, because ① a work-efficient SSSP algorithm requires priority-order traversal of graph data, ② the priority queue needs to be scalable both in throughput and capacity, and ③ priority-order traversal requires extensive random memory accesses on graph data. In this paper, we present SPLAG to accelerate SSSP for powerlaw graphs on FPGAs. SPLAG uses a coarse-grained priority queue (CGPQ) to enable high-throughput priority-order graph traversal with a large frontier. To mitigate the high-volume random accesses, SPLAG employs a customized vertex cache (CVC) to reduce off-chip memory access and improve the throughput to read and update vertex data. Experimental results on various synthetic and real world datasets show up to a 4.9× speedup over state-of-the-art SSSP accelerators, a 2.6× speedup over 32-thread CPU running at 4.4 GHz, and a 0.9× speedup over an A100 GPU that has 4.1× power budget and 3.4× HBM bandwidth. Such a high performance would place SPLAG in the 14th position of the Graph 500 benchmark for data intensive applications (the highest using a single FPGA) with only a 45 W power budget. SPLAG is written in high-level synthesis C++ and is fully parameterized, which means it can be easily ported to various different FPGAs with different configurations. <br><b>Note</b>: Notes quoted from paper</td>
+        <td>
+            The single-source shortest path (SSSP) problem is one of the most important and well-studied graph problems widely used in many application domains, such as road navigation, neural image reconstruction, and social network analysis. Although we have known various SSSP algorithms for decades, implementing one for large scale power-law graphs efficiently is still highly challenging today, because ① a work-efficient SSSP algorithm requires priority-order traversal of graph data, ② the priority queue needs to be scalable both in throughput and capacity, and ③ priority-order traversal requires extensive random memory accesses on graph data. In this paper, we present SPLAG to accelerate SSSP for powerlaw graphs on FPGAs. SPLAG uses a coarse-grained priority queue (CGPQ) to enable high-throughput priority-order graph traversal with a large frontier. To mitigate the high-volume random accesses, SPLAG employs a customized vertex cache (CVC) to reduce off-chip memory access and improve the throughput to read and update vertex data. Experimental results on various synthetic and real world datasets show up to a 4.9× speedup over state-of-the-art SSSP accelerators, a 2.6× speedup over 32-thread CPU running at 4.4 GHz, and a 0.9× speedup over an A100 GPU that has 4.1× power budget and 3.4× HBM bandwidth. Such a high performance would place SPLAG in the 14th position of the Graph 500 benchmark for data intensive applications (the highest using a single FPGA) with only a 45 W power budget. SPLAG is written in high-level synthesis C++ and is fully parameterized, which means it can be easily ported to various different FPGAs with different configurations. <br><b>Note</b>: Notes quoted from paper
+        </td>
+    </tr>
+    <tr>
+        <td>Automated Accelerator Optimization Aided by Graph Neural Networks</td>
+        <td>Atefeh Sohrabizadeh <em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://doi.org/10.1145/3489517.3530409">Paper</a></td>
+        <td>
+            Using High-Level Synthesis (HLS), the hardware designers must describe only a high-level behavioral flow of the design. However, it still can take weeks to develop a high-performance architecture mainly because there are many design choices at a higher level to explore. Besides, it takes several minutes to hours to evaluate the design with the HLS tool. To solve this problem, we model the HLS tool with a graph neural network that is trained to be used for a wide range of applications. The experimental results demonstrate that our model can estimate the quality of design in milliseconds with high accuracy, resulting in up to 79X speedup (with an average of 48X) for optimizing the design compared to the previous state-of-the-art work relying on the HLS tool.
+        </td>
     </tr>
     <tr>
         <td>Enzian: An Open, General, CPU/FPGA Platform for Systems Software Research</td>
@@ -163,9 +174,20 @@ If you would like to contribute to this page by adding a reference to your publi
     <tr>
         <td>FPGA Acceleration of Pre-Alignment Filters for Short Read Mapping With HLS</td>
         <td>David Castells-Rufas <em>et al.</em></td>
-        <td>David Castells-Rufas</td>
+        <td>Universitat Autònoma de Barcelona</td>
         <td><a href="https://ieeexplore.ieee.org/abstract/document/9718100">Paper</a></td>
-        <td>Pre-alignment filters are useful for reducing the computational requirements of genomic sequence mappers. Most of them are based on estimating or computing the edit distance between sequences and their candidate locations in a reference genome using a subset of the dynamic programming table used to compute Levenshtein distance. Some of their FPGA implementations of use classic HDL toolchains, thus limiting their portability. Currently, most FPGA accelerators offered by heterogeneous cloud providers support C/C++ HLS. This work implements and optimizes several state-of-the-art pre-alignment filters using C/C++ based-HLS to expand their portability to a wide range of systems supporting the OpenCL runtime. A complete analysis of the performance and accuracy is performed. The maximum throughput obtained by an exact filter is 95.1 MPairs/s including memory transfers using 100 bp sequences, which is the highest ever reported for a comparable system and more than two times faster than previous HDL-based results. The best energy efficiency obtained from the accelerator (not considering host CPU) is 2.1 MPairs/J, more than one order of magnitude higher than other accelerator-based comparable approaches from the state of the art.</td>
+        <td>
+            Pre-alignment filters are useful for reducing the computational requirements of genomic sequence mappers. Most of them are based on estimating or computing the edit distance between sequences and their candidate locations in a reference genome using a subset of the dynamic programming table used to compute Levenshtein distance. Some of their FPGA implementations of use classic HDL toolchains, thus limiting their portability. Currently, most FPGA accelerators offered by heterogeneous cloud providers support C/C++ HLS. This work implements and optimizes several state-of-the-art pre-alignment filters using C/C++ based-HLS to expand their portability to a wide range of systems supporting the OpenCL runtime. A complete analysis of the performance and accuracy is performed. The maximum throughput obtained by an exact filter is 95.1 MPairs/s including memory transfers using 100 bp sequences, which is the highest ever reported for a comparable system and more than two times faster than previous HDL-based results. The best energy efficiency obtained from the accelerator (not considering host CPU) is 2.1 MPairs/J, more than one order of magnitude higher than other accelerator-based comparable approaches from the state of the art.
+        </td>
+    </tr>
+    <tr>
+        <td>FPGA Acceleration of Probabilistic Sentential Decision Diagrams with High-Level Synthesis</td>
+        <td>Young-kyu Choi<em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3561514">Paper</a></td>
+        <td>
+            Probabilistic Sentential Decision Diagrams (PSDDs) provide efficient methods for modeling and reasoning with probability distributions in the presence of massive logical constraints. PSDDs can also be synthesized from graphical models such as Bayesian networks (BNs) therefore offering a new set of tools for performing inference on these models (in time linear in the PSDD size). Despite these favorable characteristics of PSDDs, we have found multiple challenges in PSDD’s FPGA acceleration. Problems include limited parallelism, data dependency, and small pipeline iterations. In this article, we propose several optimization techniques to solve these issues with novel pipeline scheduling and parallelization schemes. We designed the PSDD kernel with a high-level synthesis (HLS) tool for ease of implementation and verified it on the Xilinx Alveo U250 board. Experimental results show that our methods improve the baseline FPGA HLS implementation performance by 2,200X and the multicore CPU implementation by 20X. The proposed design also outperforms state-of-the-art BN and Sum Product Network (SPN) accelerators that store the graph information in memory.
+        </td>
     </tr>
     <tr>
         <td>FPGA HLS Today: Successes, Challenges, and Opportunities</td>
@@ -175,7 +197,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>
             The year 2011 marked an important transition for FPGA high-level synthesis (HLS), as it went from prototyping to deployment. A decade later, in this article, we assess the progress of the deployment of HLS technology and highlight the successes in several application domains, including deep learning, video transcoding, graph processing, and genome sequencing. We also discuss the challenges faced by today’s HLS technology and the opportunities for further research and development, especially in the areas of achieving high clock frequency, coping with complex pragmas and system integration, legacy code transformation, building on open source HLS infrastructures, supporting domain-specific languages, and standardization. It is our hope that this article will inspire more research on FPGA HLS and bring it to a new height.
         </td>
-    </tr>    
+    </tr>
     <tr>
         <td>FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption</td>
         <td>Van Beirendonck <em>et al.</em></td>
@@ -194,7 +216,7 @@ If you would like to contribute to this page by adding a reference to your publi
     </tr>
     <tr>
         <td>OverGen: Improving FPGA Usability through Domain-specific Overlay Generation</td>
-        <td> <em>et al.</em></td>
+        <td> Sihao Liu<em>et al.</em></td>
         <td>UCLA</td>
         <td><a href="https://ieeexplore.ieee.org/abstract/document/9923882">Paper</a></td>
         <td>
@@ -251,7 +273,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>
             The emergence of high-bandwidth memory (HBM) brings new opportunities to boost the performance of sorting acceleration on FPGAs, which was conventionally bounded by the available off-chip memory bandwidth. However, it is nontrivial for designers to fully utilize this immense bandwidth. First, the existing sorter designs cannot be directly scaled at the increasing rate of available off-chip bandwidth, as the required on-chip resource usage grows at a much faster rate and would bound the sorting performance in turn. Second, designers need an in-depth understanding of HBM's characteristics to effectively utilize the HBM bandwidth. To tackle these challenges, we present TopSort, a novel two-phase sorting solution optimized for HBM-based FPGAs. In the first phase, 16 merge trees work in parallel to fully utilize 32 HBM channels’ bandwidth. In the second phase, TopSort reuses the logic from phase one to form a wider merge tree to merge the partially sorted results from phase one. TopSort also adopts HBM-specific optimizations to reduce resource overhead and improve bandwidth utilization. TopSort can sort up to 4 GB data using all 32 HBM channels, with an overall sorting performance of 15.6 GB/s. TopSort is 6.7× and 2.7× faster than state-of-the-art CPU and FPGA sorters.
         </td>
-    </tr>    
+    </tr>
 </table>
 
 ## 2021
