@@ -168,6 +168,15 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>Pre-alignment filters are useful for reducing the computational requirements of genomic sequence mappers. Most of them are based on estimating or computing the edit distance between sequences and their candidate locations in a reference genome using a subset of the dynamic programming table used to compute Levenshtein distance. Some of their FPGA implementations of use classic HDL toolchains, thus limiting their portability. Currently, most FPGA accelerators offered by heterogeneous cloud providers support C/C++ HLS. This work implements and optimizes several state-of-the-art pre-alignment filters using C/C++ based-HLS to expand their portability to a wide range of systems supporting the OpenCL runtime. A complete analysis of the performance and accuracy is performed. The maximum throughput obtained by an exact filter is 95.1 MPairs/s including memory transfers using 100 bp sequences, which is the highest ever reported for a comparable system and more than two times faster than previous HDL-based results. The best energy efficiency obtained from the accelerator (not considering host CPU) is 2.1 MPairs/J, more than one order of magnitude higher than other accelerator-based comparable approaches from the state of the art.</td>
     </tr>
     <tr>
+        <td>FPGA HLS Today: Successes, Challenges, and Opportunities</td>
+        <td> Jason Cong<em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://doi.org/10.1145/3530775">Paper</a></td>
+        <td>
+            The year 2011 marked an important transition for FPGA high-level synthesis (HLS), as it went from prototyping to deployment. A decade later, in this article, we assess the progress of the deployment of HLS technology and highlight the successes in several application domains, including deep learning, video transcoding, graph processing, and genome sequencing. We also discuss the challenges faced by today’s HLS technology and the opportunities for further research and development, especially in the areas of achieving high clock frequency, coping with complex pragmas and system integration, legacy code transformation, building on open source HLS infrastructures, supporting domain-specific languages, and standardization. It is our hope that this article will inspire more research on FPGA HLS and bring it to a new height.
+        </td>
+    </tr>    
+    <tr>
         <td>FPT: a Fixed-Point Accelerator for Torus Fully Homomorphic Encryption</td>
         <td>Van Beirendonck <em>et al.</em></td>
         <td>COSIC KU LEUVEN</td>
