@@ -17,7 +17,16 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
-        <td>SSR: Spatial Sequential Hybrid Architecture for Latency Throughput Tradeoff in Transformer Acceleration (FPGA'24)</td>
+        <td>LevelST: Stream-based Accelerator for Sparse Triangular Solver</td>
+        <td>Zifan He<em>et al.</em></td>
+        <td>UCLA</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3626202.3637568">Paper</a> <a href="https://github.com/OswaldHe/LevelST">GitHub</a></td>
+        <td>
+            Over the past decade, much progress has been made to advance the acceleration of sparse linear operators such as SpMM and SpMV on FPGAs. Nevertheless, few works have attempted to address sparse triangular solver (SpTRSV) acceleration, and the performance boost is limited. SpTRSV is an elementary linear operator for many numerical methods, such as the least-square method. These methods, among others, are widely used in various areas, such as physical simulation and signal processing. Therefore, accelerating SpTRSV is crucial. However, many challenges impede accelerating SpTRSV, including (1) resolving dependencies between elements during forward or backward substitutions, (2) random access and unbalanced workloads across memory channels due to sparsity, (3) latency incurred by off-chip memory access for large matrices or vectors, and (4) data reuse for an unpredictable data sharing pattern. To address these issues, we have designed LevelST, the first FPGA accelerator leveraging high bandwidth memory (HBM) for solving sparse triangular systems. LevelST features (1) algorithm-hardware co-design of stream-based dependency resolution with reduced off-chip data movement, (2) resource sharing that improves resource utilization to scale up the architecture, (3) index modulo scheduling to balance workload, and (4) selective data prefetching from off-chip memory. LevelST is prototyped on an AMD Xilinx U280 HBM FPGA and evaluated with 16 sparse triangular matrices. Compared with the NVIDIA V100 and RTX 3060 GPUs over the cuSPARSE library, LevelST achieves a 2.65x speedup and 9.82x higher energy efficiency than the best of the V100 GPU and RTX 3060 GPU. The code is released on https://github.com/OswaldHe/LevelST (DOI: https://doi.org/10.5281/zenodo.10463345).
+        </td>
+    </tr>
+    <tr>
+        <td>SSR: Spatial Sequential Hybrid Architecture for Latency Throughput Tradeoff in Transformer Acceleration</td>
         <td>Jinming Zhuang <em>et al.</em></td>
         <td>University of Pittsburgh, University of Maryland, University of Notre Dame</td>
         <td><a href="https://arxiv.org/pdf/2401.10417.pdf">Paper</a> <a href="https://github.com/arc-research-lab/SSR">GitHub</a></td>
@@ -74,6 +83,15 @@ If you would like to contribute to this page by adding a reference to your publi
         </td>
     </tr>
     <tr>
+        <td>Co-design Hardware and Algorithm for Vector Search</td>
+        <td>Wenqi Jiang<em>et al.</em></td>
+        <td>ETH Zurich</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3581784.3607045">Paper</a> <a href="https://github.com/WenqiJiang/SC-ANN-FPGA">GitHub</a></td>
+        <td>
+            Vector search has emerged as the foundation for large-scale information retrieval and machine learning systems, with search engines like Google and Bing processing tens of thousands of queries per second on petabyte-scale document datasets by evaluating vector similarities between encoded query texts and web documents. As performance demands for vector search systems surge, accelerated hardware offers a promising solution in the post-Moore's Law era. We introduce FANNS, an end-to-end and scalable vector search framework on FPGAs. Given a user-provided recall requirement on a dataset and a hardware resource budget, FANNS automatically co-designs hardware and algorithm, subsequently generating the corresponding accelerator. The framework also supports scale-out by incorporating a hardware TCP/IP stack in the accelerator. FANNS attains up to 23.0× and 37.2× speedup compared to FPGA and CPU baselines, respectively, and demonstrates superior scalability to GPUs, achieving 5.5× and 7.6× speedup in median and 95th percentile (P95) latency within an eight-accelerator configuration. The remarkable performance of FANNS lays a robust groundwork for future FPGA integration in data centers and AI supercomputers.
+        </td>
+    </tr>
+    <tr>
         <td>Democratizing Domain-Specific Computing</td>
         <td>Yuze Chi<em>et al.</em></td>
         <td>UCLA</td>
@@ -92,6 +110,15 @@ If you would like to contribute to this page by adding a reference to your publi
         </td>
     </tr>
     <tr>
+        <td>Exploring the Versal AI Engines for Accelerating Stencil-based Atmospheric Advection Simulation</td>
+        <td>Nick Brown</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3543622.3573047">Paper</a></td>
+        <td>The University of Edinburgh</td>
+        <td>
+            AMD Xilinx's new Versal Adaptive Compute Acceleration Platform (ACAP) is an FPGA architecture combining reconfigurable fabric with other on-chip hardened compute resources. AI engines are one of these and, by operating in a highly vectorized manner, they provide significant raw compute that is potentially beneficial for a range of workloads including HPC simulation. However, this technology is still early-on, and as yet unproven for accelerating HPC codes, with a lack of benchmarking and best practice. This paper presents an experience report, exploring porting of the Piacsek and Williams (PW) advection scheme onto the Versal ACAP, using the chip's AI engines to accelerate the compute. A stencil-based algorithm, advection is commonplace in atmospheric modelling, including several Met Office codes who initially developed this scheme. Using this algorithm as a vehicle, we explore optimal approaches for structuring AI engine compute kernels and how best to interface the AI engines with programmable logic. Evaluating performance using a VCK5000 against non-AI engine FPGA configurations on the VCK5000 and Alveo U280, as well as a 24-core Xeon Platinum Cascade Lake CPU and Nvidia V100 GPU, we found that whilst the number of channels between the fabric and AI engines are a limitation, by leveraging the ACAP we can double performance compared to an Alveo U280.
+        </td>
+    </tr>
+    <tr>
         <td>Fortran High-Level Synthesis: Reducing the barriers to accelerating HPC codes on FPGAs</td>
         <td>Gabriel Rodriguez-Canal <em>et al.</em></td>
         <td><a href="https://arxiv.org/pdf/2308.13274.pdf">Paper</a> <a href="https://gitlab.com/cerl/fortran-hls">GitLab</a></td>
@@ -107,6 +134,15 @@ If you would like to contribute to this page by adding a reference to your publi
         <td><a href="https://doi.org/10.1109/DAC56929.2023.10247981">Paper</a> <a href="https://github.com/arc-research-lab/CHARM">GitHub</a></td>
         <td>
             As the increasing complexity of Neural Network(NN) models leads to high demands for computation, AMD introduces a heterogeneous programmable system-on-chip (SoC), i.e., Versal ACAP architectures featured with programmable logic(PL), CPUs, and dedicated AI engines (AIE) ASICs which has a theoretical throughput up to 6.4 TFLOPs for FP32, 25.6 TOPs for INT16 and 102.4 TOPs for INT8. However, the higher level of complexity makes it non-trivial to achieve the theoretical performance even for well-studied applications like matrix-matrix multiply. In this paper, we provide AutoMM, an automatic white-box framework that can systematically generate the design for MM accelerators on Versal which achieves 3.7 TFLOPs, 7.5 TOPs, and 28.2 TOPs for FP32, INT16, and INT8 data type respectively. Our designs are tested on board and achieve gains of 7.20x (FP32), 3.26x (INT16), 6.23x (INT8) energy efficiency than AMD U250, 2.32x (FP32) than Nvidia Jetson TX2, 1.06x (FP32), 1.70x (INT8) than Nvidia A100.
+        </td>
+    </tr>
+    <tr>
+        <td>MESA: Microarchitecture Extensions for Spatial Architecture Generation</td>
+        <td>Dong Kai Wang<em>et al.</em></td>
+        <td>UIUC</td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3579371.3589084">Paper</a> <a href="https://github.com/pc2/HPCC_FPGA">GitHub</a></td>
+        <td>
+            Modern heterogeneous CPUs incorporate hardware accelerators to enable domain-specialized execution and achieve improved efficiency. A well-known class among them, spatial accelerators, are designed with reconfigurability to accelerate a wide range of compute-heavy and data-parallel applications. Unlike CPU cores, however, they tend to require specialized compilers and software stacks, libraries, or languages to operate and cannot be utilized with ease by all applications. As a result, the accelerator's large pool of compute and memory resources sit wastefully idle when it is not explicitly programmed. Our goal is to dismantle this CPU-accelerator barrier by monitoring CPU threads for acceleration opportunities during execution and, if viable, dynamically reconfigure the accelerator to allow transparent offloading. We develop MESA (Microarchitecture Extensions for Spatial Architecture Generation), a hardware block on the CPU that translates machine code to build an accelerator configuration specialized for the running program. While such a dynamic translation/reconfiguration approach is challenging, it has a key advantage over ahead-of-time compilers: access to runtime information, revealing not only dynamic dependencies but also performance characteristics. MESA maintains a real-time performance model of the program mapped on the accelerator in the form of a spatial dataflow graph with nodes weighted by operation latency and edges weighted by data transfer latency. Features of this dataflow graph are continuously updated with runtime information captured by performance counters, allowing a feedback loop of optimization, reconfiguration, and acceleration. This performance model allows MESA to identify the accelerator's critical paths and pinpoint its bottlenecks, upon which we implement in hardware a data-driven instruction mapping algorithm that locally minimizes latency. Backed by a synthesized RTL implementation, we evaluate the feasibility of our microarchitectural solution with different accelerator configurations. Across the Rodinia benchmarks, results demonstrate an average 1.3× speedup in performance and 1.8× gain in energy efficiency against a multicore CPU baseline.
         </td>
     </tr>
     <tr>
