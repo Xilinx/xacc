@@ -137,6 +137,15 @@ If you would like to contribute to this page by adding a reference to your publi
         </td>
     </tr>
     <tr>
+        <td>LightRW: FPGA Accelerated Graph Dynamic Random Walks</td>
+        <td>Hongshi Tan<em>et al.</em></td>
+        <td>NUS</td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3588944">Paper</a> <a href="https://github.com/Xtra-Computing/LightRW">GitHub</a></td>
+        <td>
+           Graph dynamic random walks (GDRWs) have recently emerged as a powerful paradigm for graph analytics and learning applications, including graph embedding and graph neural networks. Despite the fact that many existing studies optimize the performance of GDRWs on multi-core CPUs, massive random memory accesses and costly synchronizations cause severe resource underutilization, and the processing of GDRWs is usually the key performance bottleneck in many graph applications. This paper studies an alternative architecture, FPGA, to address these issues in GDRWs, as FPGA has the ability of hardware customization so that we are able to explore fine-grained pipeline execution and specialized memory access optimizations. Specifically, we propose LightRW, a novel FPGA-based accelerator for GDRWs. LightRW embraces a series of optimizations to enable fine-grained pipeline execution on the chip and to exploit the massive parallelism of FPGA while significantly reducing memory accesses. As current commonly used sampling methods in GDRWs do not efficiently support fine-grained pipeline execution, we develop a parallelized reservoir sampling method to sample multiple vertices per cycle for efficient pipeline execution. To address the random memory access issues, we propose a degree-aware configurable caching method that buffers hot vertices on-chip to alleviate random memory accesses and a dynamic burst access engine that efficiently retrieves neighbors. Experimental results show that our optimization techniques are able to improve the performance of GDRWs on FPGA significantly. Moreover, LightRW delivers up to 9.55x and 9.10x speedup over the state-of-the-art CPU-based MetaPath and Node2vec random walks, respectively. This work is open-sourced on GitHub at https://github.com/Xtra-Computing/LightRW.
+        </td>
+    </tr>
+    <tr>
         <td>MESA: Microarchitecture Extensions for Spatial Architecture Generation</td>
         <td>Dong Kai Wang<em>et al.</em></td>
         <td>UIUC</td>
