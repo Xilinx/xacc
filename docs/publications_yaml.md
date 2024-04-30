@@ -25,7 +25,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>
             <a href="{{ item.link }}">Paper</a>
             {% if item.github %}
-                <a href="{{ item.github }}">GitHub</a>
+                <br><a href="{{ item.github }}">GitHub</a></br>
             {% endif %}
         </td>
         <td>
