@@ -23,7 +23,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>{{ item.author }}<em>et al.</em></td>
         <td>{{ item.institution }}</td>
         <td>
-            <a href="{{ item.link }}"></a>
+            <a href="{{ item.link }}">Paper</a>
             {% if item.github %}
                 <a href="{{ item.github }}">GitHub</a>
             {% endif %}
