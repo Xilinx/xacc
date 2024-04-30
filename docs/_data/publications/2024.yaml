@@ -1,17 +1,36 @@
-- title: "Test1"
-  author: "author Test 1"
-  institution: "institution Test 1"
-  link: "link Test 1"
-  github: "github Test 1"
-  abstract: "abstract Test 1"
-- title: "Test2"
-  author: "author Test 2"
-  institution: "institution Test 2"
-  link: "link Test 2"
-  github: "github Test 2"
-  abstract: "abstract Test 2"
-- title: "Test3"
-  author: "author Test 3"
-  institution: "institution Test 3"
-  link: "link Test 3"
-  abstract: "abstract Test 3"
+- title: "LevelST: Stream-based Accelerator for Sparse Triangular Solver"
+  author: "Zifan He"
+  institution: "UCLA"
+  link: "https://dl.acm.org/doi/10.1145/3626202.3637568"
+  github: "https://github.com/OswaldHe/LevelST"
+  abstract: |
+    Over the past decade, much progress has been made to advance the acceleration 
+    of sparse linear operators such as SpMM and SpMV on FPGAs. Nevertheless, few
+    works have attempted to address sparse triangular solver (SpTRSV) acceleration,
+    and the performance boost is limited. SpTRSV is an elementary linear operator
+    for many numerical methods, such as the least-square method. These methods,
+    among others, are widely used in various areas, such as physical simulation
+    and signal processing. Therefore, accelerating SpTRSV is crucial. However, 
+    many challenges impede accelerating SpTRSV, including (1) resolving dependencies 
+    between elements during forward or backward substitutions, (2) random access and 
+    unbalanced workloads across memory channels due to sparsity, (3) latency incurred 
+    by off-chip memory access for large matrices or vectors, and (4) data reuse for an 
+    unpredictable data sharing pattern. To address these issues, we have designed LevelST, 
+    the first FPGA accelerator leveraging high bandwidth memory (HBM) for solving 
+    sparse triangular systems. LevelST features (1) algorithm-hardware co-design 
+    of stream-based dependency resolution with reduced off-chip data movement, 
+    (2) resource sharing that improves resource utilization to scale up the 
+    architecture, (3) index modulo scheduling to balance workload, and (4) 
+    selective data prefetching from off-chip memory. LevelST is prototyped on 
+    an AMD Xilinx U280 HBM FPGA and evaluated with 16 sparse triangular matrices. 
+    Compared with the NVIDIA V100 and RTX 3060 GPUs over the cuSPARSE library, 
+    LevelST achieves a 2.65x speedup and 9.82x higher energy efficiency than 
+    the best of the V100 GPU and RTX 3060 GPU.
+
+- title: "SSR: Spatial Sequential Hybrid Architecture for Latency Throughput Tradeoff in Transformer Acceleration"
+  author: "Jinming Zhuang"
+  institution: "University of Pittsburgh, University of Maryland, University of Notre Dame"
+  link: "https://arxiv.org/pdf/2401.10417.pdf"
+  github: "https://github.com/arc-research-lab/SSR"
+  abstract: |
+    "With the increase in the computation intensity of the chip, the mismatch between computation layer shapes and the available computation resource significantly limits the utilization of the chip. Driven by this observation, prior works discuss spatial accelerators or dataflow architecture to maximize the throughput. However, using spatial accelerators could potentially increase the execution latency. In this work, we first systematically investigate two execution models: (1) sequentially (temporally) launch one monolithic accelerator, and (2) spatially launch multiple accelerators. From the observations, we find that there is a latency throughput tradeoff between these two execution models, and combining these two strategies together can give us a more efficient latency throughput Pareto front. To achieve this, we propose spatial sequential architecture (SSR) and SSR design automation framework to explore both strategies together when deploying deep learning inference. We use the 7nm AMD Versal ACAP VCK190 board to implement SSR accelerators for four end-to-end transformer-based deep learning models. SSR achieves average throughput gains of 2.53x, 35.71x, and 14.20x under different batch sizes compared to the 8nm Nvidia GPU A10G, 16nm AMD FPGAs ZCU102, and U250. The average energy efficiency gains are 8.51x, 6.75x, and 21.22x, respectively. Compared with the sequential-only solution and spatial-only solution on VCK190, our spatial-sequential-hybrid solutions achieve higher throughput under the same latency requirement and lower latency under the same throughput requirement. We also use SSR analytical models to demonstrate how to use SSR to optimize solutions on other computing platforms, e.g., 14nm Intel Stratix 10 NX."
