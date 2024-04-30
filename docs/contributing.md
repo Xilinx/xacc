@@ -29,11 +29,9 @@ This repository uses [GitHub Pages](https://pages.github.com/) to render Markdow
        <Your abstract>
    ```
 
-   Note that entries in the category/year are arranged alphabetically by name following [Guidelines for Alphabetical Arrangement of Letters and Sorting of Numerals and Other Symbols](https://www.niso.org/sites/default/files/2017-08/tr03.pdf) Chapter 3. Order of Characters
-
 1. For other contributions, please add it into the proper category/year.
 
-    Note that entries in the category/year are arranged alphabetically by name following [Guidelines for Alphabetical Arrangement of Letters and Sorting of Numerals and Other Symbols](https://www.niso.org/sites/default/files/2017-08/tr03.pdf) Chapter 3. Order of Characters
+1. Note that entries in the category/year are arranged alphabetically by name/title following [Guidelines for Alphabetical Arrangement of Letters and Sorting of Numerals and Other Symbols](https://www.niso.org/sites/default/files/2017-08/tr03.pdf) Chapter 3. Order of Characters
 
 1. [Create a pull request from your fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 
