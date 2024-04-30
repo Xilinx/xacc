@@ -6,6 +6,13 @@ This page lists the research publications which have been carried out in the con
 
 If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md)
 
+<!--
+DO NOT MODIFY THIS FILE.
+
+TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of publication>.yaml
+-->
+
+
 {% assign years = "2024,2023" | split: "," %}
 {% for year in years %}
 

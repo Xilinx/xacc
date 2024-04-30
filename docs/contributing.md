@@ -17,9 +17,23 @@ We welcome contributions related to HACC in the following areas:
 
   1. [Fork this repository](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 
-  1. Add your contribution into the proper category/year.
+  1. For publications, please add your publication in [docs/_data/publications/<year_of_publication>.yaml](_data/publications/) formatted in YAML.
+
+    ```yaml
+    - title: "<Your Tile>"
+      author: "<Name of First Author>"
+      institution: "<Institutions>"
+      link: "<link to published paper>"
+      github: "<optional link to github>"
+      abstract: |
+        <Your abstract>
+    ```
 
      Note that entries in the category/year are arranged alphabetically by name following [Guidelines for Alphabetical Arrangement of Letters and Sorting of Numerals and Other Symbols](https://www.niso.org/sites/default/files/2017-08/tr03.pdf) Chapter 3. Order of Characters
+
+  1. For other contributions, please add it into the proper category/year.
+
+    Note that entries in the category/year are arranged alphabetically by name following [Guidelines for Alphabetical Arrangement of Letters and Sorting of Numerals and Other Symbols](https://www.niso.org/sites/default/files/2017-08/tr03.pdf) Chapter 3. Order of Characters
 
   1. [Create a pull request from your fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 
