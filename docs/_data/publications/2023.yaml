@@ -25,6 +25,7 @@
     Compared with the NVIDIA V100 and RTX 3060 GPUs over the cuSPARSE library,
     LevelST achieves a 2.65x speedup and 9.82x higher energy efficiency than
     the best of the V100 GPU and RTX 3060 GPU.
+
 - title: "AMNES: Accelerating the computation of data correlation using FPGAs"
   author: "Monica Chiosa"
   institution: "ETH Zurich and AMD"
@@ -32,6 +33,7 @@
   github: "https://github.com/fpgasystems/amnes"
   abstract: |
     A widely used approach to characterize input data in both databases and ML is computing the correlation between attributes. The operation is supported by all major database engines and ML platforms. However, it is an expensive operation as the number of attributes involved grows. To address the issue, in this paper we introduce AMNES, a stream analytics system offloading the correlation operator into an FPGA-based network interface card. AMNES processes data at network line rate and the design can be used in combination with smart storage or SmartNICs to implement near data or in-network data processing. AMNES design goes beyond matrix multiplication and offers a customized solution for correlation computation bypassing the CPU. Our experiments show that AMNES can sustain streams arriving at 100 Gbps over an RDMA network, while requiring only ten milliseconds to compute the correlation coefficients among 64 streams, an order of magnitude better than competing CPU or GPU designs.
+
 - title: "Callipepla: Stream Centric Instruction Set and Mixed Precision for Accelerating Conjugate Gradient Solver"
   author: "Linghao Song"
   institution: "UCLA and Ansys"
@@ -39,6 +41,7 @@
   github: "https://github.com/UCLA-VAST/Callipepla"
   abstract: |
     The continued growth in the processing power of FPGAs coupled with high bandwidth memories (HBM), makes systems like the Xilinx U280 credible platforms for linear solvers which often dominate the run time of scientific and engineering applications. In this paper, we present Callipepla, an accelerator for a preconditioned conjugate gradient linear solver (CG). FPGA acceleration of CG faces three challenges: (1) how to support an arbitrary problem and terminate acceleration processing on the fly, (2) how to coordinate long-vector data flow among processing modules, and (3) how to save off-chip memory bandwidth and maintain double (FP64) precision accuracy. To tackle the three challenges, we present (1) a stream-centric instruction set for efficient streaming processing and control, (2) vector streaming reuse (VSR) and decentralized vector flow scheduling to coordinate vector data flow among modules and further reduce off-chip memory access latency with a double memory channel design, and (3) a mixed precision scheme to save bandwidth yet still achieve effective double precision quality solutions. To the best of our knowledge, this is the first work to introduce the concept of VSR for data reusing between on-chip modules to reduce unnecessary off-chip accesses and enable modules working in parallel for FPGA accelerators. We prototype the accelerator on a Xilinx U280 HBM FPGA. Our evaluation shows that compared to the Xilinx HPC product, the XcgSolver, Callipepla achieves a speedup of 3.94x, 3.36x higher throughput, and 2.94x better energy efficiency. Compared to an NVIDIA A100 GPU which has 4x the memory bandwidth of Callipepla, we still achieve 77% of its throughput with 3.34x higher energy efficiency.
+
 - title: "CHARM: Composing Heterogeneous AcceleRators for Matrix Multiply on Versal ACAP Architecture"
   author: "Jinming Zhuang"
   institution: "University of Pittsburgh, UCLA, UIUC, AMD"
@@ -46,6 +49,7 @@
   github: "https://github.com/arc-research-lab/CHARM"
   abstract: |
     Dense matrix multiply (MM) serves as one of the most heavily used kernels in deep learning applications. To cope with the high computation demands of these applications, heterogeneous architectures featuring both FPGA and dedicated ASIC accelerators have emerged as promising platforms. For example, the AMD/Xilinx Versal ACAP architecture combines general-purpose CPU cores and programmable logic (PL) with AI Engine processors (AIE) optimized for AI/ML. An array of 400 AI Engine processors executing at 1 GHz can theoretically provide up to 6.4 TFLOPs performance for 32-bit floating-point (fp32) data. However, machine learning models often contain both large and small MM operations. While large MM operations can be parallelized efficiently across many cores, small MM operations typically cannot. In our investigation, we observe that executing some small MM layers from the BERT natural language processing model on a large, monolithic MM accelerator in Versal ACAP achieved less than 5% of the theoretical peak performance. Therefore, one key question arises: How can we design accelerators to fully use the abundant computation resources under limited communication bandwidth for end-to-end applications with multiple MM layers of diverse sizes? We identify the biggest system throughput bottleneck resulting from the mismatch of massive computation resources of one monolithic accelerator and the various MM layers of small sizes in the application. To resolve this problem, we propose the CHARM framework to compose multiple diverse MM accelerator architectures working concurrently towards different layers within one application. CHARM includes analytical models which guide design space exploration to determine accelerator partitions and layer scheduling. To facilitate the system designs, CHARM automatically generates code, enabling thorough onboard design verification. We deploy the CHARM framework for four different deep learning applications, including BERT, ViT, NCF, MLP, on the AMD/Xilinx Versal ACAP VCK190 evaluation board. Our experiments show that we achieve 1.46 TFLOPs, 1.61 TFLOPs, 1.74 TFLOPs, and 2.94 TFLOPs inference throughput for BERT, ViT, NCF, MLP, respectively, which obtain 5.40x, 32.51x, 1.00x and 1.00x throughput gains compared to one monolithic accelerator.
+
 - title: "Co-design Hardware and Algorithm for Vector Search"
   author: "Wenqi Jiang"
   institution: "ETH Zurich"
@@ -53,12 +57,14 @@
   github: "https://github.com/WenqiJiang/SC-ANN-FPGA"
   abstract: |
     Vector search has emerged as the foundation for large-scale information retrieval and machine learning systems, with search engines like Google and Bing processing tens of thousands of queries per second on petabyte-scale document datasets by evaluating vector similarities between encoded query texts and web documents. As performance demands for vector search systems surge, accelerated hardware offers a promising solution in the post-Moore's Law era. We introduce FANNS, an end-to-end and scalable vector search framework on FPGAs. Given a user-provided recall requirement on a dataset and a hardware resource budget, FANNS automatically co-designs hardware and algorithm, subsequently generating the corresponding accelerator. The framework also supports scale-out by incorporating a hardware TCP/IP stack in the accelerator. FANNS attains up to 23.0× and 37.2× speedup compared to FPGA and CPU baselines, respectively, and demonstrates superior scalability to GPUs, achieving 5.5× and 7.6× speedup in median and 95th percentile (P95) latency within an eight-accelerator configuration. The remarkable performance of FANNS lays a robust groundwork for future FPGA integration in data centers and AI supercomputers.
+
 - title: "Democratizing Domain-Specific Computing"
   author: "Yuze Chi"
   institution: "UCLA"
   link: "https://doi.org/10.1145/3524108"
   abstract: |
     Creating a programming environment and compilation flow that empowers programmers to create their own DSAs efficiently and affordably on FPGAs.
+
 - title: "Distributed large-scale graph processing on FPGAs"
   author: "Amin Sahebi"
   institution: "University of Siena, University of Florence, Imperial College London"
@@ -66,12 +72,14 @@
   github: "https://github.com/AminSahebi/distributed-graph-fpga"
   abstract: |
     This work proposes an FPGA processing engine that overlaps, hides and customises all data transfers so that the FPGA accelerator is fully utilised. This engine is integrated into a framework for using FPGA clusters and is able to use an offline partitioning method to facilitate the distribution of large-scale graphs. The proposed framework uses Hadoop at a higher level to map a graph to the underlying hardware platform. The higher layer of computation is responsible for gathering the blocks of data that have been pre-processed and stored on the host's file system and distribute to a lower layer of computation made of FPGAs. We show how graph partitioning combined with an FPGA architecture will lead to high performance, even when the graph has Millions of vertices and Billions of edges. In the case of the PageRank algorithm, widely used for ranking the importance of nodes in a graph, compared to state-of-the-art CPU and GPU solutions, our implementation is the fastest, achieving a speedup of 13 compared to 8 and 3 respectively. Moreover, in the case of the large-scale graphs, the GPU solution fails due to memory limitations while the CPU solution achieves a speedup of 12 compared to the 26x achieved by our FPGA solution. Other state-of-the-art FPGA solutions are 28 times slower than our proposed solution. When the size of a graph limits the performance of a single FPGA device, our performance model shows that using multi-FPGAs in a distributed system can further improve the performance by about 12x. This highlights our implementation efficiency for large datasets not fitting in the on-chip memory of a hardware device.
+
 - title: "Exploring the Versal AI Engines for Accelerating Stencil-based Atmospheric Advection Simulation"
   author: "Nick Brown"
   institution: "The University of Edinburgh"
   link: "https://dl.acm.org/doi/10.1145/3543622.3573047"
   abstract: |
     AMD Xilinx's new Versal Adaptive Compute Acceleration Platform (ACAP) is an FPGA architecture combining reconfigurable fabric with other on-chip hardened compute resources. AI engines are one of these and, by operating in a highly vectorized manner, they provide significant raw compute that is potentially beneficial for a range of workloads including HPC simulation. However, this technology is still early-on, and as yet unproven for accelerating HPC codes, with a lack of benchmarking and best practice. This paper presents an experience report, exploring porting of the Piacsek and Williams (PW) advection scheme onto the Versal ACAP, using the chip's AI engines to accelerate the compute. A stencil-based algorithm, advection is commonplace in atmospheric modelling, including several Met Office codes who initially developed this scheme. Using this algorithm as a vehicle, we explore optimal approaches for structuring AI engine compute kernels and how best to interface the AI engines with programmable logic. Evaluating performance using a VCK5000 against non-AI engine FPGA configurations on the VCK5000 and Alveo U280, as well as a 24-core Xeon Platinum Cascade Lake CPU and Nvidia V100 GPU, we found that whilst the number of channels between the fabric and AI engines are a limitation, by leveraging the ACAP we can double performance compared to an Alveo U280.
+
 - title: "Fortran High-Level Synthesis: Reducing the barriers to accelerating HPC codes on FPGAs"
   author: "Gabriel Rodriguez-Canal"
   institution: "The University of Edinburgh"
@@ -79,12 +87,14 @@
   github: "https://gitlab.com/cerl/fortran-hls"
   abstract: |
     In recent years the use of FPGAs to accelerate scientific applications has grown, with numerous applications demonstrating the benefit of FPGAs for high performance workloads. However, whilst High Level Synthesis (HLS) has significantly lowered the barrier to entry in programming FPGAs by enabling programmers to use C++, a major challenge is that most often these codes are not originally written in C++. Instead, Fortran is the lingua franca of scientific computing and-so it requires a complex and time consuming initial step to convert into C++ even before considering the FPGA. In this paper we describe work enabling Fortran for AMD Xilinx FPGAs by connecting the LLVM Flang front end to AMD Xilinx's LLVM back end. This enables programmers to use Fortran as a first-class language for programming FPGAs, and as we demonstrate enjoy all the tuning and optimisation opportunities that HLS C++ provides. Furthermore, we demonstrate that certain language features of Fortran make it especially beneficial for programming FPGAs compared to C++. The result of this work is a lowering of the barrier to entry in using FPGAs for scientific computing, enabling programmers to leverage their existing codebase and language of choice on the FPGA directly.
+
 - title: "High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives"
   author: "Jinming Zhuang"
   institution: "University of Pittsburgh"
   link: "https://doi.org/10.1109/DAC56929.2023.10247981"
   abstract: |
     As the increasing complexity of Neural Network(NN) models leads to high demands for computation, AMD introduces a heterogeneous programmable system-on-chip (SoC), i.e., Versal ACAP architectures featured with programmable logic(PL), CPUs, and dedicated AI engines (AIE) ASICs which has a theoretical throughput up to 6.4 TFLOPs for FP32, 25.6 TOPs for INT16 and 102.4 TOPs for INT8. However, the higher level of complexity makes it non-trivial to achieve the theoretical performance even for well-studied applications like matrix-matrix multiply. In this paper, we provide AutoMM, an automatic white-box framework that can systematically generate the design for MM accelerators on Versal which achieves 3.7 TFLOPs, 7.5 TOPs, and 28.2 TOPs for FP32, INT16, and INT8 data type respectively. Our designs are tested on board and achieve gains of 7.20x (FP32), 3.26x (INT16), 6.23x (INT8) energy efficiency than AMD U250, 2.32x (FP32) than Nvidia Jetson TX2, 1.06x (FP32), 1.70x (INT8) than Nvidia A100.
+
 - title: "LightRW: FPGA Accelerated Graph Dynamic Random Walks"
   author: "Hongshi Tan"
   institution: "NUS"
@@ -92,3 +102,27 @@
   github: "https://github.com/Xtra-Computing/LightRW"
   abstract: |
     Graph dynamic random walks (GDRWs) have recently emerged as a powerful paradigm for graph analytics and learning applications, including graph embedding and graph neural networks. Despite the fact that many existing studies optimize the performance of GDRWs on multi-core CPUs, massive random memory accesses and costly synchronizations cause severe resource under utilization, and the processing of GDRWs is usually the key performance bottleneck in many graph applications. This paper studies an alternative architecture, FPGA, to address these issues in GDRWs, as FPGA has the ability of hardware customization so that we are able to explore fine-grained pipeline execution and specialized memory access optimizations. Specifically, we propose LightRW, a novel FPGA-based accelerator for GDRWs. LightRW embraces a series of optimizations to enable fine-grained pipeline execution on the chip and to exploit the massive parallelism of FPGA while significantly reducing memory accesses. As current commonly used sampling methods in GDRWs do not efficiently support fine-grained pipeline execution, we develop a parallelized reservoir sampling method to sample multiple vertices per cycle for efficient pipeline execution. To address the random memory access issues, we propose a degree-aware configurable caching method that buffers hot vertices on-chip to alleviate random memory accesses and a dynamic burst access engine that efficiently retrieves neighbors. Experimental results show that our optimization techniques are able to improve the performance of GDRWs on FPGA significantly. Moreover, LightRW delivers up to 9.55x and 9.10x speedup over the state-of-the-art CPU-based MetaPath and Node2vec random walks, respectively.
+
+- title: "MESA: Microarchitecture Extensions for Spatial Architecture Generation"
+  author: "Dong Kai Wang"
+  institution: "UIUC"
+  link: "https://dl.acm.org/doi/abs/10.1145/3579371.3589084"
+  github: "https://github.com/pc2/HPCC_FPGA"
+  abstract: |
+    Modern heterogeneous CPUs incorporate hardware accelerators to enable domain-specialized execution and achieve improved efficiency. A well-known class among them, spatial accelerators, are designed with reconfigurability to accelerate a wide range of compute-heavy and data-parallel applications. Unlike CPU cores, however, they tend to require specialized compilers and software stacks, libraries, or languages to operate and cannot be utilized with ease by all applications. As a result, the accelerator's large pool of compute and memory resources sit wastefully idle when it is not explicitly programmed. Our goal is to dismantle this CPU-accelerator barrier by monitoring CPU threads for acceleration opportunities during execution and, if viable, dynamically reconfigure the accelerator to allow transparent offloading. We develop MESA (Microarchitecture Extensions for Spatial Architecture Generation), a hardware block on the CPU that translates machine code to build an accelerator configuration specialized for the running program. While such a dynamic translation/reconfiguration approach is challenging, it has a key advantage over ahead-of-time compilers: access to runtime information, revealing not only dynamic dependencies but also performance characteristics. MESA maintains a real-time performance model of the program mapped on the accelerator in the form of a spatial dataflow graph with nodes weighted by operation latency and edges weighted by data transfer latency. Features of this dataflow graph are continuously updated with runtime information captured by performance counters, allowing a feedback loop of optimization, reconfiguration, and acceleration. This performance model allows MESA to identify the accelerator's critical paths and pinpoint its bottlenecks, upon which we implement in hardware a data-driven instruction mapping algorithm that locally minimizes latency. Backed by a synthesized RTL implementation, we evaluate the feasibility of our microarchitectural solution with different accelerator configurations. Across the Rodinia benchmarks, results demonstrate an average 1.3× speedup in performance and 1.8× gain in energy efficiency against a multicore CPU baseline.
+
+- title: "Multi-FPGA Designs and Scaling of HPC Challenge Benchmarks via MPI and Circuit-Switched Inter-FPGA Networks"
+  author: "Marius Meyer"
+  institution: "Paderborn University"
+  link: "https://doi.org/10.1145/3576200"
+  github: "https://github.com/pc2/HPCC_FPGA"
+  abstract: |
+    Extension of the HPCC benchmark suite for FPGAs with multi-FPGA benchmarks and support of inter-FPGA communication.
+
+- title: "Optimistic Data Parallelism for FPGA-Accelerated Sketching"
+  author: "Martin Kiefer"
+  institution: "TU Berlin, DFKI, ITU Copenhagen"
+  link: "https://www.vldb.org/pvldb/vol16/p1113-kiefer.pdf"
+  github: "https://github.com/martinkiefer/optimistic-sketching"
+  abstract: |
+    Sketches are a popular approximation technique for large datasets and high-velocity data streams. While custom FPGA-based hardware has shown admirable throughput at sketching, the state-of-the-art exploits data parallelism by fully replicating resources and constructing independent summaries for every parallel input value. We consider this approach pessimistic, as it guarantees constant processing rates by provisioning resources for the worst case. We propose a novel optimistic sketching architecture for FPGAs that partitions a single sketch into multiple independent banks shared among all input values, thus significantly reducing resource consumption. However, skewed input data distributions can result in conflicting accesses to banks and impair the processing rate. To mitigate the effect of skew, we add mergers that exploit temporal locality by combining recent updates.Our evaluation shows that an optimistic architecture is feasible and reduces the utilization of critical FPGA resources proportionally to the number of parallel input values. We further show that FPGA accelerators provide up to 2.6𝑥 higher throughput than a recent CPU and GPU, while larger sketch sizes enabled by optimistic architectures improve accuracy by up to an order of magnitude in a realistic sketching application.
