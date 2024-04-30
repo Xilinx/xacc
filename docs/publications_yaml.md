@@ -6,7 +6,7 @@ This page lists the research publications which have been carried out in the con
 
 If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md)
 
-{% assign years = "2023,2024" | split: "," %}
+{% assign years = "2024,2023" | split: "," %}
 {% for year in years %}
 
 ## {{ year }}
@@ -20,7 +20,7 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
 
-    {% for item in site.data.publications["2024"] %}
+    {% for item in site.data.publications[year] %}
     <tr>
         <td>{{ item.title }}</td>
         <td>{{ item.author }}<em>et al.</em></td>
