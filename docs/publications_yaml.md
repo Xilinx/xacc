@@ -13,7 +13,7 @@ TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of
 -->
 
 
-{% assign years = "2024,2023" | split: "," %}
+{% assign years = "2024,2023,2022" | split: "," %}
 {% for year in years %}
 
 ## {{ year }}
@@ -29,7 +29,12 @@ TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of
 
     {% for item in site.data.publications[year] %}
     <tr>
-        <td>{{ item.title }}</td>
+        <td>
+            {{ item.title }}
+            {% if item.bestpaper %}
+                <img src="./images/best_paper_award.png" alt="Best Paper" height="160">
+            {% endif %}
+        </td>
         <td>{{ item.author }}<em>et al.</em></td>
         <td>{{ item.institution }}</td>
         <td>
