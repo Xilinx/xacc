@@ -14,7 +14,18 @@ TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of
 
 
 {% assign years = "2024,2023,2022" | split: "," %}
+
+Click in the year for easier search:
+
 {% for year in years %}
+
+- [{{ year }}](#{{ year }})
+
+{% endfor %}
+
+{% for year in years %}
+
+Click in the year for easier search [{{ year }}]()
 
 ## {{ year }}
 
