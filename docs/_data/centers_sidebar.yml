@@ -3,9 +3,9 @@ docs:
 
 - title: ETH Zurich
   url: ethz.html
-  
-- title: UIUC
-  url: uiuc.html
+
+- title: IISc
+  url: iisc.html
 
 - title: NUS
   url: nus.html
@@ -15,3 +15,6 @@ docs:
 
 - title: UCLA
   url: ucla.html
+
+- title: UIUC
+  url: uiuc.html
