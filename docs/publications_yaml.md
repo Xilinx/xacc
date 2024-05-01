@@ -25,8 +25,6 @@ Click in the year for easier search:
 
 {% for year in years %}
 
-Click in the year for easier search [{{ year }}]()
-
 ## {{ year }}
 
 <table width="100%">
