@@ -22,6 +22,7 @@ TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of
 - [{{ year }}](#{{ year }})
 
 {% endfor %}
+
 </details>
 
 {% for year in years %}
@@ -54,7 +55,9 @@ TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of
             {% endif %}
         </td>
         <td>
-            {{ item.abstract }}
+            <details>
+                {{ item.abstract }}
+            </details>
         </td>
     </tr>
     {% endfor %}
