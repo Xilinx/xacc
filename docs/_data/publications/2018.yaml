@@ -1,0 +1,13 @@
+- title: "FINN-R: An End-to-End Deep-Learning Framework for Fast Exploration of Quantized Neural Networks"
+  author: "Michaela Blott"
+  institution: "Xilinx Inc."
+  link: "https://arxiv.org/abs/1809.04570"
+  abstract: |
+    Framework for Quantized Neural Networks on reconfigurable hardware
+
+- title: "Transformations of High-Level Synthesis Codes for High-Performance Computing"
+  author: "Johannes de Fine Licht"
+  institution: "ETH Zurich"
+  link: "https://arxiv.org/abs/1805.08288"
+  abstract: |
+    A survey of important source-to-source optimization techniques for high-throughput HLS codes to target pipelining, parallelism, and memory bandwidth utilization.
