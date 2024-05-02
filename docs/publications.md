@@ -17,6 +17,13 @@ If you would like to contribute to this page by adding a reference to your publi
         <th width="500">Notes</th>
     </tr>
     <tr>
+        <td>HiHiSpMV: Sparse Matrix Vector Multiplication with Hierarchical Row Reductions on FPGAs with High Bandwidth Memory</td>
+        <td>Abdul Rehman Tareen <em>et al.</em></td>
+        <td>Paderborn University</td>
+        <td>To be published at FCCM 2024</td>
+        <td>The multiplication of a sparse matrix with a dense vector is a vital operation in linear algebra, with applications in numerous contexts. After earlier research on FPGA acceleration of this operation had shown the potential to achieve a high bandwidth efficiency, this workload has received renewed attention with the introduction of high bandwidth memory on FPGA platforms. However, previous designs fell short of scaling to the full bandwidth potential of current FPGA platforms with high bandwidth memory. In this work, we present HiHiSpMV with a novel design approach around hierarchical accumulation, which allows us to overcome several limitations of the related work. Our design is completely implemented with high-level synthesis and compiled with Vitis, and instantiates 16 independent compute units, each processing up to 16 matrix elements per clock cycle. The reduction of these elements is performed without any latency or resource overhead and the subsequent accumulation uses the well-established shift-register design pattern. Due to the independent nature of compute units, our design can connect to all of the 32 high bandwidth memory pseudo-channels in 512-bit interface mode on an Alveo U280 FPGA board. In our tests, we reach up to 86% of the theoretical available bandwidth of this FPGA platform, enabling a computational throughput of up to 98 GFLOPS. This is about 1.5x faster than the peak throughput of the best related work in that regard, Serpens. On average, the throughput of HiHiSpMV is even 2.7x higher than Serpens.</td>
+    </tr>
+    <tr>
         <td>LevelST: Stream-based Accelerator for Sparse Triangular Solver</td>
         <td>Zifan He<em>et al.</em></td>
         <td>UCLA</td>
@@ -24,6 +31,20 @@ If you would like to contribute to this page by adding a reference to your publi
         <td>
             Over the past decade, much progress has been made to advance the acceleration of sparse linear operators such as SpMM and SpMV on FPGAs. Nevertheless, few works have attempted to address sparse triangular solver (SpTRSV) acceleration, and the performance boost is limited. SpTRSV is an elementary linear operator for many numerical methods, such as the least-square method. These methods, among others, are widely used in various areas, such as physical simulation and signal processing. Therefore, accelerating SpTRSV is crucial. However, many challenges impede accelerating SpTRSV, including (1) resolving dependencies between elements during forward or backward substitutions, (2) random access and unbalanced workloads across memory channels due to sparsity, (3) latency incurred by off-chip memory access for large matrices or vectors, and (4) data reuse for an unpredictable data sharing pattern. To address these issues, we have designed LevelST, the first FPGA accelerator leveraging high bandwidth memory (HBM) for solving sparse triangular systems. LevelST features (1) algorithm-hardware co-design of stream-based dependency resolution with reduced off-chip data movement, (2) resource sharing that improves resource utilization to scale up the architecture, (3) index modulo scheduling to balance workload, and (4) selective data prefetching from off-chip memory. LevelST is prototyped on an AMD Xilinx U280 HBM FPGA and evaluated with 16 sparse triangular matrices. Compared with the NVIDIA V100 and RTX 3060 GPUs over the cuSPARSE library, LevelST achieves a 2.65x speedup and 9.82x higher energy efficiency than the best of the V100 GPU and RTX 3060 GPU. The code is released on https://github.com/OswaldHe/LevelST (DOI: https://doi.org/10.5281/zenodo.10463345).
         </td>
+    </tr>
+    <tr>
+        <td>Noctua 2 Supercomputer</td>
+        <td>Carsten Bauer <em>et al.</em></td>
+        <td>Paderborn University</td>
+        <td><a href="https://jlsrf.org/index.php/lsf/article/view/187">Paper</a></td>
+        <td>Noctua 2 is a supercomputer operated at the Paderborn Center for Parallel Computing (PC2) at Paderborn University in Germany. Noctua 2 was inaugurated in 2022 and is an Atos BullSequana XH2000 system. It consists mainly of three node types: 1) CPU Compute nodes with AMD EPYC processors in different main memory configurations, 2) GPU nodes with NVIDIA A100 GPUs, and 3) FPGA nodes with Xilinx Alveo U280 and Intel Stratix 10 FPGA cards. While CPUs and GPUs are known off-the-shelf components in HPC systems, the operation of a large number of FPGA cards from different vendors and a dedicated FPGA-to-FPGA network are unique characteristics of Noctua 2. This paper describes in detail the overall setup of Noctua 2 and gives insights into the operation of the cluster from a hardware, software and facility perspective.</td>
+    </tr>
+    <tr>
+        <td>Optimizing Communication for Latency Sensitive HPC Applications on up to 48 FPGAs Using ACCL</td>
+        <td>Marius Meyer <em>et al.</em></td>
+        <td>Paderborn University and AMD</td>
+        <td>To be published at Euro-Par 2024 <a href="https://arxiv.org/abs/2403.18374">Preprint</a></td>
+        <td>Most FPGA boards in the HPC domain are well-suited for parallel scaling because of the direct integration of versatile and high-throughput network ports. However, the utilization of their network capabilities is often challenging and error-prone because the whole network stack and communication patterns have to be implemented and managed on the FPGAs. Also, this approach conceptually involves a trade-off between the performance potential of improved communication and the impact of resource consumption for communication infrastructure, since the utilized resources on the FPGAs could otherwise be used for computations. In this work, we investigate this trade-off, firstly, by using synthetic benchmarks to evaluate the different configuration options of the communication framework ACCL and their impact on communication latency and throughput. Finally, we use our findings to implement a shallow water simulation whose scalability heavily depends on low-latency communication. With a suitable configuration of ACCL, good scaling behavior can be shown to all 48 FPGAs installed in the system. Overall, the results show that the availability of inter-FPGA communication frameworks as well as the configurability of framework and network stack are crucial to achieve the best application performance with low latency communication.</td>
     </tr>
     <tr>
         <td>SSR: Spatial Sequential Hybrid Architecture for Latency Throughput Tradeoff in Transformer Acceleration</td>
@@ -110,10 +131,19 @@ If you would like to contribute to this page by adding a reference to your publi
         </td>
     </tr>
     <tr>
+        <td>Enabling Reconfigurable HPC through MPI-based Inter-FPGA Communication</td>
+        <td>Nicholas Contini <em>et al.</em></td>
+        <td>The Ohio State University, on systems at Paderborn University</td>
+        <td><a href="https://doi.org/10.1145/3577193.3593720">Paper</a></td>
+        <td>
+            Modern HPC faces new challenges with the slowing of Moore's Law and the end of Dennard Scaling. Traditional computing architectures can no longer be expected to drive today's HPC loads, as shown by the adoption of heterogeneous system design leveraging accelerators such as GPUs and TPUs. Recently, FPGAs have become viable candidates as HPC accelerators. These devices can accelerate workloads by replicating implemented compute units to enable task parallelism, overlapping computation between and within kernels to enable pipeline parallelism, and increasing data locality by sending data directly between compute units. While many solutions for inter-FPGA communication have been presented, these proposed designs generally rely on inter-FPGA networks, unique system setups, and/or the consumption of soft logic resources on the chip. In this paper, we propose an FPGA-aware MPI runtime that avoids such shortcomings. Our MPI implementation does not use any special system setup other than plugging FPGA accelerators into PCIe slots. All communication is orchestrated by the host, utilizing the PCIe interconnect and inter-host network to implement message passing. We propose advanced designs that address data movement challenges and reduce the need for explicit data movement between the device and host (staging) in FPGA applications. We achieve up to 50% reduction in latency for point-to-point transfers compared to application-level staging.
+        </td>
+    </tr>
+    <tr>
         <td>Exploring the Versal AI Engines for Accelerating Stencil-based Atmospheric Advection Simulation</td>
         <td>Nick Brown</td>
-        <td><a href="https://dl.acm.org/doi/10.1145/3543622.3573047">Paper</a></td>
         <td>The University of Edinburgh</td>
+        <td><a href="https://dl.acm.org/doi/10.1145/3543622.3573047">Paper</a></td>
         <td>
             AMD Xilinx's new Versal Adaptive Compute Acceleration Platform (ACAP) is an FPGA architecture combining reconfigurable fabric with other on-chip hardened compute resources. AI engines are one of these and, by operating in a highly vectorized manner, they provide significant raw compute that is potentially beneficial for a range of workloads including HPC simulation. However, this technology is still early-on, and as yet unproven for accelerating HPC codes, with a lack of benchmarking and best practice. This paper presents an experience report, exploring porting of the Piacsek and Williams (PW) advection scheme onto the Versal ACAP, using the chip's AI engines to accelerate the compute. A stencil-based algorithm, advection is commonplace in atmospheric modelling, including several Met Office codes who initially developed this scheme. Using this algorithm as a vehicle, we explore optimal approaches for structuring AI engine compute kernels and how best to interface the AI engines with programmable logic. Evaluating performance using a VCK5000 against non-AI engine FPGA configurations on the VCK5000 and Alveo U280, as well as a 24-core Xeon Platinum Cascade Lake CPU and Nvidia V100 GPU, we found that whilst the number of channels between the fabric and AI engines are a limitation, by leveraging the ACAP we can double performance compared to an Alveo U280.
         </td>
@@ -121,8 +151,8 @@ If you would like to contribute to this page by adding a reference to your publi
     <tr>
         <td>Fortran High-Level Synthesis: Reducing the barriers to accelerating HPC codes on FPGAs</td>
         <td>Gabriel Rodriguez-Canal <em>et al.</em></td>
-        <td><a href="https://arxiv.org/pdf/2308.13274.pdf">Paper</a> <a href="https://gitlab.com/cerl/fortran-hls">GitLab</a></td>
         <td>The University of Edinburgh</td>
+        <td><a href="https://arxiv.org/pdf/2308.13274.pdf">Paper</a> <a href="https://gitlab.com/cerl/fortran-hls">GitLab</a></td>
         <td>
             In recent years the use of FPGAs to accelerate scientific applications has grown, with numerous applications demonstrating the benefit of FPGAs for high performance workloads. However, whilst High Level Synthesis (HLS) has significantly lowered the barrier to entry in programming FPGAs by enabling programmers to use C++, a major challenge is that most often these codes are not originally written in C++. Instead, Fortran is the lingua franca of scientific computing and-so it requires a complex and time consuming initial step to convert into C++ even before considering the FPGA. In this paper we describe work enabling Fortran for AMD Xilinx FPGAs by connecting the LLVM Flang front end to AMD Xilinx's LLVM back end. This enables programmers to use Fortran as a first-class language for programming FPGAs, and as we demonstrate enjoy all the tuning and optimisation opportunities that HLS C++ provides. Furthermore, we demonstrate that certain language features of Fortran make it especially beneficial for programming FPGAs compared to C++. The result of this work is a lowering of the barrier to entry in using FPGAs for scientific computing, enabling programmers to leverage their existing codebase and language of choice on the FPGA directly.
         </td>
@@ -228,8 +258,8 @@ If you would like to contribute to this page by adding a reference to your publi
     <tr>
         <td>FlexCNN: An End-to-End Framework for Composing CNN Accelerators on FPGA</td>
         <td>Suhail Basalama<em>et al.</em></td>
-        <td><a href="https://dl.acm.org/doi/abs/10.1145/3570928">Paper</a></td>
         <td>UCLA</td>
+        <td><a href="https://dl.acm.org/doi/abs/10.1145/3570928">Paper</a></td>
         <td>
             With reduced data reuse and parallelism, recent convolutional neural networks (CNNs) create new challenges for FPGA acceleration. Systolic arrays (SAs) are efficient, scalable architectures for convolutional layers, but without proper optimizations, their efficiency drops dramatically for reasons: (1) the different dimensions within same-type layers, (2) the different convolution layers especially transposed and dilated convolutions, and (3) CNN’s complex dataflow graph. Furthermore, significant overheads arise when integrating FPGAs into machine learning frameworks. Therefore, we present a flexible, composable architecture called FlexCNN, which delivers high computation efficiency by employing dynamic tiling, layer fusion, and data layout optimizations. Additionally, we implement a novel versatile SA to process normal, transposed, and dilated convolutions efficiently. FlexCNN also uses a fully pipelined software-hardware integration that alleviates the software overheads. Moreover, with an automated compilation flow, FlexCNN takes a CNN in the ONNX representation, performs a design space exploration, and generates an FPGA accelerator. The framework is tested using three complex CNNs: OpenPose, U-Net, and E-Net. The architecture optimizations achieve 2.3× performance improvement. Compared to a standard SA, the versatile SA achieves close-to-ideal speedups, with up to 5.98× and 13.42× for transposed and dilated convolutions, with a 6% average area overhead. The pipelined integration leads to a 5× speedup for OpenPose.
         </td>
@@ -716,4 +746,4 @@ If you would like to contribute to this page by adding a reference to your publi
 </table>
 
 ---------------------------------------
-<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022-2024 Advanced Micro Devices</p>
