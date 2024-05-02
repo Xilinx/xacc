@@ -1,0 +1,48 @@
+- title: "AcMC²: Accelerating Markov Chain Monte Carlo Algorithms for Probabilistic Models"
+  author: "Subho S. Banerjee"
+  institution: "UIUC"
+  link: "https://dl.acm.org/doi/10.1145/3297858.3304019"
+  abstract: |
+    Compiler development transforming probabilistic models into optimized hardware accelerators
+
+- title: "Cloud-DNN: An Open Framework for Mapping DNN Models to Cloud FPGAs"
+  author: "Yao Chen"
+  institution: "National University of Singapore"
+  link: "https://dl.acm.org/doi/10.1145/3289602.3293915"
+  abstract: |
+    Open-source automated tool chain called Cloud-DNN. Our tool chain takes trained CNN models specified in Caffe as input, performs a set of transformations, and maps the model to a cloud-based FPGA. Cloud-DNN can significantly improve the overall design productivity of CNNs on FPGAs while satisfying the emergent computational requirements.
+
+- title: "Flexible Communication Avoiding Matrix Multiplication on FPGA with HLS"
+  author: "Johannes de Fine Licht"
+  institution: "ETH Zurich"
+  link: "https://arxiv.org/abs/1912.06526"
+  abstract: |
+    A flexible, fully HLS-based, high-performance matrix multiplication accelerator, capable of efficiently utilizing all available resources on the target device, including for multi-SLR FPGAs.
+
+- title: "High-Performance Distributed Memory Programming on Reconfigurable Hardware"
+  author: "Tiziano De Matteis"
+  institution: "ETH Zurich"
+  link: "https://arxiv.org/abs/1909.03231"
+  abstract: |
+    SMI is an API that unifies the flexibility and single-program, multiple-data approach of MPI with the streaming programming model of spatial architectures.
+
+- title: "hlslib: Software Engineering for Hardware Design"
+  author: "Johannes de Fine Licht"
+  institution: "ETH Zurich"
+  link: "https://arxiv.org/abs/1910.04436"
+  abstract: |
+    A collection of extensions for Vitis to improve developer quality of life, including CMake integration, better vectorization support, support for simulating dataflow kernels with feedback dependencies.
+
+- title: "Inductive-bias-driven Reinforcement Learning for Efficient Schedules in Heterogeneous Clusters"
+  author: "Subho S. Banerjee"
+  institution: "UIUC"
+  link: "https://arxiv.org/abs/1909.02119"
+  abstract: |
+    System schedulers
+
+- title: "Stateful Dataflow Multigraphs: A Data-Centric Model for Performance Portability on Heterogeneous Architectures"
+  author: "Tal Ben-Nun"
+  institution: "ETH Zurich"
+  link: "https://arxiv.org/abs/1902.10345"
+  abstract: |
+    Enables high-level programming of FPGAs from Python using the dataflow-based SDFG representation, allowing productive optimization of programs via provided graph transformations without modifying the input program, and code generating highly efficient FPGA kernels.

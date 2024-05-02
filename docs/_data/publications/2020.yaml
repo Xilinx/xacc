@@ -1,0 +1,56 @@
+- title: "Do OS abstractions make sense on FPGAs?"
+  author: "Dario Korolija"
+  institution: "ETH Zurich"
+  link: "https://www.usenix.org/conference/osdi20/presentation/roscoe"
+  abstract: |
+    To what extent do traditional OS abstractions make sense in the context of an FPGA as part of a hybrid system? This paper introduces Coyote which supports secure spatial and temporal multiplexing of the FPGA between tenants, virtual memory, communication, and memory management inside a uniform execution environment.
+
+- title: "EMOGI: efficient memory-access for out-of-memory graph-traversal in GPUs"
+  author: "Seung Won Min"
+  institution: "University of Illinois at Urbana-Champaign"
+  link: "https://dl.acm.org/doi/10.14778/3425879.3425883"
+  abstract: |
+    Sparse-matrix computation
+
+- title: "Evaluating FPGA Accelerator Performance with a Parameterized OpenCL Adaptation of Selected Benchmarks of the HPCChallenge Benchmark Suite"
+  author: "Marius Meyer"
+  institution: "Paderborn University"
+  link: "https://dl.acm.org/doi/10.1109/H2RC51942.2020.00007"
+  extra_link: "https://github.com/pc2/HPCC_FPGA"
+  abstract: |
+    OpenCL-based open-source implementation of the HPCC benchmark suite for FPGAs.
+
+- title: "FReaC Cache: Folded-logic Reconfigurable Computing in the Last Level Cache"
+  author: "Ashutosh Dhar"
+  institution: "University of Illinois at Urbana-Champaign"
+  link: "https://ieeexplore.ieee.org/abstract/document/9251953"
+  abstract: |
+    Energy efficient computation
+
+- title: "Making Search Engines Faster by Lowering the Cost of Querying Business Rules Through FPGAs"
+  author: "Fabio Maschi"
+  institution: "ETH Zurich"
+  link: "https://doi.org/10.1145/3318464.3386133"
+  abstract: |
+    Explore how to use hardware acceleration to (i) improve the performance of the MCT module (lower latency, higher throughput); and (ii) reduce the amount of computing resources needed
+
+- title: "Portable Linear Algebra on FPGA using Data-Centric Parallel Programming"
+  author: "Manuel Burger"
+  institution: "ETH Zurich"
+  link: "https://github.com/manuelburger/daceBLAS_demo"
+  abstract: |
+    2020 XOHW Winner PhD
+
+- title: "Specializing the network for scatter-gather workloads"
+  author: "Catalina Alvarez"
+  institution: "ETH Zurich"
+  link: "https://dl.acm.org/doi/10.1145/3419111.3421301"
+  abstract: |
+    Explore hardware-offload of the scatter-gather primitive. This approach not only virtually eliminates CPU usage, but with suitable scheduling of responses, it also speeds up scatter by allowing parallel queries
+
+- title: "Weighing up the new kid on the block: Impressions of using Vitis for HPC software development"
+  author: "Nick Brown"
+  institution: "The University of Edinburgh"
+  link: "https://arxiv.org/abs/2010.00289"
+  abstract: |
+    Vitis case study using Himeno benchmark as a vehicle for exploring the Vitis platform for building, executing and optimizing HPC codes
