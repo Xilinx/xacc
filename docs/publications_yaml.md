@@ -4,7 +4,7 @@ This page lists the research publications which have been carried out in the con
 
 ## Contribute
 
-If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md)
+If you would like to contribute to this page by adding a reference to your publication, please follow the [contribution guidelines](contributing.md).
 
 <!--
 DO NOT MODIFY THIS FILE.
