@@ -14,16 +14,13 @@ TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of
 
 {% assign years = "2024,2023,2022,2021,2020,2019,2018,2017,2016" | split: "," %}
 
-<details>
-<summary>Search publication by year:</summary>
+Search publication by year:
 
 {% for year in years %}
 
-- [{{ year }}](#{{ year }})
+[{{ year }}](#{{ year }})
 
 {% endfor %}
-
-</details>
 
 {% for year in years %}
 
