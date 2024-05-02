@@ -12,7 +12,7 @@ def sort(path: str = '', stats: bool = False):
     for file in yaml_files:
         with open(file, 'r', encoding='utf-8') as yaml_file:
             data = yaml.safe_load(yaml_file)
-            pubs = {item['title']: item for item in data}
+            pubs = {item['title'].lower(): item for item in data}
             sorted_dict = {k: pubs[k] for k in sorted(pubs)}
             sorted_list = [sorted_dict[item] for item in sorted_dict]
             if stats:
@@ -37,4 +37,4 @@ def sort(path: str = '', stats: bool = False):
 
 if __name__ == '__main__':
     path = os.path.dirname(os.path.abspath(__file__)) + '/'
-    sort(path, False)
+    sort(path, True)

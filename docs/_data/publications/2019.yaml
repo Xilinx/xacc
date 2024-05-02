@@ -26,19 +26,19 @@
   abstract: |
     SMI is an API that unifies the flexibility and single-program, multiple-data approach of MPI with the streaming programming model of spatial architectures.
 
-- title: "Inductive-bias-driven Reinforcement Learning for Efficient Schedules in Heterogeneous Clusters"
-  author: "Subho S. Banerjee"
-  institution: "UIUC"
-  link: "https://arxiv.org/abs/1909.02119"
-  abstract: |
-    System schedulers
-
 - title: "hlslib: Software Engineering for Hardware Design"
   author: "Johannes de Fine Licht"
   institution: "ETH Zurich"
   link: "https://arxiv.org/abs/1910.04436"
   abstract: |
     A collection of extensions for Vitis to improve developer quality of life, including CMake integration, better vectorization support, support for simulating dataflow kernels with feedback dependencies.
+
+- title: "Inductive-bias-driven Reinforcement Learning for Efficient Schedules in Heterogeneous Clusters"
+  author: "Subho S. Banerjee"
+  institution: "UIUC"
+  link: "https://arxiv.org/abs/1909.02119"
+  abstract: |
+    System schedulers
 
 - title: "Stateful Dataflow Multigraphs: A Data-Centric Model for Performance Portability on Heterogeneous Architectures"
   author: "Tal Ben-Nun"
