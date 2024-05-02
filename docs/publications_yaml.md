@@ -12,7 +12,6 @@ DO NOT MODIFY THIS FILE.
 TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of publication>.yaml
 -->
 
-
 {% assign years = "2024,2023,2022,2021,2020,2019,2018,2017,2016" | split: "," %}
 
 Click in the year for easier search:
@@ -44,7 +43,7 @@ Click in the year for easier search:
                 <img src="./images/best_paper_award.png" alt="Best Paper" height="160">
             {% endif %}
         </td>
-        <td>{{ item.author }}<em>et al.</em></td>
+        <td>{{ item.author }} <em>et al.</em></td>
         <td>{{ item.institution }}</td>
         <td>
             <a href="{{ item.link }}">Paper</a>
