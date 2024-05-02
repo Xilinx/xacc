@@ -1,0 +1,52 @@
+- title: "ACCL: FPGA-Accelerated Collectives over 100 Gbps TCP-IP"
+  author: "Zhenhao He"
+  institution: "AMD Research Labs"
+  link: "https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/510849/H2RC21_Xilinx_submitted_version.pdf"
+  github: "https://github.com/Xilinx/ACCL"
+  abstract: |
+    ACCL is a Vitis kernel and associated Pynq and XRT drivers which together provide MPI-like collectives for AMD FPGAs. ACCL is designed to enable compute kernels resident in FPGA fabric to communicate directly under host supervision but without requiring data movement between the FPGA and host. Instead, ACCL uses Vitis-compatible TCP and UDP stacks to connect FPGAs directly over Ethernet at up to 100 Gbps on Alveo cards.
+
+- title: "AutoBridge: Coupling Coarse-Grained Floorplanning and Pipelining for High-Frequency HLS Design on Multi-Die FPGAs"
+  author: "Licheng Guo"
+  bestpaper: "Yes"
+  institution: "UCLA"
+  link: "https://dl.acm.org/doi/10.1145/3431920.3439289"
+  github: "https://github.com/Licheng-Guo/AutoBridge"
+  abstract: |
+    Despite an increasing adoption of high-level synthesis (HLS) for its design productivity advantages, there remains a significant gap in the achievable frequency between an HLS design and a handcrafted RTL one. A key factor that limits the timing quality of the HLS outputs is the difficulty in accurately estimating the interconnect delay at the HLS level. This problem becomes even worse when large HLS designs are implemented on the latest multi-die FPGAs. To tackle this challenge, we propose AutoBridge, an automated framework that couples a coarse-grained floorplanning step with pipelining during HLS compilation. First, our approach provides HLS with a view on the global physical layout of the design, allowing HLS to more easily identify and pipeline the long wires, especially those crossing the die boundaries. Second, by exploiting the flexibility of HLS pipelining, the floorplanner is able to distribute the design logic across multiple dies on the FPGA device without degrading clock frequency. This prevents the placer from aggressively packing the logic on a single die which often results in local routing congestion that eventually degrades timing. Since pipelining may introduce additional latency, we further present analysis and algorithms to ensure the added latency will not compromise the overall throughput. AutoBridge can be integrated into the existing CAD toolflow for AMD FPGAs. In our experiments with a total of 43 design configurations, we improve the average frequency from 147 MHz to 297 MHz (a 102% improvement) with no loss of throughput and a negligible change in resource utilization. Notably, in 16 experiments we make the originally unroutable designs achieve 274 MHz on average. 
+
+- title: "AutoSA: A Polyhedral Compiler for High-Performance Systolic Arrays on FPGA"
+  author: "Jie Wang"
+  institution: "UCLA"
+  link: "https://dl.acm.org/doi/10.1145/3431920.3439292"
+  abstract: |
+    While systolic array architectures have the potential to deliver tremendous performance, it is notoriously challenging to customize an efficient systolic array processor for a target application. Designing systolic arrays requires knowledge for both high-level characteristics of the application and low-level hardware details, thus making it a demanding and inefficient process. To relieve users from the manual iterative trial-and-error process, we present AutoSA, an end-to-end compilation framework for generating systolic arrays on FPGA. AutoSA is based on the polyhedral framework, and further incorporates a set of optimizations on different dimensions to boost performance. An efficient and comprehensive design space exploration is performed to search for high-performance designs. We have demonstrated AutoSA on a wide range of applications, on which AutoSA achieves high performance within a short amount of time. As an example, for matrix multiplication, AutoSA achieves 934 GFLOPs, 3.41 TOPs, and 6.95 TOPs in floating point, 16-bit and 8-bit integer data types on Alveo Alveo U250. 
+
+- title: "Distributed Recommendation Inference on FPGA Clusters"
+  author: "Yu Zhu"
+  institution: "ETH Zurich"
+  link: "https://www.research-collection.ethz.ch/handle/20.500.11850/485145"
+  abstract: |
+    Implementation of an efficient distributed recommendation inference on an FPGA cluster that optimizes both the memory-bound embedding layer and the computation-bound fully-connected layers. The system achieves a maximum speed up of 28.95x, while guaranteeing very low latency.
+
+- title: "EasyNet: 100 Gbps Network for HLS"
+  author: "Zhenhao He"
+  institution: "ETH Zurich"
+  link: "https://www.research-collection.ethz.ch/handle/20.500.11850/487920"
+  github: "https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP"
+  abstract: |
+    Integration of an open-source 100 Gbps TCP/IP stack into Vitis without degrading its performance. A set of MPI-like communication primitives are provided to abstract away low level details of the networking stack.
+
+- title: "Elastic-DF: Scaling Performance of DNN Inference in FPGA Clouds through Automatic Partitioning"
+  author: "Tobias Alonso"
+  institution: "AMD Research Labs"
+  link: "https://dl.acm.org/doi/10.1145/3470567"
+  abstract: |
+    Elastic-DF allocates FPGA resources to DNN layers and layers to individual FPGA dies to maximize the total performance of the multi-FPGA system. In the resulting Elastic-DF mapping, the accelerator may be instantiated multiple times, and each instance may be segmented across multiple FPGAs transparently, whereby the segments communicate peer-to-peer through 100 Gbps Ethernet FPGA infrastructure, without host involvement.
+
+- title: "Extending High-Level Synthesis for Task-Parallel Programs"
+  author: "Yuze Chi"
+  institution: "UCLA"
+  link: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9444053"
+  abstract: |
+    C/C++/OpenCL-based high-level synthesis (HLS) becomes more and more popular for field-programmable gate array (FPGA) accelerators in many application domains in recent years, thanks to its competitive quality of results (QoR) and short development cycles compared with the traditional register transfer level design approach. Yet, limited by the sequential C semantics, it remains challenging to adopt the same highly productive high-level programming approach in many other application domains, where coarse-grained tasks run in parallel and communicate with each other

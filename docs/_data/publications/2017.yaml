@@ -1,0 +1,7 @@
+
+- title: "Architectural optimizations for high performance and energy efficient Smith-Waterman implementation on FPGAs using OpenCL"
+  author: "Lorenzo Di Tucci"
+  institution: "Xilinx Inc. and Politecnico di Milano"
+  link: "https://arxiv.org/abs/1809.04570"
+  abstract: |
+    Smith-Waterman: A key bio-informatics algorithm
