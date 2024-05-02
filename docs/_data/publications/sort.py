@@ -6,7 +6,9 @@ import glob
 import os
 import yaml
 
+
 def sort(path: str = '', stats: bool = False):
+    """Sort YAML files alphabetically by title"""
     search_path = path + '*.yaml'
     yaml_files = sorted(glob.glob(search_path))
     for file in yaml_files:
@@ -37,6 +39,7 @@ def sort(path: str = '', stats: bool = False):
                     sorted_file.write(f'  github: "{v['github']}"\n')
                 sorted_file.write(f'  abstract: |\n    "'
                                   f'{v['abstract'][:-2]}"\n\n')
+
 
 if __name__ == '__main__':
     path = os.path.dirname(os.path.abspath(__file__)) + '/'
