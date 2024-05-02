@@ -16,11 +16,7 @@ TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of
 
 Search publication by year:
 
-{% for year in years %}
-
-[{{ year }}](#{{ year }}){% unless forloop.last %}, {% endunless %}
-
-{% endfor %}
+{% for year in years %}[{{ year }}](#{{ year }}){% unless forloop.last %}, {% endunless %}{% endfor %}
 
 {% for year in years %}
 
