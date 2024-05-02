@@ -14,13 +14,15 @@ TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of
 
 {% assign years = "2024,2023,2022,2021,2020,2019,2018,2017,2016" | split: "," %}
 
-Search publication by year:
+<details>
+<summary>Search publication by year:</summary>
 
 {% for year in years %}
 
 - [{{ year }}](#{{ year }})
 
 {% endfor %}
+</details>
 
 {% for year in years %}
 
@@ -32,7 +34,7 @@ Search publication by year:
         <th width="120">Author(s)</th>
         <th width="120">Institution</th>
         <th width="120">Link</th>
-        <th width="500">Notes</th>
+        <th width="500">Description</th>
     </tr>
 
     {% for item in site.data.publications[year] %}
@@ -40,7 +42,7 @@ Search publication by year:
         <td>
             {{ item.title }}
             {% if item.bestpaper %}
-                <img src="./images/best_paper_award.png" alt="Best Paper" height="160">
+                <img src="./images/best_paper_award.png" alt="Best Paper" height="100">
             {% endif %}
         </td>
         <td>{{ item.author }} <em>et al.</em></td>
