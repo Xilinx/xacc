@@ -18,6 +18,10 @@ Fast, Scalable Quantized Neural Network Inference on FPGAs. Explore deep neural 
 
 ACCL: Alveo Collective Communication Library. ACCL is a Vitis kernel and associated XRT drivers which together provide MPI-like collectives for Xilinx FPGAs. ACCL is designed to enable compute kernels resident in FPGA fabric to communicate directly under host supervision but without requiring data movement between the FPGA and host. Find out more in the [ACCL repository](https://github.com/Xilinx/ACCL)
 
+### Aurora HLS
+
+Aurora HLS is a ready-to-link implementation of 100 Gbps point-to-point network channels based on the AMD Aurora 64B/66B IP core. It can easily be integrated into HLS designs and provides features such as CRC error detection and flow control. Find out more in the [Aurora HLS repository](https://github.com/pc2/Aurora-HLS/)
+
 ### EasyNet
 
 This framework is ideal to scale out your application without CPU intervention, full TCP/IP support in the Alveo card. ETH Zurich provides example designs with TCP/IP support at 100 Gbps in Vitis. Find out more in the [Vitis 100Gbps TCP/IP repository](https://github.com/fpgasystems/Vitis_with_100Gbps_TCP-IP)
