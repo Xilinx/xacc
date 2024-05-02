@@ -8,8 +8,8 @@
 
 - title: "AutoBridge: Coupling Coarse-Grained Floorplanning and Pipelining for High-Frequency HLS Design on Multi-Die FPGAs"
   author: "Licheng Guo"
-  institution: "UCLA"
   bestpaper: "Yes"
+  institution: "UCLA"
   link: "https://dl.acm.org/doi/10.1145/3431920.3439289"
   github: "https://github.com/Licheng-Guo/AutoBridge"
   abstract: |
