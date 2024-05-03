@@ -13,11 +13,8 @@ Three nodes of 2Px96C Genoa with 764GB DDR5, each having four [AMD Instinct™ M
 attached to a Milan server. This cluster is dedicated for research in Heterogeneous computing. The following figure gives a
 schematic representation of the cluster.
 
-<img src="images/uiuc/hacc_iisc.png" alt="IISc" class="responsive">
+<img src="images/iisc/hacc_iisc.png" alt="IISc" class="responsive">
 
-<!--
-For more information on the hardware configuration, see the [IISc HACC](https://xilinx-center.csl.illinois.edu/xacc-cluster/) webpage.
--->
 
 ---------------------------------------
 <p class="copyright">Copyright&copy; 2024 Advanced Micro Devices</p>
