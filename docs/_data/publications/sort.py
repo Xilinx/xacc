@@ -20,7 +20,7 @@ def sort(path: str = '', stats: bool = False):
             if stats:
                 print(f'In {file=} the alphabetical order should be:')
                 for index, value in enumerate(sorted_list):
-                    print(f'{index:02d}: {value['title']}')
+                    print(f'{index:02d}: {value.get["title"]}')
                 print('\n')
         basename = os.path.basename(file).split('.yaml')[0]
         output_file = os.path.dirname(file) + '/' + basename + '_sorted.yml'
@@ -29,16 +29,16 @@ def sort(path: str = '', stats: bool = False):
         print(f'Year {basename} has {len(sorted_list)} papers')
         with open(output_file, 'w', encoding='utf-8') as sorted_file:
             for v in sorted_list:
-                sorted_file.write(f'- title: "{v['title']}"\n')
-                sorted_file.write(f'  author: "{v['author']}"\n')
+                sorted_file.write(f'- title: "{v["title"]}"\n')
+                sorted_file.write(f'  author: "{v["author"]}"\n')
                 if v.get('bestpaper'):
-                    sorted_file.write(f'  bestpaper: "{v['bestpaper']}"\n')
-                sorted_file.write(f'  institution: "{v['institution']}"\n')
-                sorted_file.write(f'  link: "{v['link']}"\n')
+                    sorted_file.write(f'  bestpaper: "{v["bestpaper"]}"\n')
+                sorted_file.write(f'  institution: "{v["institution"]}"\n')
+                sorted_file.write(f'  link: "{v["link"]}"\n')
                 if v.get('github'):
-                    sorted_file.write(f'  github: "{v['github']}"\n')
+                    sorted_file.write(f'  github: "{v["github"]}"\n')
                 sorted_file.write(f'  abstract: |\n    "'
-                                  f'{v['abstract'][:-2]}"\n\n')
+                                  f'{v["abstract"][:-2]}"\n\n')
 
 
 if __name__ == '__main__':
