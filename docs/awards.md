@@ -116,4 +116,4 @@
 </table>
 
 ---------------------------------------
-<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022-2024 Advanced Micro Devices</p>
