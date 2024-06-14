@@ -2,14 +2,24 @@
 
 # Events
 
-### HACC Tech Talks
+## HACC Tech Talks
 
-The HACC Tech Talks are a series of webinars covering a broad range of topics related to AMD Adaptive Compute. Each session will be 1 hour, with two 30-minute talks in each session. 
+The HACC Tech Talks are a series of webinars covering a broad range of topics related to AMD Adaptive Compute. Each session is 1 hour, with two 30-minute talks in each session. 
+
+### HACC Tech Talk 9
+
+26 June 2024, 9:00-10:00 (PT) 18:00-19:00 (CET/GMT+2)
+
+[![Tech Talk 9 advert](./images/tech_talks/tt9_advert.png)](https://amd.zoom.us/webinar/register/WN_V0kuGfGJSTiZGJenUzf64A)
+
+[![Zoom icon](./images/zoom_30.png) Register now](https://amd.zoom.us/webinar/register/WN_V0kuGfGJSTiZGJenUzf64A)
+
+## Past Tech Talks
 
 To watch previous tech-talks go to the <a href="./xacc_tech_talks.html#past-talks">HACC Tech Talk Page</a>
 
-
 ## Past Events
+
 
 <table class="responsive">
   <tr>
