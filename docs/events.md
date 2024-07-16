@@ -14,6 +14,13 @@ The HACC Tech Talks are a series of webinars covering a broad range of topics re
 
 [![Zoom icon](./images/zoom_30.png) Register now](https://amd.zoom.us/webinar/register/WN_r6-MiJIcSd6xYB0XqxBvsg)
 
+
+22 August 2024, 9:00-10:00 (PDT) 18:00-19:00 (CET/GMT+2)
+
+[![Tech Talk 11 advert](./images/tech_talks/tt11_advert.png)](https://amd.zoom.us/webinar/register/WN_ykCzlLHGRJ6L6ukyBG50FQ)
+
+[![Zoom icon](./images/zoom_30.png) Register now](https://amd.zoom.us/webinar/register/WN_ykCzlLHGRJ6L6ukyBG50FQ)
+
 ## Past Tech Talks
 
 To watch previous tech-talks go to the <a href="./hacc_tech_talks.html#past-talks">HACC Tech Talk Page</a>
