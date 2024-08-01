@@ -6,6 +6,30 @@ If you would like to present your work at an HACC Tech Talk, please contact [aup
 
 ## Past talks
 
+### HACC Tech Talk 10
+
+17<sup>th</sup> July 2024
+
+#### **Serpens and Callipepla** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://youtube.com/embed/gxpSAd-_nv4" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Dr. Linghao Song, UCLA.
+
+Two FPGA-based HBM accelerators for enhanced computational efficiency will be introduced. 
+Callipepla accelerates preconditioned conjugate gradient solvers, achieving significant speedup and energy efficiency over existing solutions. 
+Serpens, designed for sparse matrix-vector multiplication (SpMV), outperforms the latest accelerators and GPUs in throughput and efficiency. These advancements demonstrate the potential of HBM-based FPGAs in scientific and engineering applications.
+
+#### **HiHiSpMV: Sparse Matrix Vector Multiplication with Hierarchical Row Reductions on FPGAs with High Bandwidth Memory** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/Q0A78uenjuA" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Dr. Tobias Kenter, University of Paderborn
+
+Using the full potential of Alveo U280 for Sparse Matrix Vector Multiplications FPGAs with High Bandwidth Memory are a promising architecture for sparse linear algebra, but so far it has been challenging to fully utilize the bandwidth their potential. This talk presents HiHiSpMV, a new approach for sparse matrix vector multiplication on FPGAs using hierarchical row reductions, and a corresponding design implemented with Vitis. The design can fully utilize all 32 HBM channels on the Alveo U280 card, reaches up to 396 GB/s measured bandwidth and has a higher bandwidth utilization than alternative designs on many input matrices.
+
 ### HACC Tech Talk 9
 
 26<sup>th</sup> June 2024
