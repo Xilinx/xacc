@@ -6,13 +6,13 @@
 
 The HACC Tech Talks are a series of webinars covering a broad range of topics related to AMD Adaptive Compute. Each session is 1 hour, with two 30-minute talks in each session. 
 
-### HACC Tech Talk 11
+### HACC Tech Talk 12
 
 22 August 2024, 9:00-10:00 (PDT) 18:00-19:00 (CET/GMT+2)
 
-[![Tech Talk 11 advert](./images/tech_talks/tt11_advert.png)](https://amd.zoom.us/webinar/register/WN_ykCzlLHGRJ6L6ukyBG50FQ)
+[![Tech Talk 12 advert](./images/tech_talks/tt12_advert.png)](https://amd.zoom.us/webinar/register/WN_KWpiI3u1Q_2ierwMw8IOtQ)
 
-[![Zoom icon](./images/zoom_30.png) Register now](https://amd.zoom.us/webinar/register/WN_ykCzlLHGRJ6L6ukyBG50FQ)
+[![Zoom icon](./images/zoom_30.png) Register now](https://amd.zoom.us/webinar/register/WN_KWpiI3u1Q_2ierwMw8IOtQ)
 
 ## Past Tech Talks
 

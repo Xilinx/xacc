@@ -6,6 +6,35 @@ If you would like to present your work at an HACC Tech Talk, please contact [aup
 
 ## Past talks
 
+
+### HACC Tech Talk 11
+
+22<sup>nd</sup> August 2024
+
+#### **ROCm Ecosystem and HIP Programming** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://youtube.com/embed/m2dU5gyImno" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Tom Papatheodore, AMD University Program.
+
+
+ROCm is an open-source software stack that consists of a collection of drivers, development tools, and APIs that enable GPU programming from low-level kernel to end-user applications.
+The ROCm ecosystem will be introduced along with the Heterogeneous-Compute Interface for Portability (HIP), which is a C++ Runtime API and Kernel Language that allows developers to create portable applications for AMD and NVIDIA GPUs from a single source code.
+
+#### **Profiling Tools for AMD Hardware** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/-ZjMnUVx5yM" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+
+Giacomo Capodaglio, AMD HPC Solutions & Performance Analysis
+
+This talk will introduce three powerful open-source profiling tools:
+rocprof profiles all hardware counters on your GPU during execution.
+Omnitrace profiles and traces parallel applications, including HIP and machine learning packages, across multiple languages (C, C++, Fortran, HIP, OpenCL, and Python) on both CPU and GPU.
+Omniperf is a system performance profiler designed for HPC and ML workloads using AMD Instinct GPUs.
+
 ### HACC Tech Talk 10
 
 17<sup>th</sup> July 2024
