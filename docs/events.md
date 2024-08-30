@@ -8,7 +8,7 @@ The HACC Tech Talks are a series of webinars covering a broad range of topics re
 
 ### HACC Tech Talk 12
 
-22 August 2024, 9:00-10:00 (PDT) 18:00-19:00 (CET/GMT+2)
+19 September 2024, 8:30-9:30 (PDT) 17:30-18:30 (CET/GMT+2)
 
 [![Tech Talk 12 advert](./images/tech_talks/tt12_advert.png)](https://amd.zoom.us/webinar/register/WN_KWpiI3u1Q_2ierwMw8IOtQ)
 
