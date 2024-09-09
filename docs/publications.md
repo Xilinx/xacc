@@ -24,10 +24,10 @@ Search publication by year:
 
 <table width="100%">
     <tr>
-        <th width="200">Title & Abstract</th>
-        <th width="120">Author(s)</th>
-        <th width="120">Institution</th>
-        <th width="120">Link</th>
+        <th width="320">Title & Abstract</th>
+        <th width="100">Author(s)</th>
+        <th width="100">Institution</th>
+        <th width="40">Link</th>
     </tr>
 
     {% for item in site.data.publications[year] %}
