@@ -24,17 +24,20 @@ Search publication by year:
 
 <table width="100%">
     <tr>
-        <th width="200">Name</th>
+        <th width="200">Title & Abstract</th>
         <th width="120">Author(s)</th>
         <th width="120">Institution</th>
         <th width="120">Link</th>
-        <th width="500">Description</th>
     </tr>
 
     {% for item in site.data.publications[year] %}
     <tr>
         <td>
-            {{ item.title }}
+            {{ item.title }} <br>
+            <details>
+                <summary>Abstract</summary>
+                {{ item.abstract }}
+            </details>
             {% if item.bestpaper %}
                 <img src="./images/best_paper_award.png" alt="Best Paper" height="100">
             {% endif %}
@@ -46,11 +49,6 @@ Search publication by year:
             {% if item.github %}
                 <br><a href="{{ item.github }}">GitHub</a>
             {% endif %}
-        </td>
-        <td>
-            <details>
-                {{ item.abstract }}
-            </details>
         </td>
     </tr>
     {% endfor %}

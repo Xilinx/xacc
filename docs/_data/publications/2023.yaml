@@ -1,3 +1,10 @@
+- title: "Accelerating Garbled Circuits in the Open Cloud Testbed with Multiple Network-Attached FPGAs"
+  author: "Kai Huang"
+  institution: "Google and Northeastern University"
+  link: "https://ieeexplore.ieee.org/document/10363560"
+  abstract: |
+    Field Programmable Gate Arrays are increasingly used in cloud computing to increase the run time performance of applications. For complex applications or applications that operate over large amounts of data, users may want to use more than one FPGA. The challenge is how to map and parallelize applications to a multi-FPGA cloud computing platform such that the problem is partitioned evenly over the FPGAs, memory resources are used effectively, communication is minimized, and speedup is maximized. In this research, we build a framework to map Garbled Circuit applications, an implementation of Secure Function Evaluation, to the Open Cloud Testbed, which has FPGA cards attached to computing nodes. The FPGAs are directly connected to 100 GbE switches and can communicate directly through the network; we use the Xilinx UDP stack for this. Preprocessing generates efficient memory allocation and partitioning maps and schedules executions to different FPGAs to minimize communication and maximize processing overlap. This framework achieves close to perfect speedup on a two-FPGA setup compared to a one-FPGA implementation, and can handle large examples that cannot fit on a single FPGA.
+
 - title: "ACTS: A Near-Memory FPGA Graph Processing Framework"
   author: "Wole Jaiyeoba"
   institution: "UCLA"
@@ -14,6 +21,21 @@
   github: "https://github.com/fpgasystems/amnes"
   abstract: |
     A widely used approach to characterize input data in both databases and ML is computing the correlation between attributes. The operation is supported by all major database engines and ML platforms. However, it is an expensive operation as the number of attributes involved grows. To address the issue, in this paper we introduce AMNES, a stream analytics system offloading the correlation operator into an FPGA-based network interface card. AMNES processes data at network line rate and the design can be used in combination with smart storage or SmartNICs to implement near data or in-network data processing. AMNES design goes beyond matrix multiplication and offers a customized solution for correlation computation bypassing the CPU. Our experiments show that AMNES can sustain streams arriving at 100 Gbps over an RDMA network, while requiring only ten milliseconds to compute the correlation coefficients among 64 streams, an order of magnitude better than competing CPU or GPU designs.
+
+- title: "A Finite-Difference Time-Domain (FDTD) solver with linearly scalable performance in an FPGA"
+  author: "Zhenyu Xu"
+  institution: "University of Rhode Island"
+  link: "https://ieeexplore.ieee.org/document/10319955"
+  abstract: |
+    This paper presents an FPGA cluster-based Finite-Difference Time-Domain (FDTD) accelerator that offers a linear speedup with the number of FPGAs participating in computation within the cluster. FDTD is a numeric method for simulating electromagnetic wave propagation and interactions with diverse materials and structures. Recent advancements in machine learning-based design and optimization techniques for photonic integrated circuits and microwave circuits, known as inverse design, have demonstrated remarkable success. Inverse design necessitates numerous FDTD simulations, and the high-performance FDTD accelerator enables rapid design automation, which is crucial for accelerating innovation. Our proposed accelerator comprises deeply pipelined FDTD cell update kernels that can traverse multiple FPGAs via high-speed optical links, effectively utilizing available resources across all FPGAs in a cluster. The architecture includes a head node and a flexible number of cascaded server nodes, together with custom cross-FPGA data routing kernels integrated into the "Open Cloud Testbed" (OCT) FPGA infrastructure to facilitate seamless data transfer. The proposed accelerator is developed on an existing platform, OCT FPGA. Our experiments reveal that, for a 4096x4096 2.5D FDTD simulation, each server node (Xilinx Alveo U280) can achieve 86.4 Giga-cells updates per second (GCUPS), and the head node can achieve 38.4 GCUPS. The overall speed with 4 server nodes is 38.4 + 4x86.4 = 384 GCUPS.
+  
+- title: "A Framework to Enable Runtime Programmable P4-enabled FPGAs in the Open Cloud Testbed"
+  author: "Zhaoyang Han"
+  institution: "Northeastern University"
+  link: "https://ieeexplore.ieee.org/document/10225877"
+  github: "https://github.com/OCT-FPGA/P4OpenNIC_Public"
+  abstract: |
+    This paper presents a framework for cloud users who wish to specify their experiments in the P4 language and map them to FPGAs in the Open Cloud Testbed (OCT). OCT consists of P4-enabled FPGA nodes that are directly connected to the network via 100 gigabit Ethernet connections, and which support runtime reconfiguration. Cloud users can quickly prototype and deploy their P4 applications through our framework, which provides the necessary infrastructure including a network interface shell for the P4 logic. We have provided several examples using this framework that demonstrate designs running at the 100 GbE line rate with the support of runtime reconfiguration for P4 functions. By combining an existing network interface shell and P4 toolchain on FPGAs, we offer a framework that enables users to rapidly execute their P4 experiments in real time on FPGAs.
 
 - title: "CHARM: Composing Heterogeneous AcceleRators for Matrix Multiply on Versal ACAP Architecture"
   author: "Jinming Zhuang"
@@ -76,6 +98,13 @@
   abstract: |
     In recent years the use of FPGAs to accelerate scientific applications has grown, with numerous applications demonstrating the benefit of FPGAs for high performance workloads. However, whilst High Level Synthesis (HLS) has significantly lowered the barrier to entry in programming FPGAs by enabling programmers to use C++, a major challenge is that most often these codes are not originally written in C++. Instead, Fortran is the lingua franca of scientific computing and-so it requires a complex and time consuming initial step to convert into C++ even before considering the FPGA. In this paper we describe work enabling Fortran for AMD Xilinx FPGAs by connecting the LLVM Flang front end to AMD Xilinx's LLVM back end. This enables programmers to use Fortran as a first-class language for programming FPGAs, and as we demonstrate enjoy all the tuning and optimisation opportunities that HLS C++ provides. Furthermore, we demonstrate that certain language features of Fortran make it especially beneficial for programming FPGAs compared to C++. The result of this work is a lowering of the barrier to entry in using FPGAs for scientific computing, enabling programmers to leverage their existing codebase and language of choice on the FPGA directly.
 
+- title: "GNNHLS: Evaluating Graph Neural Network Inference via High-Level Synthesis"
+  author: "Chenfeng Zhao"
+  institution: "Washington University in St. Louis"
+  link: "https://arxiv.org/pdf/2309.16022"
+  abstract: |
+    With the ever-growing popularity of Graph Neural Networks (GNNs), efficient GNN inference is gaining tremendous attention. Field-Programming Gate Arrays (FPGAs) are a promising execution platform due to their fine-grained parallelism, low-power consumption, reconfigurability, and concurrent execution. Even better, High-Level Synthesis (HLS) tools bridge the gap between the non-trivial FPGA development efforts and rapid emergence of new GNN models. In this paper, we propose GNNHLS, an open-source framework to comprehensively evaluate GNN inference acceleration on FPGAs via HLS, containing a software stack for data generation and baseline deployment, and FPGA implementations of 6 well-tuned GNN HLS kernels. We evaluate GNNHLS on 4 graph datasets with distinct topologies and scales. The results show that GNNHLS achieves up to 50.8x speedup and 423x energy reduction relative to the CPU baselines. Compared with the GPU baselines, GNNHLS achieves up to 5.16x speedup and 74.5x energy reduction.
+
 - title: "High Performance, Low Power Matrix Multiply Design on ACAP: from Architecture, Design Challenges and DSE Perspectives"
   author: "Jinming Zhuang"
   institution: "University of Pittsburgh"
@@ -90,6 +119,13 @@
   github: "https://github.com/Xtra-Computing/LightRW"
   abstract: |
     Graph dynamic random walks (GDRWs) have recently emerged as a powerful paradigm for graph analytics and learning applications, including graph embedding and graph neural networks. Despite the fact that many existing studies optimize the performance of GDRWs on multi-core CPUs, massive random memory accesses and costly synchronizations cause severe resource under utilization, and the processing of GDRWs is usually the key performance bottleneck in many graph applications. This paper studies an alternative architecture, FPGA, to address these issues in GDRWs, as FPGA has the ability of hardware customization so that we are able to explore fine-grained pipeline execution and specialized memory access optimizations. Specifically, we propose LightRW, a novel FPGA-based accelerator for GDRWs. LightRW embraces a series of optimizations to enable fine-grained pipeline execution on the chip and to exploit the massive parallelism of FPGA while significantly reducing memory accesses. As current commonly used sampling methods in GDRWs do not efficiently support fine-grained pipeline execution, we develop a parallelized reservoir sampling method to sample multiple vertices per cycle for efficient pipeline execution. To address the random memory access issues, we propose a degree-aware configurable caching method that buffers hot vertices on-chip to alleviate random memory accesses and a dynamic burst access engine that efficiently retrieves neighbors. Experimental results show that our optimization techniques are able to improve the performance of GDRWs on FPGA significantly. Moreover, LightRW delivers up to 9.55x and 9.10x speedup over the state-of-the-art CPU-based MetaPath and Node2vec random walks, respectively.
+
+- title: "Machine Learning Across Network-Connected FPGAs"
+  author: "Dana Diaconu"
+  institution: "Northeastern University"
+  link: "https://ieeexplore.ieee.org/document/10363454"
+  abstract: |
+    FPGAs often cannot implement machine learning inference with high accuracy models due to significant storage and computing requirements. The corresponding hardware accelerators of such models are large designs which cannot be deployed on a single platform. In this research, we implement ResNet-50 with 4 bit precision for weights and 5 bit precision for activations, which has a good trade-off between precision and accuracy. We train ResNet-50 using the quantization-aware training library Brevitas and build a hardware accelerator with the FINN framework from AMD. We map the result to three FPGAs that communicate directly with one another over the network via the User Datagram Protocol (UDP). The multi-FPGA implementation is compared to a single FPGA ResNet-50 design with lower precision of 1 bit weights and 2 bit activations. While the latter can fit on a single FPGA, the former pays for higher accuracy with a three times increase in the required number of BRAM tiles and can only be deployed on multiple FPGAs. We show the difference in accuracy, resource utilization, and throughput for the designs deployed on AMD Alveo U280 data center accelerator cards available in the Open Cloud Testbed images/s.
 
 - title: "MESA: Microarchitecture Extensions for Spatial Architecture Generation"
   author: "Dong Kai Wang"
