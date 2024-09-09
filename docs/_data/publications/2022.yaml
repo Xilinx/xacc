@@ -83,6 +83,13 @@
   abstract: |
     In-depth evaluation of the HPCC benchmark suite for FPGAs. We look into the power consumption and efficiency of the benchmarks. Also, we evaluate the impact of different floating-point precisions on the performance and resource utilization and give an example how the benchmarks can be used to evaluate the behavior of the underlying runtime environments.
 
+- title: "Network Attached FPGAs in the Open Cloud Testbed (OCT)"
+  author: "Suranga Handagala"
+  institution: "Paderborn University"
+  link: "https://ieeexplore.ieee.org/document/9798375"
+  abstract: |
+    The Open Cloud Testbed (OCT) provides nodes with Field Programmable Gate Arrays (FPGAs) that are under the complete control of the user and are directly attached to a network switch via two 100Gbps connections. We provide TCP and UDP stacks on the FPGAs. In addition, users have the ability to experiment with their own protocol. We present several experiments which make use of this capability including TCP throughput measurements, an encryption/decryption example, and machine learning inference split across two FPGAs where the images are input on one node and the labelled output available on a second node. The testbed is available for researchers to perform their own experiments, and includes a development platform that allows users to create FPGA applications. Network measurement results show we achieve close to peak bandwidth by tuning appropriate parameters.
+
 - title: "OverGen: Improving FPGA Usability through Domain-specific Overlay Generation"
   author: "Sihao Li"
   institution: "UCLA"
