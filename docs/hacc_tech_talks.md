@@ -6,6 +6,34 @@ If you would like to present your work at an HACC Tech Talk, please contact [aup
 
 ## Past talks
 
+### HACC Tech Talk 12
+
+19<sup>th</sup> September 2024
+
+#### **Pruning in the Datafree regime: A Distributional approach to Structured Pruning** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://youtube.com/embed/dxXPNWm43Vw" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Dr. Chiranjib Bhattacharyya, IISc
+
+
+Minimizing Inference time in Deep Networks is one of the biggest challenges in modern day AI systems. Model pruning is considered an important approach in addressing this issue. In this talk we highlight our recent progress in developing novel algorithms for structured pruning which do not require access to the original Training dataset,  a requirement for many existing methods.  We consider a distributional perspective on Model pruning, a novel view ,  which proposes to prune filters which have poor discriminative ability. The discriminative ability of a filter is identified through a novel lower bound on Toral Variation distance.
+Experimental results show that the approach is superior to existing methods.
+
+
+
+#### **Energy-efficient 2.5D System for LLM Inference** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/fiHV9G9mH8A" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Dr. Sumit Kumar Mandal, IISc
+
+
+Large Language Models (LLMs) are used to perform various tasks, especially in the domain of natural language processing (NLP). State-of-the-art LLMs consist of a large number of parameters that necessitate a high volume of computations. Currently, GPUs are the preferred choice of hardware platform to execute LLM inference. However, monolithic GPU-based systems executing large LLMs pose significant drawbacks in terms of fabrication cost and energy efficiency. In this work, we propose a heterogeneous 2.5D chiplet-based architecture for accelerating LLM inference. Thorough experimental evaluations with a wide variety of LLMs show that the proposed 2.5D system provides up to 972× improvement in latency and 1600× improvement in energy consumption with respect to state-of-the-art edge devices equipped with GPU. 
+
+
 
 ### HACC Tech Talk 11
 
