@@ -6,6 +6,28 @@ If you would like to present your work at an HACC Tech Talk, please contact [aup
 
 ## Past talks
 
+### HACC Tech Talk 13
+
+10<sup>th</sup> October 2024
+
+#### **RoCE Balboa – RDMA Deep Packet Inspection at Line Rate with ML-models on FPGAs** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://youtube.com/embed/M_Jn7t7A3nc" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Maximilian Heer, Benjamin Ramhorst,  ETH Zurich
+
+FPGAs are becoming increasingly important in the cloud and data centers, especially as network-attached accelerators or reconfigurable NICs. In the cloud, RDMA over Converged Ethernet (RoCEv2) has emerged as the de facto protocol for data transport due to its low latency and high throughput. However, RDMA has several security weaknesses that limit its applicability. We explore using machine learning-based deep packet inspection as an enhancement to an open-source FPGA RDMA-stack. The ultra-low-latency ML model is integrated on the RDMA data path and allows for detection of executable code in RDMA-payloads at line rate of 100Gbps while using less than 1% of the available resources. This solution operates on the message payload, at the transport level, and on a complete RDMA stack without sacrificing compatibility with RoCEv2 and existing applications, proving the significant potential of the proposed approach as an end-to-end solution.
+
+#### **TaPaSCo on Versal: AIE, QDMA Streaming and MRMAC** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/7PdZ1SiObpA" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Torben Kalkhof, TU Darmstadt
+
+The Task Parallel System Composer (TaPaSCo) is an open-source framework designed to simplify the construction of heterogeneous computing systems by efficiently offloading tasks to hardware accelerators. In this presentation, we explore how TaPaSCo leverages key features of the AMD Versal architecture, including AI Engines (AIE) for high-performance compute, Queue Direct Memory Access (QDMA) for efficient data streaming, and Multi-rate MAC (MRMAC) for high-speed networking.
+
 ### HACC Tech Talk 12
 
 19<sup>th</sup> September 2024
