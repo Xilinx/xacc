@@ -6,6 +6,54 @@ If you would like to present your work at an HACC Tech Talk, please contact [aup
 
 ## Past talks
 
+
+### HACC Tech Talk 15
+
+14<sup>th</sup> November 2024
+
+#### **Optimizing Communication for Latency Sensitive HPC Applications on up to 48 FPGAs Using ACCL** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://youtube.com/embed/gdonRDGj9n4" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Marius Meyer, Paderborn University
+
+Most FPGA boards in the HPC domain are well-suited for parallel scaling because of the direct integration of versatile and high-throughput network ports. However, the utilization of their network capabilities is often challenging and error-prone because the whole network stack and communication patterns have to be implemented and managed on the FPGAs. Also, this approach conceptually involves a trade-off between the performance potential of improved communication and the impact of resource consumption for communication infrastructure, since the utilized resources on the FPGAs could otherwise be used for computations. In this work, we investigate this trade-off, firstly, by using synthetic benchmarks to evaluate the different configuration options of the communication framework ACCL and their impact on communication latency and throughput. Finally, we use our findings to implement a shallow water simulation whose scalability heavily depends on low-latency communication. With a suitable configuration of ACCL, good scaling behaviour can be shown to all 48 FPGAs installed in the system. Overall, the results show that the availability of inter-FPGA communication frameworks as well as the configurability of framework and network stack are crucial to achieve the best application performance with low latency communication.
+
+#### **OMPC FPGA: Integrating Multi-FPGA Acceleration to OpenMP Distributed Computing** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/yy8IFcPdWTE" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Pedro Di Francia Rosso, Unicamp, Brazil
+
+Programming FPGA accelerated applications often requires the developers to master multiple frameworks and toolchains. This work introduces FPGA offloading support to OpenMP Cluster (OMPC). OMPC is a framework designated to abstract distributed computing from applications that uses CPU and GPUs, programming only with OpenMP. The integration enables developers to use FPGA accelerators with just a few lines of code, through the OpenMP standard directive variant. Experimental results demonstrate speed-ups gains using different heterogeneous accelerator arrangements with CPU, FPGA and GPU. Through the Halstead Metrics measurements, the framework is capable of reducing 45% of the implementation effort. Furthermore, enabling communication acceleration using ACCL resulted in speed-ups up to 1.41x over the default communication mechanism (MPI) on a synthetic benchmark (Task Bench). 
+
+
+### HACC Tech Talk 14
+
+29<sup>th</sup> October 2024
+
+#### **Energy-Efficient Computation for Machine Learning Workloads** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://youtube.com/embed/UpbYGnpIHcA" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Dr. Viveka Konandur Rajanna, Indian Institute of Science (IISc)
+
+Energy-efficient systems for machine learning are in high demand, especially for power-constrained edge devices. Static Random-Access Memories (SRAMs) are key to system-on-chips (SoCs), and in-memory computation (IMC) enhances efficiency by combining data storage with processing. We introduce an SRAM macro that supports continuous sensing, low-power event detection, and reduces bitline activity for energy-efficient bulk reads without the need for data prediction.
+Secure systems rely on dynamic entropy from True Random Number Generators (TRNGs) and static entropy from Physically Unclonable Functions (PUFs). Our SRAM integrates both TRNG and multi-bit PUF for low-cost, area-efficient security. For applications like sensor-rich robotics and prosthetics, our tactile sensing system supports high receptor density, achieving sub-0.01mm² per receptor and sub-µW power, enabling efficient, long-lasting operation on stretchable substrates.
+
+#### **Performance Analysis of GEMM Workloads on the AMD Versal Platform** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/pG-dKlNtqH8" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Kaustubh Mhatre, Arizona State University
+
+AMD Versal is a new heterogeneous computing hardware architecture comprised of adaptive intelligence (AI) engines, programmable logic, and a processing system. General Matrix Multiplication (GEMM) is the fundamental building block of modern deep learning (DL) applications such as ChatGPT. GEMM workloads can be mapped onto Versal in many ways, each with distinct trade-offs. In this talk, we will present multiple research questions related to performance scaling, sensitivity and efficiency of GEMM workloads on the AMD Versal platform. We will discuss a few ways of mapping GEMM onto the AI engines, and share results from our thorough analysis of GEMM workloads of different shapes and sizes that help us understand the Versal architecture better. We will provide guidelines and insights for enhancing GEMM performance on AMD Versal.  
+
+
 ### HACC Tech Talk 13
 
 10<sup>th</sup> October 2024
