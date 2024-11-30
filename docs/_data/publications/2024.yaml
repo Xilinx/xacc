@@ -5,6 +5,13 @@
   abstract: |
     FPGAs are increasingly prevalent in cloud deployments, serving as SmartNICs or network-attached accelerators. To facilitate the development of distributed applications with FPGAs, in this paper we propose ACCL+, an open-source, FPGA-based collective communication library. Portable across different platforms and supporting UDP, TCP, as well as RDMA, ACCL+ empowers FPGA applications to initiate direct FPGA-to-FPGA collective communication. Additionally, it can serve as a collective offload engine for CPU applications, freeing the CPU from networking tasks. It is user-extensible, allowing new collectives to be implemented and deployed without having to re-synthesize the entire design. We evaluated ACCL+ on an FPGA cluster with 100 Gb/s networking, comparing its performance against software MPI over RDMA. The results demonstrate ACCL+'s significant advantages for FPGA-based distributed applications and its competitive performance for CPU applications. We showcase ACCL+'s dual role with two use cases: as a collective offload engine to distribute CPU-based vector-matrix multiplication, and as a component in designing fully FPGA-based distributed deep-learning recommendation inference.
 
+- title: "Developing a BLAS library for the AMD AI Engine"
+  author: "Tristan Laans"
+  institution: "Vrije Universiteit Amsterdam"
+  link: "https://arxiv.org/pdf/2410.00825"
+  abstract: |
+    Spatial (dataflow) computer architectures can mitigate the control and performance overhead of classical von Neumann architectures such as traditional CPUs. Driven by the popularity of Machine Learning (ML) workloads, spatial devices are being marketed as ML inference accelerators. Despite providing a rich software ecosystem for ML practitioners, their adoption in other scientific domains is hindered by the steep learning curve and lack of reusable software, which makes them inaccessible to non-experts. We present our ongoing project AIEBLAS, an open-source, expandable implementation of Basic Linear Algebra Routines (BLAS) for the AMD AI Engine. Numerical routines are designed to be easily reusable, customized, and composed in dataflow programs, leveraging the characteristics of the targeted device without requiring the user to deeply understand the underlying hardware and programming model.
+
 - title: "An HTTP Server for FPGAs"
   author: "Fabio Maschi"
   institution: "ETH Zurich"
