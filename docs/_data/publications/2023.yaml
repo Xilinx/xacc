@@ -159,6 +159,14 @@
   abstract: |
     Sketches are a popular approximation technique for large datasets and high-velocity data streams. While custom FPGA-based hardware has shown admirable throughput at sketching, the state-of-the-art exploits data parallelism by fully replicating resources and constructing independent summaries for every parallel input value. We consider this approach pessimistic, as it guarantees constant processing rates by provisioning resources for the worst case. We propose a novel optimistic sketching architecture for FPGAs that partitions a single sketch into multiple independent banks shared among all input values, thus significantly reducing resource consumption. However, skewed input data distributions can result in conflicting accesses to banks and impair the processing rate. To mitigate the effect of skew, we add mergers that exploit temporal locality by combining recent updates.Our evaluation shows that an optimistic architecture is feasible and reduces the utilization of critical FPGA resources proportionally to the number of parallel input values. We further show that FPGA accelerators provide up to 2.6𝑥 higher throughput than a recent CPU and GPU, while larger sketch sizes enabled by optimistic architectures improve accuracy by up to an order of magnitude in a realistic sketching application.
 
+- title: "PASNet: Polynomial Architecture Search Framework for Two-party Computation-based Secure Neural Network Deployment"
+  author: "Hongwu Peng"
+  institution: "University of Connecticut"
+  link: "https://arxiv.org/pdf/2306.15513"
+  github: "https://github.com/HarveyP123/PASNet-DAC2023"
+  abstract: |
+    Two-party computation (2PC) is promising to enable privacy-preserving deep learning (DL). However, the 2PCbased privacy-preserving DL implementation comes with high comparison protocol overhead from the non-linear operators. This work presents PASNet, a novel systematic framework that enables low latency, high energy efficiency & accuracy, and security-guaranteed 2PC-DL by integrating the hardware latency of the cryptographic building block into the neural architecture search loss function. We develop a cryptographic hardware scheduler and the corresponding performance model for Field Programmable Gate Arrays (FPGA) as a case study. The experimental results demonstrate that our light-weighted model PASNet-A and heavily-weighted model PASNet-B achieve 63 ms and 228 ms latency on private inference on ImageNet, which are 147 and 40 times faster than the SOTA CryptGPU system, and achieve 70.54% & 78.79% accuracy and more than 1000 times higher energy efficiency.
+
 - title: "Serverless FPGA: Work-In-Progress"
   author: "Fabio Maschi"
   institution: "ETH Zurich"
