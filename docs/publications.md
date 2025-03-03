@@ -12,7 +12,7 @@ DO NOT MODIFY THIS FILE.
 TO ADD YOUR PAPER, PLEASE EDIT THE YAML FILE IN docs/_data/publications/<year of publication>.yaml
 -->
 
-{% assign years = "2024,2023,2022,2021,2020,2019,2018,2017,2016" | split: "," %}
+{% assign years = "2025,2024,2023,2022,2021,2020,2019,2018,2017,2016" | split: "," %}
 
 Search publication by year:
 
@@ -57,4 +57,4 @@ Search publication by year:
 {% endfor %}
 
 ---------------------------------------
-<p class="copyright">Copyright&copy; 2022-2024 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022-2025 Advanced Micro Devices</p>
