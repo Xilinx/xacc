@@ -1,3 +1,10 @@
+- title: "Acceleration of Graph Neural Networks with Heterogenous Accelerators Architecture"
+  author: "Kaiwen Cao"
+  institution: "UIUC"
+  link: "https://ieeexplore.ieee.org/abstract/document/10820589"
+  abstract: |
+    Graph Neural Networks (GNNs) have been used to solve complex problems of drug discovery, social media analysis, etc. Meanwhile, GPUs are becoming dominating accelerators to improve deep neural network performance. However, due to the characteristics of graph data, it is challenging to accelerate GNN-type workloads with GPUs alone. GraphSAGE is one representative GNN workload that uses sampling to improve GNN learning efficiency. Profiling the GraphSAGE using PyG library reveals that the sampling stage on the CPU is the bottleneck. Hence, we propose a heterogeneous system architecture solution with the sampling algorithm accelerated on customizable accelerators (FPGA), and feed sampled data into GPU training through a PCIe Peer-to-Peer (P2P) communication flow. With FPGA acceleration, for the sampling stage alone, we achieve a speed-up of 2.38× to 8.55× compared with sampling on CPU. For end-to-end latency, compared with the traditional flow, we achieve a speed-up of 1.24× to 1.99 ×.
+
 - title: "ACCL+: an FPGA-Based Collective Engine for Distributed Applications"
   author: "Zhenhao He"
   institution: "ETH Zurich"
