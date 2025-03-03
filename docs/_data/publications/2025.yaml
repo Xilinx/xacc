@@ -1,0 +1,31 @@
+- title: "A Unified Framework for Automated Code Transformation and Pragma Insertion"
+  author: "Stéphane Pouget"
+  institution: "UCLA"
+  link: "https://dl.acm.org/doi/10.1145/3706628.3708873"
+  abstract: |
+    High-Level Synthesis compilers and Design Space Exploration tools have greatly advanced the automation of hardware design, improving development time and performance. However, achieving a good Quality of Results still requires extensive manual code transformations, pragma insertion, and tile size selection, which are typically handled separately. The design space is too large to be fully explored by this fragmented approach. It is too difficult to navigate this way, limits the exploration of potential optimizations, and complicates the design generation process. 
+    To tackle this obstacle, we propose Sisyphus, a unified framework that automates code transformation, pragma insertion, and tile size selection within a common optimization framework. By leveraging Nonlinear Programming, our approach efficiently explores the vast design space of regular loop-based kernels, automatically selecting loop transformations and pragmas that minimize latency. 
+    Evaluation against state-of-the-art frameworks, including AutoDSE, NLP-DSE, and ScaleHLS, shows that Sisyphus achieves superior Quality of Results, outperforming alternatives across multiple benchmarks. By integrating code transformation and pragma insertion into a unified model, Sisyphus significantly reduces design generation complexity and improves performance for FPGA-based systems.
+
+- title: "SAT-Accel: A Modern SAT Solver on a FPGA"
+  author: "Michael Lo"
+  institution: "UCLA"
+  link: "https://dl.acm.org/doi/10.1145/3706628.3708869"
+  abstract: |
+    Boolean satisfiability (SAT) solving is the first known NP-complete problem and is widely used in many application domains. Over the years, there have been so many consistent improvements in this area such that larger instances can be solved relatively quickly. Although these improvements have found their way onto CPU implementations, there has been limited progress adopting this on hardware accelerators mainly because it is difficult to implement the dynamic data structures needed to support a modern SAT solving algorithm. In this work, we present SAT-Accel, an algorithm-hardware co-design solver that applies many of the core improvements found in modern SAT solvers. SAT-Accel uses a novel memory management system and representation that supports the dynamic data structures required by a modern SAT solving algorithm. Our design can achieve on average a 17.9x speedup against MiniSat, the previous state of the art CPU solver, and a 2.8x speedup against Kissat, the current state of the art CPU solver. Compared to the current state-of-the-art stand-alone hardware accelerator, SAT-Hard, SAT-Accel achieves on average 800.0x speedup.
+
+- title: "Stream-HLS: Towards Automatic Dataflow Acceleration"
+  author: "Suhail Basalama"
+  institution: "UCLA"
+  link: "https://dl.acm.org/doi/10.1145/3706628.3708878"
+  github: "https://github.com/UCLA-VAST/Stream-HLS"
+  abstract: |
+    High-level synthesis (HLS) has enabled the rapid development of custom hardware circuits for many software applications. However, developing high-performance hardware circuits using HLS is still a non-trivial task requiring expertise in hardware design. Further, the hardware design space, especially for multi-kernel applications, grows exponentially. Therefore, several HLS automation and abstraction frameworks have been proposed recently, but many issues remain unresolved. These issues include: 1) relying mainly on hardware directives (pragmas) to apply hardware optimizations without exploring loop scheduling opportunities. 2) targeting single-kernel applications only. 3) lacking automatic and/or global design space exploration. 4) missing critical hardware optimizations, such as graph-level pipelining for multi-kernel applications. 
+    To address these challenges, we propose a novel methodology and framework on top of the popular multi-level intermediate representation (MLIR) infrastructure called Stream-HLS. Our framework takes a C/C++ or PyTorch software code and automatically generates an optimized dataflow architecture along with host code for field-programmable gate arrays (FPGAs). To achieve this, we developed an accurate analytical performance model for global scheduling and optimization of dataflow architectures. Stream-HLS is evaluated using various standard HLS benchmarks and real-world benchmarks from transformer models, convolution neural networks, and multilayer perceptrons. Stream-HLS designs outperform the designs of prior state-of-the-art automation frameworks and manually-optimized designs of abstraction frameworks by up to 79.43× and 10.62× geometric means respectively.
+
+- title: "VOTED: Versal optimization toolkit for education and heterogeneous systems development"
+  author: "Giuseppe Sorrentino"
+  institution: "Politecnico di Milano"
+  link: ""
+  abstract: |
+    Despite classic educational approaches proving their effectiveness for classic hardware acceleration, they suffer novel heterogeneous systems such as Versal, requiring a deeper system-level awareness. Versal devices merge FPGA on-field programmability with the performance of hardened VLIW processors, namely AI Engine, at the cost of facing novel challenges when integrating these two different layers. Given the system complexity of such devices and the low-level knowledge required to leverage them, Versal potentialities have yet to be fully exploited. Therefore, we present VOTED, a Versal Optimization Toolkit for Education and Heterogeneous Systems Development, that guides users of any expertise in discovering, using, and optimizing Versal-based applications. VOTED proved to be effective, leading five different groups of students, at their first experience with heterogeneous system design, at devising quite complex Versal-based applications capable of reaching the final stages of a design competition and even winning it with four months of work.
