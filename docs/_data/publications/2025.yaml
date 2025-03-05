@@ -27,5 +27,6 @@
   author: "Giuseppe Sorrentino"
   institution: "Politecnico di Milano"
   link: ""
+  github: "https://github.com/necst/voted"
   abstract: |
     Despite classic educational approaches proving their effectiveness for classic hardware acceleration, they suffer novel heterogeneous systems such as Versal, requiring a deeper system-level awareness. Versal devices merge FPGA on-field programmability with the performance of hardened VLIW processors, namely AI Engine, at the cost of facing novel challenges when integrating these two different layers. Given the system complexity of such devices and the low-level knowledge required to leverage them, Versal potentialities have yet to be fully exploited. Therefore, we present VOTED, a Versal Optimization Toolkit for Education and Heterogeneous Systems Development, that guides users of any expertise in discovering, using, and optimizing Versal-based applications. VOTED proved to be effective, leading five different groups of students, at their first experience with heterogeneous system design, at devising quite complex Versal-based applications capable of reaching the final stages of a design competition and even winning it with four months of work.

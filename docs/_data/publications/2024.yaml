@@ -1,6 +1,6 @@
 - title: "Acceleration of Graph Neural Networks with Heterogenous Accelerators Architecture"
   author: "Kaiwen Cao"
-  institution: "UIUC"
+  institution: "University of Illinois Urbana-Champaign"
   link: "https://ieeexplore.ieee.org/abstract/document/10820589"
   abstract: |
     Graph Neural Networks (GNNs) have been used to solve complex problems of drug discovery, social media analysis, etc. Meanwhile, GPUs are becoming dominating accelerators to improve deep neural network performance. However, due to the characteristics of graph data, it is challenging to accelerate GNN-type workloads with GPUs alone. GraphSAGE is one representative GNN workload that uses sampling to improve GNN learning efficiency. Profiling the GraphSAGE using PyG library reveals that the sampling stage on the CPU is the bottleneck. Hence, we propose a heterogeneous system architecture solution with the sampling algorithm accelerated on customizable accelerators (FPGA), and feed sampled data into GPU training through a PCIe Peer-to-Peer (P2P) communication flow. With FPGA acceleration, for the sampling stage alone, we achieve a speed-up of 2.38× to 8.55× compared with sampling on CPU. For end-to-end latency, compared with the traditional flow, we achieve a speed-up of 1.24× to 1.99 ×.
@@ -117,7 +117,7 @@
 
 - title: "Shedding the Bits: Pushing the Boundaries of Quantization with Minifloats on FPGAs"
   author: "Shivam Aggarwal"
-  institution: "NUS"
+  institution: "National University of Singapore"
   link: "https://arxiv.org/pdf/2311.12359"
   abstract: |
     Post-training quantization (PTQ) is a powerful technique for model compression, reducing the numerical precision in neural networks without additional training overhead. Recent works have investigated adopting 8-bit floating-point formats (FP8) in the context of PTQ for model inference. However, floating-point formats smaller than 8 bits and their relative comparison in terms of accuracy-hardware cost with integers remains unexplored on FPGAs. In this work, we present minifloats, which are reduced-precision floating-point formats capable of further reducing the memory footprint, latency, and energy cost of a model while approaching full-precision model accuracy. We implement a custom FPGA-based multiply-accumulate operator library and explore the vast design space, comparing minifloat and integer representations across 3 to 8 bits for both weights and activations. We also examine the applicability of various integer based quantization techniques to minifloats. Our experiments show that minifloats offer a promising alternative for emerging workloads such as vision transformers.
@@ -132,8 +132,8 @@
 
 - title: "SWAT: Scalable and Efficient Window Attention-based Transformers Acceleration on FPGAs"
   author: "Zhenyu Bai"
-  institution: "NUS"
-  link: ""
+  institution: "National University of Singapore"
+  link: "https://dl.acm.org/doi/10.1145/3649329.3658488"
   abstract: |
     Efficiently supporting long context length is crucial for Transformer models. The quadratic complexity of the self-attention computation plagues traditional Transformers. Sliding window-based static sparse attention mitigates the problem by limiting the attention scope of the input tokens, reducing the theoretical complexity from quadratic to linear. Although the sparsity induced by window attention is highly structured, it does not align perfectly with the microarchitecture of the conventional accelerators, leading to suboptimal implementation. In response, we propose a dataflow-aware FPGA-based accelerator design, SWAT, that efficiently leverages the sparsity to achieve scalable performance for long input. The proposed microarchitecture is based on a design that maximizes data reuse by using a combination of row-wise dataflow, kernel fusion optimization, and an input-stationary design considering the distributed memory and computation resources of FPGA. Consequently, it achieves up to 22x and 5.7x improvement in latency and energy efficiency compared to the baseline FPGA-based accelerator and 15x energy efficiency compared to GPU-based solution.
 
@@ -150,3 +150,24 @@
   link: "https://arxiv.org/html/2307.02040v3"
   abstract: |
     Vertical Federated Learning (VFL) is a crucial paradigm for training machine learning models on feature-partitioned, distributed data. However, due to privacy restrictions, few public real-world VFL datasets exist for algorithm evaluation, and these represent a limited array of feature distributions. Existing benchmarks often resort to synthetic datasets, derived from arbitrary feature splits from a global set, which only capture a subset of feature distributions, leading to inadequate algorithm performance assessment. This paper addresses these shortcomings by introducing two key factors affecting VFL performance - feature importance and feature correlation - and proposing associated evaluation metrics and dataset splitting methods. Additionally, we introduce a real VFL dataset to address the deficit in image-image VFL scenarios. Our comprehensive evaluation of cutting-edge VFL algorithms provides valuable insights for future research in the field.
+
+- title: "HAL: Hardware-assisted Load Balancing for Energy-efficient SNIC-Host Cooperative Computing"
+  author: "Jinghan Huang"
+  institution: "University of Illinois Urbana-Champaign, Duke University AND IBM"
+  link: "https://ieeexplore.ieee.org/document/10609665"
+  abstract: |
+    A typical SmartNIC (SNIC) integrates a processor comprising Arm CPU and accelerators with a conventional NIC. The processor is designed to energy-efficiently execute network functions frequently used by datacenter applications. With such a processor, the SNIC has promised to notably improve the system-wide energy efficiency of datacenter servers. Nevertheless, the latest trend of integrating accelerators into server CPUs for these functions sparks a question on the SNIC processor’s superiority over a host processor (i.e., server CPU with accelerators) in system-wide energy efficiency, especially under given tail latency constraints. Answering this question, we first take an Intel Xeon processor, integrated with various accelerators (e.g., QuickAssist Technology), as a host processor, and then compare it to an NVIDIA BlueField-2 SNIC processor. This uncovers that (1) the host accelerator, coupled with a more powerful memory subsystem, can outperform the SNIC accelerator, and (2) the SNIC processor can improve system-wide energy efficiency only at low packet rates for most functions under tail latency constraints. To provide high system-wide energy efficiency without compromising tail latency at any packet rates, we propose HAL, consisting of a hardware-based load balancer and an intelligent load balancing policy implemented inside the SNIC. When HAL determines that the SNIC processor cannot efficiently process a given function beyond a specific packet rate, it limits the rate of packets to the SNIC processor and lets the host processor handle the excess. We implement a HAL-enabled SNIC with a commodity FPGA and a BlueField-2 SNIC, plug it into a commodity server, and run 10 popular network functions. Our evaluation shows that HAL can improve the system-wide energy efficiency and throughput of the server running these functions by 31% and 10%, respectively, without notably increasing the tail latency.
+
+- title: "Invited: New Solutions on LLM Acceleration, Optimization, and Application"
+  author: "Yingbing Huang"
+  institution: "University of Illinois Urbana-Champaign"
+  link: "https://arxiv.org/abs/2406.10903"
+  abstract: |
+    Large Language Models (LLMs) have revolutionized a wide range of applications with their strong human-like understanding and creativity. Due to the continuously growing model size and complexity, LLM training and deployment have shown significant challenges, which often results in extremely high computational and storage costs and energy consumption. In this paper, we discuss the recent advancements and research directions on (1) LLM algorithm-level acceleration, (2) LLM-hardware co-design for improved system efficiency, (3) LLM-to-accelerator compilation for customized LLM accelerators, and (4) LLM-aided design for HLS (High-Level Synthesis) functional verification. For each aspect, we present the background study, our proposed solutions, and future directions.
+
+- title: "HIDA: A Hierarchical Dataflow Compiler for High-Level Synthesis"
+  author: "Hanchen Ye"
+  institution: "University of Illinois Urbana-Champaign"
+  link: https://dl.acm.org/doi/10.1145/3617232.3624850"
+  abstract: |
+    Dataflow architectures are growing in popularity due to their potential to mitigate the challenges posed by the memory wall inherent to the Von Neumann architecture. At the same time, high-level synthesis (HLS) has demonstrated its efficacy as a design methodology for generating efficient dataflow architectures within a short development cycle. However, existing HLS tools rely on developers to explore the vast dataflow design space, ultimately leading to suboptimal designs. This phenomenon is especially concerning as the size of the HLS design grows. To tackle these challenges, we introduce HIDA1, a new scalable and hierarchical HLS framework that can systematically convert an algorithmic description into a dataflow implementation on hardware. We first propose a collection of efficient and versatile dataflow representations for modeling the hierarchical dataflow structure. Capitalizing on these representations, we develop an automated optimizer that decomposes the dataflow optimization problem into multiple levels based on the inherent dataflow hierarchy. Using FPGAs as an evaluation platform, working with a set of neural networks modeled in PyTorch, HIDA achieves up to 8.54× higher throughput compared to the state-of-the-art (SOTA) HLS optimization tool. Furthermore, despite being fully automated and able to handle various applications, HIDA achieves 1.29× higher throughput over the SOTA RTL-based neural network accelerators on an FPGA.
