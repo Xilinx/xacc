@@ -4,7 +4,7 @@
 
 The HACC Tech Talks are a series of webinars covering a broad range of topics related to AMD Adaptive Compute. Each session is 1 hour, with two 30-minute talks in each session.
 
-### HACC Tech Talk 15
+### HACC Tech Talk 16
 
 24 March 2025, 12:00-13:00 (EDT) 17:00-18:00 (CET/GMT+1)
 
