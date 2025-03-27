@@ -3,9 +3,38 @@
   institution: "UCLA"
   link: "https://dl.acm.org/doi/10.1145/3706628.3708873"
   abstract: |
-    "High-Level Synthesis compilers and Design Space Exploration tools have greatly advanced the automation of hardware design, improving development time and performance. However, achieving a good Quality of Results still requires extensive manual code transformations, pragma insertion, and tile size selection, which are typically handled separately. The design space is too large to be fully explored by this fragmented approach. It is too difficult to navigate this way, limits the exploration of potential optimizations, and complicates the design generation process. 
+    "High-Level Synthesis compilers and Design Space Exploration tools have greatly advanced the automation of hardware design, improving development time and performance. However, achieving a good Quality of Results still requires extensive manual code transformations, pragma insertion, and tile size selection, which are typically handled separately. The design space is too large to be fully explored by this fragmented approach. It is too difficult to navigate this way, limits the exploration of potential optimizations, and complicates the design generation process.
     To tackle this obstacle, we propose Sisyphus, a unified framework that automates code transformation, pragma insertion, and tile size selection within a common optimization framework. By leveraging Nonlinear Programming, our approach efficiently explores the vast design space of regular loop-based kernels, automatically selecting loop transformations and pragmas that minimize latency.
-    Evaluation against state-of-the-art frameworks, including AutoDSE, NLP-DSE, and ScaleHLS, shows that Sisyphus achieves superior Quality of Results, outperforming alternatives across multiple benchmarks. By integrating code transformation and pragma insertion into a unified model, Sisyphus significantly reduces design generation complexity and improves performance for FPGA-based systems"
+    Evaluation against state-of-the-art frameworks, including AutoDSE, NLP-DSE, and ScaleHLS, shows that Sisyphus achieves superior Quality of Results, outperforming alternatives across multiple benchmarks. By integrating code transformation and pragma insertion into a unified model, Sisyphus significantly reduces design generation complexity and improves performance for FPGA-based systems."
+
+- title: "BPAP: FPGA Design of a RISC-like Processor for Elliptic Curve Cryptography Using Task-Level Parallel Programming in High-Level Synthesis"
+  author: "Rares Ifrim"
+  institution: "National University of Science and Technology Politehnica Bucharest"
+  link: "https://www.mdpi.com/2410-387X/9/1/20"
+  github: "https://gitlab.com/raresifrim/secp256k1_ecc_pointmul"
+  abstract: |
+    "Popular technologies such as blockchain and zero-knowledge proof, which have already entered the enterprise space, heavily use cryptography as the core of their protocol stack. One of the most used systems in this regard is Elliptic Curve Cryptography, precisely the point multiplication operation, which provides the security assumption for all applications that use this system. As this operation is computationally intensive, one solution is to offload it to specialized accelerators to provide better throughput and increased efficiency. In this paper, we explore the use of Field Programmable Gate Arrays (FPGAs) and the High-Level Synthesis framework of AMD Vitis in designing an elliptic curve point arithmetic unit (point adder) for the secp256k1 curve. We show how task-level parallel programming and data streaming are used in designing a RISC processor-like architecture to provide pipeline parallelism and increase the throughput of the point adder unit. We also show how to efficiently use the proposed processor architecture by designing a point multiplication scheduler capable of scheduling multiple batches of elliptic curve points to utilize the point adder unit efficiently. Finally, we evaluate our design on an AMD-Xilinx Alveo-family FPGA and show that our point arithmetic processor has better throughput and frequency than related work."
+
+- title: "Coyote v2: Towards Open-Source, Reusable Infrastructure and Abstractions for FPGAs"
+  author: "Benjamin Ramhorst and Maximilian J. Heer"
+  institution: "ETH Zurich"
+  link: "https://capra.cs.cornell.edu/latte25/paper/3.pdf"
+  abstract: |
+    "We identify a number of requirements for future FPGA shells and describe Coyote v2, our first step towards a unified FPGA platform for cloud and datacenter acceleration, providing support similar to a conventional OS on a CPU"
+
+- title: "RoCE BALBOA: Towards FPGA-enhanced RDMA"
+  author: "Maximilian J. Heer"
+  institution: "ETH Zurich"
+  link: "https://2025.eurosys.org/posters/final/eurosys25posters-final84.pdf"
+  abstract: |
+    "We explore the use of FPGA-based SmartNICs in the context of capability-enhanced RDMA, by combining a self-developed, open-source and fully RoCE v2-compatible networking stack with exemplaric hardware modules for AESencryption, snappy-compression, and machine learning-based Deep Packet Inspection (DPI) for access control that utilize stream computing to achieve 100G line rate speed without any performance overhead on the host CPU (Figure 1). Furthermore, our design allows to add any other user-defined application directly on the RDMA data streams, leveraging the reconfigurable fabric for offloading network processing from the host CPU to the FPGA-NIC at full line rate."
+
+- title: "Rock the QASBA: Quantum Error Correction Acceleration via the Sparse Blossom Algorithm on FPGAs"
+  author: "Marco Venere"
+  institution: "Politecnico di Milano"
+  link: ""
+  abstract: |
+    "Quantum computing is a new paradigm of computation that exploits principles from quantum mechanics to achieve an exponential speedup compared to classical logic. However, noise strongly limits current quantum hardware, reducing achievable performance and limiting the scaling of the applications. For this reason, current noisy intermediate-scale quantum devices requireQuantum Error Correction (QEC) mechanisms to identify errors occurring in the computation and correct them in real time. Nevertheless, the high computational complexity of QEC algorithms is incompatible with the tight time constraints of quantum devices. Thus, hardware acceleration is paramount to achieving real-time QEC. This work presents QASBA, an FPGA-based hardware accelerator for the Sparse Blossom Algorithm (SBA), a state-of-the-art decoding algorithm. After profiling the state-of-the-art software counterpart, we developed a design methodology for hardware development based on the SBA. We also devised an automation process to help users without expertise in hardware design in deploying architectures based on QASBA. We implement QASBA on different FPGA architectures and experimentally evaluate resource usage, execution time, and energy efficiency of our solution. Our solution attains up to 25.05× speedup and 304.16× improvement in energy efficiency compared to the software baseline."
 
 - title: "SAT-Accel: A Modern SAT Solver on a FPGA"
   author: "Michael Lo"
@@ -30,4 +59,3 @@
   github: "https://github.com/necst/voted"
   abstract: |
     "Despite classic educational approaches proving their effectiveness for classic hardware acceleration, they suffer novel heterogeneous systems such as Versal, requiring a deeper system-level awareness. Versal devices merge FPGA on-field programmability with the performance of hardened VLIW processors, namely AI Engine, at the cost of facing novel challenges when integrating these two different layers. Given the system complexity of such devices and the low-level knowledge required to leverage them, Versal potentialities have yet to be fully exploited. Therefore, we present VOTED, a Versal Optimization Toolkit for Education and Heterogeneous Systems Development, that guides users of any expertise in discovering, using, and optimizing Versal-based applications. VOTED proved to be effective, leading five different groups of students, at their first experience with heterogeneous system design, at devising quite complex Versal-based applications capable of reaching the final stages of a design competition and even winning it with four months of work"
-
