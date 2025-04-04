@@ -7,6 +7,29 @@ If you would like to present your work at an HACC Tech Talk, please contact [aup
 ## Past talks
 
 
+### HACC Tech Talk 16
+
+24<sup>th</sup> March 2025 
+
+#### **StreamFlex: Harnessing FPGA Capabilities at Software Compile Time via Virtualization and Precompiled Hardware Binaries** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://youtube.com/embed/w30r6LVvzbc" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Gregory Jun, University of Illinois Urbana Champaign
+
+As we increasingly turn to accelerators to address the demands of modern computing—such as Transformer-based machine learning models, cryptographic applications, and high-performance computing (HPC)—the importance of heterogeneity in computing systems continues to grow. In this dynamic landscape, FPGAs are uniquely positioned to bridge the gap between control-flow-based, irregular workloads suited for CPUs and throughput-oriented, regular computations optimized for GPUs. With the right architectural design, FPGAs have the potential to dynamically optimize and adapt to the evolving algorithms of modern applications, offering a critical balance of flexibility and performance. However, FPGAs have long remained outside the mainstream due to two primary challenges: programmability and cost. Firstly, FPGAs are inherently expensive, driven by high development costs, the complexity of accompanying tools, and the significant silicon area they occupy. Secondly, leveraging FPGAs effectively requires users to design custom bitstreams tailored to specific computational tasks. This process demands extensive effort in hardware design and verification, making it impractical for most individual users or small-scale applications.  In this talk, we propose a solution to these challenges by leveraging the Network-on-Chip (NoC) architecture of the latest Versal family member, the V80. First, we dynamically stitch pre-generated hardware bitstreams, designed and verified by hardware engineers, to significantly lower the barrier for application development. Second, by utilizing virtualization methodologies through Dynamic Function Exchange (DFX), we partition the large FPGA into tiles, enabling applications to request and utilize the minimal necessary hardware resources at runtime. This approach enhances accessibility and efficiency, making FPGAs more practical for a wider range of users and applications. 
+
+#### **FPGA-based SmartNICs: OS4C and Beyond** 
+
+<section style="text-align:center"><iframe class="you-container" style="text-align:center; border: 0px; background:transparent" src="https://www.youtube.com/embed/nIxBgIGuCB8" title="YouTube video player" frameborder="0" width="80%" height="auto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe></section>
+
+Scott Smith, University of Illinois Urbana Champaign
+
+Smart network interface cards (SmartNICs) are powerful, high-throughput programmable devices. These devices enable developers to offload specific functionalities to hardware, improving performance and/or reducing CPU overheads. Over the last several years, much work has been done in this research area. This talk will cover three broad strokes. First, we will briefly overview the current state-of-the-art SmartNIC architecture research. Second, we will present our recent work, "OS4C: An Open-Source SR-IOV System for SmartNIC-based Cloud Platforms." This work discussed the limitations of current open-source NICs and extended the open-source NIC Corundum with support for Single Root I/O Virtualization. Third, we will discuss our plans to build a new NIC architecture on the Alveo V80 FPGA. We aim for this project to be the first open-source 200+ Gbps NIC. Furthermore, our architecture will enable greater flexibility and programmability than current state-of-the-art FPGA-based SmartNICs. 
+
+
 ### HACC Tech Talk 15
 
 14<sup>th</sup> November 2024
