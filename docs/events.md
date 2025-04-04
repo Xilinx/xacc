@@ -4,8 +4,6 @@
 
 The HACC Tech Talks are a series of webinars covering a broad range of topics related to AMD Adaptive Compute. Each session is 1 hour, with two 30-minute talks in each session.
 
-### HACC Tech Talk 16
-
 ## Past Tech Talks
 
 To watch previous tech-talks go to the <a href="./hacc_tech_talks.html#past-talks">HACC Tech Talk Page</a>
