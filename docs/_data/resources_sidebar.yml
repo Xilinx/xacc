@@ -1,8 +1,11 @@
 docs_list_title: resources_sidebar
 docs:
-  
+
 - title: Events
   url: events.html
+
+- title: Tech Talks
+  url: hacc_tech_talks.html
 
 - title: Publications
   url: publications.html
@@ -15,6 +18,6 @@ docs:
 
 - title: Tools
   url: tools.html
-  
+
 - title: Training
   url: training.html
