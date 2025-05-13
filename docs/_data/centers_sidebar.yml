@@ -1,6 +1,9 @@
 docs_list_title: centers_sidebar
 docs:
 
+- title: CMU
+  url: cmu.html
+
 - title: ETH Zurich
   url: ethz.html
 
