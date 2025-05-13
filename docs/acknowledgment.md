@@ -9,4 +9,4 @@ recommended.
 This work was supported in part by AMD under the [Heterogeneous Accelerated Compute Clusters (HACC) program](https://www.amd-haccs.io/).
 
 ---------------------------------------
-<p class="copyright">Copyright&copy; 2022-2024 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022-2025 Advanced Micro Devices</p>
