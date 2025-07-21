@@ -1,4 +1,4 @@
-# University of Illinois at Urbana Champagne
+# University of Illinois at Urbana Champaign
 
 The AMD center of excellence at the University of Illinois, Urbana-Champaign [UIUC](https://csl.illinois.edu/news/illinois-named-xilinx-center-excellence), is directed by CSL Professor [Deming Chen](http://dchen.ece.illinois.edu/), the Abel Bliss Professor of Engineering, and is home to the UIUC Heterogeneous Accelerated Compute Cluster.
 
