@@ -7,7 +7,7 @@
 
 - title: "EMOGI: efficient memory-access for out-of-memory graph-traversal in GPUs"
   author: "Seung Won Min"
-  institution: "University of Illinois at Urbana-Champaign"
+  institution: "UIUC"
   link: "https://dl.acm.org/doi/10.14778/3425879.3425883"
   abstract: |
     Sparse-matrix computation
@@ -22,7 +22,7 @@
 
 - title: "FReaC Cache: Folded-logic Reconfigurable Computing in the Last Level Cache"
   author: "Ashutosh Dhar"
-  institution: "University of Illinois at Urbana-Champaign"
+  institution: "UIUC"
   link: "https://ieeexplore.ieee.org/abstract/document/9251953"
   abstract: |
     Energy efficient computation
