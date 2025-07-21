@@ -4,6 +4,11 @@
 
 The HACC Tech Talks are a series of webinars covering a broad range of topics related to AMD Adaptive Compute. Each session is 1 hour, with two 30-minute talks in each session.
 
+## Heterogenous Accelerated Computing Workshop in Taiwan
+
+Heterogenous Accelerated Computing Workshop in Taiwan (13 August 2025), co-hosted by AMD University Program and NTU. This event brings together global leaders in heterogeneous and accelerated computing to share their latest research and applications in energy-efficient graph processing, FPGA-based machine learning, and heterogeneous cluster design. Find out more [here](workshop_taiwan.md).
+
+<!--
 ### HACC Tech Talk 18
 
 2 July 2025, 9:00-10:00 (PT) 18:00-19:00 (CEST/GMT+2)
@@ -11,6 +16,8 @@ The HACC Tech Talks are a series of webinars covering a broad range of topics re
 [![Tech Talk 18 advert](./images/tech_talks/tt18_advert.png)](https://amd.zoom.us/webinar/register/WN__KSxFLl7RUmAk1dWG_tuMg)
 
 [![Zoom icon](./images/zoom_30.png) Register now](https://amd.zoom.us/webinar/register/WN__KSxFLl7RUmAk1dWG_tuMg)
+
+-->
 
 ## Past Tech Talks
 
@@ -47,4 +54,4 @@ To watch previous tech-talks go to the <a href="./hacc_tech_talks.html#past-talk
 
 ---------------------------------------
 
-<p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
+<p class="copyright">Copyright&copy; 2022-2025 Advanced Micro Devices</p>
