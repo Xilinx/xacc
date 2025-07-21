@@ -114,7 +114,7 @@
 
 - title: "ReGraph: Scaling Graph Processing on HBM-enabled FPGAs with Heterogeneous Pipelines"
   author: "Xinyu Che"
-  institution: "National University of Singapore"
+  institution: "NUS"
   link: "https://arxiv.org/abs/2203.02676"
   abstract: |
     Proposes a resource-efficient heterogeneous pipeline architecture. This heterogeneous architecture comprises of two types of pipelines: Little pipelines to process dense partitions with good locality and Big pipelines to process sparse partitions with the extremely poor locality. Unlike traditional monolithic pipeline designs, the heterogeneous pipelines are tailored for more specific memory access patterns, and hence are more lightweight, allowing the architecture to scale up to more effectively with limited resources. In addition, an automatic method generates the most efficient pipeline combination and balances workloads. Furthermore, ReGraph is an automated open-source framework. ReGraph outperforms state-of-the-art FPGA accelerators by up to 5.9 times in terms of performance and 12 times in terms of resource efficiency.
@@ -150,7 +150,7 @@
 
 - title: "ThunderGP: Resource-Efficient Graph ProcessingFramework on FPGAs with HLS"
   author: "Xinyu Che"
-  institution: "National University of Singapore"
+  institution: "NUS"
   link: "https://dl.acm.org/doi/abs/10.1145/3517141"
   github: "https://github.com/Xtra-Computing/ThunderGP"
   abstract: |

@@ -7,7 +7,7 @@
 
 - title: "Cloud-DNN: An Open Framework for Mapping DNN Models to Cloud FPGAs"
   author: "Yao Chen"
-  institution: "National University of Singapore"
+  institution: "NUS"
   link: "https://dl.acm.org/doi/10.1145/3289602.3293915"
   abstract: |
     Open-source automated tool chain called Cloud-DNN. Our tool chain takes trained CNN models specified in Caffe as input, performs a set of transformations, and maps the model to a cloud-based FPGA. Cloud-DNN can significantly improve the overall design productivity of CNNs on FPGAs while satisfying the emergent computational requirements.

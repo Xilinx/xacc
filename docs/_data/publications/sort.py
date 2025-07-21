@@ -44,6 +44,7 @@ def sort(path: str = '', stats: bool = False):
 
     print(f'Total number of papers is: {count}')
 
+
 if __name__ == '__main__':
     path = os.path.dirname(os.path.abspath(__file__)) + '/'
     sort(path, False)
