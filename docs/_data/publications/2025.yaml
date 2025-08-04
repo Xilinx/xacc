@@ -1,3 +1,12 @@
+- title: "A Unified Framework for Automated Code Transformation and Pragma Insertion"
+  author: "Stéphane Pouget"
+  institution: "UCLA"
+  link: "https://dl.acm.org/doi/10.1145/3706628.3708873"
+  abstract: |
+    "High-Level Synthesis compilers and Design Space Exploration tools have greatly advanced the automation of hardware design, improving development time and performance. However, achieving a good Quality of Results still requires extensive manual code transformations, pragma insertion, and tile size selection, which are typically handled separately. The design space is too large to be fully explored by this fragmented approach. It is too difficult to navigate this way, limits the exploration of potential optimizations, and complicates the design generation process.
+    To tackle this obstacle, we propose Sisyphus, a unified framework that automates code transformation, pragma insertion, and tile size selection within a common optimization framework. By leveraging Nonlinear Programming, our approach efficiently explores the vast design space of regular loop-based kernels, automatically selecting loop transformations and pragmas that minimize latency.
+    Evaluation against state-of-the-art frameworks, including AutoDSE, NLP-DSE, and ScaleHLS, shows that Sisyphus achieves superior Quality of Results, outperforming alternatives across multiple benchmarks. By integrating code transformation and pragma insertion into a unified model, Sisyphus significantly reduces design generation complexity and improves performance for FPGA-based systems."
+
 - title: "Accelerated Phylogenetics on the AMD® Versal™ Adaptive SoC"
   author: "Geert Roks"
   institution: "University of Twente"
@@ -12,15 +21,6 @@
   abstract: |
     "Communication between FPGAs has become increasingly important in recent years, with a multitude of implementations available. In this work, we focus specifically on direct FPGA-to-FPGA connections with a serial protocol. We present AuroraFlow−which is built on top of the official IP for the Aurora protocol from AMD−and use it to implement multi-FPGA neural network inference. AuroraFlow makes it easy to integrate low-latency communication into existing FPGA applications using High-Level Synthesis (HLS). It achieves full throughput, has integrated monitoring to detect errors at run-time, and implements flow control, which prevents data loss caused by receiver overruns. In a circuit-switched optical network, we are able to achieve an average latency of down to 0.51 µs and an average throughput of up to 95.03 Gbit/s for a message size of 1 MiB. To demonstrate AuroraFlow beyond microbenchmarks, we execute distributed neuronal network inference on multiple data center FPGAs. For this, we use FINN, a framework for creating dataflow hardware designs for neural network inference. We extend FINN by integrating AuroraFlow to work with multiple FPGAs. We showcase the commonly referenced MobileNet network architecture as an example where both tools can be combined: While FINN takes care of creating the inference design itself, AuroraFlow manages the communication between the FPGAs. Using AuroraFlow gives us the possibility to keep the benefit of very low inference latency that FINN enables, while allowing us to scale beyond a single FPGA."
 
-- title: "A Unified Framework for Automated Code Transformation and Pragma Insertion"
-  author: "Stéphane Pouget"
-  institution: "UCLA"
-  link: "https://dl.acm.org/doi/10.1145/3706628.3708873"
-  abstract: |
-    "High-Level Synthesis compilers and Design Space Exploration tools have greatly advanced the automation of hardware design, improving development time and performance. However, achieving a good Quality of Results still requires extensive manual code transformations, pragma insertion, and tile size selection, which are typically handled separately. The design space is too large to be fully explored by this fragmented approach. It is too difficult to navigate this way, limits the exploration of potential optimizations, and complicates the design generation process.
-    To tackle this obstacle, we propose Sisyphus, a unified framework that automates code transformation, pragma insertion, and tile size selection within a common optimization framework. By leveraging Nonlinear Programming, our approach efficiently explores the vast design space of regular loop-based kernels, automatically selecting loop transformations and pragmas that minimize latency.
-    Evaluation against state-of-the-art frameworks, including AutoDSE, NLP-DSE, and ScaleHLS, shows that Sisyphus achieves superior Quality of Results, outperforming alternatives across multiple benchmarks. By integrating code transformation and pragma insertion into a unified model, Sisyphus significantly reduces design generation complexity and improves performance for FPGA-based systems."
-
 - title: "BPAP: FPGA Design of a RISC-like Processor for Elliptic Curve Cryptography Using Task-Level Parallel Programming in High-Level Synthesis"
   author: "Rares Ifrim"
   institution: "National University of Science and Technology Politehnica Bucharest"
@@ -29,6 +29,29 @@
   abstract: |
     "Popular technologies such as blockchain and zero-knowledge proof, which have already entered the enterprise space, heavily use cryptography as the core of their protocol stack. One of the most used systems in this regard is Elliptic Curve Cryptography, precisely the point multiplication operation, which provides the security assumption for all applications that use this system. As this operation is computationally intensive, one solution is to offload it to specialized accelerators to provide better throughput and increased efficiency. In this paper, we explore the use of Field Programmable Gate Arrays (FPGAs) and the High-Level Synthesis framework of AMD Vitis in designing an elliptic curve point arithmetic unit (point adder) for the secp256k1 curve. We show how task-level parallel programming and data streaming are used in designing a RISC processor-like architecture to provide pipeline parallelism and increase the throughput of the point adder unit. We also show how to efficiently use the proposed processor architecture by designing a point multiplication scheduler capable of scheduling multiple batches of elliptic curve points to utilize the point adder unit efficiently. Finally, we evaluate our design on an AMD-Xilinx Alveo-family FPGA and show that our point arithmetic processor has better throughput and frequency than related work."
 
+- title: "Clementi: Efficient Load Balancing and Communication Overlap for Multi-FPGA Graph Processing"
+  author: "Feng Yu"
+  institution: "NUS"
+  link: ""
+  github: "https://github.com/Xtra-Computing/Clementi"
+  abstract: |
+    "Efficient graph processing is critical in various modern applications, such as social network analysis, recommendation systems, and large-scale data mining. Traditional single-FPGA systems struggle to handle the increasing size and complexity of real-world graphs due to limitations in memory and computational resources. Existing multi-FPGA solutions face significant challenges, including high communication overhead caused by irregular data transfer patterns and workload imbalances stemming from skewed graph distributions. These inefficiencies hinder scalability and performance, highlighting a critical research gap. To address these issues, we introduce Clementi, an efficient multi-FPGA graph processing framework that features customized fine-grained pipelines for computation and cross-FPGA communication. Clementi uniquely integrates an accurate performance model for execution time prediction, enabling a novel scheduling method that balances workload distribution and minimizes communication overhead by overlapping communication and computation stages. Experimental results demonstrate that Clementi achieves speedups of up to 8.75x compared to state-of-the-art multi-FPGA designs, indicating significant improvements in processing efficiency as the number of FPGAs increases. This near-linear scalability underscores the framework's potential to enhance graph processing capabilities in practical applications."
+
+- title: "Configurable DSP-Based CAM Architecture for Data-Intensive Applications on FPGAs"
+  author: "Yao Chen"
+  institution: "NUS"
+  link: ""
+  github: "https://github.com/Xtra-Computing/DSP_CAM"
+  abstract: |
+    "Content-addressable memory (CAM) is a type of fast memory unique in its ability to perform parallel searches of stored data based on content rather than specific memory addresses. They have been used in many domains, such as networking, databases, and graph processing. Field-programmable gate arrays (FPGAs) are an attractive platform for implementing CAMs because of their low latency, reconfigurability, and energy-efficient nature. However, such implementations also face significant challenges, including high resource utilization, limited scalability, and suboptimal performance due to the extensive use of look-up tables (LUTs) and block RAMs (BRAMs). These issues stem from the inherent limitations of FPGA architectures when handling the parallel operations required by CAMs, often leading to inefficient designs that cannot meet the demands of high-speed, data-intensive applications. To address these challenges, we propose a novel configurable CAM architecture that leverages the digital signal processing (DSP) blocks available in modern FPGAs as the core resource. By utilizing DSP blocks' data storage and logic capabilities, our approach enables configurable CAM architecture with efficient multi-query support while significantly reducing search and update latency for data-intensive applications. The DSP-based CAM architecture offers enhanced scalability, higher operating frequency, and improved performance compared to traditional LUT and BRAM-based designs. In addition, we demonstrate the effectiveness of our proposed CAM architecture with a triangle counting application on real graphs. This innovative use of DSP blocks also opens up new possibilities for high-performance, data-intensive applications on FPGAs."
+
+- title: "Coyote v2: Raising the Level of Abstraction for Data Center FPGAs"
+  author: "Benjamin Ramhorst and Maximilian J. Heer"
+  institution: "ETH Zurich"
+  link: "https://arxiv.org/abs/2504.21538"
+  abstract: |
+    "In the trend towards hardware specialization, FPGAs play a dual role as accelerators for offloading, e.g., network virtualization, and as a vehicle for prototyping and exploring hardware designs. While FPGAs offer versatility and performance, integrating them in larger systems remains challenging. Thus, recent efforts have focused on raising the level of abstraction through better interfaces and high-level programming languages. Yet, there is still quite some room for improvement. In this paper, we present Coyote v2, an open source FPGA shell built with a novel, three-layer hierarchical design supporting dynamic partial reconfiguration of services and user logic, with a unified logic interface, and high-level software abstractions such as support for multithreading and multitenancy. Experimental results indicate Coyote v2 reduces synthesis times between 15% and 20% and run-time reconfiguration times by an order of magnitude, when compared to existing systems. We also demonstrate the advantages of Coyote v2 by deploying several realistic applications, including HyperLogLog cardinality estimation, AES encryption, and neural network inference. Finally, Coyote v2 places a great deal of emphasis on integration with real systems through reusable and reconfigurable services, including a fully RoCE v2-compliant networking stack, a shared virtual memory model with the host, and a DMA engine between FPGAs and GPUs. We demonstrate these features by, e.g., seamlessly deploying an FPGA-accelerated neural network from Python."
+
 - title: "Coyote v2: Towards Open-Source, Reusable Infrastructure and Abstractions for FPGAs"
   author: "Benjamin Ramhorst and Maximilian J. Heer"
   institution: "ETH Zurich"
@@ -36,12 +59,13 @@
   abstract: |
     "We identify a number of requirements for future FPGA shells and describe Coyote v2, our first step towards a unified FPGA platform for cloud and datacenter acceleration, providing support similar to a conventional OS on a CPU"
 
-- title: "Coyote v2: Raising the Level of Abstraction for Data Center FPGAs"
-  author: "Benjamin Ramhorst and Maximilian J. Heer"
-  institution: "ETH Zurich"
-  link: ""
+- title: "Cuper: Customized Dataflow and Perceptual Decoding for Sparse Matrix-Vector Multiplication on HBM-Equipped FPGAs"
+  author: "Enxin Yi"
+  institution: "China University of Petroleum-Beijing"
+  link: "https://ieeexplore.ieee.org/document/10546672/"
+  github: ""
   abstract: |
-    ""
+    "Sparse matrix-vector multiplication (SpMV) is pivotal in many scientific computing and engineering applications. Considering the memory-intensive nature and irregular data access patterns inherent in SpMV, its acceleration is typically bounded by the limited bandwidth. Multiple memory channels of the emerging high bandwidth memory (HBM) provide exceptional bandwidth, offering a great opportunity to boost the performance of SpMV. However, ensuring high bandwidth utilization with low memory access conflicts is still non-trivial. In this paper, we present Cuper, a high-performance SpMV accelerator on HBM-equipped FPGAs. Through customizing the dataflow to be HBM-compatible with the proposed sparse storage format, the bandwidth utilization can be sufficiently enhanced. Furthermore, a two-step reordering algorithm and perceptual decoder-centric hardware architecture are designed to greatly mitigate read-after-write (RAW) conflicts, enhance the vector reusability and on-chip memory utilization. The evaluation of 12 large matrices shows that Cuper's geomean throughput outperforms the four latest SpMV accelerators HiSparse, GraphLily, Sextans, and Serpens, by 3.28x, 1.99x, 1.75x, and 1.44x, respectively. Furthermore, the geomean bandwidth efficiency shows 3.28x, 2.20x, 2.82x, and 1.31x improvements, while the geomean energy efficiency has 3.59x, 2.08x, 2.21x, and 1.44x optimizations, respectively. Cuper also demonstrates 2.51x throughput and 7.97x energy efficiency of improvement over the K80 GPU on 2,757 SuiteSparse matrices."
 
 - title: "Efficient and Distributed Computation of Electron Repulsion Integrals on AMD AI Engines"
   author: "Johannes Menzel and Christian Plessl"
@@ -57,7 +81,6 @@
   abstract: |
     "In molecular dynamics (MD) applications, there is a constant need to simulate ever longer timescales for a fixed number of particles. Here, novel spatial architectures such as the AI Engines (AIEs), with their low-latency interconnect between computational units, are promising candidates for breaking this strong scaling barrier. In this work, we have prototyped an MD simulation on the AIEs using cell lists that subdivide and map the simulation volume to AIEs for local computation. Between time steps, particles must be exchanged globally, for which we leveraged the on-chip switch network. We initially implemented this global communication using a ring topology, but a thorough evaluation revealed that this hindered strong scaling. Therefore, we are currently in the process of changing the global communication to a packet-switching and routing scheme to allow more direct particle exchange between AIEs. Here, we report first results and challenges posed by the architecture for an efficient implementation."
 
-
 - title: "Exploring Large Language Models for Hierarchical Hardware Circuit and Testbench Generation"
   author: "Samuel Gomes Lopes"
   institution: "ETH Zurich"
@@ -68,9 +91,40 @@
 - title: "FINN-HPC: Closing the Gap for Energy-Efficient Neural Network Inference on FPGAs in HPC"
   author: "Linus Jungemann"
   institution: "Paderborn University"
-  link: ""
+  link: "https://dl.acm.org/doi/10.1145/3728179.3728189"
   abstract: |
     "In recent years, neural network (NN) training and inference have become one of the most impactful topics in society, research and industry. With the rise in popularity of NNs and the increase in their capabilities and size, new challenges surface, such as a high energy consumption. This paper presents a comprehensive evaluation of current NN inference soft- and hardware configurations within High-Performance Computing (HPC) environments, with a focus on both performance metrics and energy consumption. NN quantization and the use of accelerators such as FPGAs can improve throughput and energy efficiency. This paper focuses on FINN, an efficient NN inference framework for FPGAs, highlighting its current lack of support for HPC systems. We provide an in-depth analysis of FINN in order to implement extensions and a new user-space driver for FINN to optimize the end-to-end execution for the usage in the HPC environment. We thoroughly evaluate the performance and energy efficiency gains using the newly implemented optimizations for a NN requiring low latency and high throughput, as well as for a transformer model. The results are compared against existing NN accelerators for HPC. Our results show that with our newly developed FINN HPC driver, FPGAs have a real use case depending on input sizes and network. For the simpler model, we show that for smaller input sizes, FPGAs with our driver can provide up to 7.81× higher throughput and 88% lower energy consumption over the GPU reference, which however still performs better for larger input sizes. Additionally, we evaluate the newly implemented FINN HPC driver on the significantly more complex transformer based model. We show that for smaller input sizes, our optimizations results in an up 6.51× higher throughput, while at the same time reducing energy consumption by 87% and latency by 85%."
+
+- title: "HBMex: An Attachment for Nonbursting Accelerators to Enhance HBM Performance"
+  author: "Canberk Sönmez"
+  institution: "EPFL"
+  link: "https://ieeexplore.ieee.org/abstract/document/11008972"
+  abstract: |
+    "Modern FPGAs integrate High Bandwidth Memory (HBM), offering up to 12× the DDR bandwidth distributed across multiple memory interfaces. To utilize the most of HBM's theoretical bandwidth, accelerators typically issue long bursts and exploit data locality. However, some applications like sparse matrix-vector multiplication (SpMV) and graph analytics often exhibit irregular, nonbursting memory access patterns, which hinder performance. Additionally, the HBM interconnect, essential for accessing multiple interfaces, may stall requests under certain conditions. This work introduces HBMex, a novel module designed to enhance HBM throughput for accelerators with irregular access patterns. Positioned between the accelerator and the HBM, HBMex improves parallelism by distributing memory requests across interfaces and mitigates stalls caused by the interconnect. We evaluate HBMex using memory access microbenchmarks and an SpMV accelerator, demonstrating throughput gains of up to 37% across real-world workloads compared to vendor-provided solutions. HBMex is distributed as a highly-configurable and open-source RTL generator."
+
+- title: "Iceberg: Enhancing HLS Modeling with Synthetic Data"
+  author: "Zijian Ding"
+  institution: "UCLA"
+  link: ""
+  github: "https://github.com/UCLA-VAST/iceberg"
+  abstract: |
+    "Deep learning-based prediction models for High-Level Synthesis (HLS) of hardware designs often struggle to generalize. In this paper, we study how to close the generalizability gap of these models through pretraining on synthetic data and introduce Iceberg, a synthetic data augmentation approach that expands both large language model (LLM)-generated programs and weak labels of unseen design configurations. Our weak label generation method is integrated with an in-context model architecture, enabling meta-learning from actual and proximate labels. Iceberg improves the geometric mean modeling accuracy by 86.4% when adapt to six real-world applications with few-shot examples and achieves a 2.47× and a 1.12× better offline DSE performance when adapting to two different test datasets."
+
+- title: "InTAR: Inter-Task Auto-Reconfigurable Accelerator Design for High Data Volume Variation in DNNs"
+  author: "Zifan He"
+  institution: "UCLA"
+  link: "https://ieeexplore.ieee.org/abstract/document/11008978"
+  github: "https://github.com/OswaldHe/lnTAR"
+  abstract: |
+    "The rise of deep neural networks (DNNs) has driven an increased demand for computing power and memory. Modern DNNs exhibit high data volume variation (HDV) across tasks, which poses challenges for FPGA acceleration: conventional accelerators rely on fixed execution patterns (dataflow or sequential) that can lead to pipeline stalls or necessitate frequent off-chip memory accesses. To address these challenges, we introduce the Inter-Task Auto-Reconfigurable Accelerator (InTAR), a novel accelerator design methodology for HDV applications on FPGAs. InTAR combines the high computational efficiency of sequential execution with the reduced off-chip memory overhead of dataflow execution. It switches execution patterns automatically with a static schedule determined before circuit design based on resource constraints and problem sizes. Unlike previous reconfigurable accelerators, InTAR encodes reconfiguration schedules during circuit design, allowing model-specific optimizations that allocate only the necessary logic and interconnects. Thus, InTAR achieves a high clock frequency with fewer resources and low reconfiguration time. Furthermore, InTAR supports high-level tools such as HLS for fast design generation. We implement a set of multi-task HDV DNN kernels using InTAR. Compared with dataflow and sequential accelerators, InTAR exhibits 1.8× and 7.1× speedups correspondingly. Moreover, we extend InTAR to GPT-2 medium as a more complex example, which is 3.65 ~39.14× faster and a 1.72 ~ 10.44× more DSP efficient than SoTA accelerators (Allo and DFX) on FPGAs. Additionally, this design demonstrates 1.66 ~ 7.17× better power efficiency than GPUs."
+
+- title: "Leda: Leveraging Tiling Dataflow to Accelerate SpMM on HBM-Equipped FPGAs for GNNs"
+  author: "Enxin Yi"
+  institution: "China University of Petroleum-Beijing"
+  link: "https://dl.acm.org/doi/10.1145/3676536.3676773"
+  github: ""
+  abstract: |
+    "Graph neural networks (GNNs) play a pivotal role in extracting insightful representations from graph-structured data, driving advancements across diverse domains. Central to GNNs is the sparse matrix-dense matrix multiplication (SpMM) kernel. However, challenges arise in accelerating SpMM due to the high sparsity and randomly distributed non-zeros in graph matrices. Recently, the high concurrency capability of high bandwidth memory (HBM) has provided a new opportunity for SpMM acceleration. Nonetheless, accelerating SpMM on HBM FPGAs is still non-trivial due to load imbalance and the random memory access patterns. In this paper, we present Leda, a high-performance SpMM accelerator on HBM-equipped FPGAs for GNNs. Leda utilizes a tiling sparse format to balance the workload between processing engines (PEs) and enhance data locality. The improved outer-product dataflow scheduling strategy mitigates the random memory access bottlenecks. Furthermore, we introduce a minimum similarity reordering algorithm to significantly optimize read-after-write (RAW) dependencies, thereby improving compute occupancy and throughput. Finally, we propose a highly parallel hardware architecture design based on customized dataflow and explore the reusability of input matrix. The evaluation demonstrates that Leda's geomean throughput and energy efficiency surpass Sextans and SDMA, the state-of-the-art SpMM accelerators on HBM FPGAs, and K80 GPU by 1.27x and 1.36x, 1.85x and 2.00x, 1.95x and 5.23x, respectively."
 
 - title: "LLM Acceleration on FPGAs: A Comparative Study of Layer and Spatial Accelerators"
   author: "Luis D. Prieto-Sibaja"
@@ -79,6 +133,15 @@
   abstract: |
     "Large Language Models (LLMs) have emerged as the leading technique in Natural Language Processing due to their remarkable capabilities. These models are exceptionally complex, often utilising billions of parameters and consuming tens of gigabytes of memory unless optimised. Typically, LLMs are trained and accelerated using general-purpose Graphics Processing Units (GPUs), with a single inference potentially occupying an entire GPU. Consequently, cloud services may require hundreds of GPUs to deliver high-quality AI assistant services. This demand for extensive hardware acceleration allows exploring alternative architectures that offer improved execution time and energy efficiency.This study evaluates Field-Programmable Gate Arrays (FP-GAs), renowned for their flexibility and efficiency, to accelerate LLMs. We specifically compare the resource consumption and latency of two distinct architectures: layer and spatial accelerators. Analysing the Llama 2-7B model, we identified potential optimisation opportunities within its composition and operational graphs. Our most successful implementations demonstrate a performance improvement ranging from 1.37× to 10.98× over two AMD EPYC processors with 64 cores each. Moreover, our results indicate that, with further refinement, FPGAs have the potential to surpass GPU performance for LLM inference, showcasing their feasibility as a viable alternative for this demanding application."
 
+- title: "Reconfigurable Stream Network Architecture"
+  author: "Chengyue Wang"
+  institution: "UCLA"
+  link: "https://dl.acm.org/doi/full/10.1145/3695053.3731088"
+  github: "https://github.com/ChengyueWang/ISCA25-Stream-Network-Arch"
+  abstract: |
+    "As AI systems grow increasingly specialized and complex, managing hardware heterogeneity becomes a pressing challenge. How can we efficiently coordinate and synchronize heterogeneous hardware resources to achieve high utilization? How can we minimize the friction of transitioning between diverse computation phases, reducing costly stalls from initialization, pipeline setup, or drain? Our insight is that a network abstraction at the ISA level naturally unifies heterogeneous resource orchestration and phase transitions. 
+    This paper presents a Reconfigurable Stream Network Architecture (RSN), a novel ISA abstraction designed for the DNN domain. RSN models the datapath as a circuit-switched network with stateful functional units as nodes and data streaming on the edges. Programming a computation corresponds to triggering a path. Software is explicitly exposed to the compute and communication latency of each functional unit, enabling precise control over data movement for optimizations such as compute-communication overlap and layer fusion. As nodes in a network naturally differ, the RSN abstraction can efficiently virtualize heterogeneous hardware resources by separating control from the data plane, enabling low instruction-level intervention.
+    We build a proof-of-concept design RSN-XNN on VCK190, a heterogeneous platform with FPGA fabric and AI engines. Compared to the SOTA solution on this platform, it reduces latency by 6.1x and improves throughput by 2.4x–3.2x. Compared to the T4 GPU with the same FP32 performance, it matches latency with only 18% of the memory bandwidth. Compared to the A100 GPU at the same 7nm process node, it achieves 2.1x higher energy efficiency in FP32."
 
 - title: "RoCE BALBOA: Towards FPGA-enhanced RDMA"
   author: "Maximilian J. Heer"
@@ -117,36 +180,3 @@
   github: "https://github.com/necst/voted"
   abstract: |
     "Despite classic educational approaches proving their effectiveness for classic hardware acceleration, they suffer novel heterogeneous systems such as Versal, requiring a deeper system-level awareness. Versal devices merge FPGA on-field programmability with the performance of hardened VLIW processors, namely AI Engine, at the cost of facing novel challenges when integrating these two different layers. Given the system complexity of such devices and the low-level knowledge required to leverage them, Versal potentialities have yet to be fully exploited. Therefore, we present VOTED, a Versal Optimization Toolkit for Education and Heterogeneous Systems Development, that guides users of any expertise in discovering, using, and optimizing Versal-based applications. VOTED proved to be effective, leading five different groups of students, at their first experience with heterogeneous system design, at devising quite complex Versal-based applications capable of reaching the final stages of a design competition and even winning it with four months of work"
-
-- title: "Clementi: Efficient Load Balancing and Communication Overlap for Multi-FPGA Graph Processing"
-  author: "Feng Yu"
-  institution: "NUS"
-  link: ""
-  github: "https://github.com/Xtra-Computing/Clementi"
-  abstract: |
-    "Efficient graph processing is critical in various modern applications, such as social network analysis, recommendation systems, and large-scale data mining. Traditional single-FPGA systems struggle to handle the increasing size and complexity of real-world graphs due to limitations in memory and computational resources. Existing multi-FPGA solutions face significant challenges, including high communication overhead caused by irregular data transfer patterns and workload imbalances stemming from skewed graph distributions. These inefficiencies hinder scalability and performance, highlighting a critical research gap. To address these issues, we introduce Clementi, an efficient multi-FPGA graph processing framework that features customized fine-grained pipelines for computation and cross-FPGA communication. Clementi uniquely integrates an accurate performance model for execution time prediction, enabling a novel scheduling method that balances workload distribution and minimizes communication overhead by overlapping communication and computation stages. Experimental results demonstrate that Clementi achieves speedups of up to 8.75x compared to state-of-the-art multi-FPGA designs, indicating significant improvements in processing efficiency as the number of FPGAs increases. This near-linear scalability underscores the framework's potential to enhance graph processing capabilities in practical applications."
-
-- title: "Configurable DSP-Based CAM Architecture for Data-Intensive Applications on FPGAs"
-  author: "Yao Chen"
-  institution: "NUS"
-  link: ""
-  github: "https://github.com/Xtra-Computing/DSP_CAM"
-  abstract: |
-    "Content-addressable memory (CAM) is a type of fast memory unique in its ability to perform parallel searches of stored data based on content rather than specific memory addresses. They have been used in many domains, such as networking, databases, and graph processing. Field-programmable gate arrays (FPGAs) are an attractive platform for implementing CAMs because of their low latency, reconfigurability, and energy-efficient nature. However, such implementations also face significant challenges, including high resource utilization, limited scalability, and suboptimal performance due to the extensive use of look-up tables (LUTs) and block RAMs (BRAMs). These issues stem from the inherent limitations of FPGA architectures when handling the parallel operations required by CAMs, often leading to inefficient designs that cannot meet the demands of high-speed, data-intensive applications. To address these challenges, we propose a novel configurable CAM architecture that leverages the digital signal processing (DSP) blocks available in modern FPGAs as the core resource. By utilizing DSP blocks' data storage and logic capabilities, our approach enables configurable CAM architecture with efficient multi-query support while significantly reducing search and update latency for data-intensive applications. The DSP-based CAM architecture offers enhanced scalability, higher operating frequency, and improved performance compared to traditional LUT and BRAM-based designs. In addition, we demonstrate the effectiveness of our proposed CAM architecture with a triangle counting application on real graphs. This innovative use of DSP blocks also opens up new possibilities for high-performance, data-intensive applications on FPGAs."
-
-- title: "Leda: Leveraging Tiling Dataflow to Accelerate SpMM on HBM-Equipped FPGAs for GNNs"
-  author: "Enxin Yi"
-  institution: "China University of Petroleum-Beijing"
-  link: "https://dl.acm.org/doi/10.1145/3676536.3676773"
-  github: ""
-  abstract: |
-    "Graph neural networks (GNNs) play a pivotal role in extracting insightful representations from graph-structured data, driving advancements across diverse domains. Central to GNNs is the sparse matrix-dense matrix multiplication (SpMM) kernel. However, challenges arise in accelerating SpMM due to the high sparsity and randomly distributed non-zeros in graph matrices. Recently, the high concurrency capability of high bandwidth memory (HBM) has provided a new opportunity for SpMM acceleration. Nonetheless, accelerating SpMM on HBM FPGAs is still non-trivial due to load imbalance and the random memory access patterns.
-    In this paper, we present Leda, a high-performance SpMM accelerator on HBM-equipped FPGAs for GNNs. Leda utilizes a tiling sparse format to balance the workload between processing engines (PEs) and enhance data locality. The improved outer-product dataflow scheduling strategy mitigates the random memory access bottlenecks. Furthermore, we introduce a minimum similarity reordering algorithm to significantly optimize read-after-write (RAW) dependencies, thereby improving compute occupancy and throughput. Finally, we propose a highly parallel hardware architecture design based on customized dataflow and explore the reusability of input matrix. The evaluation demonstrates that Leda's geomean throughput and energy efficiency surpass Sextans and SDMA, the state-of-the-art SpMM accelerators on HBM FPGAs, and K80 GPU by 1.27x and 1.36x, 1.85x and 2.00x, 1.95x and 5.23x, respectively."
-
-- title: "Cuper: Customized Dataflow and Perceptual Decoding for Sparse Matrix-Vector Multiplication on HBM-Equipped FPGAs"
-  author: "Enxin Yi"
-  institution: "China University of Petroleum-Beijing"
-  link: "https://ieeexplore.ieee.org/document/10546672/"
-  github: ""
-  abstract: |
-    "Sparse matrix-vector multiplication (SpMV) is pivotal in many scientific computing and engineering applications. Considering the memory-intensive nature and irregular data access patterns inherent in SpMV, its acceleration is typically bounded by the limited bandwidth. Multiple memory channels of the emerging high bandwidth memory (HBM) provide exceptional bandwidth, offering a great opportunity to boost the performance of SpMV. However, ensuring high bandwidth utilization with low memory access conflicts is still non-trivial. In this paper, we present Cuper, a high-performance SpMV accelerator on HBM-equipped FPGAs. Through customizing the dataflow to be HBM-compatible with the proposed sparse storage format, the bandwidth utilization can be sufficiently enhanced. Furthermore, a two-step reordering algorithm and perceptual decoder-centric hardware architecture are designed to greatly mitigate read-after-write (RAW) conflicts, enhance the vector reusability and on-chip memory utilization. The evaluation of 12 large matrices shows that Cuper's geomean throughput outperforms the four latest SpMV accelerators HiSparse, GraphLily, Sextans, and Serpens, by 3.28x, 1.99x, 1.75x, and 1.44x, respectively. Furthermore, the geomean bandwidth efficiency shows 3.28x, 2.20x, 2.82x, and 1.31x improvements, while the geomean energy efficiency has 3.59x, 2.08x, 2.21x, and 1.44x optimizations, respectively. Cuper also demonstrates 2.51x throughput and 7.97x energy efficiency of improvement over the K80 GPU on 2,757 SuiteSparse matrices."
