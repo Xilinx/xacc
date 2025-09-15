@@ -12,7 +12,7 @@ The hardware topology is shown in below.
 <img src="images/nus/xacc_nus.PNG" alt="NUS" class="responsive">
 
 
-For more details and latest update, see the HACC@NUS [website](https://xacchead.d2.comp.nus.edu.sg/)
+For more details and latest update, see the HACC@NUS [website](https://hacc.xtra.science)
 
 ---------------------------------------
 <p class="copyright">Copyright&copy; 2022 Advanced Micro Devices</p>
