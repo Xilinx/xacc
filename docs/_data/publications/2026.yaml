@@ -1,0 +1,30 @@
+- title: "AgRefactor: Refactoring for HLS Compatibility with a Self-Evolving Agentic Workflow"
+  author: "Yang Zou"
+  institution: "CMU, UCLA"
+  link: "https://dl.acm.org/doi/abs/10.1145/3748173.3779566"
+  abstract: |
+    "High-Level Synthesis (HLS) provides a fast path from concepts to silicon, but practical HLS design flows begin with a tedious step: refactoring software into HLS-compatible programs. Converting real-world software remains challenging due to restrictive language support and the gap between software and hardware programming practices, and this preparatory phase can take domain experts days even for an initial synthesizable design. Existing automated refactoring methods and recent LLM-based workflows partially address this problem, yet they often fall short in generalizability, scalability, and cost efficiency. Our key insight is that long-term memory for self-evolving agents, combined with tool-integrated refactoring, enables accurate and scalable conversion of real-world software into HLS-compatible programs. We introduce AgRefactor, an LLM-based multi-agent workflow that equips agents with long-term memory specialized for HLS refactoring, using a dedicated knowledge format and a hybrid distance metric to measure task similarity. To reduce cost and improve scalability, AgRefactor integrates automated refactoring tools by coupling LLM-driven rewrites with HeteroRefactor. On 9 out of 11 challenging real-world benchmarks, which are 5-10× longer than the most complex cases studied in prior work, AgRefactor outperforms state-of-the-art approaches. Further pragma optimization yields a 2.65× geometric mean speedup over the initial synthesizable design. AgRefactor is fully automated, easy to reproduce, and will be open-sourced upon acceptance."
+
+- title: "FlexLLM: Composable HLS Library for Flexible Hybrid LLM Accelerator Design"
+  author: "Jiahao Zhang"
+  institution: "UCLA, AMD"
+  link: "https://arxiv.org/abs/2601.15710"
+  abstract: |
+    "We present FlexLLM, a composable High-Level Synthesis (HLS) library for rapid development of domain-specific LLM accelerators. FlexLLM exposes key architectural degrees of freedom for stage-customized inference, enabling hybrid designs that tailor temporal reuse and spatial dataflow differently for prefill and decode, and provides a comprehensive quantization suite to support accurate low-bit deployment. Using FlexLLM, we build a complete inference system for the Llama-3.2 1B model in under two months with only 1K lines of code. The system includes: (1) a stage-customized accelerator with hardware-efficient quantization (12.68 WikiText-2 PPL) surpassing SpinQuant baseline, and (2) a Hierarchical Memory Transformer (HMT) plug-in for efficient long-context processing. On the AMD U280 FPGA at 16nm, the accelerator achieves 1.29\times end-to-end speedup, 1.64\times higher decode throughput, and 3.14\times better energy efficiency than an NVIDIA A100 GPU (7nm) running BF16 inference; projected results on the V80 FPGA at 7nm reach 4.71\times, 6.55\times, and 4.13\times, respectively. In long-context scenarios, integrating the HMT plug-in reduces prefill latency by 23.23\times and extends the context window by 64\times, delivering 1.10\times/4.86\times lower end-to-end latency and 5.21\times/6.27\times higher energy efficiency on the U280/V80 compared to the A100 baseline. FlexLLM thus bridges algorithmic innovation in LLM inference and high-performance accelerators with minimal manual effort."
+
+
+- title: "RidgeWalker: Perfectly Pipelined Graph Random Walks on FPGAs"
+  author: "Hongshi Tan"
+  institution: "National University of Singapore"
+  link: "https://arxiv.org/abs/2601.11057"
+  github: "https://github.com/Xtra-Computing/RidgeWalker"
+  abstract: |
+    "Graph Random Walks (GRWs) offer efficient approximations of key graph properties and have been widely adopted in many applications. However, GRW workloads are notoriously difficult to accelerate due to their strong data dependencies, irregular memory access patterns, and imbalanced execution behavior. While recent work explores FPGA-based accelerators for GRWs, existing solutions fall far short of hardware potential due to inefficient pipelining and static scheduling. This paper presents RidgeWalker, a high-performance GRW accelerator designed for datacenter FPGAs. The key insight behind RidgeWalker is that the Markov property of GRWs allows decomposition into stateless, fine-grained tasks that can be executed out-of-order without compromising correctness. Building on this, RidgeWalker introduces an asynchronous pipeline architecture with a feedback-driven scheduler grounded in queuing theory, enabling perfect pipelining and adaptive load balancing. We prototype RidgeWalker on datacenter FPGAs and evaluated it across a range of GRW algorithms and real-world graph datasets. Experimental results demonstrate that RidgeWalker achieves an average speedup of 7.0x over state-of-the-art FPGA solutions and 8.1x over GPU solutions, with peak speedups of up to 71.0x and 22.9x, respectively."
+
+- title: "RoPeerTo: A Datacenter-Scale Architecture for Peer-To-Peer DMA between GPUs and FPGAs"
+  author: "Marco Venere"
+  institution: "Politecnico di Milano, ETH Zurich, AMD"
+  link: ""
+  github: "https://github.com/necst/ropeerto"
+  abstract: |
+    ""
