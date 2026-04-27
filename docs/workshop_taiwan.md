@@ -1,6 +1,6 @@
-# Heterogenous Accelerated Computing Workshop in Taiwan
+# Heterogeneous Accelerated Computing Workshop in Taiwan
 
-Heterogenous Accelerated Computing Workshop in Taiwan, co-hosted by AMD University Program and NTU. This event brings together global leaders in heterogeneous and accelerated computing to share their latest research and applications in energy-efficient graph processing, FPGA-based machine learning, and heterogeneous cluster design.
+Heterogeneous Accelerated Computing Workshop in Taiwan, co-hosted by AMD University Program and NTU. This event brings together global leaders in heterogeneous and accelerated computing to share their latest research and applications in energy-efficient graph processing, FPGA-based machine learning, and heterogeneous cluster design.
 
 ## Time
 
