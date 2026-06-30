@@ -12,7 +12,6 @@
   abstract: |
     "Heterogeneous systems are a key enabler for meeting the tight performance and energy-efficiency demands of modern artificial intelligence workloads. By integrating diverse compute units, such as scalar cores, vector and matrix processors, and Programmable Logic (PL), these systems can exploit multiple, complementary forms of parallelism. However, current design methodologies rarely exploit this heterogeneity effectively. In practice, developers face fragmented toolchains, limited abstractions, and a lack of systematic design guidelines, leading to suboptimal resource utilization, longer development time, and inefficient application mapping across heterogeneous components. To address these challenges, this research proposes a unified approach that combines analytical modelling and practical design methodologies for heterogeneous systems. The objective is to provide designers with structured guidelines to effectively leverage heterogeneity, with validation on modern AMD Versal platforms that combine PL with hardened VLIW processors, namely AI Engines. The proposed approach introduces a methodology paired with an open-source development framework, proving a reduction in development effort while enabling the systematic design of efficient heterogeneous accelerators."
 
-
 - title: "A Development Platform for Managed Heterogeneous Accelerated Compute Clusters: A Case Study on ETH Zurich’s AMD HACC"
   author: "Javier Moya"
   institution: "ETH Zurich"
