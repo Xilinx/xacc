@@ -77,6 +77,13 @@
   abstract: |
     "We present FlexLLM, a composable High-Level Synthesis (HLS) library for rapid development of domain-specific LLM accelerators. FlexLLM exposes key architectural degrees of freedom for stage-customized inference, enabling hybrid designs that tailor temporal reuse and spatial dataflow differently for prefill and decode, and provides a comprehensive quantization suite to support accurate low-bit deployment. Using FlexLLM, we build a complete inference system for the Llama-3.2 1B model in under two months with only 1K lines of code. The system includes: (1) a stage-customized accelerator with hardware-efficient quantization (12.68 WikiText-2 PPL) surpassing SpinQuant baseline, and (2) a Hierarchical Memory Transformer (HMT) plug-in for efficient long-context processing. On the AMD U280 FPGA at 16nm, the accelerator achieves 1.29\times end-to-end speedup, 1.64\times higher decode throughput, and 3.14\times better energy efficiency than an NVIDIA A100 GPU (7nm) running BF16 inference; projected results on the V80 FPGA at 7nm reach 4.71\times, 6.55\times, and 4.13\times, respectively. In long-context scenarios, integrating the HMT plug-in reduces prefill latency by 23.23\times and extends the context window by 64\times, delivering 1.10\times/4.86\times lower end-to-end latency and 5.21\times/6.27\times higher energy efficiency on the U280/V80 compared to the A100 baseline. FlexLLM thus bridges algorithmic innovation in LLM inference and high-performance accelerators with minimal manual effort."
 
+- title: "Hardware-accelerated Aggregation: Unification and Specialization"
+  author: "Alireza Shateri"
+  institution: "University of Toronto & National University of Singapore"
+  link: "https://arxiv.org/abs/2606.10030"
+  abstract: |
+    "The high efficiency of domain-specific hardware has sparked substantial interest in adopting accelerators in data analytics systems. Among many choices, GPUs and FPGAs thrived as two popular solutions due to their prevalent deployments in cloud data centers. This paper investigates hardware acceleration solutions for aggregation, a critical data analytics operation. Specifically, we implement aggregation with a unified hardware acceleration framework, which trades efficiency for ease of programming and portability, and then further develop hardware-specific optimizations. We evaluate these solutions on three recent computing hardware platforms: a CPU, a GPU, and an FPGA, with metrics that cover both the performance and energy consumption of on-device and end-to-end processing."
+
 - title: "HiCAM: Accelerating Parallel Triangle Counting via Bit-Efficient Content-Addressable Memory on FPGA"
   author: "Feng Yu"
   institution: "National University of Singapore"
@@ -176,10 +183,17 @@
   abstract: |
     "Efficient data reduction techniques, including deduplication and compression, are essential in storage systems, affecting performance and longevity. Existing data deduplication approaches often focus on intra-SSD deduplication, missing opportunities for cross-node deduplication, or have scalability issues when aiming for low latency and high-throughput data reduction on large-scale, distributed SSD arrays. We propose StreamDedup, a distributed stream accelerator implementing a transparent layer of deduplication as a network-attached, middle-tier service between the compute and storage tiers. StreamDedup manages all aspects of data deduplication and compression and can be seamlessly integrated into existing systems. It is RDMA-enabled and highly scalable, enhancing data processing capacities for large-scale storage systems. Our prototype, deployed on FPGAs, demonstrates that StreamDedup achieves a throughput of 12.7 GB/s on a single node, matching the network bandwidth of disaggregated storage, with a latency of less than 50 µs. Across 10 nodes, StreamDedup shows an almost linear increase in throughput with less than 60 µs of latency."
 
+- title: "Systematic Function Approximation on FPGAs to Address Accuracy and Throughput Issues in oneAPI and Vitis HLS Math Libraries"
+  author: "Gerrit Pape"
+  institution: "Paderborn University"
+  link: "https://dl.acm.org/doi/10.1145/3814576.3814578"
+  abstract: |
+    "This work analyzes the math libraries of the two main vendor HLS toolchains (Vitis HLS and oneAPI) and identifies functions with significant accuracy issues and non-pipelined implementations. A systematic approach for the generation of function approximations is presented to address these issues. The approach works with both toolchains, has automatic function property detection and a resource-aware strategy selection that finds promising combinations of polynomial degree and number of segments for the approximation. The integrated resource model is able to predict the DSP usage exactly, and gives reasonable indications for other resource types. We show that regarding accuracy, this approach is able to fix a significant accuracy issue in the erf function while even saving resources. For functions which were identified to lack a pipelined implementation, this approach is able to provide a pipelined implementation that allows gaining two orders of magnitude in throughput, at moderate resource increases and partially reduced accuracy."
+
 - title: "Toki: Profiling HBM Performance on FPGA Systems with RISC-V Soft Cores and PCIe Host DMA Traffic"
   author: "Andrea Galimberti"
   institution: "Politecnico di Milano"
-  link: ""
+  link: "https://arxiv.org/abs/2609.26551"
   abstract: |
     "Programmable RISC-V soft cores are becoming more widespread in data-center scenarios, making it crucial to design efficient systems that deploy them on FPGA chips with HBM memory. Toki, released as open source, is the first hardware-software framework that enables profiling the performance of HBM on FPGA accelerator cards by jointly considering (i) the execution of workloads on RISC-V soft cores instantiated on the FPGA and (ii) the injection of memory traffic from the host system via DMA over PCIe, providing insights that cannot be obtained with synthetic traffic generators alone. Extensive experiments target an AMD Alveo U55C card, deploying up to 60 RISC-V compute cores and stressing its HBM2 memory through real-world applications and microbenchmarks with user-defined access patterns. Results showcase how Toki can effectively profile the impact on HBM performance of the compute cores’ organization, the workload’s memory access patterns, data locality, contention over the memory controllers, and host traffic."
 
