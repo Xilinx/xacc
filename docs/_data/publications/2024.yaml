@@ -34,6 +34,14 @@
   abstract: |
     "The Bloom filter is one of the most widely used data structures in big data analytics to efficiently filter out vast amounts of noisy data. Unfortunately, prior Bloom filter designs only focus on single-input-stream acceleration, and can no longer match the increasing data rates offered by modern networks. To support large Bloom filters with low false-positive rate and high throughput, we present BitBlender, a configurable and scalable multi-input-stream Bloom filter acceleration framework in HLS. To effectively share one large bit-vector on chip among all streams, we design and implement the novel arbiter and unshuffle modules to dynamically schedule conflicting accesses to execute sequentially and non-conflicting accesses to execute in parallel. To support different user configurations of the Bloom filter, we also develop an automation flow, together with an accurate performance estimator, to automatically generate the best BitBlender design. Experimental results show that, on the AMD/Xilinx Alveo U280 FPGA, BitBlender achieves a throughput up to 2,194 MQueries/s (i.e., 8.8 GB/s) for a 96Mb bit-vector with 0.01% false-positive rate. It achieves up to 10.4x speedup over a 24-thread CPU implementation and up to 4.9x speedup over a naively-duplicated multi-stream FPGA design"
 
+- title: "Chameleon: A Heterogeneous and Disaggregated Accelerator System for Retrieval-Augmented Language Models"
+  author: "Wenqi Jiang"
+  institution: "ETH Zurich, University of Wisconsin-Madison"
+  link: "https://dl.acm.org/doi/10.14778/3696435.3696439"
+  github: "https://github.com/WenqiJiang/Chameleon"
+  abstract: |
+    "A Retrieval-Augmented Language Model (RALM) combines a large language model (LLM) with a vector database to retrieve context-specific knowledge during text generation. This strategy facilitates impressive generation quality even with smaller models, thus reducing computational demands by orders of magnitude. To serve RALMs efficiently and flexibly, we propose Chameleon, a heterogeneous accelerator system integrating both LLM and vector search accelerators in a disaggregated architecture. The heterogeneity ensures efficient serving for both inference and retrieval, while the disaggregation allows independent scaling of LLM and vector search accelerators to fulfill diverse RALM requirements. Our Chameleon prototype implements vector search accelerators on FPGAs and assigns LLM inference to GPUs, with CPUs as cluster coordinators. Evaluated on various RALMs, Chameleon exhibits up to 2.16× reduction in latency and 3.18× speedup in throughput compared to the hybrid CPU-GPU architecture. The promising results pave the way for adopting heterogeneous accelerators for not only LLM inference but also vector search in future RALM systems."
+
 - title: "DETECTive: Machine Learning-driven Automatic Test Pattern Prediction for Faults in Digital Circuits"
   author: "Vincenzo Petrolo"
   institution: "UIUC"
