@@ -116,8 +116,8 @@
 - title: "Oasis: Hiding the Cost of Querying Parquet Files in the Datapath"
   author: "Jonas Dann"
   institution: "ETH Zurich"
-  link: ""
-  github: ""
+  link: "https://arxiv.org/pdf/2608.02268"
+  github: "https://github.com/celeris-labs/oasis"
   abstract: |
     "Cloud-native database systems disaggregate compute and storage resources to improve cost efficiency over traditional monolithic architectures through elasticity and resource pooling. Studies of production data warehouse workloads show that scans (including round trips to storage) account for roughly half of total query runtime. Data lakes and lakehouses amplify this bottleneck through per-query decoding of storage-optimized, compressed file formats such as Parquet. As storage and network bandwidth continue to outpace CPU cost-performance, the CPU cycles spent on decoding increasingly undermine the cloud’s cost-efficiency promise. This has led to a wave of specialization across the stack with custom hardware at cloud-vendor scale at the extreme end. We build on this trend and present Oasis, a data-processing SmartNIC that offloads Parquet decoding into the network datapath as a custom hardware accelerator. Oasis features a hardware decoder architecture, software abstraction layer, and end-to-end integration with DuckDB. Our evaluation shows that Oasis hides the cost of Parquet decoding behind the network datapath with minimal overhead, overlapping the scan with the remainder of the query execution. In the best case, this almost doubles DuckDB query throughput."
 
@@ -172,7 +172,7 @@
   author: "Jonas Dann"
   institution: "ETH Zurich"
   link: "https://dl.acm.org/doi/full/10.1145/3789237.3809130"
-  github: "https://github.com/necst/ropeerto"
+  github: "https://github.com/celeris-labs/duckdb-bench-damon2026"
   abstract: |
     "Data lakes spend a significant fraction of query execution time on fetching and scanning data from remote, disaggregated storage. Data decoding alone accounts for of runtime when running TPC-H directly on Parquet files. To address this bottleneck, we propose a vision for a data processing SmartNIC for the cloud that sits on the network datapath of compute nodes to offload decoding and pushed-down operators, effectively hiding the cost of parsing raw files. Our experimental estimations with DuckDB suggest that by operating directly on pre-filtered data, as delivered by a SmartNIC, we can significantly increase query processing performance and can still match query throughput of traditional setups with smaller, less expensive CPUs."
 
