@@ -48,10 +48,31 @@
   abstract: |
     "Nonlinear activation functions are widely used in machine learning workloads, but their direct hardware implementation is often costly, function-specific, or difficult to reuse across different models. This work introduces CAMTA, a 16-bit reconfigurable multi-region activation unit for nonlinear function approximation in FPGA and ASIC accelerators. CAMTA combines independent region thresholds, per-region polynomial degrees, coefficient sets, and execution modes over a shared Horner-based datapath. Unlike conventional polynomial or piecewise approximation units that mainly reconfigure coefficients or segment selection, CAMTA also reconfigures the computational behavior of each region through HORNER, CONST, ZERO, and IDENTITY modes, enabling the same hardware to support functions with different symmetry and tail behavior without resynthesis. FPGA validation on an AMD Alveo platform shows RMSE as low as 3.60×10−6 for CAMTA-assisted Softmax, outperforming the CORDIC-based Softmax baseline considered in this work by nearly one order of magnitude. FPGA HLS synthesis reports 3 DSPs, 802 FFs, 1756 LUTs, and an 11-cycle datapath latency. ASIC synthesis in TSMC 65 nm at 250 MHz reports 6632.40​μ​m2 total cell area and 1.3634​mW total power. Compared with a same-node, function-specific PLAC implementation, CAMTA incurs 2.20× area and 1.75× power overhead, in exchange for runtime configurability and reuse across multiple nonlinear functions."
 
-- title: "EQUIP: EQUivariant preserving In-Place updates for Efficient Token Pruning"
+- title: "CHoRD: Coordinating Scheduling and Data Placement for Efficient Deep Neural Network Inference on Chiplet-Based GPUs"
   author: ""
-  institution: "IISC"
-  link: "https://openreview.net/forum?id=v3MSIxFjqe"
+  institution: ""
+  link: ""
+  abstract: |
+    "to appear"
+
+- title: "Discovery of Denial Constraints with Hardware Acceleration"
+  author: "Sergio Luiz Marques Filho"
+  institution: "Federal University of Parana"
+  link: "https://dl.acm.org/doi/10.1145/3802041"
+  abstract: |
+    "Denial constraints (DCs) formalize integrity rules that keep data consistent across profiling and cleaning tasks. However, discovering DCs remains computationally expensive due to the exponential size of the predicate search space and the cost of maintaining large intermediate data structures. Existing software-based DC discovery algorithms rely on evidence set materialization, candidate enumeration, and minimality checks, resulting in superlinear runtime growth and unpredictable performance, which limits their scalability in practice. We present DCArray, an FPGA-based accelerator that performs DC discovery directly in hardware pipelines. DCArray encodes DC predicates as boolean patterns and evaluates them using highly parallel logical units, each operating within a single clock cycle. Boolean patterns are encoded in a hardware-friendly prefix-tree design, eliminating the need for intermediate evidence sets and reducing memory overhead and data movement. DCArray implements minimality checks at the circuit level, achieving predictable runtime independent of dataset distribution. Across real and synthetic datasets, DCArray achieves speedups of up to 1560x over DCFinder and up to 10x over ECP on 1M tuples, while efficiently utilizing HBM/PCIe. At the 10M-tuple scale, end-to-end performance is primarily limited by sustained host-device I/O bandwidth, making DCArray a practical alternative for production data-quality pipelines."
+
+- title: "Enhancing ASIC HLS Design Optimization via Knowledge Transfer from FPGA HLS Models"
+  author: "Su Zheng"
+  institution: "The Chinese University of Hong Kong, UCLA,  Hong Kong Baptist University"
+  link: "https://ieeexplore.ieee.org/document/11517472"
+  abstract: |
+    "This paper investigates the knowledge transfer from FPGA high-level synthesis (HLS) to ASIC HLS to overcome the data scarcity and high cost of building ASIC HLS performance models from scratch. We propose a transfer approach to adapt an FPGA HLS performance prediction model for ASIC HLS, motivated by the shared underlying principles and optimization goals between the two tasks. The proposed model disentangles the hidden features into separate pathways for shared and task-specific knowledge. To enhance transferability, we employ adversarial training and low-rank layers to encourage higher reliance on these generalizable features over those specific to FPGAs. Additionally, we refine the input feature representation to capture more precise design characteristics and introduce a rule-based pruning technique for efficient design space exploration (DSE). The synergy of these techniques leads to a 63.2% improvement in performance prediction and a 52.0% enhancement in DSE compared to a baseline trained from scratch. Our methodology demonstrates that transferred knowledge is beneficial and provides a systematic approach to leverage it, significantly advancing prediction and DSE for ASIC HLS."
+
+- title: "EQUIP: EQUivariant preserving In-Place updates for Efficient Token Pruning"
+  author: "Arun Ramachandran"
+  institution: "IISc, AMD"
+  link: "https://aclanthology.org/2026.acl-long.1210/"
   abstract: |
     "Token-pruning has emerged as a pivotal focus in large language models (LLMs), driven by the need to enhance model efficiency while pre serving accuracy, especially for large sequence lengths. However, the eviction operation of token pruning methods causes “holes” in KV tensors, posing two major challenges: (1) The shift operation required to make the KV tensor contiguous results in significant copy overheads; (2) The changes in position indices due to token eviction leads to increased computational requirements for Rotary Positional Encoding(RoPE). To address these issues, we introduce (EQUIP), an EQUivariant preserving in-place token update mechanism that ensures the equivariance property of the operations performed in the attention computation. EQUIP offers two fundamental advantages: First, it combines eviction and a subsequent token insertion into an in-place replacement operation, which reduces the KV cache copy overheads significantly. Second, EQUIP reduces recomputation of rotation operations through a combination of in-place update, caching and a re-indexing strategy. Together, these optimizations enable EQUIP with StreamingLLM to achieve geomean speedups of 1.62× (or 1.47×) on CPU (GPU) over StreamingLLM, and 3.45× (or 1.86x) on CPU (GPU) over H2O. EQUIP with Paged Attention achieves speedups of 4.18x (2.61x) on CPU (GPU) over auto-regressive032 baselines. EQUIP preserves the same model accuracy as baseline pruning methods."
 
@@ -89,7 +110,14 @@
   institution: "National University of Singapore"
   link: ""
   abstract: |
-    ""
+    "To appear"
+
+- title: "In STeP: Speculative Tensor Parallelism for Concurrent Heterogeneous Inference of LLMs"
+  author: "Viren Luke Radhakrishna"
+  institution: "IISc"
+  link: "https://neurips.cc/virtual/2026/loc/sydney/poster/155402"
+  abstract: |
+    "To appear"
 
 - title: "Interpolation of Non-Linear Functions for LLMs using Partial Reconfiguration in FPGAs"
   author: "Roger de Jesus Morales Monge"
@@ -103,7 +131,7 @@
   institution: "National University of Singapore & ETH Zurich"
   link: ""
   abstract: |
-    ""
+    "To appear"
 
 - title: "NetCilk: Extending Task-Level Parallelism Seamlessly across FPGAs"
   author: "Mohamed Shahawy"
@@ -133,7 +161,7 @@
   institution: "National University of Singapore"
   link: ""
   abstract: |
-    ""
+    "to appear"
 
 - title: "RidgeWalker: Perfectly Pipelined Graph Random Walks on FPGAs"
   author: "Hongshi Tan"
@@ -142,7 +170,6 @@
   github: "https://github.com/Xtra-Computing/RidgeWalker"
   abstract: |
     "Graph Random Walks (GRWs) offer efficient approximations of key graph properties and have been widely adopted in many applications. However, GRW workloads are notoriously difficult to accelerate due to their strong data dependencies, irregular memory access patterns, and imbalanced execution behavior. While recent work explores FPGA-based accelerators for GRWs, existing solutions fall far short of hardware potential due to inefficient pipelining and static scheduling. This paper presents RidgeWalker, a high-performance GRW accelerator designed for datacenter FPGAs. The key insight behind RidgeWalker is that the Markov property of GRWs allows decomposition into stateless, fine-grained tasks that can be executed out-of-order without compromising correctness. Building on this, RidgeWalker introduces an asynchronous pipeline architecture with a feedback-driven scheduler grounded in queuing theory, enabling perfect pipelining and adaptive load balancing. We prototype RidgeWalker on datacenter FPGAs and evaluated it across a range of GRW algorithms and real-world graph datasets. Experimental results demonstrate that RidgeWalker achieves an average speedup of 7.0x over state-of-the-art FPGA solutions and 8.1x over GPU solutions, with peak speedups of up to 71.0x and 22.9x, respectively."
-
 
 - title: "RoCE BALBOA: Service-Enhanced RDMA Offload Engine for Data Center SmartNICs"
   author: "Maximilian Heer, Benjamin Ramhorst"
@@ -225,6 +252,13 @@
   link: "https://ieeexplore.ieee.org/abstract/document/11552710"
   abstract: |
     "The AMD Versal ACAP provides a powerful heterogeneous architecture for accelerating kernels like general matrix multiplication (GEMM). Because the AI Engine (AIE) array mimics the spatial regularity of a systolic array (SA), mapping SA dataflows onto the fabric is highly intuitive. However, maximizing performance requires overcoming specific coordination challenges between data movement and compute cores. In this work, we demonstrate that the gap between theoretical peak and realized performance is the result of a fundamental "Systolic Tax" imposed by the AIE architecture. We provide a systematic study of 2D systolic mapping to quantify the architectural cost incurred when traditional wavefront data forwarding consumes execution cycles otherwise available for processing. This engine-level overhead leads to a simulated 8.2% compute cycle loss. To address this constraint, we implement a multicast-based SA (MCSA) design that leverages hardware multicasting for efficient operand delivery. This design is supported by a Mixed-Integer Non-Linear Programming model used for architectural optimization. Our design achieves a programmable logic frequency that analytically saturates the logic-engine communication bandwidth. While MCSA delivers a 1.28× throughput improvement over prior state-of-the-art systolic mappings, performance is ultimately limited by synchronization overhead, establishing a ceiling for systolic designs on these platforms and revealing the lack of parallel AIE-initiated data movement as a critical architectural bottleneck."
+
+- title: "X-MoE-4D: Breaking the Scaling Barrier for Trillion Parameter MoEs on Hierarchical HPC Systems"
+  author: ""
+  institution: "UIUC"
+  link: ""
+  abstract: |
+    "To appear"
 
 - title: "XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA"
   author: "Feng Yu"
