@@ -133,6 +133,13 @@
   abstract: |
     "To appear"
 
+- title: "LiveFIFO: FPGA-in-the-Loop Buffer Sizing for Dataflow Accelerators"
+  author: "Felix Jentzsch"
+  institution: "Paderborn University"
+  link: "https://dl.acm.org/doi/10.1007/978-3-032-29365-7_3"
+  abstract: |
+    "Sizing intermediate data buffers has been a long-standing challenge in building FPGA dataflow accelerators. Current techniques rely on imperfect analytical models or time-intensive simulation, often choosing suboptimal buffer sizes, which either waste valuable resources or risk performance degradation. We introduce an FPGA-accelerated buffer-sizing approach that finds locally optimal first-in-first-out (FIFO) buffer sizes by synthesizing and profiling a lean but faithful surrogate of the target dataflow design. Contrary to existing simulation-based or model-based techniques, our approach guarantees optimal throughput and latency results using a search-based fine-tuning step, which is enabled by our ability to evaluate any FIFO depth configuration five orders of magnitude faster than in simulation. We fully integrate our approach into the open-source deep neural network (DNN) accelerator compiler FINN and evaluate it on a suite of 12 example DNNs, achieving a total FIFO size reduction of up to 86% compared to the best prior technique."
+
 - title: "NetCilk: Extending Task-Level Parallelism Seamlessly across FPGAs"
   author: "Mohamed Shahawy"
   institution: "EPFL"
@@ -148,6 +155,14 @@
   github: "https://github.com/celeris-labs/oasis"
   abstract: |
     "Cloud-native database systems disaggregate compute and storage resources to improve cost efficiency over traditional monolithic architectures through elasticity and resource pooling. Studies of production data warehouse workloads show that scans (including round trips to storage) account for roughly half of total query runtime. Data lakes and lakehouses amplify this bottleneck through per-query decoding of storage-optimized, compressed file formats such as Parquet. As storage and network bandwidth continue to outpace CPU cost-performance, the CPU cycles spent on decoding increasingly undermine the cloud’s cost-efficiency promise. This has led to a wave of specialization across the stack with custom hardware at cloud-vendor scale at the extreme end. We build on this trend and present Oasis, a data-processing SmartNIC that offloads Parquet decoding into the network datapath as a custom hardware accelerator. Oasis features a hardware decoder architecture, software abstraction layer, and end-to-end integration with DuckDB. Our evaluation shows that Oasis hides the cost of Parquet decoding behind the network datapath with minimal overhead, overlapping the scan with the remainder of the query execution. In the best case, this almost doubles DuckDB query throughput."
+
+- title: "Rapid Dataflow Buffer Sizing for DNNs via Parallel RTL Control-Path Simulation for FINN"
+  author: "Linus Jungemann"
+  institution: "Paderborn University"
+  link: ""
+  abstract: |
+    "to appear"
+
 
 - title: "RapidScan: High-Throughput Parameterized HLS-based Streaming String Matching Library for FPGAs"
   author: "Shashank Obla"
@@ -193,7 +208,7 @@
   link: "https://arxiv.org/abs/2604.15128"
   github: "https://github.com/fpgasystems/SCENIC"
   abstract: |
-    "Although modern, AI-centric datacenters heavily rely on SmartNICs, existing devices impose a hard trade-off. Commercial SmartNICs provide high bandwidth and easy software integration, but offer limited support for customization and data processing offload. In contrast, research SmartNICs often suffer from low bandwidth, limited functionality, and poor software compatibility – to the point that many are not actual NICs in a technical sense. This gap can be closed by treating the NIC datapath as a first-class stream computation substrate with shared hardware/software abstractions for a tight co-design of infrastructure and applications. To demonstrate this, we introduce SCENIC, an open-source datacenter SmartNIC. SCENIC implements a 200G network datapath over offloaded TCP/IP and RDMA stacks, as well as a fallback path for processing arbitrary network traffic. On top of the network logic, SCENIC combines on-datapath Stream Compute Units (SCUs) for data processing and embedded ARM cores for flexible control path manipulation with direct access to GPUs and SSDs. SCENIC is fully integrated with the OS, exposing native Linux network and RDMA verb interfaces, making the programmable datapath transparent to existing applications while enabling control of, e.g., user-defined offloads and programmable congestion control. SCENIC's performance matches commercial platforms, and we show its versatility through several use cases such as offloaded collective communication and network-to-GPU hash-based data partitioning."
+    "Although modern, AI-centric datacenters heavily rely on SmartNICs, existing devices impose a hard trade-off. Commercial SmartNICs provide high bandwidth and easy software integration, but offer limited support for customization and data processing offload. In contrast, research SmartNICs often suffer from low bandwidth, limited functionality, and poor software compatibility - to the point that many are not actual NICs in a technical sense. This gap can be closed by treating the NIC datapath as a first-class stream computation substrate with shared hardware/software abstractions for a tight co-design of infrastructure and applications. To demonstrate this, we introduce SCENIC, an open-source datacenter SmartNIC. SCENIC implements a 200G network datapath over offloaded TCP/IP and RDMA stacks, as well as a fallback path for processing arbitrary network traffic. On top of the network logic, SCENIC combines on-datapath Stream Compute Units (SCUs) for data processing and embedded ARM cores for flexible control path manipulation with direct access to GPUs and SSDs. SCENIC is fully integrated with the OS, exposing native Linux network and RDMA verb interfaces, making the programmable datapath transparent to existing applications while enabling control of, e.g., user-defined offloads and programmable congestion control. SCENIC's performance matches commercial platforms, and we show its versatility through several use cases such as offloaded collective communication and network-to-GPU hash-based data partitioning."
 
 - title: "Should I Hide My Duck in the Lake?"
   author: "Jonas Dann"
@@ -217,6 +232,13 @@
   link: "https://dl.acm.org/doi/epdf/10.1145/3799896"
   abstract: |
     "Efficient data reduction techniques, including deduplication and compression, are essential in storage systems, affecting performance and longevity. Existing data deduplication approaches often focus on intra-SSD deduplication, missing opportunities for cross-node deduplication, or have scalability issues when aiming for low latency and high-throughput data reduction on large-scale, distributed SSD arrays. We propose StreamDedup, a distributed stream accelerator implementing a transparent layer of deduplication as a network-attached, middle-tier service between the compute and storage tiers. StreamDedup manages all aspects of data deduplication and compression and can be seamlessly integrated into existing systems. It is RDMA-enabled and highly scalable, enhancing data processing capacities for large-scale storage systems. Our prototype, deployed on FPGAs, demonstrates that StreamDedup achieves a throughput of 12.7 GB/s on a single node, matching the network bandwidth of disaggregated storage, with a latency of less than 50 µs. Across 10 nodes, StreamDedup shows an almost linear increase in throughput with less than 60 µs of latency."
+
+- title: "SUSpMV: A High Frequency Sparse Matrix Vector Multiplier on HBM Enabled FPGA written in SUS"
+  author: "Lennart Van Hirtum"
+  institution: "Paderborn University"
+  link: ""
+  abstract: |
+    "to appear"
 
 - title: "Systematic Function Approximation on FPGAs to Address Accuracy and Throughput Issues in oneAPI and Vitis HLS Math Libraries"
   author: "Gerrit Pape"

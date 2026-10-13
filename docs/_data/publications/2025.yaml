@@ -6,6 +6,13 @@
   abstract: |
     "K-means is a pivotal clustering algorithm widely accelerated through specific architectures to mitigate the computational load. Nevertheless, existing solutions lack a comprehensive co-design approach for optimization. By combining AI engines with the reconfigurability of FPGAs, this research focuses on Versal systems and proposes a co-design process that addresses both software algorithm optimization and hardware  analysis. The proposed accelerator achieves a speedup of up to 21.41x compared to state-of-the-art solutions."
 
+- title: "A Streaming Collectives Interface Targeting Dataflow Acceleration and HPC Workloads"
+  author: "Nicholas Contini"
+  institution: "Ohio State University"
+  link: "https://dl.acm.org/doi/10.1145/3712285.3759811"
+  abstract: |
+    "Communication between FPGAs has become increasingly important in recent years, with a multitude of implementations available. In this work, we focus specifically on direct FPGA-to-FPGA connections with a serial protocol. We present AuroraFlow−which is built on top of the official IP for the Aurora protocol from AMD−and use it to implement multi-FPGA neural network inference. AuroraFlow makes it easy to integrate low-latency communication into existing FPGA applications using High-Level Synthesis (HLS). It achieves full throughput, has integrated monitoring to detect errors at run-time, and implements flow control, which prevents data loss caused by receiver overruns. In a circuit-switched optical network, we are able to achieve an average latency of down to 0.51 µs and an average throughput of up to 95.03 Gbit/s for a message size of 1 MiB. To demonstrate AuroraFlow beyond microbenchmarks, we execute distributed neuronal network inference on multiple data center FPGAs. For this, we use FINN, a framework for creating dataflow hardware designs for neural network inference. We extend FINN by integrating AuroraFlow to work with multiple FPGAs. We showcase the commonly referenced MobileNet network architecture as an example where both tools can be combined: While FINN takes care of creating the inference design itself, AuroraFlow manages the communication between the FPGAs. Using AuroraFlow gives us the possibility to keep the benefit of very low inference latency that FINN enables, while allowing us to scale beyond a single FPGA."
+
 - title: "A Unified Framework for Automated Code Transformation and Pragma Insertion"
   author: "Stéphane Pouget"
   institution: "UCLA"
@@ -131,6 +138,13 @@
   link: "https://dl.acm.org/doi/abs/10.14778/3749646.3749655"
   abstract: |
     "Vector search systems are indispensable in large language model (LLM) serving, search engines, and recommender systems, where minimizing online search latency is essential. Among various algorithms, graph-based vector search (GVS) is particularly popular due to its high search performance and quality. However, reducing GVS latency by intra-query parallelization remains challenging due to limitations imposed by both existing hardware architectures (CPUs and GPUs) and the inherent difficulty of parallelizing graph traversals. To efficiently serve low-latency GVS, we co-design hardware and algorithm by proposing Falcon and Delayed-Synchronization Traversal (DST). Falcon is a hardware GVS accelerator that implements efficient GVS operators, pipelines these operators, and reduces memory accesses by tracking search states with an on-chip Bloom filter. DST is an efficient graph traversal algorithm that simultaneously improves search performance and quality by relaxing traversal orders to maximize accelerator utilization. Evaluation across various graphs and datasets shows that Falcon, prototyped on FPGAs, together with DST, achieves up to 4.3X and 19.5X lower latency and up to 8.0X and 26.9X improvements in energy efficiency over CPU- and GPU-based GVS systems."
+
+- title: "Fast Multi-Tau Correlators on FPGA with Context Switching From and to High- Bandwidth Memory"
+  author: "Abdul Rehman Tareen"
+  institution: "Paderborn University"
+  link: "https://ieeexplore.ieee.org/document/11363875"
+  abstract: |
+    "Various methods to measure the dynamic behavior of particles require the calculation of autocorrelation functions. For this purpose, fast multi-tau correlators have been developed in dedicated hardware, in software, and on FPGAs. However, for methods such as X-ray Photon Correlation Spectroscopy (XPCS), which requires to calculate the autocorrelation function independently for hundreds of thousands to millions of pixels from high-resolution detectors, current approaches rely on offline processing after data acquisition. Moreover, the internal pipeline state of so many independent correlators is far too large to keep it on-chip. In this work, we propose a design approach on FPGAs, where pipeline contexts are stored in off-chip HBM memory. Each compute unit iteratively loads the state for a single pixel, processes a short time series for this pixel, and afterwards writes back the context in a dataflow pipeline. We have implemented the required compute kernels with Vitis HLS and analyze resulting designs on an Alveo U280 card. The design achieves the expected performance and for the first time provides sufficient throughput for current high-end detectors used in XPCS."
 
 - title: "FINN-HPC: Closing the Gap for Energy-Efficient Neural Network Inference on FPGAs in HPC"
   author: "Linus Jungemann"
