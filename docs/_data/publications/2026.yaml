@@ -26,6 +26,14 @@
   abstract: |
     "We present a holistic methodology for artificial intelligence algorithm and accelerator co-design, co-search, and co-generation (A3C3), which jointly optimizes neural network architectures and their hardware implementations to address the inefficiencies of traditional top-down AI system design flows. Conventional AI deployment often treats model design and hardware mapping as separate stages: an algorithm is first developed for accuracy, and only afterward adapted to meet latency, throughput, energy, or resource constraints. This separation can lead to suboptimal systems, particularly as modern AI workloads become increasingly heterogeneous, memory-intensive, and platform-dependent. A3C3 instead parameterizes both algorithmic and accelerator design spaces and searches them jointly, enabling the automatic generation of model-accelerator pairs that better balance accuracy, latency, throughput, energy efficiency, and hardware utilization."
 
+- title: "Accelerating Recommender Model ETL with a Streaming FPGA–GPU Dataflow"
+  author: "Yu Zhu"
+  institution: "ETH Zurich"
+  link: ""
+  abstract: |
+    "to appear"
+
+
 - title: "Adaptive aie–pl systems for efficient end-to-end pyramidal 3d image registration"
   author: "Giuseppe Sorrentino"
   institution: "Politecnico di Milano"
@@ -48,10 +56,31 @@
   abstract: |
     "Nonlinear activation functions are widely used in machine learning workloads, but their direct hardware implementation is often costly, function-specific, or difficult to reuse across different models. This work introduces CAMTA, a 16-bit reconfigurable multi-region activation unit for nonlinear function approximation in FPGA and ASIC accelerators. CAMTA combines independent region thresholds, per-region polynomial degrees, coefficient sets, and execution modes over a shared Horner-based datapath. Unlike conventional polynomial or piecewise approximation units that mainly reconfigure coefficients or segment selection, CAMTA also reconfigures the computational behavior of each region through HORNER, CONST, ZERO, and IDENTITY modes, enabling the same hardware to support functions with different symmetry and tail behavior without resynthesis. FPGA validation on an AMD Alveo platform shows RMSE as low as 3.60×10−6 for CAMTA-assisted Softmax, outperforming the CORDIC-based Softmax baseline considered in this work by nearly one order of magnitude. FPGA HLS synthesis reports 3 DSPs, 802 FFs, 1756 LUTs, and an 11-cycle datapath latency. ASIC synthesis in TSMC 65 nm at 250 MHz reports 6632.40​μ​m2 total cell area and 1.3634​mW total power. Compared with a same-node, function-specific PLAC implementation, CAMTA incurs 2.20× area and 1.75× power overhead, in exchange for runtime configurability and reuse across multiple nonlinear functions."
 
-- title: "EQUIP: EQUivariant preserving In-Place updates for Efficient Token Pruning"
+- title: "CHoRD: Coordinating Scheduling and Data Placement for Efficient Deep Neural Network Inference on Chiplet-Based GPUs"
   author: ""
-  institution: "IISC"
-  link: "https://openreview.net/forum?id=v3MSIxFjqe"
+  institution: ""
+  link: ""
+  abstract: |
+    "to appear"
+
+- title: "Discovery of Denial Constraints with Hardware Acceleration"
+  author: "Sergio Luiz Marques Filho"
+  institution: "Federal University of Parana"
+  link: "https://dl.acm.org/doi/10.1145/3802041"
+  abstract: |
+    "Denial constraints (DCs) formalize integrity rules that keep data consistent across profiling and cleaning tasks. However, discovering DCs remains computationally expensive due to the exponential size of the predicate search space and the cost of maintaining large intermediate data structures. Existing software-based DC discovery algorithms rely on evidence set materialization, candidate enumeration, and minimality checks, resulting in superlinear runtime growth and unpredictable performance, which limits their scalability in practice. We present DCArray, an FPGA-based accelerator that performs DC discovery directly in hardware pipelines. DCArray encodes DC predicates as boolean patterns and evaluates them using highly parallel logical units, each operating within a single clock cycle. Boolean patterns are encoded in a hardware-friendly prefix-tree design, eliminating the need for intermediate evidence sets and reducing memory overhead and data movement. DCArray implements minimality checks at the circuit level, achieving predictable runtime independent of dataset distribution. Across real and synthetic datasets, DCArray achieves speedups of up to 1560x over DCFinder and up to 10x over ECP on 1M tuples, while efficiently utilizing HBM/PCIe. At the 10M-tuple scale, end-to-end performance is primarily limited by sustained host-device I/O bandwidth, making DCArray a practical alternative for production data-quality pipelines."
+
+- title: "Enhancing ASIC HLS Design Optimization via Knowledge Transfer from FPGA HLS Models"
+  author: "Su Zheng"
+  institution: "The Chinese University of Hong Kong, UCLA,  Hong Kong Baptist University"
+  link: "https://ieeexplore.ieee.org/document/11517472"
+  abstract: |
+    "This paper investigates the knowledge transfer from FPGA high-level synthesis (HLS) to ASIC HLS to overcome the data scarcity and high cost of building ASIC HLS performance models from scratch. We propose a transfer approach to adapt an FPGA HLS performance prediction model for ASIC HLS, motivated by the shared underlying principles and optimization goals between the two tasks. The proposed model disentangles the hidden features into separate pathways for shared and task-specific knowledge. To enhance transferability, we employ adversarial training and low-rank layers to encourage higher reliance on these generalizable features over those specific to FPGAs. Additionally, we refine the input feature representation to capture more precise design characteristics and introduce a rule-based pruning technique for efficient design space exploration (DSE). The synergy of these techniques leads to a 63.2% improvement in performance prediction and a 52.0% enhancement in DSE compared to a baseline trained from scratch. Our methodology demonstrates that transferred knowledge is beneficial and provides a systematic approach to leverage it, significantly advancing prediction and DSE for ASIC HLS."
+
+- title: "EQUIP: EQUivariant preserving In-Place updates for Efficient Token Pruning"
+  author: "Arun Ramachandran"
+  institution: "IISc, AMD"
+  link: "https://aclanthology.org/2026.acl-long.1210/"
   abstract: |
     "Token-pruning has emerged as a pivotal focus in large language models (LLMs), driven by the need to enhance model efficiency while pre serving accuracy, especially for large sequence lengths. However, the eviction operation of token pruning methods causes “holes” in KV tensors, posing two major challenges: (1) The shift operation required to make the KV tensor contiguous results in significant copy overheads; (2) The changes in position indices due to token eviction leads to increased computational requirements for Rotary Positional Encoding(RoPE). To address these issues, we introduce (EQUIP), an EQUivariant preserving in-place token update mechanism that ensures the equivariance property of the operations performed in the attention computation. EQUIP offers two fundamental advantages: First, it combines eviction and a subsequent token insertion into an in-place replacement operation, which reduces the KV cache copy overheads significantly. Second, EQUIP reduces recomputation of rotation operations through a combination of in-place update, caching and a re-indexing strategy. Together, these optimizations enable EQUIP with StreamingLLM to achieve geomean speedups of 1.62× (or 1.47×) on CPU (GPU) over StreamingLLM, and 3.45× (or 1.86x) on CPU (GPU) over H2O. EQUIP with Paged Attention achieves speedups of 4.18x (2.61x) on CPU (GPU) over auto-regressive032 baselines. EQUIP preserves the same model accuracy as baseline pruning methods."
 
@@ -89,7 +118,14 @@
   institution: "National University of Singapore"
   link: ""
   abstract: |
-    ""
+    "To appear"
+
+- title: "In STeP: Speculative Tensor Parallelism for Concurrent Heterogeneous Inference of LLMs"
+  author: "Viren Luke Radhakrishna"
+  institution: "IISc"
+  link: "https://neurips.cc/virtual/2026/loc/sydney/poster/155402"
+  abstract: |
+    "To appear"
 
 - title: "Interpolation of Non-Linear Functions for LLMs using Partial Reconfiguration in FPGAs"
   author: "Roger de Jesus Morales Monge"
@@ -103,7 +139,23 @@
   institution: "National University of Singapore & ETH Zurich"
   link: ""
   abstract: |
-    ""
+    "To appear"
+
+- title: "LiveFIFO: FPGA-in-the-Loop Buffer Sizing for Dataflow Accelerators"
+  author: "Felix Jentzsch"
+  institution: "Paderborn University"
+  link: "https://dl.acm.org/doi/10.1007/978-3-032-29365-7_3"
+  abstract: |
+    "Sizing intermediate data buffers has been a long-standing challenge in building FPGA dataflow accelerators. Current techniques rely on imperfect analytical models or time-intensive simulation, often choosing suboptimal buffer sizes, which either waste valuable resources or risk performance degradation. We introduce an FPGA-accelerated buffer-sizing approach that finds locally optimal first-in-first-out (FIFO) buffer sizes by synthesizing and profiling a lean but faithful surrogate of the target dataflow design. Contrary to existing simulation-based or model-based techniques, our approach guarantees optimal throughput and latency results using a search-based fine-tuning step, which is enabled by our ability to evaluate any FIFO depth configuration five orders of magnitude faster than in simulation. We fully integrate our approach into the open-source deep neural network (DNN) accelerator compiler FINN and evaluate it on a suite of 12 example DNNs, achieving a total FIFO size reduction of up to 86% compared to the best prior technique."
+
+- title: "LUT-LLM: Efficient Large Language Model Inference with Memory-based Computations on FPGAs"
+  author: "Zifan He"
+  institution: "UCLA"
+  github: "https://github.com/LUT-FPGA/LUT-LLM"
+  link: "https://arxiv.org/abs/2511.06174"
+  abstract: |
+    "The rapid progress of large language models (LLMs) has advanced numerous applications, yet efficient single-batch inference remains vital for on-device intelligence. While FPGAs offer fine-grained data control and high energy efficiency, recent GPU optimizations have narrowed their advantage, especially under arithmetic-based computation. To overcome this, we leverage FPGAs' abundant on-chip memory to shift LLM inference from arithmetic- to memory-based computation through table lookups. We present LUT-LLM, the first FPGA accelerator enabling 1B+ LLM inference via vector-quantized memory operations. Our analysis identifies activation-weight co-quantization as the most effective scheme, supported by (1) bandwidth-aware parallel centroid search, (2) efficient 2D table lookups, and (3) a spatial-temporal hybrid design minimizing data caching. Implemented on an AMD V80 FPGA for a customized Qwen 3 1.7B model, LUT-LLM achieves 1.66x lower latency than AMD MI210 and 1.72x higher energy efficiency than NVIDIA A100, scaling to 32B models with 2.16x efficiency gain over A100."
+
 
 - title: "NetCilk: Extending Task-Level Parallelism Seamlessly across FPGAs"
   author: "Mohamed Shahawy"
@@ -121,10 +173,19 @@
   abstract: |
     "Cloud-native database systems disaggregate compute and storage resources to improve cost efficiency over traditional monolithic architectures through elasticity and resource pooling. Studies of production data warehouse workloads show that scans (including round trips to storage) account for roughly half of total query runtime. Data lakes and lakehouses amplify this bottleneck through per-query decoding of storage-optimized, compressed file formats such as Parquet. As storage and network bandwidth continue to outpace CPU cost-performance, the CPU cycles spent on decoding increasingly undermine the cloud’s cost-efficiency promise. This has led to a wave of specialization across the stack with custom hardware at cloud-vendor scale at the extreme end. We build on this trend and present Oasis, a data-processing SmartNIC that offloads Parquet decoding into the network datapath as a custom hardware accelerator. Oasis features a hardware decoder architecture, software abstraction layer, and end-to-end integration with DuckDB. Our evaluation shows that Oasis hides the cost of Parquet decoding behind the network datapath with minimal overhead, overlapping the scan with the remainder of the query execution. In the best case, this almost doubles DuckDB query throughput."
 
+- title: "Rapid Dataflow Buffer Sizing for DNNs via Parallel RTL Control-Path Simulation for FINN"
+  author: "Linus Jungemann"
+  institution: "Paderborn University"
+  link: ""
+  abstract: |
+    "to appear"
+
+
 - title: "RapidScan: High-Throughput Parameterized HLS-based Streaming String Matching Library for FPGAs"
   author: "Shashank Obla"
   institution: "Carnegie Mellon University"
   link: "https://ieeexplore.ieee.org/document/11552659"
+  github: "https://github.com/pigasus-hls/RapidDetect-RCC"
   abstract: |
     "Prior work in hardware acceleration of regular-expression matching deep-packet inspection has shown orders of magnitude improvement in energy and cost. However, efficiency gains from an RTL implementation lack portability across domains, FPGA platforms and even rulesets or input traffic patterns that demand re-tuning of the streaming input-dependent filtering stages. In this work, we introduce RAPIDSCAN, a novel HLS-based streaming string-matching library that treats parameterizability and development agility as first-class design goals alongside performance and efficiency.Using the streaming computation model, we designed the data-dependent computations of string matching into a library of fully-pipelined HLS kernels. The kernels can be composed into a streaming pipeline at compile time as well as parameterized to tradeoff performance and resources for specific workloads. To demonstrate the library’s efficacy, we showcase its application to log monitoring on the Versal V80 device, adding new kernels essential for processing logs. The resulting system, RAPIDDETECT, achieves a throughput of over 160 Gbps on real-world log inputs using a single server."
 
@@ -133,7 +194,7 @@
   institution: "National University of Singapore"
   link: ""
   abstract: |
-    ""
+    "to appear"
 
 - title: "RidgeWalker: Perfectly Pipelined Graph Random Walks on FPGAs"
   author: "Hongshi Tan"
@@ -142,7 +203,6 @@
   github: "https://github.com/Xtra-Computing/RidgeWalker"
   abstract: |
     "Graph Random Walks (GRWs) offer efficient approximations of key graph properties and have been widely adopted in many applications. However, GRW workloads are notoriously difficult to accelerate due to their strong data dependencies, irregular memory access patterns, and imbalanced execution behavior. While recent work explores FPGA-based accelerators for GRWs, existing solutions fall far short of hardware potential due to inefficient pipelining and static scheduling. This paper presents RidgeWalker, a high-performance GRW accelerator designed for datacenter FPGAs. The key insight behind RidgeWalker is that the Markov property of GRWs allows decomposition into stateless, fine-grained tasks that can be executed out-of-order without compromising correctness. Building on this, RidgeWalker introduces an asynchronous pipeline architecture with a feedback-driven scheduler grounded in queuing theory, enabling perfect pipelining and adaptive load balancing. We prototype RidgeWalker on datacenter FPGAs and evaluated it across a range of GRW algorithms and real-world graph datasets. Experimental results demonstrate that RidgeWalker achieves an average speedup of 7.0x over state-of-the-art FPGA solutions and 8.1x over GPU solutions, with peak speedups of up to 71.0x and 22.9x, respectively."
-
 
 - title: "RoCE BALBOA: Service-Enhanced RDMA Offload Engine for Data Center SmartNICs"
   author: "Maximilian Heer, Benjamin Ramhorst"
@@ -166,7 +226,7 @@
   link: "https://arxiv.org/abs/2604.15128"
   github: "https://github.com/fpgasystems/SCENIC"
   abstract: |
-    "Although modern, AI-centric datacenters heavily rely on SmartNICs, existing devices impose a hard trade-off. Commercial SmartNICs provide high bandwidth and easy software integration, but offer limited support for customization and data processing offload. In contrast, research SmartNICs often suffer from low bandwidth, limited functionality, and poor software compatibility – to the point that many are not actual NICs in a technical sense. This gap can be closed by treating the NIC datapath as a first-class stream computation substrate with shared hardware/software abstractions for a tight co-design of infrastructure and applications. To demonstrate this, we introduce SCENIC, an open-source datacenter SmartNIC. SCENIC implements a 200G network datapath over offloaded TCP/IP and RDMA stacks, as well as a fallback path for processing arbitrary network traffic. On top of the network logic, SCENIC combines on-datapath Stream Compute Units (SCUs) for data processing and embedded ARM cores for flexible control path manipulation with direct access to GPUs and SSDs. SCENIC is fully integrated with the OS, exposing native Linux network and RDMA verb interfaces, making the programmable datapath transparent to existing applications while enabling control of, e.g., user-defined offloads and programmable congestion control. SCENIC's performance matches commercial platforms, and we show its versatility through several use cases such as offloaded collective communication and network-to-GPU hash-based data partitioning."
+    "Although modern, AI-centric datacenters heavily rely on SmartNICs, existing devices impose a hard trade-off. Commercial SmartNICs provide high bandwidth and easy software integration, but offer limited support for customization and data processing offload. In contrast, research SmartNICs often suffer from low bandwidth, limited functionality, and poor software compatibility - to the point that many are not actual NICs in a technical sense. This gap can be closed by treating the NIC datapath as a first-class stream computation substrate with shared hardware/software abstractions for a tight co-design of infrastructure and applications. To demonstrate this, we introduce SCENIC, an open-source datacenter SmartNIC. SCENIC implements a 200G network datapath over offloaded TCP/IP and RDMA stacks, as well as a fallback path for processing arbitrary network traffic. On top of the network logic, SCENIC combines on-datapath Stream Compute Units (SCUs) for data processing and embedded ARM cores for flexible control path manipulation with direct access to GPUs and SSDs. SCENIC is fully integrated with the OS, exposing native Linux network and RDMA verb interfaces, making the programmable datapath transparent to existing applications while enabling control of, e.g., user-defined offloads and programmable congestion control. SCENIC's performance matches commercial platforms, and we show its versatility through several use cases such as offloaded collective communication and network-to-GPU hash-based data partitioning."
 
 - title: "Should I Hide My Duck in the Lake?"
   author: "Jonas Dann"
@@ -190,6 +250,13 @@
   link: "https://dl.acm.org/doi/epdf/10.1145/3799896"
   abstract: |
     "Efficient data reduction techniques, including deduplication and compression, are essential in storage systems, affecting performance and longevity. Existing data deduplication approaches often focus on intra-SSD deduplication, missing opportunities for cross-node deduplication, or have scalability issues when aiming for low latency and high-throughput data reduction on large-scale, distributed SSD arrays. We propose StreamDedup, a distributed stream accelerator implementing a transparent layer of deduplication as a network-attached, middle-tier service between the compute and storage tiers. StreamDedup manages all aspects of data deduplication and compression and can be seamlessly integrated into existing systems. It is RDMA-enabled and highly scalable, enhancing data processing capacities for large-scale storage systems. Our prototype, deployed on FPGAs, demonstrates that StreamDedup achieves a throughput of 12.7 GB/s on a single node, matching the network bandwidth of disaggregated storage, with a latency of less than 50 µs. Across 10 nodes, StreamDedup shows an almost linear increase in throughput with less than 60 µs of latency."
+
+- title: "SUSpMV: A High Frequency Sparse Matrix Vector Multiplier on HBM Enabled FPGA written in SUS"
+  author: "Lennart Van Hirtum"
+  institution: "Paderborn University"
+  link: ""
+  abstract: |
+    "to appear"
 
 - title: "Systematic Function Approximation on FPGAs to Address Accuracy and Throughput Issues in oneAPI and Vitis HLS Math Libraries"
   author: "Gerrit Pape"
@@ -225,6 +292,13 @@
   link: "https://ieeexplore.ieee.org/abstract/document/11552710"
   abstract: |
     "The AMD Versal ACAP provides a powerful heterogeneous architecture for accelerating kernels like general matrix multiplication (GEMM). Because the AI Engine (AIE) array mimics the spatial regularity of a systolic array (SA), mapping SA dataflows onto the fabric is highly intuitive. However, maximizing performance requires overcoming specific coordination challenges between data movement and compute cores. In this work, we demonstrate that the gap between theoretical peak and realized performance is the result of a fundamental "Systolic Tax" imposed by the AIE architecture. We provide a systematic study of 2D systolic mapping to quantify the architectural cost incurred when traditional wavefront data forwarding consumes execution cycles otherwise available for processing. This engine-level overhead leads to a simulated 8.2% compute cycle loss. To address this constraint, we implement a multicast-based SA (MCSA) design that leverages hardware multicasting for efficient operand delivery. This design is supported by a Mixed-Integer Non-Linear Programming model used for architectural optimization. Our design achieves a programmable logic frequency that analytically saturates the logic-engine communication bandwidth. While MCSA delivers a 1.28× throughput improvement over prior state-of-the-art systolic mappings, performance is ultimately limited by synchronization overhead, establishing a ceiling for systolic designs on these platforms and revealing the lack of parallel AIE-initiated data movement as a critical architectural bottleneck."
+
+- title: "X-MoE-4D: Breaking the Scaling Barrier for Trillion Parameter MoEs on Hierarchical HPC Systems"
+  author: ""
+  institution: "UIUC"
+  link: ""
+  abstract: |
+    "To appear"
 
 - title: "XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA"
   author: "Feng Yu"
