@@ -208,7 +208,7 @@
 - title: "Iceberg: Enhancing HLS Modeling with Synthetic Data"
   author: "Zijian Ding"
   institution: "UCLA"
-  link: ""
+  link: "https://ieeexplore.ieee.org/document/11106161/"
   github: "https://github.com/UCLA-VAST/iceberg"
   abstract: |
     "Deep learning-based prediction models for High-Level Synthesis (HLS) of hardware designs often struggle to generalize. In this paper, we study how to close the generalizability gap of these models through pretraining on synthetic data and introduce Iceberg, a synthetic data augmentation approach that expands both large language model (LLM)-generated programs and weak labels of unseen design configurations. Our weak label generation method is integrated with an in-context model architecture, enabling meta-learning from actual and proximate labels. Iceberg improves the geometric mean modeling accuracy by 86.4% when adapt to six real-world applications with few-shot examples and achieves a 2.47× and a 1.12× better offline DSE performance when adapting to two different test datasets."
@@ -242,13 +242,6 @@
   link: "https://ieeexplore.ieee.org/document/10933896"
   abstract: |
     "Large Language Models (LLMs) have emerged as the leading technique in Natural Language Processing due to their remarkable capabilities. These models are exceptionally complex, often utilising billions of parameters and consuming tens of gigabytes of memory unless optimised. Typically, LLMs are trained and accelerated using general-purpose Graphics Processing Units (GPUs), with a single inference potentially occupying an entire GPU. Consequently, cloud services may require hundreds of GPUs to deliver high-quality AI assistant services. This demand for extensive hardware acceleration allows exploring alternative architectures that offer improved execution time and energy efficiency.This study evaluates Field-Programmable Gate Arrays (FP-GAs), renowned for their flexibility and efficiency, to accelerate LLMs. We specifically compare the resource consumption and latency of two distinct architectures: layer and spatial accelerators. Analysing the Llama 2-7B model, we identified potential optimisation opportunities within its composition and operational graphs. Our most successful implementations demonstrate a performance improvement ranging from 1.37× to 10.98× over two AMD EPYC processors with 64 cores each. Moreover, our results indicate that, with further refinement, FPGAs have the potential to surpass GPU performance for LLM inference, showcasing their feasibility as a viable alternative for this demanding application."
-
-- title: "LUT-LLM: Efficient Large Language Model Inference with Memory-based Computations on FPGAs"
-  author: "Zifan He"
-  institution: "UCLA"
-  link: "https://arxiv.org/abs/2511.06174"
-  abstract: |
-    "The rapid progress of large language models (LLMs) has advanced numerous applications, yet efficient single-batch inference remains vital for on-device intelligence. While FPGAs offer fine-grained data control and high energy efficiency, recent GPU optimizations have narrowed their advantage, especially under arithmetic-based computation. To overcome this, we leverage FPGAs' abundant on-chip memory to shift LLM inference from arithmetic- to memory-based computation through table lookups. We present LUT-LLM, the first FPGA accelerator enabling 1B+ LLM inference via vector-quantized memory operations. Our analysis identifies activation-weight co-quantization as the most effective scheme, supported by (1) bandwidth-aware parallel centroid search, (2) efficient 2D table lookups, and (3) a spatial-temporal hybrid design minimizing data caching. Implemented on an AMD V80 FPGA for a customized Qwen 3 1.7B model, LUT-LLM achieves 1.66x lower latency than AMD MI210 and 1.72x higher energy efficiency than NVIDIA A100, scaling to 32B models with 2.16x efficiency gain over A100."
 
 - title: "Machine Learning-based Deep Packet Inspection at Line Rate for RDMA on FPGAs"
   author: "Maximilian Heer, Benjamin Ramhorst"

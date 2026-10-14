@@ -26,6 +26,14 @@
   abstract: |
     "We present a holistic methodology for artificial intelligence algorithm and accelerator co-design, co-search, and co-generation (A3C3), which jointly optimizes neural network architectures and their hardware implementations to address the inefficiencies of traditional top-down AI system design flows. Conventional AI deployment often treats model design and hardware mapping as separate stages: an algorithm is first developed for accuracy, and only afterward adapted to meet latency, throughput, energy, or resource constraints. This separation can lead to suboptimal systems, particularly as modern AI workloads become increasingly heterogeneous, memory-intensive, and platform-dependent. A3C3 instead parameterizes both algorithmic and accelerator design spaces and searches them jointly, enabling the automatic generation of model-accelerator pairs that better balance accuracy, latency, throughput, energy efficiency, and hardware utilization."
 
+- title: "Accelerating Recommender Model ETL with a Streaming FPGA–GPU Dataflow"
+  author: "Yu Zhu"
+  institution: "ETH Zurich"
+  link: ""
+  abstract: |
+    "to appear"
+
+
 - title: "Adaptive aie–pl systems for efficient end-to-end pyramidal 3d image registration"
   author: "Giuseppe Sorrentino"
   institution: "Politecnico di Milano"
@@ -140,6 +148,15 @@
   abstract: |
     "Sizing intermediate data buffers has been a long-standing challenge in building FPGA dataflow accelerators. Current techniques rely on imperfect analytical models or time-intensive simulation, often choosing suboptimal buffer sizes, which either waste valuable resources or risk performance degradation. We introduce an FPGA-accelerated buffer-sizing approach that finds locally optimal first-in-first-out (FIFO) buffer sizes by synthesizing and profiling a lean but faithful surrogate of the target dataflow design. Contrary to existing simulation-based or model-based techniques, our approach guarantees optimal throughput and latency results using a search-based fine-tuning step, which is enabled by our ability to evaluate any FIFO depth configuration five orders of magnitude faster than in simulation. We fully integrate our approach into the open-source deep neural network (DNN) accelerator compiler FINN and evaluate it on a suite of 12 example DNNs, achieving a total FIFO size reduction of up to 86% compared to the best prior technique."
 
+- title: "LUT-LLM: Efficient Large Language Model Inference with Memory-based Computations on FPGAs"
+  author: "Zifan He"
+  institution: "UCLA"
+  github: "https://github.com/LUT-FPGA/LUT-LLM"
+  link: "https://arxiv.org/abs/2511.06174"
+  abstract: |
+    "The rapid progress of large language models (LLMs) has advanced numerous applications, yet efficient single-batch inference remains vital for on-device intelligence. While FPGAs offer fine-grained data control and high energy efficiency, recent GPU optimizations have narrowed their advantage, especially under arithmetic-based computation. To overcome this, we leverage FPGAs' abundant on-chip memory to shift LLM inference from arithmetic- to memory-based computation through table lookups. We present LUT-LLM, the first FPGA accelerator enabling 1B+ LLM inference via vector-quantized memory operations. Our analysis identifies activation-weight co-quantization as the most effective scheme, supported by (1) bandwidth-aware parallel centroid search, (2) efficient 2D table lookups, and (3) a spatial-temporal hybrid design minimizing data caching. Implemented on an AMD V80 FPGA for a customized Qwen 3 1.7B model, LUT-LLM achieves 1.66x lower latency than AMD MI210 and 1.72x higher energy efficiency than NVIDIA A100, scaling to 32B models with 2.16x efficiency gain over A100."
+
+
 - title: "NetCilk: Extending Task-Level Parallelism Seamlessly across FPGAs"
   author: "Mohamed Shahawy"
   institution: "EPFL"
@@ -168,6 +185,7 @@
   author: "Shashank Obla"
   institution: "Carnegie Mellon University"
   link: "https://ieeexplore.ieee.org/document/11552659"
+  github: "https://github.com/pigasus-hls/RapidDetect-RCC"
   abstract: |
     "Prior work in hardware acceleration of regular-expression matching deep-packet inspection has shown orders of magnitude improvement in energy and cost. However, efficiency gains from an RTL implementation lack portability across domains, FPGA platforms and even rulesets or input traffic patterns that demand re-tuning of the streaming input-dependent filtering stages. In this work, we introduce RAPIDSCAN, a novel HLS-based streaming string-matching library that treats parameterizability and development agility as first-class design goals alongside performance and efficiency.Using the streaming computation model, we designed the data-dependent computations of string matching into a library of fully-pipelined HLS kernels. The kernels can be composed into a streaming pipeline at compile time as well as parameterized to tradeoff performance and resources for specific workloads. To demonstrate the library’s efficacy, we showcase its application to log monitoring on the Versal V80 device, adding new kernels essential for processing logs. The resulting system, RAPIDDETECT, achieves a throughput of over 160 Gbps on real-world log inputs using a single server."
 
