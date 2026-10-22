@@ -1,5 +1,50 @@
 # Outstanding Researcher Awards​
 
+## 2025
+
+<!--Sorted alphabetically by center-->
+
+<table border="0" width="100%" style="border: 0px; background:transparent">
+    <thead>
+        <tr style="border: 0px;">
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
+                <a href="./images/awards/CMU_award_2026.png"><img src="./images/awards/CMU_award_2026.png" width="180"></a>
+            </td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
+                <a href="./images/awards/ETHZ_award_2026.png"><img src="./images/awards/ETHZ_award_2026.png" width="180"></a>
+            </td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
+                <a href="./images/awards/NUS_award_2026.png"><img src="./images/awards/NUS_award_2026.png" width="180"></a>
+            </td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
+                <a href="./images/awards/Paderborn_award_2026.png"><img src="./images/awards/Paderborn_award_2026.png" width="180"></a>
+            </td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
+                <a href="./images/awards/UCLA_award_2026.png"><img src="./images/awards/UCLA_award_2026.png" width="180"></a>
+            </td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
+                <a href="./images/awards/UIUC_award_2026.png"><img src="./images/awards/UIUC_award_2026.png" width="180"></a>
+            </td>
+        </tr>
+        <tr style="border: 0px;">
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Shashank Obla</strong></td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Maximilian Heer</strong></td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Dr. Bin Gao</strong></td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Christoph Berganski, Felix Jentzsch, Linus Jungemann, Bjarne Wintermann</strong></td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Chengyue Wang</strong></td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Jiaqi Lou</strong></td>
+        </tr>
+        <tr style="border: 0px;">
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">CMU Zurich</td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">ETH Zurich</td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">NUS</td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">Paderborn University​</td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">UCLA</td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">UIUC</td>
+        </tr>
+    </thead>
+</table>
+
 ## 2024
 
 <!--Sorted alphabetically by center-->
