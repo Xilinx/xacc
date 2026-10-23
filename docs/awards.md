@@ -30,7 +30,7 @@
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Shashank Obla</strong></td>
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Maximilian Heer</strong></td>
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Dr. Bin Gao</strong></td>
-            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Christoph Berganski, Felix Jentzsch, Linus Jungemann, Bjarne Wintermann</strong></td>
+            <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Christoph Berganski <br> Felix Jentzsch, Linus Jungemann, Bjarne Wintermann</strong></td>
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Chengyue Wang</strong></td>
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;"><strong>Jiaqi Lou</strong></td>
         </tr>
