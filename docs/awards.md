@@ -4,26 +4,26 @@
 
 <!--Sorted alphabetically by center-->
 
-<table border="0" width="100%" style="border: 0px; background:transparent">
+<table border="0" width="100%" style="border: 0px; background:transparent; table-layout: fixed">
     <thead>
         <tr style="border: 0px;">
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./images/awards/CMU_award_2026.png"><img src="./images/awards/CMU_award_2026.png" width="180"></a>
+                <a href="./images/awards/CMU_award_2026.png"><img src="./images/awards/CMU_award_2026.png" width="180" style="max-width: 100%; height: auto;"></a>
             </td>
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./images/awards/ETHZ_award_2026.png"><img src="./images/awards/ETHZ_award_2026.png" width="180"></a>
+                <a href="./images/awards/ETHZ_award_2026.png"><img src="./images/awards/ETHZ_award_2026.png" width="180" style="max-width: 100%; height: auto;"></a>
             </td>
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./images/awards/NUS_award_2026.png"><img src="./images/awards/NUS_award_2026.png" width="180"></a>
+                <a href="./images/awards/NUS_award_2026.png"><img src="./images/awards/NUS_award_2026.png" width="180" style="max-width: 100%; height: auto;"></a>
             </td>
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./images/awards/Paderborn_award_2026.png"><img src="./images/awards/Paderborn_award_2026.png" width="180"></a>
+                <a href="./images/awards/Paderborn_award_2026.png"><img src="./images/awards/Paderborn_award_2026.png" width="180" style="max-width: 100%; height: auto;"></a>
             </td>
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./images/awards/UCLA_award_2026.png"><img src="./images/awards/UCLA_award_2026.png" width="180"></a>
+                <a href="./images/awards/UCLA_award_2026.png"><img src="./images/awards/UCLA_award_2026.png" width="180" style="max-width: 100%; height: auto;"></a>
             </td>
             <td style="border: 0px; background:transparent; text-align: center; vertical-align: middle;">
-                <a href="./images/awards/UIUC_award_2026.png"><img src="./images/awards/UIUC_award_2026.png" width="180"></a>
+                <a href="./images/awards/UIUC_award_2026.png"><img src="./images/awards/UIUC_award_2026.png" width="180" style="max-width: 100%; height: auto;"></a>
             </td>
         </tr>
         <tr style="border: 0px;">
